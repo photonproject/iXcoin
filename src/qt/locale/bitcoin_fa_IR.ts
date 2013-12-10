@@ -5,7 +5,7 @@
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
         <source>About Bitcoin</source>
-        <translation>در مورد بیتکویین</translation>
+        <translation>���� �������� ����������������</translation>
     </message>
     <message>
         <location line="+39"/>
@@ -38,27 +38,27 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
         <source>Address Book</source>
-        <translation>دفترچه آدرس</translation>
+        <translation>������������ ��������</translation>
     </message>
     <message>
         <location line="+19"/>
         <source>Double-click to edit address or label</source>
-        <translation>برای ویرایش آدرس/برچسب دوبار کلیک نمایید</translation>
+        <translation>�������� ������������ ��������/���������� ���������� �������� ������������</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>Create a new address</source>
-        <translation>یک آدرس جدید بسازید</translation>
+        <translation>���� �������� �������� ������������</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>آدرس انتخاب شده را در کلیپ بوردِ سیستم کپی کنید</translation>
+        <translation>�������� ������������ ������ ���� ���� �������� ���������� ���������� ������ ��������</translation>
     </message>
     <message>
         <location line="-11"/>
         <source>&amp;New Address</source>
-        <translation>و آدرس جدید</translation>
+        <translation>�� �������� ��������</translation>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
@@ -68,12 +68,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
         <source>&amp;Copy Address</source>
-        <translation>و کپی آدرس</translation>
+        <translation>�� ������ ��������</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>Show &amp;QR Code</source>
-        <translation>نشان و کد QR</translation>
+        <translation>�������� �� ���� QR</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -93,7 +93,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+27"/>
         <source>Export the data in the current tab to a file</source>
-        <translation>صدور داده نوار جاری به یک فایل</translation>
+        <translation>�������� �������� �������� �������� ���� ���� ��������</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -113,7 +113,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+14"/>
         <source>&amp;Delete</source>
-        <translation>و حذف</translation>
+        <translation>�� ������</translation>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
@@ -123,12 +123,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+13"/>
         <source>Copy &amp;Label</source>
-        <translation>کپی و برچسب</translation>
+        <translation>������ �� ����������</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>&amp;Edit</source>
-        <translation>و ویرایش</translation>
+        <translation>�� ������������</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -138,22 +138,22 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+260"/>
         <source>Export Address Book Data</source>
-        <translation>انتقال اطلاعات دفترچه آدرس</translation>
+        <translation>������������ �������������� ������������ ��������</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Comma separated file (*.csv)</source>
-        <translation>سی.اس.وی. (فایل جداگانه دستوری)</translation>
+        <translation>����.����.����. (�������� �������������� ������������)</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Error exporting</source>
-        <translation>صدور پیام خطا</translation>
+        <translation>�������� �������� ������</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Could not write to file %1.</source>
-        <translation>قابل کپی در فایل نیست %1</translation>
+        <translation>�������� ������ ���� �������� �������� %1</translation>
     </message>
 </context>
 <context>
@@ -161,17 +161,17 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location filename="../addresstablemodel.cpp" line="+144"/>
         <source>Label</source>
-        <translation>برچسب</translation>
+        <translation>����������</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Address</source>
-        <translation>آدرس</translation>
+        <translation>��������</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>(no label)</source>
-        <translation>(برچسب ندارد)</translation>
+        <translation>(���������� ����������)</translation>
     </message>
 </context>
 <context>
@@ -184,62 +184,62 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+21"/>
         <source>Enter passphrase</source>
-        <translation>رمز/پَس فرِیز را وارد کنید</translation>
+        <translation>������/������ ���������� ���� �������� ��������</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>New passphrase</source>
-        <translation>رمز/پَس فرِیز جدید را وارد کنید</translation>
+        <translation>������/������ ���������� �������� ���� �������� ��������</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Repeat new passphrase</source>
-        <translation>رمز/پَس فرِیز را دوباره وارد کنید</translation>
+        <translation>������/������ ���������� ���� ������������ �������� ��������</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="+33"/>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>رمز/پَس فرِیز جدید را در wallet وارد کنید. برای انتخاب رمز/پَس فرِیز از 10 کاراکتر تصادفی یا بیشتر و یا هشت کلمه یا بیشتر استفاده کنید. </translation>
+        <translation>������/������ ���������� �������� ���� ���� wallet �������� ��������. �������� ������������ ������/������ ���������� ���� 10 �������������� ������������ ���� ���������� �� ���� ������ �������� ���� ���������� �������������� ��������. </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Encrypt wallet</source>
-        <translation>wallet را رمزگذاری کنید</translation>
+        <translation>wallet ���� ���������������� ��������</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>برای انجام این عملکرد به رمز/پَس فرِیزِwallet نیاز است تا آن را از حالت قفل درآورد.</translation>
+        <translation>�������� ���������� ������ ������������ ���� ������/������ ������������wallet �������� ������ ���� ���� ���� ���� �������� ������ ������������.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Unlock wallet</source>
-        <translation>باز کردن قفل wallet </translation>
+        <translation>������ �������� ������ wallet </translation>
     </message>
     <message>
         <location line="+3"/>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>برای کشف رمز wallet، به رمز/پَس فرِیزِwallet نیاز است.</translation>
+        <translation>�������� ������ ������ wallet�� ���� ������/������ ������������wallet �������� ������.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Decrypt wallet</source>
-        <translation>کشف رمز wallet</translation>
+        <translation>������ ������ wallet</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Change passphrase</source>
-        <translation>تغییر رمز/پَس فرِیز</translation>
+        <translation>���������� ������/������ ����������</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Enter the old and new passphrase to the wallet.</source>
-        <translation>رمز/پَس فرِیزِ قدیم و جدید را در wallet  وارد کنید</translation>
+        <translation>������/������ ������������ �������� �� �������� ���� ���� wallet  �������� ��������</translation>
     </message>
     <message>
         <location line="+46"/>
         <source>Confirm wallet encryption</source>
-        <translation>رمزگذاری wallet را تایید کنید</translation>
+        <translation>���������������� wallet ���� ���������� ��������</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -266,12 +266,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="-130"/>
         <location line="+58"/>
         <source>Wallet encrypted</source>
-        <translation>تایید رمزگذاری</translation>
+        <translation>���������� ����������������</translation>
     </message>
     <message>
         <location line="-56"/>
         <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Bitcoin برای اتمام فرایند رمزگذاری بسته خواهد شد. به خاطر داشته باشید که رمزگذاری WALLET شما،  کامپیوتر شما را از آلودگی به بدافزارها مصون نمی دارد.</translation>
+        <translation>Bitcoin �������� ���������� ������������ ���������������� �������� ���������� ����. ���� �������� ���������� ���������� ���� ���������������� WALLET ��������  ���������������� ������ ���� ���� ������������ ���� ������������������ �������� ������ ��������.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -279,35 +279,35 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+42"/>
         <location line="+6"/>
         <source>Wallet encryption failed</source>
-        <translation>رمزگذاری تایید نشد</translation>
+        <translation>���������������� ���������� ������</translation>
     </message>
     <message>
         <location line="-54"/>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>رمزگذاری به علت خطای داخلی تایید نشد. wallet شما رمزگذاری نشد</translation>
+        <translation>���������������� ���� ������ �������� ���������� ���������� ������. wallet ������ ���������������� ������</translation>
     </message>
     <message>
         <location line="+7"/>
         <location line="+48"/>
         <source>The supplied passphrases do not match.</source>
-        <translation>رمزهای/پَس فرِیزهایِ وارد شده با هم تطابق ندارند</translation>
+        <translation>������������/������ ������������������ �������� ������ ���� ���� ���������� ������������</translation>
     </message>
     <message>
         <location line="-37"/>
         <source>Wallet unlock failed</source>
-        <translation>قفل wallet  باز نشد</translation>
+        <translation>������ wallet  ������ ������</translation>
     </message>
     <message>
         <location line="+1"/>
         <location line="+11"/>
         <location line="+19"/>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>رمزهای/پَس فرِیزهایِ وارد شده wallet برای کشف رمز اشتباه است.</translation>
+        <translation>������������/������ ������������������ �������� ������ wallet �������� ������ ������ ������������ ������.</translation>
     </message>
     <message>
         <location line="-20"/>
         <source>Wallet decryption failed</source>
-        <translation>کشف رمز wallet انجام نشد</translation>
+        <translation>������ ������ wallet ���������� ������</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -320,87 +320,87 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location filename="../bitcoingui.cpp" line="+233"/>
         <source>Sign &amp;message...</source>
-        <translation>امضا و پیام</translation>
+        <translation>�������� �� ��������</translation>
     </message>
     <message>
         <location line="+280"/>
         <source>Synchronizing with network...</source>
-        <translation>به روز رسانی با شبکه...</translation>
+        <translation>���� ������ ���������� ���� ��������...</translation>
     </message>
     <message>
         <location line="-349"/>
         <source>&amp;Overview</source>
-        <translation>و بازبینی</translation>
+        <translation>�� ��������������</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show general overview of wallet</source>
-        <translation>نمای کلی از wallet را نشان بده</translation>
+        <translation>�������� ������ ���� wallet ���� �������� ������</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>&amp;Transactions</source>
-        <translation>و تراکنش</translation>
+        <translation>�� ������������</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Browse transaction history</source>
-        <translation>تاریخچه تراکنش را باز کن</translation>
+        <translation>�������������� ������������ ���� ������ ����</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Edit the list of stored addresses and labels</source>
-        <translation>فهرست آدرسها و برچسبهای ذخیره شده را ویرایش کن</translation>
+        <translation>���������� ������������ �� ���������������� ���������� ������ ���� ������������ ����</translation>
     </message>
     <message>
         <location line="-14"/>
         <source>Show the list of addresses for receiving payments</source>
-        <translation>فهرست آدرسها را برای دریافت وجه نشان بده</translation>
+        <translation>���������� ������������ ���� �������� ������������ ������ �������� ������</translation>
     </message>
     <message>
         <location line="+31"/>
         <source>E&amp;xit</source>
-        <translation>خروج</translation>
+        <translation>��������</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Quit application</source>
-        <translation>از &quot;درخواست نامه&quot;/ application خارج شو</translation>
+        <translation>���� &quot;�������������� ��������&quot;/ application �������� ����</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Show information about Bitcoin</source>
-        <translation>اطلاعات در مورد Bitcoin را نشان بده</translation>
+        <translation>�������������� ���� �������� Bitcoin ���� �������� ������</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>About &amp;Qt</source>
-        <translation>درباره و QT</translation>
+        <translation>������������ �� QT</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show information about Qt</source>
-        <translation>نمایش اطلاعات درباره QT</translation>
+        <translation>���������� �������������� ������������ QT</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>&amp;Options...</source>
-        <translation>و انتخابها</translation>
+        <translation>�� ����������������</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>و رمزگذاری wallet</translation>
+        <translation>�� ���������������� wallet</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Backup Wallet...</source>
-        <translation>و گرفتن نسخه پیشتیبان از wallet</translation>
+        <translation>�� ���������� �������� ���������������� ���� wallet</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>&amp;Change Passphrase...</source>
-        <translation>تغییر رمز/پَس فرِیز</translation>
+        <translation>���������� ������/������ ����������</translation>
     </message>
     <message>
         <location line="+285"/>
@@ -420,17 +420,17 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+49"/>
         <source>Modify configuration options for Bitcoin</source>
-        <translation>اصلاح انتخابها برای پیکربندی Bitcoin</translation>
+        <translation>���������� ���������������� �������� ���������������� Bitcoin</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Backup wallet to another location</source>
-        <translation>گرفتن نسخه پیشتیبان در آدرسی دیگر</translation>
+        <translation>���������� �������� ���������������� ���� ���������� ��������</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>رمز مربوط به رمزگذاریِ wallet را تغییر دهید</translation>
+        <translation>������ ���������� ���� ������������������ wallet ���� ���������� ��������</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -456,7 +456,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-530"/>
         <source>Wallet</source>
-        <translation>کیف پول</translation>
+        <translation>������ ������</translation>
     </message>
     <message>
         <location line="+101"/>
@@ -476,12 +476,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+22"/>
         <source>&amp;About Bitcoin</source>
-        <translation>&amp;در مورد بیتکویین</translation>
+        <translation>&amp;���� �������� ����������������</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>&amp;Show / Hide</source>
-        <translation>&amp;نمایش/ عدم نمایش و</translation>
+        <translation>&amp;����������/ ������ ���������� ��</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -506,22 +506,22 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+28"/>
         <source>&amp;File</source>
-        <translation>و فایل</translation>
+        <translation>�� ��������</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>&amp;Settings</source>
-        <translation>و تنظیمات</translation>
+        <translation>�� ��������������</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>&amp;Help</source>
-        <translation>و راهنما</translation>
+        <translation>�� ������������</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Tabs toolbar</source>
-        <translation>نوار ابزار</translation>
+        <translation>�������� ����������</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -532,13 +532,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+47"/>
         <source>Bitcoin client</source>
-        <translation>مشتری bitcoin</translation>
+        <translation>���������� bitcoin</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
         <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n ارتباط فعال به شبکه Bitcoin
-%n ارتباط فعال به شبکه Bitcoin</numerusform></translation>
+        <translation><numerusform>%n ������������ �������� ���� �������� Bitcoin
+%n ������������ �������� ���� �������� Bitcoin</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -608,12 +608,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-140"/>
         <source>Up to date</source>
-        <translation>روزآمد</translation>
+        <translation>������������</translation>
     </message>
     <message>
         <location line="+31"/>
         <source>Catching up...</source>
-        <translation>در حال روزآمد سازی..</translation>
+        <translation>���� ������ ������������ ��������..</translation>
     </message>
     <message>
         <location line="+113"/>
@@ -623,12 +623,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+8"/>
         <source>Sent transaction</source>
-        <translation>ارسال تراکنش</translation>
+        <translation>���������� ������������</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Incoming transaction</source>
-        <translation>تراکنش دریافتی</translation>
+        <translation>������������ ��������������</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -637,7 +637,7 @@ Amount: %2
 Type: %3
 Address: %4
 </source>
-        <translation>تاریخ: %1⏎ میزان وجه : %2⏎ نوع: %3⏎ آدرس: %4⏎ 
+        <translation>����������: %1��� ���������� ������ : %2��� ������: %3��� ��������: %4��� 
 </translation>
     </message>
     <message>
@@ -655,12 +655,12 @@ Address: %4
     <message>
         <location line="+17"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>wallet رمزگذاری شد و در حال حاضر از حالت قفل در آمده است</translation>
+        <translation>wallet ���������������� ���� �� ���� ������ �������� ���� �������� ������ ���� �������� ������</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>wallet رمزگذاری شد و در حال حاضر قفل است</translation>
+        <translation>wallet ���������������� ���� �� ���� ������ �������� ������ ������</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
@@ -673,7 +673,7 @@ Address: %4
     <message>
         <location filename="../clientmodel.cpp" line="+104"/>
         <source>Network Alert</source>
-        <translation>هشدار شبکه</translation>
+        <translation>���������� ��������</translation>
     </message>
 </context>
 <context>
@@ -681,67 +681,67 @@ Address: %4
     <message>
         <location filename="../forms/editaddressdialog.ui" line="+14"/>
         <source>Edit Address</source>
-        <translation>ویرایش آدرسها</translation>
+        <translation>������������ ������������</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>&amp;Label</source>
-        <translation>و برچسب</translation>
+        <translation>�� ����������</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>The label associated with this address book entry</source>
-        <translation>برچسب مربوط به این دفترچه آدرس</translation>
+        <translation>���������� ���������� ���� ������ ������������ ��������</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>&amp;Address</source>
-        <translation>و آدرس</translation>
+        <translation>�� ��������</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>The address associated with this address book entry. This can only be modified for sending addresses.</source>
-        <translation>برچسب مربوط به این دفترچه آدرس و تنها ب</translation>
+        <translation>���������� ���������� ���� ������ ������������ �������� �� �������� ��</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="+21"/>
         <source>New receiving address</source>
-        <translation>آدرسِ دریافت کننده جدید</translation>
+        <translation>���������� ������������ ���������� ��������</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>New sending address</source>
-        <translation>آدرس ارسال کننده جدید</translation>
+        <translation>�������� ���������� ���������� ��������</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Edit receiving address</source>
-        <translation>ویرایش آدرسِ دریافت کننده</translation>
+        <translation>������������ ���������� ������������ ����������</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Edit sending address</source>
-        <translation>ویرایش آدرسِ ارسال کننده</translation>
+        <translation>������������ ���������� ���������� ����������</translation>
     </message>
     <message>
         <location line="+76"/>
         <source>The entered address &quot;%1&quot; is already in the address book.</source>
-        <translation>آدرس وارد شده %1 قبلا به فهرست آدرسها اضافه شده بوده است.</translation>
+        <translation>�������� �������� ������ %1 �������� ���� ���������� ������������ ���������� ������ �������� ������.</translation>
     </message>
     <message>
         <location line="-5"/>
         <source>The entered address &quot;%1&quot; is not a valid Bitcoin address.</source>
-        <translation>آدرس وارد شده &quot;%1&quot; یک آدرس صحیح برای bitcoin نسشت</translation>
+        <translation>�������� �������� ������ &quot;%1&quot; ���� �������� �������� �������� bitcoin ��������</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Could not unlock wallet.</source>
-        <translation>عدم توانیی برای قفل گشایی wallet</translation>
+        <translation>������ ������������ �������� ������ ���������� wallet</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>New key generation failed.</source>
-        <translation>عدم توانیی در ایجاد کلید جدید</translation>
+        <translation>������ ������������ ���� ���������� �������� ��������</translation>
     </message>
 </context>
 <context>
@@ -755,12 +755,12 @@ Address: %4
     <message>
         <location line="-12"/>
         <source>version</source>
-        <translation>نسخه</translation>
+        <translation>��������</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Usage:</source>
-        <translation>میزان استفاده:</translation>
+        <translation>���������� ��������������:</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -793,7 +793,7 @@ Address: %4
     <message>
         <location filename="../forms/optionsdialog.ui" line="+14"/>
         <source>Options</source>
-        <translation>انتخاب/آپشن</translation>
+        <translation>������������/��������</translation>
     </message>
     <message>
         <location line="+16"/>
@@ -943,27 +943,27 @@ Address: %4
     <message>
         <location line="+3"/>
         <source>&amp;Display addresses in transaction list</source>
-        <translation>و نمایش آدرسها در فهرست تراکنش</translation>
+        <translation>�� ���������� ������������ ���� ���������� ������������</translation>
     </message>
     <message>
         <location line="+71"/>
         <source>&amp;OK</source>
-        <translation>و تایید</translation>
+        <translation>�� ����������</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>&amp;Cancel</source>
-        <translation>و رد</translation>
+        <translation>�� ����</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>&amp;Apply</source>
-        <translation>و به کار گرفتن</translation>
+        <translation>�� ���� ������ ����������</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="+53"/>
         <source>default</source>
-        <translation>پیش فرض</translation>
+        <translation>������ ������</translation>
     </message>
     <message>
         <location line="+130"/>
@@ -1003,28 +1003,28 @@ Address: %4
     <message>
         <location filename="../forms/overviewpage.ui" line="+14"/>
         <source>Form</source>
-        <translation>فرم</translation>
+        <translation>������</translation>
     </message>
     <message>
         <location line="+50"/>
         <location line="+166"/>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>اطلاعات نمایش داده شده ممکن است روزآمد نباشد. wallet شما به صورت خودکار بعد از برقراری اتصال با شبکه bitcoin به روز می شود اما این فرایند هنوز تکمیل نشده است.</translation>
+        <translation>�������������� ���������� �������� ������ �������� ������ ������������ ����������. wallet ������ ���� �������� ������������ ������ ���� �������������� ���������� ���� �������� bitcoin ���� ������ ���� ������ ������ ������ ������������ �������� ���������� �������� ������.</translation>
     </message>
     <message>
         <location line="-124"/>
         <source>Balance:</source>
-        <translation>مانده حساب:</translation>
+        <translation>���������� ��������:</translation>
     </message>
     <message>
         <location line="+29"/>
         <source>Unconfirmed:</source>
-        <translation>تایید نشده</translation>
+        <translation>���������� ��������</translation>
     </message>
     <message>
         <location line="-78"/>
         <source>Wallet</source>
-        <translation>کیف پول</translation>
+        <translation>������ ������</translation>
     </message>
     <message>
         <location line="+107"/>
@@ -1039,23 +1039,23 @@ Address: %4
     <message>
         <location line="+46"/>
         <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
-        <translation>تراکنشهای اخیر</translation>
+        <translation>������������������ ��������</translation>
     </message>
     <message>
         <location line="-101"/>
         <source>Your current balance</source>
-        <translation>مانده حساب جاری</translation>
+        <translation>���������� �������� ��������</translation>
     </message>
     <message>
         <location line="+29"/>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
-        <translation>تعداد تراکنشهایی که نیاز به تایید دارند و هنوز در مانده حساب جاری شما به حساب نیامده اند</translation>
+        <translation>���������� �������������������� ���� �������� ���� ���������� ���������� �� �������� ���� ���������� �������� �������� ������ ���� �������� ������������ ������</translation>
     </message>
     <message>
         <location filename="../overviewpage.cpp" line="+116"/>
         <location line="+1"/>
         <source>out of sync</source>
-        <translation>خارج از روزآمد سازی</translation>
+        <translation>�������� ���� ������������ ��������</translation>
     </message>
 </context>
 <context>
@@ -1076,27 +1076,27 @@ Address: %4
     <message>
         <location line="+59"/>
         <source>Request Payment</source>
-        <translation>درخواست وجه</translation>
+        <translation>�������������� ������</translation>
     </message>
     <message>
         <location line="+56"/>
         <source>Amount:</source>
-        <translation>میزان وجه:</translation>
+        <translation>���������� ������:</translation>
     </message>
     <message>
         <location line="-44"/>
         <source>Label:</source>
-        <translation>برچسب:</translation>
+        <translation>����������:</translation>
     </message>
     <message>
         <location line="+19"/>
         <source>Message:</source>
-        <translation>پیام:</translation>
+        <translation>��������:</translation>
     </message>
     <message>
         <location line="+71"/>
         <source>&amp;Save As...</source>
-        <translation>و ذخیره با عنوانِ...</translation>
+        <translation>�� ���������� ���� ������������...</translation>
     </message>
     <message>
         <location filename="../qrcodedialog.cpp" line="+62"/>
@@ -1111,7 +1111,7 @@ Address: %4
     <message>
         <location line="+23"/>
         <source>Resulting URI too long, try to reduce the text for label / message.</source>
-        <translation>متن وارد شده طولانی است، متنِ برچسب/پیام را کوتاه کنید</translation>
+        <translation>������ �������� ������ ������������ �������� �������� ����������/�������� ���� ���������� ��������</translation>
     </message>
     <message>
         <location line="+25"/>
@@ -1121,7 +1121,7 @@ Address: %4
     <message>
         <location line="+0"/>
         <source>PNG Images (*.png)</source>
-        <translation>تصاویر با فرمت PNG
+        <translation>������������ ���� �������� PNG
 (*.png)</translation>
     </message>
 </context>
@@ -1259,7 +1259,7 @@ Address: %4
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
         <source>Welcome to the Bitcoin RPC console.</source>
-        <translation>به کنسول آر.پی.سی. BITCOIN خوش آمدید</translation>
+        <translation>���� ���������� ����.����.����. BITCOIN ������ ����������</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1284,12 +1284,12 @@ Address: %4
         <location line="+5"/>
         <location line="+5"/>
         <source>Send Coins</source>
-        <translation>سکه های ارسالی</translation>
+        <translation>������ ������ ������������</translation>
     </message>
     <message>
         <location line="+50"/>
         <source>Send to multiple recipients at once</source>
-        <translation>ارسال همزمان به گیرنده های متعدد</translation>
+        <translation>���������� ������������ ���� ������������ ������ ����������</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1299,7 +1299,7 @@ Address: %4
     <message>
         <location line="+20"/>
         <source>Remove all transaction fields</source>
-        <translation>تمامی فیلدهای تراکنش حذف شوند</translation>
+        <translation>���������� �������������� ������������ ������ ��������</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1309,42 +1309,42 @@ Address: %4
     <message>
         <location line="+22"/>
         <source>Balance:</source>
-        <translation>مانده حساب:</translation>
+        <translation>���������� ��������:</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>123.456 BTC</source>
-        <translation>123.456 BTC</translation>
+        <source>123.456 IXC</source>
+        <translation>123.456 IXC</translation>
     </message>
     <message>
         <location line="+31"/>
         <source>Confirm the send action</source>
-        <translation>تایید عملیات ارسال </translation>
+        <translation>���������� ������������ ���������� </translation>
     </message>
     <message>
         <location line="+3"/>
         <source>S&amp;end</source>
-        <translation>و ارسال</translation>
+        <translation>�� ����������</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-59"/>
         <source>&lt;b&gt;%1&lt;/b&gt; to %2 (%3)</source>
-        <translation>%1 به %2 (%3)</translation>
+        <translation>%1 ���� %2 (%3)</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Confirm send coins</source>
-        <translation>تایید ارسال سکه ها</translation>
+        <translation>���������� ���������� ������ ����</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Are you sure you want to send %1?</source>
-        <translation>شما مطمئن هستید که می خواهید %1 را ارسال کنید؟</translation>
+        <translation>������ ���������� ���������� ���� ���� ������������ %1 ���� ���������� ����������</translation>
     </message>
     <message>
         <location line="+0"/>
         <source> and </source>
-        <translation>و</translation>
+        <translation>��</translation>
     </message>
     <message>
         <location line="+23"/>
@@ -1354,7 +1354,7 @@ Address: %4
     <message>
         <location line="+5"/>
         <source>The amount to pay must be larger than 0.</source>
-        <translation>میزان پرداخت باید بیشتر از 0 باشد</translation>
+        <translation>���������� ������������ �������� ���������� ���� 0 ��������</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -1379,7 +1379,7 @@ Address: %4
     <message>
         <location line="+5"/>
         <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>خطا: تراکنش تایید نشد. این خطا ممکن است به این دلیل اتفاق بیافتد که سکه های wallet شما خرج شده باشند مثلا اگر wallet.dat را مپی کرده باشید و سکه های شما در آن کپی استفاده شده باشند اما در اینجا نمایش داده نشده اند.</translation>
+        <translation>������: ������������ ���������� ������. ������ ������ �������� ������ ���� ������ �������� ���������� ������������ ���� ������ ������ wallet ������ ������ ������ ���������� �������� ������ wallet.dat ���� ������ �������� ���������� �� ������ ������ ������ ���� ���� ������ �������������� ������ ���������� ������ ���� ���������� ���������� �������� �������� ������.</translation>
     </message>
 </context>
 <context>
@@ -1387,17 +1387,17 @@ Address: %4
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="+14"/>
         <source>Form</source>
-        <translation>فرم</translation>
+        <translation>������</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>A&amp;mount:</source>
-        <translation>و میزان وجه</translation>
+        <translation>�� ���������� ������</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Pay &amp;To:</source>
-        <translation>پرداخت و به چه کسی</translation>
+        <translation>������������ �� ���� ���� ������</translation>
     </message>
     <message>
         <location line="+34"/>
@@ -1408,42 +1408,42 @@ Address: %4
         <location line="+60"/>
         <location filename="../sendcoinsentry.cpp" line="+26"/>
         <source>Enter a label for this address to add it to your address book</source>
-        <translation>یک برچسب برای این آدرس بنویسید تا به دفترچه آدرسهای شما اضافه شود</translation>
+        <translation>���� ���������� �������� ������ �������� �������������� ���� ���� ������������ �������������� ������ ���������� ������</translation>
     </message>
     <message>
         <location line="-78"/>
         <source>&amp;Label:</source>
-        <translation>و برچسب</translation>
+        <translation>�� ����������</translation>
     </message>
     <message>
         <location line="+28"/>
         <source>Choose address from address book</source>
-        <translation>آدرس از فهرست آدرس انتخاب کنید</translation>
+        <translation>�������� ���� ���������� �������� ������������ ��������</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Alt+A</source>
-        <translation>Alt و A</translation>
+        <translation>Alt �� A</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Paste address from clipboard</source>
-        <translation>آدرس را بر کلیپ بورد کپی کنید</translation>
+        <translation>�������� ���� ���� �������� �������� ������ ��������</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Alt+P</source>
-        <translation>Alt و P</translation>
+        <translation>Alt �� P</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Remove this recipient</source>
-        <translation>این گیرنده را حذف کن</translation>
+        <translation>������ ������������ ���� ������ ����</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
         <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>یک آدرس bitcoin وارد کنید (مثال 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <translation>���� �������� bitcoin �������� �������� (�������� 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
 <context>
@@ -1456,7 +1456,7 @@ Address: %4
     <message>
         <location line="+13"/>
         <source>&amp;Sign Message</source>
-        <translation>و امضای پیام </translation>
+        <translation>�� ���������� �������� </translation>
     </message>
     <message>
         <location line="+6"/>
@@ -1466,29 +1466,29 @@ Address: %4
     <message>
         <location line="+18"/>
         <source>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>یک آدرس bitcoin وارد کنید (مثال 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <translation>���� �������� bitcoin �������� �������� (�������� 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="+10"/>
         <location line="+213"/>
         <source>Choose an address from the address book</source>
-        <translation>آدرس از فهرست آدرس انتخاب کنید</translation>
+        <translation>�������� ���� ���������� �������� ������������ ��������</translation>
     </message>
     <message>
         <location line="-203"/>
         <location line="+213"/>
         <source>Alt+A</source>
-        <translation>Alt و A</translation>
+        <translation>Alt �� A</translation>
     </message>
     <message>
         <location line="-203"/>
         <source>Paste address from clipboard</source>
-        <translation>آدرس را بر کلیپ بورد کپی کنید</translation>
+        <translation>�������� ���� ���� �������� �������� ������ ��������</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Alt+P</source>
-        <translation>Alt و P</translation>
+        <translation>Alt �� P</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -1539,7 +1539,7 @@ Address: %4
     <message>
         <location line="+21"/>
         <source>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>یک آدرس bitcoin وارد کنید (مثال 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <translation>���� �������� bitcoin �������� �������� (�������� 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="+40"/>
@@ -1560,7 +1560,7 @@ Address: %4
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
         <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>یک آدرس bitcoin وارد کنید (مثال 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <translation>���� �������� bitcoin �������� �������� (�������� 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1657,7 +1657,7 @@ Address: %4
     <message>
         <location filename="../transactiondesc.cpp" line="+20"/>
         <source>Open until %1</source>
-        <translation>باز کن تا %1</translation>
+        <translation>������ ���� ���� %1</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -1667,12 +1667,12 @@ Address: %4
     <message>
         <location line="+2"/>
         <source>%1/unconfirmed</source>
-        <translation>%1 غیرقابل تایید</translation>
+        <translation>%1 �������������� ����������</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>%1 confirmations</source>
-        <translation>%1 تاییدها</translation>
+        <translation>%1 ��������������</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -1687,7 +1687,7 @@ Address: %4
     <message>
         <location line="+4"/>
         <source>Date</source>
-        <translation>تاریخ</translation>
+        <translation>����������</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1721,7 +1721,7 @@ Address: %4
     <message>
         <location line="-2"/>
         <source>label</source>
-        <translation>برچسب</translation>
+        <translation>����������</translation>
     </message>
     <message>
         <location line="+37"/>
@@ -1763,7 +1763,7 @@ Address: %4
     <message>
         <location line="+6"/>
         <source>Message</source>
-        <translation>پیام</translation>
+        <translation>��������</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1798,7 +1798,7 @@ Address: %4
     <message>
         <location line="+23"/>
         <source>Amount</source>
-        <translation>میزان</translation>
+        <translation>����������</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1813,7 +1813,7 @@ Address: %4
     <message>
         <location line="-209"/>
         <source>, has not been successfully broadcast yet</source>
-        <translation>تا به حال با موفقیت انتشار نیافته است</translation>
+        <translation>���� ���� ������ ���� ������������ ������������ ������������ ������</translation>
     </message>
     <message numerus="yes">
         <location line="-35"/>
@@ -1823,7 +1823,7 @@ Address: %4
     <message>
         <location line="+70"/>
         <source>unknown</source>
-        <translation>ناشناس</translation>
+        <translation>������������</translation>
     </message>
 </context>
 <context>
@@ -1831,12 +1831,12 @@ Address: %4
     <message>
         <location filename="../forms/transactiondescdialog.ui" line="+14"/>
         <source>Transaction details</source>
-        <translation>جزئیات تراکنش</translation>
+        <translation>������������ ������������</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation>این بخش جزئیات تراکنش را نشان می دهد</translation>
+        <translation>������ ������ ������������ ������������ ���� �������� ���� ������</translation>
     </message>
 </context>
 <context>
@@ -1844,22 +1844,22 @@ Address: %4
     <message>
         <location filename="../transactiontablemodel.cpp" line="+225"/>
         <source>Date</source>
-        <translation>تاریخ</translation>
+        <translation>����������</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Type</source>
-        <translation>نوع</translation>
+        <translation>������</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Address</source>
-        <translation>آدرس</translation>
+        <translation>��������</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Amount</source>
-        <translation>میزان وجه</translation>
+        <translation>���������� ������</translation>
     </message>
     <message numerus="yes">
         <location line="+57"/>
@@ -1869,22 +1869,22 @@ Address: %4
     <message>
         <location line="+3"/>
         <source>Open until %1</source>
-        <translation>باز کن تا %1</translation>
+        <translation>������ ���� ���� %1</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Offline (%1 confirmations)</source>
-        <translation>برون خطی (%1 تاییدها)</translation>
+        <translation>�������� ������ (%1 ��������������)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Unconfirmed (%1 of %2 confirmations)</source>
-        <translation>تایید نشده (%1 از %2 تاییدها)</translation>
+        <translation>���������� �������� (%1 ���� %2 ��������������)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Confirmed (%1 confirmations)</source>
-        <translation>تایید شده (%1 تاییدها)</translation>
+        <translation>���������� ������ (%1 ��������������)</translation>
     </message>
     <message numerus="yes">
         <location line="+8"/>
@@ -1894,67 +1894,67 @@ Address: %4
     <message>
         <location line="+5"/>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation>این block توسط گره های دیگری دریافت نشده است و ممکن است قبول نشود</translation>
+        <translation>������ block �������� ������ ������ ���������� ������������ �������� ������ �� �������� ������ �������� ��������</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Generated but not accepted</source>
-        <translation>تولید شده اما قبول نشده است</translation>
+        <translation>���������� ������ ������ �������� �������� ������</translation>
     </message>
     <message>
         <location line="+43"/>
         <source>Received with</source>
-        <translation>قبول با </translation>
+        <translation>�������� ���� </translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Received from</source>
-        <translation>دریافت شده از</translation>
+        <translation>������������ ������ ����</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Sent to</source>
-        <translation>ارسال به</translation>
+        <translation>���������� ����</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Payment to yourself</source>
-        <translation>وجه برای شما </translation>
+        <translation>������ �������� ������ </translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Mined</source>
-        <translation>استخراج شده</translation>
+        <translation>�������������� ������</translation>
     </message>
     <message>
         <location line="+38"/>
         <source>(n/a)</source>
-        <translation>خالی</translation>
+        <translation>��������</translation>
     </message>
     <message>
         <location line="+199"/>
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
-        <translation>وضعیت تراکنش. با اشاره به این بخش تعداد تاییدها نمایش داده می شود</translation>
+        <translation>���������� ������������. ���� ���������� ���� ������ ������ ���������� �������������� ���������� �������� ���� ������</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Date and time that the transaction was received.</source>
-        <translation>زمان و تاریخی که تراکنش دریافت شده است</translation>
+        <translation>�������� �� ������������ ���� ������������ ������������ ������ ������</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Type of transaction.</source>
-        <translation>نوع تراکنش</translation>
+        <translation>������ ������������</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Destination address of transaction.</source>
-        <translation>آدرس مقصد در تراکنش</translation>
+        <translation>�������� �������� ���� ������������</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Amount removed from or added to balance.</source>
-        <translation>میزان وجه کم شده یا اضافه شده به حساب</translation>
+        <translation>���������� ������ ���� ������ ���� ���������� ������ ���� ��������</translation>
     </message>
 </context>
 <context>
@@ -1963,87 +1963,87 @@ Address: %4
         <location filename="../transactionview.cpp" line="+52"/>
         <location line="+16"/>
         <source>All</source>
-        <translation>همه</translation>
+        <translation>������</translation>
     </message>
     <message>
         <location line="-15"/>
         <source>Today</source>
-        <translation>امروز</translation>
+        <translation>����������</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>This week</source>
-        <translation>این هفته</translation>
+        <translation>������ ��������</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>This month</source>
-        <translation>این ماه</translation>
+        <translation>������ ������</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Last month</source>
-        <translation>ماه گذشته</translation>
+        <translation>������ ����������</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>This year</source>
-        <translation>این سال</translation>
+        <translation>������ ������</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Range...</source>
-        <translation>حدود..</translation>
+        <translation>��������..</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>Received with</source>
-        <translation>دریافت با</translation>
+        <translation>������������ ����</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Sent to</source>
-        <translation>ارسال به</translation>
+        <translation>���������� ����</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>To yourself</source>
-        <translation>به شما</translation>
+        <translation>���� ������</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Mined</source>
-        <translation>استخراج شده</translation>
+        <translation>�������������� ������</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Other</source>
-        <translation>دیگر</translation>
+        <translation>��������</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Enter address or label to search</source>
-        <translation>آدرس یا برچسب را برای جستجو وارد کنید</translation>
+        <translation>�������� ���� ���������� ���� �������� ���������� �������� ��������</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Min amount</source>
-        <translation>حداقل میزان وجه</translation>
+        <translation>���������� ���������� ������</translation>
     </message>
     <message>
         <location line="+34"/>
         <source>Copy address</source>
-        <translation>آدرس را کپی کنید</translation>
+        <translation>�������� ���� ������ ��������</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy label</source>
-        <translation>برچسب را کپی کنید</translation>
+        <translation>���������� ���� ������ ��������</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy amount</source>
-        <translation>میزان وجه کپی شود</translation>
+        <translation>���������� ������ ������ ������</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2053,7 +2053,7 @@ Address: %4
     <message>
         <location line="+1"/>
         <source>Edit label</source>
-        <translation>برچسب را ویرایش کنید</translation>
+        <translation>���������� ���� ������������ ��������</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2063,67 +2063,67 @@ Address: %4
     <message>
         <location line="+139"/>
         <source>Export Transaction Data</source>
-        <translation>داده های تراکنش را صادر کنید</translation>
+        <translation>�������� ������ ������������ ���� �������� ��������</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Comma separated file (*.csv)</source>
-        <translation>Comma separated file (*.csv) فایل جداگانه دستوری</translation>
+        <translation>Comma separated file (*.csv) �������� �������������� ������������</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Confirmed</source>
-        <translation>تایید شده</translation>
+        <translation>���������� ������</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Date</source>
-        <translation>تاریخ</translation>
+        <translation>����������</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Type</source>
-        <translation>نوع</translation>
+        <translation>������</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Label</source>
-        <translation>برچسب</translation>
+        <translation>����������</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Address</source>
-        <translation>آدرس</translation>
+        <translation>��������</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Amount</source>
-        <translation>میزان</translation>
+        <translation>����������</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>ID</source>
-        <translation>شناسه کاربری</translation>
+        <translation>���������� ������������</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Error exporting</source>
-        <translation>خطا در ارسال</translation>
+        <translation>������ ���� ����������</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Could not write to file %1.</source>
-        <translation>قابل کپی به فایل نیست %1.</translation>
+        <translation>�������� ������ ���� �������� �������� %1.</translation>
     </message>
     <message>
         <location line="+100"/>
         <source>Range:</source>
-        <translation>دامنه:</translation>
+        <translation>����������:</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>to</source>
-        <translation>به</translation>
+        <translation>����</translation>
     </message>
 </context>
 <context>
@@ -2131,7 +2131,7 @@ Address: %4
     <message>
         <location filename="../walletmodel.cpp" line="+193"/>
         <source>Send Coins</source>
-        <translation>سکه های ارسالی</translation>
+        <translation>������ ������ ������������</translation>
     </message>
 </context>
 <context>
@@ -2144,7 +2144,7 @@ Address: %4
     <message>
         <location line="+1"/>
         <source>Export the data in the current tab to a file</source>
-        <translation>صدور داده نوار جاری به یک فایل</translation>
+        <translation>�������� �������� �������� �������� ���� ���� ��������</translation>
     </message>
     <message>
         <location line="+193"/>
@@ -2182,62 +2182,62 @@ Address: %4
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
         <source>Bitcoin version</source>
-        <translation>نسخه bitcoin</translation>
+        <translation>�������� bitcoin</translation>
     </message>
     <message>
         <location line="+102"/>
         <source>Usage:</source>
-        <translation>میزان استفاده:</translation>
+        <translation>���������� ��������������:</translation>
     </message>
     <message>
         <location line="-29"/>
         <source>Send command to -server or bitcoind</source>
-        <translation>ارسال دستور به سرور یا bitcoined</translation>
+        <translation>���������� ���������� ���� �������� ���� bitcoined</translation>
     </message>
     <message>
         <location line="-23"/>
         <source>List commands</source>
-        <translation>فهرست دستورها</translation>
+        <translation>���������� ��������������</translation>
     </message>
     <message>
         <location line="-12"/>
         <source>Get help for a command</source>
-        <translation>درخواست کمک برای یک دستور</translation>
+        <translation>�������������� ������ �������� ���� ����������</translation>
     </message>
     <message>
         <location line="+24"/>
         <source>Options:</source>
-        <translation>انتخابها:</translation>
+        <translation>����������������:</translation>
     </message>
     <message>
         <location line="+24"/>
         <source>Specify configuration file (default: bitcoin.conf)</source>
-        <translation>فایل پیکربندیِ را مشخص کنید (پیش فرض: bitcoin.conf)</translation>
+        <translation>�������� ������������������ ���� �������� �������� (������ ������: bitcoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Specify pid file (default: bitcoind.pid)</source>
-        <translation>فایل pid  را مشخص کنید (پیش فرض: bitcoind.pid)</translation>
+        <translation>�������� pid  ���� �������� �������� (������ ������: bitcoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
         <source>Specify data directory</source>
-        <translation>دایرکتوری داده را مشخص کن</translation>
+        <translation>������������������ �������� ���� �������� ����</translation>
     </message>
     <message>
         <location line="-9"/>
         <source>Set database cache size in megabytes (default: 25)</source>
-        <translation>حافظه بانک داده را به مگابایت تنظیم کنید (پیش فرض: 25)</translation>
+        <translation>���������� �������� �������� ���� ���� �������������� ���������� �������� (������ ������: 25)</translation>
     </message>
     <message>
         <location line="-28"/>
         <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
-        <translation>ارتباطات را در &lt;PORT&gt; بشنوید (پیش فرض: 8333 or testnet: 18333)</translation>
+        <translation>���������������� ���� ���� &lt;PORT&gt; ������������ (������ ������: 8333 or testnet: 18333)</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
-        <translation>نگهداری &lt;N&gt; ارتباطات برای قرینه سازی  (پیش فرض:125)</translation>
+        <translation>�������������� &lt;N&gt; ���������������� �������� ���������� ��������  (������ ������:125)</translation>
     </message>
     <message>
         <location line="-48"/>
@@ -2252,12 +2252,12 @@ Address: %4
     <message>
         <location line="+3"/>
         <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
-        <translation>آستانه قطع برای قرینه سازی اشتباه (پیش فرض:100)</translation>
+        <translation>������������ ������ �������� ���������� �������� ������������ (������ ������:100)</translation>
     </message>
     <message>
         <location line="-134"/>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
-        <translation>تعداد ثانیه ها برای اتصال دوباره قرینه های اشتباه (پیش فرض:86400)</translation>
+        <translation>���������� ���������� ���� �������� ���������� ������������ ���������� ������ ������������ (������ ������:86400)</translation>
     </message>
     <message>
         <location line="-29"/>
@@ -2267,22 +2267,22 @@ Address: %4
     <message>
         <location line="+27"/>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>ارتباطاتِ JSON-RPC  را در &lt;port&gt;  گوش کنید (پیش فرض:8332)</translation>
+        <translation>������������������ JSON-RPC  ���� ���� &lt;port&gt;  ������ �������� (������ ������:8332)</translation>
     </message>
     <message>
         <location line="+37"/>
         <source>Accept command line and JSON-RPC commands</source>
-        <translation>command line  و JSON-RPC commands را قبول کنید</translation>
+        <translation>command line  �� JSON-RPC commands ���� �������� ��������</translation>
     </message>
     <message>
         <location line="+76"/>
         <source>Run in the background as a daemon and accept commands</source>
-        <translation>به عنوان daemon بک گراند را اجرا کنید و دستورات را قبول نمایید</translation>
+        <translation>���� ���������� daemon ���� ���������� ���� �������� �������� �� �������������� ���� �������� ������������</translation>
     </message>
     <message>
         <location line="+37"/>
         <source>Use the test network</source>
-        <translation>از تستِ شبکه استفاده نمایید</translation>
+        <translation>���� �������� �������� �������������� ������������</translation>
     </message>
     <message>
         <location line="-112"/>
@@ -2607,7 +2607,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="+2"/>
         <source>Prepend debug output with timestamp</source>
-        <translation>برونداد اشکال زدایی با timestamp</translation>
+        <translation>�������������� ���������� ���������� ���� timestamp</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -2622,12 +2622,12 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="+3"/>
         <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation>ارسال اطلاعات پیگیری/خطایابی به کنسول به جای ارسال به فایل debug.log</translation>
+        <translation>���������� �������������� ������������/�������������� ���� ���������� ���� ������ ���������� ���� �������� debug.log</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Send trace/debug info to debugger</source>
-        <translation>ارسال اطاعات خطایابی/پیگیری به سیستم خطایاب</translation>
+        <translation>���������� ������������ ��������������/������������ ���� ���������� ������������</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -2652,7 +2652,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="+2"/>
         <source>Specify connection timeout in milliseconds (default: 5000)</source>
-        <translation>تعیین مدت زمان وقفه (time out) به هزارم ثانیه</translation>
+        <translation>���������� ������ �������� �������� (time out) ���� ���������� ����������</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -2692,7 +2692,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="+2"/>
         <source>Username for JSON-RPC connections</source>
-        <translation>شناسه کاربری برای ارتباطاتِ JSON-RPC</translation>
+        <translation>���������� ������������ �������� ������������������ JSON-RPC</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -2717,62 +2717,62 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="-50"/>
         <source>Password for JSON-RPC connections</source>
-        <translation>رمز برای ارتباطاتِ JSON-RPC</translation>
+        <translation>������ �������� ������������������ JSON-RPC</translation>
     </message>
     <message>
         <location line="-67"/>
         <source>Allow JSON-RPC connections from specified IP address</source>
-        <translation>ارتباطاتِ JSON-RPC  را از آدرس آی.پی. مشخصی برقرار کنید.</translation>
+        <translation>������������������ JSON-RPC  ���� ���� �������� ����.����. ���������� ������������ ��������.</translation>
     </message>
     <message>
         <location line="+76"/>
         <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
-        <translation>دستورات را به گره اجرا شده در&lt;ip&gt; ارسال کنید (پیش فرض:127.0.0.1)</translation>
+        <translation>�������������� ���� ���� ������ �������� ������ ����&lt;ip&gt; ���������� �������� (������ ������:127.0.0.1)</translation>
     </message>
     <message>
         <location line="-120"/>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>دستور را وقتی بهترین بلاک تغییر کرد اجرا کن (%s در دستور توسط block hash جایگزین شده است)</translation>
+        <translation>���������� ���� �������� ������������ �������� ���������� ������ �������� ���� (%s ���� ���������� �������� block hash �������������� ������ ������)</translation>
     </message>
     <message>
         <location line="+147"/>
         <source>Upgrade wallet to latest format</source>
-        <translation>wallet را به جدیدترین نسخه روزآمد کنید</translation>
+        <translation>wallet ���� ���� ���������������� �������� ������������ ��������</translation>
     </message>
     <message>
         <location line="-21"/>
         <source>Set key pool size to &lt;n&gt; (default: 100)</source>
-        <translation>حجم key pool  را به اندازه &lt;n&gt; تنظیم کنید (پیش فرض:100)</translation>
+        <translation>������ key pool  ���� ���� ������������ &lt;n&gt; ���������� �������� (������ ������:100)</translation>
     </message>
     <message>
         <location line="-12"/>
         <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>زنجیره بلاک را برای تراکنش جا افتاده در WALLET دوباره اسکن کنید</translation>
+        <translation>������������ �������� ���� �������� ������������ ���� ������������ ���� WALLET ������������ �������� ��������</translation>
     </message>
     <message>
         <location line="+35"/>
         <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation>برای ارتباطاتِ JSON-RPC  از OpenSSL (https) استفاده کنید</translation>
+        <translation>�������� ������������������ JSON-RPC  ���� OpenSSL (https) �������������� ��������</translation>
     </message>
     <message>
         <location line="-26"/>
         <source>Server certificate file (default: server.cert)</source>
-        <translation>فایل certificate  سرور (پیش فرض server.cert)</translation>
+        <translation>�������� certificate  �������� (������ ������ server.cert)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Server private key (default: server.pem)</source>
-        <translation>رمز اختصاصی سرور  (پیش فرض: server.pem)</translation>
+        <translation>������ �������������� ��������  (������ ������: server.pem)</translation>
     </message>
     <message>
         <location line="-151"/>
         <source>Acceptable ciphers (default: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</source>
-        <translation>ciphers  قابل قبول (پیش فرض: default: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</translation>
+        <translation>ciphers  �������� �������� (������ ������: default: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</translation>
     </message>
     <message>
         <location line="+165"/>
         <source>This help message</source>
-        <translation>این پیام راهنما</translation>
+        <translation>������ �������� ������������</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -2792,27 +2792,27 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="+55"/>
         <source>Loading addresses...</source>
-        <translation>لود شدن آدرسها..</translation>
+        <translation>������ ������ ������������..</translation>
     </message>
     <message>
         <location line="-35"/>
         <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation>خطا در هنگام لود شدن wallet.dat: Wallet corrupted</translation>
+        <translation>������ ���� ���������� ������ ������ wallet.dat: Wallet corrupted</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin</source>
-        <translation>خطا در هنگام لود شدن wallet.dat.  به نسخه جدید Bitocin برای wallet نیاز است.</translation>
+        <translation>������ ���� ���������� ������ ������ wallet.dat.  ���� �������� �������� Bitocin �������� wallet �������� ������.</translation>
     </message>
     <message>
         <location line="+93"/>
         <source>Wallet needed to be rewritten: restart Bitcoin to complete</source>
-        <translation>wallet نیاز به بازنویسی دارد. Bitcoin را برای تکمیل عملیات دوباره اجرا کنید.</translation>
+        <translation>wallet �������� ���� ���������������� ��������. Bitcoin ���� �������� ���������� ������������ ������������ �������� ��������.</translation>
     </message>
     <message>
         <location line="-95"/>
         <source>Error loading wallet.dat</source>
-        <translation>خطا در هنگام لود شدن wallet.dat</translation>
+        <translation>������ ���� ���������� ������ ������ wallet.dat</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -2842,27 +2842,27 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="+44"/>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation>میزان اشتباه است for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</translation>
+        <translation>���������� ������������ ������ for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Invalid amount</source>
-        <translation>میزان اشتباه است</translation>
+        <translation>���������� ������������ ������</translation>
     </message>
     <message>
         <location line="-6"/>
         <source>Insufficient funds</source>
-        <translation>وجوه ناکافی</translation>
+        <translation>�������� ������������</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Loading block index...</source>
-        <translation>لود شدن نمایه بلاکها..</translation>
+        <translation>������ ������ ���������� ������������..</translation>
     </message>
     <message>
         <location line="-57"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>یک گره برای اتصال اضافه کنید و تلاش کنید تا اتصال را باز نگاه دارید</translation>
+        <translation>���� ������ �������� ���������� ���������� �������� �� �������� �������� ���� ���������� ���� ������ �������� ����������</translation>
     </message>
     <message>
         <location line="-25"/>
@@ -2872,49 +2872,49 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="+64"/>
         <source>Fee per KB to add to transactions you send</source>
-        <translation>هزینه بر اساس کیلو بایت برای اضافه شدن به تراکنشی که ارسال کرده اید</translation>
+        <translation>���������� ���� �������� �������� �������� �������� ���������� ������ ���� �������������� ���� ���������� �������� ������</translation>
     </message>
     <message>
         <location line="+19"/>
         <source>Loading wallet...</source>
-        <translation>wallet در حال لود شدن است...</translation>
+        <translation>wallet ���� ������ ������ ������ ������...</translation>
     </message>
     <message>
         <location line="-52"/>
         <source>Cannot downgrade wallet</source>
-        <translation>قابلیت برگشت به نسخه قبلی برای wallet امکان پذیر نیست</translation>
+        <translation>������������ ���������� ���� �������� �������� �������� wallet ���������� �������� ��������</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Cannot write default address</source>
-        <translation>آدرس پیش فرض قابل ذخیره نیست</translation>
+        <translation>�������� ������ ������ �������� ���������� ��������</translation>
     </message>
     <message>
         <location line="+64"/>
         <source>Rescanning...</source>
-        <translation>اسکنِ دوباره...</translation>
+        <translation>���������� ������������...</translation>
     </message>
     <message>
         <location line="-57"/>
         <source>Done loading</source>
-        <translation>اتمام لود شدن</translation>
+        <translation>���������� ������ ������</translation>
     </message>
     <message>
         <location line="+82"/>
         <source>To use the %s option</source>
-        <translation>برای استفاده از %s  از اختیارات</translation>
+        <translation>�������� �������������� ���� %s  ���� ����������������</translation>
     </message>
     <message>
         <location line="-74"/>
         <source>Error</source>
-        <translation>خطا</translation>
+        <translation>������</translation>
     </message>
     <message>
         <location line="-31"/>
         <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
 %s
 If the file does not exist, create it with owner-readable-only file permissions.</source>
-        <translation>شما باید یک رمز rpcpassword=&lt;password&gt; را در فایل تنظیمات ایجاد کنید⏎ %s ⏎ اگر فایل ایجاد نشده است، آن را با یک فایل &quot;فقط متنی&quot; ایجاد کنید.
+        <translation>������ �������� ���� ������ rpcpassword=&lt;password&gt; ���� ���� �������� �������������� ���������� ����������� %s ��� ������ �������� ���������� �������� �������� ���� ���� ���� ���� �������� &quot;������ ��������&quot; ���������� ��������.
 </translation>
     </message>
 </context>

@@ -1,3 +1,4 @@
+src/.*
 src/*.exe
 src/ixcoin
 src/ixcoind

@@ -5,12 +5,12 @@
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
         <source>About Bitcoin</source>
-        <translation>За Биткоин</translation>
+        <translation>���� ��������������</translation>
     </message>
     <message>
         <location line="+39"/>
         <source>&lt;b&gt;Bitcoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Биткоин&lt;/b&gt; версия</translation>
+        <translation>&lt;b&gt;��������������&lt;/b&gt; ������������</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -21,11 +21,11 @@ Distributed under the MIT/X11 software license, see the accompanying file COPYIN
 
 This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
         <translation>
-Това е експериментален софтуер.
+�������� �� ������������������������������ ��������������.
 
-Разпространява се под MIT/X11 софтуерен лиценз, виж COPYING или http://www.opensource.org/licenses/mit-license.php.
+���������������������������� ���� ������ MIT/X11 ������������������ ������������, ������ COPYING ������ http://www.opensource.org/licenses/mit-license.php.
 
-Използван е софтуер, разработен от OpenSSL Project за употреба в OpenSSL Toolkit (http://www.openssl.org/), криптографски софтуер разработен от Eric Young (eay@cryptsoft.com) и UPnP софтуер разработен от Thomas Bernard.</translation>
+������������������ �� ��������������, �������������������� ���� OpenSSL Project ���� ���������������� �� OpenSSL Toolkit (http://www.openssl.org/), �������������������������� �������������� �������������������� ���� Eric Young (eay@cryptsoft.com) �� UPnP �������������� �������������������� ���� Thomas Bernard.</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="+14"/>
@@ -43,62 +43,62 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
         <source>Address Book</source>
-        <translation>Адреси</translation>
+        <translation>������������</translation>
     </message>
     <message>
         <location line="+19"/>
         <source>Double-click to edit address or label</source>
-        <translation>Двоен клик за редакция на адрес или име</translation>
+        <translation>���������� �������� ���� ���������������� ���� ���������� ������ ������</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>Create a new address</source>
-        <translation>Създава нов адрес</translation>
+        <translation>�������������� ������ ����������</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Копира избрания адрес</translation>
+        <translation>������������ ���������������� ����������</translation>
     </message>
     <message>
         <location line="-11"/>
         <source>&amp;New Address</source>
-        <translation>&amp;Нов адрес</translation>
+        <translation>&amp;������ ����������</translation>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
         <source>These are your Bitcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Това са вашите Биткоин адреси за получаване на плащания. За по-лесно проследяване на плащанията и повишена анонимност можете да използвате нов адрес за всяко плащане.</translation>
+        <translation>�������� ���� ������������ �������������� ������������ ���� �������������������� ���� ����������������. ���� ����-���������� ������������������������ ���� �������������������� �� ���������������� �������������������� ������������ ���� �������������������� ������ ���������� ���� ���������� ��������������.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
         <source>&amp;Copy Address</source>
-        <translation>&amp;Копирай</translation>
+        <translation>&amp;��������������</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>Show &amp;QR Code</source>
-        <translation>Покажи &amp;QR код</translation>
+        <translation>������������ &amp;QR ������</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>Sign a message to prove you own a Bitcoin address</source>
-        <translation>Подпишете съобщение като доказателство, че притежавате определен адрес</translation>
+        <translation>������������������ ������������������ �������� ��������������������������, ���� ���������������������� ������������������ ����������</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Sign &amp;Message</source>
-        <translation>Подпиши &amp;съобщение</translation>
+        <translation>�������������� &amp;������������������</translation>
     </message>
     <message>
         <location line="+25"/>
         <source>Delete the currently selected address from the list</source>
-        <translation>Изтрий избрания адрес от списъка</translation>
+        <translation>������������ ���������������� ���������� ���� ��������������</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>Export the data in the current tab to a file</source>
-        <translation>Запишете данните от текущия раздел във файл</translation>
+        <translation>���������������� �������������� ���� �������������� ������������ ������ ��������</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -108,17 +108,17 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-44"/>
         <source>Verify a message to ensure it was signed with a specified Bitcoin address</source>
-        <translation>Проверете съобщение, за да сте сигурни че е подписано с определен Биткоин адрес</translation>
+        <translation>������������������ ������������������, ���� ���� ������ �������������� ���� �� ������������������ �� ������������������ �������������� ����������</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Verify Message</source>
-        <translation>&amp;Провери съобщение</translation>
+        <translation>&amp;�������������� ������������������</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>&amp;Delete</source>
-        <translation>&amp;Изтрий</translation>
+        <translation>&amp;������������</translation>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
@@ -128,12 +128,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+13"/>
         <source>Copy &amp;Label</source>
-        <translation>Копирай &amp;име</translation>
+        <translation>�������������� &amp;������</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>&amp;Edit</source>
-        <translation>&amp;Редактирай</translation>
+        <translation>&amp;��������������������</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -143,22 +143,22 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+260"/>
         <source>Export Address Book Data</source>
-        <translation>Запазване на адреси</translation>
+        <translation>������������������ ���� ������������</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Comma separated file (*.csv)</source>
-        <translation>CSV файл (*.csv)</translation>
+        <translation>CSV �������� (*.csv)</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Error exporting</source>
-        <translation>Грешка при записа</translation>
+        <translation>������������ ������ ������������</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Could not write to file %1.</source>
-        <translation>Неуспешен запис в %1.</translation>
+        <translation>������������������ ���������� �� %1.</translation>
     </message>
 </context>
 <context>
@@ -166,17 +166,17 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location filename="../addresstablemodel.cpp" line="+144"/>
         <source>Label</source>
-        <translation>Име</translation>
+        <translation>������</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Address</source>
-        <translation>Адрес</translation>
+        <translation>����������</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>(no label)</source>
-        <translation>(без име)</translation>
+        <translation>(������ ������)</translation>
     </message>
 </context>
 <context>
@@ -189,62 +189,62 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+21"/>
         <source>Enter passphrase</source>
-        <translation>Парола</translation>
+        <translation>������������</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>New passphrase</source>
-        <translation>Нова парола</translation>
+        <translation>�������� ������������</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Repeat new passphrase</source>
-        <translation>Още веднъж</translation>
+        <translation>������ ������������</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="+33"/>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Въведете нова парола за портфейла.&lt;br/&gt;Моля използвайте &lt;b&gt;поне 10 случайни символа&lt;/b&gt; или &lt;b&gt;8 или повече думи&lt;/b&gt;.</translation>
+        <translation>���������������� �������� ������������ ���� ������������������.&lt;br/&gt;�������� ���������������������� &lt;b&gt;�������� 10 ���������������� ��������������&lt;/b&gt; ������ &lt;b&gt;8 ������ ������������ ��������&lt;/b&gt;.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Encrypt wallet</source>
-        <translation>Криптиране на портфейла</translation>
+        <translation>�������������������� ���� ������������������</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Тази операция изисква Вашата парола за отключване на портфейла.</translation>
+        <translation>�������� ���������������� �������������� ������������ ������������ ���� �������������������� ���� ������������������.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Unlock wallet</source>
-        <translation>Отключване на портфейла</translation>
+        <translation>�������������������� ���� ������������������</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>Тази операция изисква Вашата парола за декриптиране на портфейла.</translation>
+        <translation>�������� ���������������� �������������� ������������ ������������ ���� ������������������������ ���� ������������������.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Decrypt wallet</source>
-        <translation>Декриптиране на портфейла</translation>
+        <translation>������������������������ ���� ������������������</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Change passphrase</source>
-        <translation>Смяна на паролата</translation>
+        <translation>���������� ���� ����������������</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Enter the old and new passphrase to the wallet.</source>
-        <translation>Въведете текущата и новата парола за портфейла.</translation>
+        <translation>���������������� ���������������� �� ������������ ������������ ���� ������������������.</translation>
     </message>
     <message>
         <location line="+46"/>
         <source>Confirm wallet encryption</source>
-        <translation>Потвърждаване на криптирането</translation>
+        <translation>�������������������������� ���� ������������������������</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -271,7 +271,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="-130"/>
         <location line="+58"/>
         <source>Wallet encrypted</source>
-        <translation>Портфейлът е криптиран</translation>
+        <translation>�������������������� �� ������������������</translation>
     </message>
     <message>
         <location line="-56"/>
@@ -284,40 +284,40 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+42"/>
         <location line="+6"/>
         <source>Wallet encryption failed</source>
-        <translation>Криптирането беше неуспешно</translation>
+        <translation>������������������������ �������� ������������������</translation>
     </message>
     <message>
         <location line="-54"/>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>Криптирането на портфейла беше неуспешно поради неизвестен проблем. Портфейлът не е криптиран.</translation>
+        <translation>������������������������ ���� ������������������ �������� ������������������ ������������ �������������������� ��������������. �������������������� ���� �� ������������������.</translation>
     </message>
     <message>
         <location line="+7"/>
         <location line="+48"/>
         <source>The supplied passphrases do not match.</source>
-        <translation>Паролите не съвпадат</translation>
+        <translation>���������������� ���� ����������������</translation>
     </message>
     <message>
         <location line="-37"/>
         <source>Wallet unlock failed</source>
-        <translation>Отключването беше неуспешно</translation>
+        <translation>������������������������ �������� ������������������</translation>
     </message>
     <message>
         <location line="+1"/>
         <location line="+11"/>
         <location line="+19"/>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>Паролата въведена за декриптиране на портфейла е грешна.</translation>
+        <translation>���������������� ���������������� ���� ������������������������ ���� ������������������ �� ������������.</translation>
     </message>
     <message>
         <location line="-20"/>
         <source>Wallet decryption failed</source>
-        <translation>Декриптирането беше неуспешно</translation>
+        <translation>���������������������������� �������� ������������������</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation>Паролата на портфейла беше променена успешно.</translation>
+        <translation>���������������� ���� ������������������ �������� ������������������ ��������������.</translation>
     </message>
 </context>
 <context>
@@ -325,62 +325,62 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location filename="../bitcoingui.cpp" line="+233"/>
         <source>Sign &amp;message...</source>
-        <translation>Подписване на &amp;съобщение...</translation>
+        <translation>�������������������� ���� &amp;������������������...</translation>
     </message>
     <message>
         <location line="+280"/>
         <source>Synchronizing with network...</source>
-        <translation>Синхронизиране с мрежата...</translation>
+        <translation>���������������������������� �� ��������������...</translation>
     </message>
     <message>
         <location line="-349"/>
         <source>&amp;Overview</source>
-        <translation>&amp;Баланс</translation>
+        <translation>&amp;������������</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show general overview of wallet</source>
-        <translation>Обобщена информация за портфейла</translation>
+        <translation>���������������� �������������������� ���� ������������������</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>&amp;Transactions</source>
-        <translation>&amp;Транзакции</translation>
+        <translation>&amp;��������������������</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Browse transaction history</source>
-        <translation>История на входящите и изходящи транзакции</translation>
+        <translation>�������������� ���� ������������������ �� ���������������� ��������������������</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Edit the list of stored addresses and labels</source>
-        <translation>Редактиране на адреси</translation>
+        <translation>���������������������� ���� ������������</translation>
     </message>
     <message>
         <location line="-14"/>
         <source>Show the list of addresses for receiving payments</source>
-        <translation>Списък на адресите за получаване</translation>
+        <translation>������������ ���� ���������������� ���� ��������������������</translation>
     </message>
     <message>
         <location line="+31"/>
         <source>E&amp;xit</source>
-        <translation>Из&amp;ход</translation>
+        <translation>����&amp;������</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Quit application</source>
-        <translation>Затваря приложението</translation>
+        <translation>�������������� ������������������������</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Show information about Bitcoin</source>
-        <translation>Показва информация за Биткоин</translation>
+        <translation>�������������� �������������������� ���� ��������������</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>About &amp;Qt</source>
-        <translation>За &amp;Qt</translation>
+        <translation>���� &amp;Qt</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -390,22 +390,22 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+2"/>
         <source>&amp;Options...</source>
-        <translation>&amp;Опции...</translation>
+        <translation>&amp;����������...</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>&amp;Криптиране на портфейла...</translation>
+        <translation>&amp;�������������������� ���� ������������������...</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Backup Wallet...</source>
-        <translation>&amp;Запазване на портфейла...</translation>
+        <translation>&amp;������������������ ���� ������������������...</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>&amp;Change Passphrase...</source>
-        <translation>&amp;Смяна на паролата...</translation>
+        <translation>&amp;���������� ���� ����������������...</translation>
     </message>
     <message>
         <location line="+285"/>
@@ -420,7 +420,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-347"/>
         <source>Send coins to a Bitcoin address</source>
-        <translation>Изпращане към Биткоин адрес</translation>
+        <translation>������������������ ������ �������������� ����������</translation>
     </message>
     <message>
         <location line="+49"/>
@@ -435,7 +435,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+2"/>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>Променя паролата за портфейла</translation>
+        <translation>�������������� ���������������� ���� ������������������</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -450,18 +450,18 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-4"/>
         <source>&amp;Verify message...</source>
-        <translation>&amp;Проверка на съобщение...</translation>
+        <translation>&amp;���������������� ���� ������������������...</translation>
     </message>
     <message>
         <location line="-165"/>
         <location line="+530"/>
         <source>Bitcoin</source>
-        <translation>Биткоин</translation>
+        <translation>��������������</translation>
     </message>
     <message>
         <location line="-530"/>
         <source>Wallet</source>
-        <translation>Портфейл</translation>
+        <translation>����������������</translation>
     </message>
     <message>
         <location line="+101"/>
@@ -481,7 +481,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+22"/>
         <source>&amp;About Bitcoin</source>
-        <translation>&amp;За Биткоин</translation>
+        <translation>&amp;���� ��������������</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -511,22 +511,22 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+28"/>
         <source>&amp;File</source>
-        <translation>&amp;Файл</translation>
+        <translation>&amp;��������</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>&amp;Settings</source>
-        <translation>&amp;Настройки</translation>
+        <translation>&amp;������������������</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>&amp;Help</source>
-        <translation>&amp;Помощ</translation>
+        <translation>&amp;����������</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Tabs toolbar</source>
-        <translation>Раздели</translation>
+        <translation>��������������</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -542,7 +542,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message numerus="yes">
         <location line="+141"/>
         <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n връзка към Биткоин мрежата</numerusform><numerusform>%n връзки към Биткоин мрежата</numerusform></translation>
+        <translation><numerusform>%n ������������ ������ �������������� ��������������</numerusform><numerusform>%n ������������ ������ �������������� ��������������</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -612,27 +612,27 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-140"/>
         <source>Up to date</source>
-        <translation>Синхронизиран</translation>
+        <translation>��������������������������</translation>
     </message>
     <message>
         <location line="+31"/>
         <source>Catching up...</source>
-        <translation>Зарежда блокове...</translation>
+        <translation>�������������� ��������������...</translation>
     </message>
     <message>
         <location line="+113"/>
         <source>Confirm transaction fee</source>
-        <translation>Потвърждение за такса</translation>
+        <translation>������������������������ ���� ����������</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Sent transaction</source>
-        <translation>Изходяща транзакция</translation>
+        <translation>���������������� ��������������������</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Incoming transaction</source>
-        <translation>Входяща транзакция</translation>
+        <translation>�������������� ��������������������</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -658,12 +658,12 @@ Address: %4
     <message>
         <location line="+17"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>Портфейлът е &lt;b&gt;криптиран&lt;/b&gt; и &lt;b&gt;отключен&lt;/b&gt;</translation>
+        <translation>�������������������� �� &lt;b&gt;������������������&lt;/b&gt; �� &lt;b&gt;����������������&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>Портфейлът е &lt;b&gt;криптиран&lt;/b&gt; и &lt;b&gt;заключен&lt;/b&gt;</translation>
+        <translation>�������������������� �� &lt;b&gt;������������������&lt;/b&gt; �� &lt;b&gt;����������������&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
@@ -684,67 +684,67 @@ Address: %4
     <message>
         <location filename="../forms/editaddressdialog.ui" line="+14"/>
         <source>Edit Address</source>
-        <translation>Редактиране на адрес</translation>
+        <translation>���������������������� ���� ����������</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>&amp;Label</source>
-        <translation>&amp;Име</translation>
+        <translation>&amp;������</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>The label associated with this address book entry</source>
-        <translation>Името свързано с този запис в списъка с адреси</translation>
+        <translation>���������� ���������������� �� �������� ���������� �� �������������� �� ������������</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>&amp;Address</source>
-        <translation>&amp;Адрес</translation>
+        <translation>&amp;����������</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>The address associated with this address book entry. This can only be modified for sending addresses.</source>
-        <translation>Адресът свързан с този запис в списъка с адреси. Може да се променя само за изходящи адреси.</translation>
+        <translation>�������������� �������������� �� �������� ���������� �� �������������� �� ������������. �������� ���� ���� �������������� �������� ���� ���������������� ������������.</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="+21"/>
         <source>New receiving address</source>
-        <translation>Нов адрес за получаване</translation>
+        <translation>������ ���������� ���� ��������������������</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>New sending address</source>
-        <translation>Нов адрес за изпращане</translation>
+        <translation>������ ���������� ���� ������������������</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Edit receiving address</source>
-        <translation>Редактиране на входящ адрес</translation>
+        <translation>���������������������� ���� ������������ ����������</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Edit sending address</source>
-        <translation>Редактиране на изходящ адрес</translation>
+        <translation>���������������������� ���� �������������� ����������</translation>
     </message>
     <message>
         <location line="+76"/>
         <source>The entered address &quot;%1&quot; is already in the address book.</source>
-        <translation>Вече има адрес &quot;%1&quot; в списъка с адреси.</translation>
+        <translation>�������� ������ ���������� &quot;%1&quot; �� �������������� �� ������������.</translation>
     </message>
     <message>
         <location line="-5"/>
         <source>The entered address &quot;%1&quot; is not a valid Bitcoin address.</source>
-        <translation>&quot;%1&quot; не е валиден Биткоин адрес.</translation>
+        <translation>&quot;%1&quot; ���� �� �������������� �������������� ����������.</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Could not unlock wallet.</source>
-        <translation>Отключването на портфейла беше неуспешно.</translation>
+        <translation>������������������������ ���� ������������������ �������� ������������������.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>New key generation failed.</source>
-        <translation>Създаването на ключ беше неуспешно.</translation>
+        <translation>���������������������� ���� �������� �������� ������������������.</translation>
     </message>
 </context>
 <context>
@@ -773,7 +773,7 @@ Address: %4
     <message>
         <location line="+4"/>
         <source>UI options</source>
-        <translation>UI Опции</translation>
+        <translation>UI ����������</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -796,12 +796,12 @@ Address: %4
     <message>
         <location filename="../forms/optionsdialog.ui" line="+14"/>
         <source>Options</source>
-        <translation>Опции</translation>
+        <translation>����������</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>&amp;Main</source>
-        <translation>&amp;Основни</translation>
+        <translation>&amp;��������������</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -811,7 +811,7 @@ Address: %4
     <message>
         <location line="+15"/>
         <source>Pay transaction &amp;fee</source>
-        <translation>&amp;Такса за изходяща транзакция</translation>
+        <translation>&amp;���������� ���� ���������������� ��������������������</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -821,7 +821,7 @@ Address: %4
     <message>
         <location line="+3"/>
         <source>&amp;Start Bitcoin on system login</source>
-        <translation>&amp;Пускане на Биткоин при вход в системата</translation>
+        <translation>&amp;�������������� ���� �������������� ������ �������� �� ������������������</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -836,17 +836,17 @@ Address: %4
     <message>
         <location line="+13"/>
         <source>&amp;Network</source>
-        <translation>&amp;Мрежа</translation>
+        <translation>&amp;����������</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматично отваряне на входящия Bitcoin порт. Работи само с рутери поддържащи UPnP.</translation>
+        <translation>���������������������� ���������������� ���� ���������������� Bitcoin ��������. ������������ �������� �� ������������ �������������������� UPnP.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Map port using &amp;UPnP</source>
-        <translation>Отваряне на входящия порт чрез &amp;UPnP</translation>
+        <translation>���������������� ���� ���������������� �������� �������� &amp;UPnP</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -866,7 +866,7 @@ Address: %4
     <message>
         <location line="+19"/>
         <source>IP address of the proxy (e.g. 127.0.0.1)</source>
-        <translation>IP адрес на прокси сървъра (например 127.0.0.1)</translation>
+        <translation>IP ���������� ���� ������������ �������������� (���������������� 127.0.0.1)</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -891,62 +891,62 @@ Address: %4
     <message>
         <location line="+36"/>
         <source>&amp;Window</source>
-        <translation>&amp;Прозорец</translation>
+        <translation>&amp;����������������</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Show only a tray icon after minimizing the window.</source>
-        <translation>След минимизиране ще е видима само иконата в системния трей.</translation>
+        <translation>�������� ������������������������ ���� �� ������������ �������� �������������� �� ������������������ ��������.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation>&amp;Минимизиране в системния трей</translation>
+        <translation>&amp;������������������������ �� ������������������ ��������</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
-        <translation>При затваряне на прозореца приложението остава минимизирано. Ако изберете тази опция, приложението може да се затвори само чрез Изход в менюто.</translation>
+        <translation>������ ������������������ ���� ������������������ ������������������������ ������������ ������������������������. ������ ���������������� �������� ����������, ������������������������ �������� ���� ���� �������������� �������� �������� ���������� �� ������������.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>M&amp;inimize on close</source>
-        <translation>М&amp;инимизиране при затваряне</translation>
+        <translation>��&amp;���������������������� ������ ������������������</translation>
     </message>
     <message>
         <location line="+21"/>
         <source>&amp;Display</source>
-        <translation>&amp;Интерфейс</translation>
+        <translation>&amp;������������������</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>User Interface &amp;language:</source>
-        <translation>Език:</translation>
+        <translation>��������:</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin.</source>
-        <translation>Промяната на езика ще влезе в сила след рестартиране на Биткоин.</translation>
+        <translation>������������������ ���� ���������� ���� ���������� �� �������� �������� ������������������������ ���� ��������������.</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>Мерни единици:</translation>
+        <translation>���������� ��������������:</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Изберете единиците, показвани по подразбиране в интерфейса.</translation>
+        <translation>���������������� ������������������, ������������������ ���� ������������������������ �� ��������������������.</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Whether to show Bitcoin addresses in the transaction list or not.</source>
-        <translation>Ще се показват адресите в списъка с транзакции независимо от наличието на кратко име.</translation>
+        <translation>���� ���� ���������������� ���������������� �� �������������� �� �������������������� �������������������� ���� ������������������ ���� ������������ ������.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Display addresses in transaction list</source>
-        <translation>Показвай и адресите в списъка с транзакции</translation>
+        <translation>���������������� �� ���������������� �� �������������� �� ��������������������</translation>
     </message>
     <message>
         <location line="+71"/>
@@ -998,7 +998,7 @@ Address: %4
     <message>
         <location line="+29"/>
         <source>The supplied proxy address is invalid.</source>
-        <translation>Прокси адресът е невалиден.</translation>
+        <translation>������������ �������������� �� ������������������.</translation>
     </message>
 </context>
 <context>
@@ -1006,7 +1006,7 @@ Address: %4
     <message>
         <location filename="../forms/overviewpage.ui" line="+14"/>
         <source>Form</source>
-        <translation>Форма</translation>
+        <translation>����������</translation>
     </message>
     <message>
         <location line="+50"/>
@@ -1017,17 +1017,17 @@ Address: %4
     <message>
         <location line="-124"/>
         <source>Balance:</source>
-        <translation>Баланс:</translation>
+        <translation>������������:</translation>
     </message>
     <message>
         <location line="+29"/>
         <source>Unconfirmed:</source>
-        <translation>Непотвърдени:</translation>
+        <translation>������������������������:</translation>
     </message>
     <message>
         <location line="-78"/>
         <source>Wallet</source>
-        <translation>Портфейл</translation>
+        <translation>����������������</translation>
     </message>
     <message>
         <location line="+107"/>
@@ -1042,23 +1042,23 @@ Address: %4
     <message>
         <location line="+46"/>
         <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Последни транзакции&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;���������������� ��������������������&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="-101"/>
         <source>Your current balance</source>
-        <translation>Вашият текущ баланс</translation>
+        <translation>������������ ���������� ������������</translation>
     </message>
     <message>
         <location line="+29"/>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
-        <translation>Сборът на все още непотвърдените транзакции, които не са част от текущия баланс</translation>
+        <translation>������������ ���� ������ ������ ���������������������������� ��������������������, ���������� ���� ���� �������� ���� �������������� ������������</translation>
     </message>
     <message>
         <location filename="../overviewpage.cpp" line="+116"/>
         <location line="+1"/>
         <source>out of sync</source>
-        <translation>несинхронизиран</translation>
+        <translation>������������������������������</translation>
     </message>
 </context>
 <context>
@@ -1079,37 +1079,37 @@ Address: %4
     <message>
         <location line="+59"/>
         <source>Request Payment</source>
-        <translation>Изискай плащане</translation>
+        <translation>�������������� ��������������</translation>
     </message>
     <message>
         <location line="+56"/>
         <source>Amount:</source>
-        <translation>Сума:</translation>
+        <translation>��������:</translation>
     </message>
     <message>
         <location line="-44"/>
         <source>Label:</source>
-        <translation>Име:</translation>
+        <translation>������:</translation>
     </message>
     <message>
         <location line="+19"/>
         <source>Message:</source>
-        <translation>Съобщение:</translation>
+        <translation>������������������:</translation>
     </message>
     <message>
         <location line="+71"/>
         <source>&amp;Save As...</source>
-        <translation>&amp;Запази като...</translation>
+        <translation>&amp;������������ ��������...</translation>
     </message>
     <message>
         <location filename="../qrcodedialog.cpp" line="+62"/>
         <source>Error encoding URI into QR Code.</source>
-        <translation>Грешка при създаването на QR Code от URI.</translation>
+        <translation>������������ ������ ���������������������� ���� QR Code ���� URI.</translation>
     </message>
     <message>
         <location line="+40"/>
         <source>The entered amount is invalid, please check.</source>
-        <translation>Въведената сума е невалидна, моля проверете.</translation>
+        <translation>�������������������� �������� �� ������������������, �������� ������������������.</translation>
     </message>
     <message>
         <location line="+23"/>
@@ -1171,7 +1171,7 @@ Address: %4
     <message>
         <location line="+29"/>
         <source>Network</source>
-        <translation>Мрежа</translation>
+        <translation>����������</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1256,7 +1256,7 @@ Address: %4
     <message>
         <location line="+102"/>
         <source>Clear console</source>
-        <translation>Изчисти конзолата</translation>
+        <translation>�������������� ������������������</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
@@ -1266,7 +1266,7 @@ Address: %4
     <message>
         <location line="+1"/>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
-        <translation>Използвайте стрелки надолу и нагореза разглеждане на историятаот команди и &lt;b&gt;Ctrl-L&lt;/b&gt; за изчистване на конзолата.</translation>
+        <translation>���������������������� �������������� ������������ �� ���������������� ���������������������� ���� ���������������������� �������������� �� &lt;b&gt;Ctrl-L&lt;/b&gt; ���� �������������������� ���� ������������������.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1286,77 +1286,77 @@ Address: %4
         <location line="+5"/>
         <location line="+5"/>
         <source>Send Coins</source>
-        <translation>Изпращане</translation>
+        <translation>������������������</translation>
     </message>
     <message>
         <location line="+50"/>
         <source>Send to multiple recipients at once</source>
-        <translation>Изпращане към повече от един получател</translation>
+        <translation>������������������ ������ ������������ ���� �������� ������������������</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Add &amp;Recipient</source>
-        <translation>Добави &amp;получател</translation>
+        <translation>������������ &amp;������������������</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>Remove all transaction fields</source>
-        <translation>Изчистване на всички полета</translation>
+        <translation>�������������������� ���� ������������ ������������</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Clear &amp;All</source>
-        <translation>&amp;Изчисти</translation>
+        <translation>&amp;��������������</translation>
     </message>
     <message>
         <location line="+22"/>
         <source>Balance:</source>
-        <translation>Баланс:</translation>
+        <translation>������������:</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>123.456 BTC</source>
-        <translation>123.456 BTC</translation>
+        <source>123.456 IXC</source>
+        <translation>123.456 IXC</translation>
     </message>
     <message>
         <location line="+31"/>
         <source>Confirm the send action</source>
-        <translation>Потвърдете изпращането</translation>
+        <translation>�������������������� ����������������������</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>S&amp;end</source>
-        <translation>И&amp;зпрати</translation>
+        <translation>��&amp;������������</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-59"/>
         <source>&lt;b&gt;%1&lt;/b&gt; to %2 (%3)</source>
-        <translation>&lt;b&gt;%1&lt;/b&gt; на %2 (%3)</translation>
+        <translation>&lt;b&gt;%1&lt;/b&gt; ���� %2 (%3)</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Confirm send coins</source>
-        <translation>Потвърждаване</translation>
+        <translation>��������������������������</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Are you sure you want to send %1?</source>
-        <translation>Сигурни ли сте, че искате да изпратите %1?</translation>
+        <translation>�������������� ���� ������, ���� ������������ ���� ������������������ %1?</translation>
     </message>
     <message>
         <location line="+0"/>
         <source> and </source>
-        <translation> и </translation>
+        <translation> �� </translation>
     </message>
     <message>
         <location line="+23"/>
         <source>The recipient address is not valid, please recheck.</source>
-        <translation>Невалиден адрес на получателя.</translation>
+        <translation>������������������ ���������� ���� ��������������������.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>The amount to pay must be larger than 0.</source>
-        <translation>Сумата трябва да е по-голяма от 0.</translation>
+        <translation>������������ ������������ ���� �� ����-������������ ���� 0.</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -1381,7 +1381,7 @@ Address: %4
     <message>
         <location line="+5"/>
         <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Грешка: транзакцията беше отхвърлена. Това е възможно ако част от парите в портфейла са вече похарчени, например при паралелно използване на копие на wallet.dat</translation>
+        <translation>������������: ������������������������ �������� ��������������������. �������� �� ���������������� ������ �������� ���� ������������ �� ������������������ ���� �������� ������������������, ���������������� ������ ������������������ �������������������� ���� ���������� ���� wallet.dat</translation>
     </message>
 </context>
 <context>
@@ -1389,17 +1389,17 @@ Address: %4
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="+14"/>
         <source>Form</source>
-        <translation>Форма</translation>
+        <translation>����������</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>A&amp;mount:</source>
-        <translation>С&amp;ума:</translation>
+        <translation>��&amp;������:</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Pay &amp;To:</source>
-        <translation>Плати &amp;На:</translation>
+        <translation>���������� &amp;����:</translation>
     </message>
     <message>
         <location line="+34"/>
@@ -1410,17 +1410,17 @@ Address: %4
         <location line="+60"/>
         <location filename="../sendcoinsentry.cpp" line="+26"/>
         <source>Enter a label for this address to add it to your address book</source>
-        <translation>Въведете име за този адрес, за да го добавите в списъка с адреси</translation>
+        <translation>���������������� ������ ���� �������� ����������, ���� ���� ���� ���������������� �� �������������� �� ������������</translation>
     </message>
     <message>
         <location line="-78"/>
         <source>&amp;Label:</source>
-        <translation>&amp;Име:</translation>
+        <translation>&amp;������:</translation>
     </message>
     <message>
         <location line="+28"/>
         <source>Choose address from address book</source>
-        <translation>Изберете от списъка с адреси</translation>
+        <translation>���������������� ���� �������������� �� ������������</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1430,7 +1430,7 @@ Address: %4
     <message>
         <location line="+7"/>
         <source>Paste address from clipboard</source>
-        <translation>Вмъкни от клипборда</translation>
+        <translation>������������ ���� ������������������</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1440,12 +1440,12 @@ Address: %4
     <message>
         <location line="+7"/>
         <source>Remove this recipient</source>
-        <translation>Махни този получател</translation>
+        <translation>���������� �������� ������������������</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
         <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Въведете Биткоин адрес (например 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <translation>���������������� �������������� ���������� (���������������� 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
 <context>
@@ -1453,28 +1453,28 @@ Address: %4
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="+14"/>
         <source>Signatures - Sign / Verify a Message</source>
-        <translation>Подпиши / Провери съобщение</translation>
+        <translation>�������������� / �������������� ������������������</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>&amp;Sign Message</source>
-        <translation>&amp;Подпиши</translation>
+        <translation>&amp;��������������</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Можете да подпишете съобщение като доказателство, че притежавате определен адрес. Бъдете внимателни и не подписвайте съобщения, които биха разкрили лична информация без вашето съгласие.</translation>
+        <translation>������������ ���� ������������������ ������������������ �������� ��������������������������, ���� ���������������������� ������������������ ����������. ������������ �������������������� �� ���� ���������������������� ������������������, ���������� �������� ���������������� ���������� �������������������� ������ ������������ ����������������.</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Адресът, с който ще подпишете съобщението (например 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <translation>��������������, �� ���������� ���� ������������������ ���������������������� (���������������� 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="+10"/>
         <location line="+213"/>
         <source>Choose an address from the address book</source>
-        <translation>Изберете от списъка с адреси</translation>
+        <translation>���������������� ���� �������������� �� ������������</translation>
     </message>
     <message>
         <location line="-203"/>
@@ -1485,7 +1485,7 @@ Address: %4
     <message>
         <location line="-203"/>
         <source>Paste address from clipboard</source>
-        <translation>Вмъкни от клипборда</translation>
+        <translation>������������ ���� ������������������</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1495,7 +1495,7 @@ Address: %4
     <message>
         <location line="+12"/>
         <source>Enter the message you want to sign here</source>
-        <translation>Въведете съобщението тук</translation>
+        <translation>���������������� ���������������������� ������</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1505,12 +1505,12 @@ Address: %4
     <message>
         <location line="+27"/>
         <source>Copy the current signature to the system clipboard</source>
-        <translation>Копиране на текущия подпис</translation>
+        <translation>���������������� ���� �������������� ������������</translation>
     </message>
     <message>
         <location line="+21"/>
         <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation>Подпишете съобщение като доказателство, че притежавате определен адрес</translation>
+        <translation>������������������ ������������������ �������� ��������������������������, ���� ���������������������� ������������������ ����������</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1526,12 +1526,12 @@ Address: %4
         <location line="+3"/>
         <location line="+146"/>
         <source>Clear &amp;All</source>
-        <translation>&amp;Изчисти</translation>
+        <translation>&amp;��������������</translation>
     </message>
     <message>
         <location line="-87"/>
         <source>&amp;Verify Message</source>
-        <translation>&amp;Провери</translation>
+        <translation>&amp;��������������</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -1541,12 +1541,12 @@ Address: %4
     <message>
         <location line="+21"/>
         <source>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Адресът, с който е подписано съобщението (например 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <translation>��������������, �� ���������� �� ������������������ ���������������������� (���������������� 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="+40"/>
         <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Проверете съобщение, за да сте сигурни че е подписано с определен Биткоин адрес</translation>
+        <translation>������������������ ������������������, ���� ���� ������ �������������� ���� �� ������������������ �� ������������������ �������������� ����������</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1562,23 +1562,23 @@ Address: %4
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
         <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Въведете Биткоин адрес (например 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <translation>���������������� �������������� ���������� (���������������� 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="-2"/>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
-        <translation>Натиснете &quot;Подписване на съобщение&quot; за да създадете подпис</translation>
+        <translation>������������������ &quot;�������������������� ���� ������������������&quot; ���� ���� ������������������ ������������</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Enter Bitcoin signature</source>
-        <translation>Биткоин подпис</translation>
+        <translation>�������������� ������������</translation>
     </message>
     <message>
         <location line="+82"/>
         <location line="+81"/>
         <source>The entered address is invalid.</source>
-        <translation>Въведеният адрес е невалиден.</translation>
+        <translation>�������������������� ���������� �� ������������������.</translation>
     </message>
     <message>
         <location line="-81"/>
@@ -1586,7 +1586,7 @@ Address: %4
         <location line="+73"/>
         <location line="+8"/>
         <source>Please check the address and try again.</source>
-        <translation>Моля проверете адреса и опитайте отново.</translation>
+        <translation>�������� ������������������ ������������ �� ���������������� ������������.</translation>
     </message>
     <message>
         <location line="-81"/>
@@ -1602,43 +1602,43 @@ Address: %4
     <message>
         <location line="+8"/>
         <source>Private key for the entered address is not available.</source>
-        <translation>Не е наличен частният ключ за въведеният адрес.</translation>
+        <translation>���� �� �������������� ���������������� �������� ���� �������������������� ����������.</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>Message signing failed.</source>
-        <translation>Подписването на съобщение бе неуспешно.</translation>
+        <translation>������������������������ ���� ������������������ ���� ������������������.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Message signed.</source>
-        <translation>Съобщението е подписано.</translation>
+        <translation>���������������������� �� ������������������.</translation>
     </message>
     <message>
         <location line="+59"/>
         <source>The signature could not be decoded.</source>
-        <translation>Подписът не може да бъде декодиран.</translation>
+        <translation>���������������� ���� �������� ���� �������� ������������������.</translation>
     </message>
     <message>
         <location line="+0"/>
         <location line="+13"/>
         <source>Please check the signature and try again.</source>
-        <translation>Проверете подписа и опитайте отново.</translation>
+        <translation>������������������ �������������� �� ���������������� ������������.</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>The signature did not match the message digest.</source>
-        <translation>Подписът не отговаря на комбинацията от съобщение и адрес.</translation>
+        <translation>���������������� ���� ���������������� ���� ������������������������ ���� ������������������ �� ����������.</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Message verification failed.</source>
-        <translation>Проверката на съобщението беше неуспешна.</translation>
+        <translation>�������������������� ���� ���������������������� �������� ������������������.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Message verified.</source>
-        <translation>Съобщението е потвърдено.</translation>
+        <translation>���������������������� �� ��������������������.</translation>
     </message>
 </context>
 <context>
@@ -1659,27 +1659,27 @@ Address: %4
     <message>
         <location filename="../transactiondesc.cpp" line="+20"/>
         <source>Open until %1</source>
-        <translation>Подлежи на промяна до %1</translation>
+        <translation>�������������� ���� �������������� ���� %1</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>%1/offline</source>
-        <translation>%1/офлайн</translation>
+        <translation>%1/������������</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>%1/unconfirmed</source>
-        <translation>%1/непотвърдени</translation>
+        <translation>%1/������������������������</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>%1 confirmations</source>
-        <translation>включена в %1 блока</translation>
+        <translation>���������������� �� %1 ����������</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>Status</source>
-        <translation>Статус</translation>
+        <translation>������������</translation>
     </message>
     <message numerus="yes">
         <location line="+7"/>
@@ -1689,41 +1689,41 @@ Address: %4
     <message>
         <location line="+4"/>
         <source>Date</source>
-        <translation>Дата</translation>
+        <translation>��������</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Source</source>
-        <translation>Източник</translation>
+        <translation>����������������</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Generated</source>
-        <translation>Издадени</translation>
+        <translation>����������������</translation>
     </message>
     <message>
         <location line="+5"/>
         <location line="+17"/>
         <source>From</source>
-        <translation>От</translation>
+        <translation>����</translation>
     </message>
     <message>
         <location line="+1"/>
         <location line="+22"/>
         <location line="+58"/>
         <source>To</source>
-        <translation>За</translation>
+        <translation>����</translation>
     </message>
     <message>
         <location line="-77"/>
         <location line="+2"/>
         <source>own address</source>
-        <translation>собствен адрес</translation>
+        <translation>���������������� ����������</translation>
     </message>
     <message>
         <location line="-2"/>
         <source>label</source>
-        <translation>име</translation>
+        <translation>������</translation>
     </message>
     <message>
         <location line="+37"/>
@@ -1732,7 +1732,7 @@ Address: %4
         <location line="+17"/>
         <location line="+30"/>
         <source>Credit</source>
-        <translation>Кредит</translation>
+        <translation>������������</translation>
     </message>
     <message numerus="yes">
         <location line="-102"/>
@@ -1750,27 +1750,27 @@ Address: %4
         <location line="+15"/>
         <location line="+30"/>
         <source>Debit</source>
-        <translation>Дебит</translation>
+        <translation>����������</translation>
     </message>
     <message>
         <location line="-39"/>
         <source>Transaction fee</source>
-        <translation>Такса</translation>
+        <translation>����������</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Net amount</source>
-        <translation>Сума нето</translation>
+        <translation>�������� ��������</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Message</source>
-        <translation>Съобщение</translation>
+        <translation>������������������</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Comment</source>
-        <translation>Коментар</translation>
+        <translation>����������������</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1790,7 +1790,7 @@ Address: %4
     <message>
         <location line="+8"/>
         <source>Transaction</source>
-        <translation>Транзакция</translation>
+        <translation>��������������������</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1800,7 +1800,7 @@ Address: %4
     <message>
         <location line="+23"/>
         <source>Amount</source>
-        <translation>Сума</translation>
+        <translation>��������</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1815,7 +1815,7 @@ Address: %4
     <message>
         <location line="-209"/>
         <source>, has not been successfully broadcast yet</source>
-        <translation>, все още не е изпратено</translation>
+        <translation>, ������ ������ ���� �� ������������������</translation>
     </message>
     <message numerus="yes">
         <location line="-35"/>
@@ -1825,7 +1825,7 @@ Address: %4
     <message>
         <location line="+70"/>
         <source>unknown</source>
-        <translation>неизвестен</translation>
+        <translation>��������������������</translation>
     </message>
 </context>
 <context>
@@ -1833,12 +1833,12 @@ Address: %4
     <message>
         <location filename="../forms/transactiondescdialog.ui" line="+14"/>
         <source>Transaction details</source>
-        <translation>Транзакция</translation>
+        <translation>��������������������</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation>Описание на транзакцията</translation>
+        <translation>���������������� ���� ������������������������</translation>
     </message>
 </context>
 <context>
@@ -1846,22 +1846,22 @@ Address: %4
     <message>
         <location filename="../transactiontablemodel.cpp" line="+225"/>
         <source>Date</source>
-        <translation>Дата</translation>
+        <translation>��������</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Type</source>
-        <translation>Тип</translation>
+        <translation>������</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Address</source>
-        <translation>Адрес</translation>
+        <translation>����������</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Amount</source>
-        <translation>Сума</translation>
+        <translation>��������</translation>
     </message>
     <message numerus="yes">
         <location line="+57"/>
@@ -1871,22 +1871,22 @@ Address: %4
     <message>
         <location line="+3"/>
         <source>Open until %1</source>
-        <translation>Подлежи на промяна до %1</translation>
+        <translation>�������������� ���� �������������� ���� %1</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Offline (%1 confirmations)</source>
-        <translation>Офлайн (%1 потвърждения)</translation>
+        <translation>������������ (%1 ������������������������)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Unconfirmed (%1 of %2 confirmations)</source>
-        <translation>Непотвърдени (%1 от %2 потвърждения)</translation>
+        <translation>������������������������ (%1 ���� %2 ������������������������)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Confirmed (%1 confirmations)</source>
-        <translation>Потвърдени (%1 потвърждения)</translation>
+        <translation>�������������������� (%1 ������������������������)</translation>
     </message>
     <message numerus="yes">
         <location line="+8"/>
@@ -1896,7 +1896,7 @@ Address: %4
     <message>
         <location line="+5"/>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation>Блокът не е получен от останалите участници и най-вероятно няма да бъде одобрен.</translation>
+        <translation>������������ ���� �� �������������� ���� �������������������� ������������������ �� ������-���������������� �������� ���� �������� ��������������.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1906,7 +1906,7 @@ Address: %4
     <message>
         <location line="+43"/>
         <source>Received with</source>
-        <translation>Получени с</translation>
+        <translation>���������������� ��</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1916,7 +1916,7 @@ Address: %4
     <message>
         <location line="+3"/>
         <source>Sent to</source>
-        <translation>Изпратени на</translation>
+        <translation>������������������ ����</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1926,7 +1926,7 @@ Address: %4
     <message>
         <location line="+2"/>
         <source>Mined</source>
-        <translation>Емитирани</translation>
+        <translation>������������������</translation>
     </message>
     <message>
         <location line="+38"/>
@@ -1936,27 +1936,27 @@ Address: %4
     <message>
         <location line="+199"/>
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
-        <translation>Състояние на транзакцията. Задръжте върху това поле за брой потвърждения.</translation>
+        <translation>������������������ ���� ������������������������. ���������������� ���������� �������� �������� ���� �������� ������������������������.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Date and time that the transaction was received.</source>
-        <translation>Дата и час на получаване.</translation>
+        <translation>�������� �� ������ ���� ��������������������.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Type of transaction.</source>
-        <translation>Тип на транзакцията.</translation>
+        <translation>������ ���� ������������������������.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Destination address of transaction.</source>
-        <translation>Получател на транзакцията.</translation>
+        <translation>������������������ ���� ������������������������.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Amount removed from or added to balance.</source>
-        <translation>Сума извадена или добавена към баланса.</translation>
+        <translation>�������� ���������������� ������ ���������������� ������ ��������������.</translation>
     </message>
 </context>
 <context>
@@ -1965,82 +1965,82 @@ Address: %4
         <location filename="../transactionview.cpp" line="+52"/>
         <location line="+16"/>
         <source>All</source>
-        <translation>Всички</translation>
+        <translation>������������</translation>
     </message>
     <message>
         <location line="-15"/>
         <source>Today</source>
-        <translation>Днес</translation>
+        <translation>��������</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>This week</source>
-        <translation>Тази седмица</translation>
+        <translation>�������� ��������������</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>This month</source>
-        <translation>Този месец</translation>
+        <translation>�������� ����������</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Last month</source>
-        <translation>Предния месец</translation>
+        <translation>�������������� ����������</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>This year</source>
-        <translation>Тази година</translation>
+        <translation>�������� ������������</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Range...</source>
-        <translation>От - до...</translation>
+        <translation>���� - ����...</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>Received with</source>
-        <translation>Получени</translation>
+        <translation>����������������</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Sent to</source>
-        <translation>Изпратени на</translation>
+        <translation>������������������ ����</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>To yourself</source>
-        <translation>Собствени</translation>
+        <translation>������������������</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Mined</source>
-        <translation>Емитирани</translation>
+        <translation>������������������</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Other</source>
-        <translation>Други</translation>
+        <translation>����������</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Enter address or label to search</source>
-        <translation>Търсене по адрес или име</translation>
+        <translation>�������������� ���� ���������� ������ ������</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Min amount</source>
-        <translation>Минимална сума</translation>
+        <translation>������������������ ��������</translation>
     </message>
     <message>
         <location line="+34"/>
         <source>Copy address</source>
-        <translation>Копирай адрес</translation>
+        <translation>�������������� ����������</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy label</source>
-        <translation>Копирай име</translation>
+        <translation>�������������� ������</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2055,7 +2055,7 @@ Address: %4
     <message>
         <location line="+1"/>
         <source>Edit label</source>
-        <translation>Редактирай име</translation>
+        <translation>�������������������� ������</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2070,37 +2070,37 @@ Address: %4
     <message>
         <location line="+1"/>
         <source>Comma separated file (*.csv)</source>
-        <translation>CSV файл (*.csv)</translation>
+        <translation>CSV �������� (*.csv)</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Confirmed</source>
-        <translation>Потвърдени</translation>
+        <translation>��������������������</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Date</source>
-        <translation>Дата</translation>
+        <translation>��������</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Type</source>
-        <translation>Тип</translation>
+        <translation>������</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Label</source>
-        <translation>Име</translation>
+        <translation>������</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Address</source>
-        <translation>Адрес</translation>
+        <translation>����������</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Amount</source>
-        <translation>Сума</translation>
+        <translation>��������</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2110,22 +2110,22 @@ Address: %4
     <message>
         <location line="+4"/>
         <source>Error exporting</source>
-        <translation>Грешка при записа</translation>
+        <translation>������������ ������ ������������</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Could not write to file %1.</source>
-        <translation>Неуспешен запис в %1.</translation>
+        <translation>������������������ ���������� �� %1.</translation>
     </message>
     <message>
         <location line="+100"/>
         <source>Range:</source>
-        <translation>От:</translation>
+        <translation>����:</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>to</source>
-        <translation>до</translation>
+        <translation>����</translation>
     </message>
 </context>
 <context>
@@ -2133,7 +2133,7 @@ Address: %4
     <message>
         <location filename="../walletmodel.cpp" line="+193"/>
         <source>Send Coins</source>
-        <translation>Изпращане</translation>
+        <translation>������������������</translation>
     </message>
 </context>
 <context>
@@ -2146,7 +2146,7 @@ Address: %4
     <message>
         <location line="+1"/>
         <source>Export the data in the current tab to a file</source>
-        <translation>Запишете данните от текущия раздел във файл</translation>
+        <translation>���������������� �������������� ���� �������������� ������������ ������ ��������</translation>
     </message>
     <message>
         <location line="+193"/>
@@ -2184,7 +2184,7 @@ Address: %4
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
         <source>Bitcoin version</source>
-        <translation>Биткоин версия</translation>
+        <translation>�������������� ������������</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2209,7 +2209,7 @@ Address: %4
     <message>
         <location line="+24"/>
         <source>Options:</source>
-        <translation>Опции:</translation>
+        <translation>����������:</translation>
     </message>
     <message>
         <location line="+24"/>
@@ -2559,7 +2559,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="+3"/>
         <source>Invalid -tor address: &apos;%s&apos;</source>
-        <translation>Невалиден -tor адрес: &apos;%s&apos;</translation>
+        <translation>������������������ -tor ����������: &apos;%s&apos;</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2794,7 +2794,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="+55"/>
         <source>Loading addresses...</source>
-        <translation>Зареждане на адресите...</translation>
+        <translation>������������������ ���� ����������������...</translation>
     </message>
     <message>
         <location line="-35"/>
@@ -2819,7 +2819,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="+28"/>
         <source>Invalid -proxy address: &apos;%s&apos;</source>
-        <translation>Невалиден -proxy address: &apos;%s&apos;</translation>
+        <translation>������������������ -proxy address: &apos;%s&apos;</translation>
     </message>
     <message>
         <location line="+56"/>
@@ -2859,7 +2859,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="+10"/>
         <source>Loading block index...</source>
-        <translation>Зареждане на блок индекса...</translation>
+        <translation>������������������ ���� �������� ��������������...</translation>
     </message>
     <message>
         <location line="-57"/>
@@ -2879,7 +2879,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="+19"/>
         <source>Loading wallet...</source>
-        <translation>Зареждане на портфейла...</translation>
+        <translation>������������������ ���� ������������������...</translation>
     </message>
     <message>
         <location line="-52"/>
@@ -2894,12 +2894,12 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="+64"/>
         <source>Rescanning...</source>
-        <translation>Преразглеждане на последовтелността от блокове...</translation>
+        <translation>���������������������������� ���� ���������������������������������� ���� ��������������...</translation>
     </message>
     <message>
         <location line="-57"/>
         <source>Done loading</source>
-        <translation>Зареждането е завършено</translation>
+        <translation>���������������������� �� ������������������</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2909,7 +2909,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="-74"/>
         <source>Error</source>
-        <translation>Грешка</translation>
+        <translation>������������</translation>
     </message>
     <message>
         <location line="-31"/>

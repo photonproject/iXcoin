@@ -5,12 +5,12 @@
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
         <source>About Bitcoin</source>
-        <translation>Bitcoinについて</translation>
+        <translation>Bitcoin������������</translation>
     </message>
     <message>
         <location line="+39"/>
         <source>&lt;b&gt;Bitcoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Bitcoin&lt;/b&gt; バージョン</translation>
+        <translation>&lt;b&gt;Bitcoin&lt;/b&gt; ���������������</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -38,22 +38,22 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
         <source>Address Book</source>
-        <translation>アドレス帳</translation>
+        <translation>���������������</translation>
     </message>
     <message>
         <location line="+19"/>
         <source>Double-click to edit address or label</source>
-        <translation>アドレスまたはラベルを編集するにはダブルクリック</translation>
+        <translation>������������������������������������������������������������������������</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>Create a new address</source>
-        <translation>新規アドレスの作成</translation>
+        <translation>���������������������������</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>現在選択されているアドレスをシステムのクリップボードにコピーする</translation>
+        <translation>������������������������������������������������������������������������������������������������</translation>
     </message>
     <message>
         <location line="-11"/>
@@ -113,7 +113,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+14"/>
         <source>&amp;Delete</source>
-        <translation>削除(&amp;D)</translation>
+        <translation>������(&amp;D)</translation>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
@@ -138,22 +138,22 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+260"/>
         <source>Export Address Book Data</source>
-        <translation>アドレス帳データをエクスポートする</translation>
+        <translation>���������������������������������������������������</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Comma separated file (*.csv)</source>
-        <translation>CSVファイル (*.csv)</translation>
+        <translation>CSV������������ (*.csv)</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Error exporting</source>
-        <translation>エクスポートエラー</translation>
+        <translation>���������������������������</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Could not write to file %1.</source>
-        <translation>%1のファイルに書き込めませんでした。</translation>
+        <translation>%1���������������������������������������������������</translation>
     </message>
 </context>
 <context>
@@ -161,17 +161,17 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location filename="../addresstablemodel.cpp" line="+144"/>
         <source>Label</source>
-        <translation>ラベル</translation>
+        <translation>���������</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Address</source>
-        <translation>アドレス</translation>
+        <translation>������������</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>(no label)</source>
-        <translation>（ラベル無し）</translation>
+        <translation>���������������������</translation>
     </message>
 </context>
 <context>
@@ -184,62 +184,62 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+21"/>
         <source>Enter passphrase</source>
-        <translation>パスフレーズを入力</translation>
+        <translation>���������������������������</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>New passphrase</source>
-        <translation>新しいパスフレーズ</translation>
+        <translation>���������������������������</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Repeat new passphrase</source>
-        <translation>新しいパスフレーズをもう一度</translation>
+        <translation>������������������������������������������</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="+33"/>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>ウォレットの新しいパスフレーズを入力してください。&lt;br/&gt;&lt;b&gt;8個以上の単語か10個以上のランダムな文字&lt;/b&gt;を使ってください。</translation>
+        <translation>���������������������������������������������������������������������������&lt;br/&gt;&lt;b&gt;8���������������������10���������������������������������&lt;/b&gt;���������������������������</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Encrypt wallet</source>
-        <translation>ウォレットを暗号化する</translation>
+        <translation>���������������������������������</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>この操作はウォレットをアンロックするためにパスフレーズが必要です。</translation>
+        <translation>���������������������������������������������������������������������������������������������������</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Unlock wallet</source>
-        <translation>ウォレットをアンロックする</translation>
+        <translation>���������������������������������������</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>この操作はウォレットの暗号化解除のためにパスフレーズが必要です。</translation>
+        <translation>������������������������������������������������������������������������������������������������</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Decrypt wallet</source>
-        <translation>ウォレットの暗号化を解除する</translation>
+        <translation>������������������������������������������</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Change passphrase</source>
-        <translation>パスフレーズの変更</translation>
+        <translation>���������������������������</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Enter the old and new passphrase to the wallet.</source>
-        <translation>新旧両方のパスフレーズを入力してください。</translation>
+        <translation>���������������������������������������������������������������</translation>
     </message>
     <message>
         <location line="+46"/>
         <source>Confirm wallet encryption</source>
-        <translation>ウォレットの暗号化を確認する</translation>
+        <translation>������������������������������������������</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -266,7 +266,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="-130"/>
         <location line="+58"/>
         <source>Wallet encrypted</source>
-        <translation>ウォレットは暗号化されました</translation>
+        <translation>������������������������������������������</translation>
     </message>
     <message>
         <location line="-56"/>
@@ -279,35 +279,35 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+42"/>
         <location line="+6"/>
         <source>Wallet encryption failed</source>
-        <translation>ウォレットの暗号化に失敗しました</translation>
+        <translation>������������������������������������������������</translation>
     </message>
     <message>
         <location line="-54"/>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>内部エラーによりウォレットの暗号化が失敗しました。ウォレットは暗号化されませんでした。</translation>
+        <translation>���������������������������������������������������������������������������������������������������������������������������������</translation>
     </message>
     <message>
         <location line="+7"/>
         <location line="+48"/>
         <source>The supplied passphrases do not match.</source>
-        <translation>パスフレーズが同じではありません。</translation>
+        <translation>���������������������������������������������������</translation>
     </message>
     <message>
         <location line="-37"/>
         <source>Wallet unlock failed</source>
-        <translation>ウォレットのアンロックに失敗しました</translation>
+        <translation>������������������������������������������������������</translation>
     </message>
     <message>
         <location line="+1"/>
         <location line="+11"/>
         <location line="+19"/>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>ウォレットの暗号化解除のパスフレーズが正しくありません。</translation>
+        <translation>������������������������������������������������������������������������������������</translation>
     </message>
     <message>
         <location line="-20"/>
         <source>Wallet decryption failed</source>
-        <translation>ウォレットの暗号化解除に失敗しました</translation>
+        <translation>������������������������������������������������������</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -325,37 +325,37 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+280"/>
         <source>Synchronizing with network...</source>
-        <translation>ネットワークに同期中……</translation>
+        <translation>������������������������������������</translation>
     </message>
     <message>
         <location line="-349"/>
         <source>&amp;Overview</source>
-        <translation>概要(&amp;O)</translation>
+        <translation>������(&amp;O)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show general overview of wallet</source>
-        <translation>ウォレットの概要を見る</translation>
+        <translation>���������������������������������</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>&amp;Transactions</source>
-        <translation>取引(&amp;T)</translation>
+        <translation>������(&amp;T)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Browse transaction history</source>
-        <translation>取引履歴を閲覧</translation>
+        <translation>���������������������</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Edit the list of stored addresses and labels</source>
-        <translation>保存されたアドレスとラベルのリストを編集</translation>
+        <translation>������������������������������������������������������������</translation>
     </message>
     <message>
         <location line="-14"/>
         <source>Show the list of addresses for receiving payments</source>
-        <translation>支払い受け取り用アドレスのリストを見る</translation>
+        <translation>���������������������������������������������������������</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -365,12 +365,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+1"/>
         <source>Quit application</source>
-        <translation>アプリケーションを終了</translation>
+        <translation>���������������������������������</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Show information about Bitcoin</source>
-        <translation>Bitcoinに関する情報を見る</translation>
+        <translation>Bitcoin���������������������������</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -385,7 +385,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+2"/>
         <source>&amp;Options...</source>
-        <translation>オプション(&amp;O)</translation>
+        <translation>���������������(&amp;O)</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -430,7 +430,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+2"/>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>ウォレット暗号化用パスフレーズの変更</translation>
+        <translation>������������������������������������������������������</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -506,22 +506,22 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+28"/>
         <source>&amp;File</source>
-        <translation>ファイル(&amp;F)</translation>
+        <translation>������������(&amp;F)</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>&amp;Settings</source>
-        <translation>設定(&amp;S)</translation>
+        <translation>������(&amp;S)</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>&amp;Help</source>
-        <translation>ヘルプ(&amp;H)</translation>
+        <translation>���������(&amp;H)</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Tabs toolbar</source>
-        <translation>タブツールバー</translation>
+        <translation>���������������������</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -607,7 +607,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-140"/>
         <source>Up to date</source>
-        <translation>バージョンは最新です</translation>
+        <translation>������������������������������</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -622,12 +622,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+8"/>
         <source>Sent transaction</source>
-        <translation>送金取引</translation>
+        <translation>������������</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Incoming transaction</source>
-        <translation>着金取引</translation>
+        <translation>������������</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -653,12 +653,12 @@ Address: %4
     <message>
         <location line="+17"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>ウォレットは&lt;b&gt;暗号化され、アンロックされています&lt;/b&gt;</translation>
+        <translation>������������������&lt;b&gt;���������������������������������������������������&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>ウォレットは&lt;b&gt;暗号化され、ロックされています&lt;/b&gt;</translation>
+        <translation>������������������&lt;b&gt;���������������������������������������������&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
@@ -679,52 +679,52 @@ Address: %4
     <message>
         <location filename="../forms/editaddressdialog.ui" line="+14"/>
         <source>Edit Address</source>
-        <translation>アドレスの編集</translation>
+        <translation>���������������������</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>&amp;Label</source>
-        <translation>ラベル(&amp;L)</translation>
+        <translation>���������(&amp;L)</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>The label associated with this address book entry</source>
-        <translation>このアドレス帳の入った事と関係のレーベル</translation>
+        <translation>������������������������������������������������������������</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>&amp;Address</source>
-        <translation>&amp;アドレス</translation>
+        <translation>&amp;������������</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>The address associated with this address book entry. This can only be modified for sending addresses.</source>
-        <translation>アドレス帳の入った事の関係のアドレスです。これは遅れるのアドレスのためだけに編集出来ます。</translation>
+        <translation>���������������������������������������������������������������������������������������������������������������������������������������</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="+21"/>
         <source>New receiving address</source>
-        <translation>新しいの受け入れのアドレス</translation>
+        <translation>���������������������������������������</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>New sending address</source>
-        <translation>新しいの送るのアドレス</translation>
+        <translation>���������������������������������</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Edit receiving address</source>
-        <translation>受け入れのアドレスを編集する</translation>
+        <translation>������������������������������������������</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Edit sending address</source>
-        <translation>送るのアドレスを編集する</translation>
+        <translation>������������������������������������</translation>
     </message>
     <message>
         <location line="+76"/>
         <source>The entered address &quot;%1&quot; is already in the address book.</source>
-        <translation>入ったのアドレス「%1」はもうアドレス帳にあります。</translation>
+        <translation>���������������������������%1���������������������������������������������</translation>
     </message>
     <message>
         <location line="-5"/>
@@ -734,12 +734,12 @@ Address: %4
     <message>
         <location line="+10"/>
         <source>Could not unlock wallet.</source>
-        <translation>財布をアンロックするのは出来ませんでした。</translation>
+        <translation>���������������������������������������������������������������</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>New key generation failed.</source>
-        <translation>新しいのキーの生成は失敗しました。</translation>
+        <translation>���������������������������������������������������</translation>
     </message>
 </context>
 <context>
@@ -791,7 +791,7 @@ Address: %4
     <message>
         <location filename="../forms/optionsdialog.ui" line="+14"/>
         <source>Options</source>
-        <translation>オプションズ</translation>
+        <translation>������������������</translation>
     </message>
     <message>
         <location line="+16"/>
@@ -1001,7 +1001,7 @@ Address: %4
     <message>
         <location filename="../forms/overviewpage.ui" line="+14"/>
         <source>Form</source>
-        <translation>フォーム</translation>
+        <translation>������������</translation>
     </message>
     <message>
         <location line="+50"/>
@@ -1012,12 +1012,12 @@ Address: %4
     <message>
         <location line="-124"/>
         <source>Balance:</source>
-        <translation>残高：</translation>
+        <translation>���������</translation>
     </message>
     <message>
         <location line="+29"/>
         <source>Unconfirmed:</source>
-        <translation>未確認：</translation>
+        <translation>������������</translation>
     </message>
     <message>
         <location line="-78"/>
@@ -1037,12 +1037,12 @@ Address: %4
     <message>
         <location line="+46"/>
         <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
-        <translation>&lt;b&gt;最近の取引&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;���������������&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="-101"/>
         <source>Your current balance</source>
-        <translation>今の残高</translation>
+        <translation>������������</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1281,7 +1281,7 @@ Address: %4
         <location line="+5"/>
         <location line="+5"/>
         <source>Send Coins</source>
-        <translation>コインを送る</translation>
+        <translation>������������������</translation>
     </message>
     <message>
         <location line="+50"/>
@@ -1306,11 +1306,11 @@ Address: %4
     <message>
         <location line="+22"/>
         <source>Balance:</source>
-        <translation>残高：</translation>
+        <translation>���������</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>123.456 BTC</source>
+        <source>123.456 IXC</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1384,7 +1384,7 @@ Address: %4
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="+14"/>
         <source>Form</source>
-        <translation>フォーム</translation>
+        <translation>������������</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -2065,7 +2065,7 @@ Address: %4
     <message>
         <location line="+1"/>
         <source>Comma separated file (*.csv)</source>
-        <translation>テキスト CSV (*.csv)</translation>
+        <translation>������������ CSV (*.csv)</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -2085,7 +2085,7 @@ Address: %4
     <message>
         <location line="+1"/>
         <source>Label</source>
-        <translation>レーベル</translation>
+        <translation>������������</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2105,12 +2105,12 @@ Address: %4
     <message>
         <location line="+4"/>
         <source>Error exporting</source>
-        <translation>エラー輸出</translation>
+        <translation>���������������</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Could not write to file %1.</source>
-        <translation>%1のファイルに書き込めませんでした。</translation>
+        <translation>%1���������������������������������������������������</translation>
     </message>
     <message>
         <location line="+100"/>

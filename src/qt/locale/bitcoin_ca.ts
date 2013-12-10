@@ -38,7 +38,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
         <source>Address Book</source>
-        <translation>Llibreta d&apos;adreçes</translation>
+        <translation>Llibreta d&apos;adre��es</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -53,7 +53,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+14"/>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Copia la selecció actual al porta-retalls del sistema</translation>
+        <translation>Copia la selecci�� actual al porta-retalls del sistema</translation>
     </message>
     <message>
         <location line="-11"/>
@@ -1310,7 +1310,7 @@ Address: %4
     </message>
     <message>
         <location line="+10"/>
-        <source>123.456 BTC</source>
+        <source>123.456 IXC</source>
         <translation type="unfinished"/>
     </message>
     <message>

@@ -5,12 +5,12 @@
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
         <source>About Bitcoin</source>
-        <translation>เกี่ยวกับ บิตคอย์น</translation>
+        <translation>��������������������������� ������������������������</translation>
     </message>
     <message>
         <location line="+39"/>
         <source>&lt;b&gt;Bitcoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;บิตคอย์น&lt;b&gt;รุ่น</translation>
+        <translation>&lt;b&gt;������������������������&lt;b&gt;������������</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -38,22 +38,22 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
         <source>Address Book</source>
-        <translation>สมุดรายชื่อ</translation>
+        <translation>���������������������������������</translation>
     </message>
     <message>
         <location line="+19"/>
         <source>Double-click to edit address or label</source>
-        <translation>ดับเบิลคลิก เพื่อแก้ไขที่อยู่ หรือชื่อ</translation>
+        <translation>��������������������������������� ��������������������������������������������������� ������������������������</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>Create a new address</source>
-        <translation>สร้างที่อยู่ใหม่</translation>
+        <translation>������������������������������������������������</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>คัดลอกที่อยู่ที่ถูกเลือกไปยัง คลิปบอร์ดของระบบ</translation>
+        <translation>��������������������������������������������������������������������������������������� ������������������������������������������������</translation>
     </message>
     <message>
         <location line="-11"/>
@@ -113,7 +113,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+14"/>
         <source>&amp;Delete</source>
-        <translation>ลบ</translation>
+        <translation>������</translation>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
@@ -138,7 +138,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+260"/>
         <source>Export Address Book Data</source>
-        <translation>ส่งออกรายชื่อทั้งหมด</translation>
+        <translation>������������������������������������������������������������</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -148,12 +148,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+13"/>
         <source>Error exporting</source>
-        <translation>ส่งออกผิดพลาด</translation>
+        <translation>���������������������������������������</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Could not write to file %1.</source>
-        <translation>ไม่สามารถเขียนไปยังไฟล์ %1</translation>
+        <translation>��������������������������������������������������������������������� %1</translation>
     </message>
 </context>
 <context>
@@ -161,17 +161,17 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location filename="../addresstablemodel.cpp" line="+144"/>
         <source>Label</source>
-        <translation>ชื่อ</translation>
+        <translation>������������</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Address</source>
-        <translation>ที่อยู่</translation>
+        <translation>���������������������</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>(no label)</source>
-        <translation>(ไม่มีชื่อ)</translation>
+        <translation>(���������������������������)</translation>
     </message>
 </context>
 <context>
@@ -184,17 +184,17 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+21"/>
         <source>Enter passphrase</source>
-        <translation>ใส่รหัสผ่าน</translation>
+        <translation>���������������������������������</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>New passphrase</source>
-        <translation>รหัสผา่นใหม่</translation>
+        <translation>������������������������������������</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Repeat new passphrase</source>
-        <translation>กรุณากรอกรหัสผ่านใหม่อีกครั้งหนึ่ง</translation>
+        <translation>������������������������������������������������������������������������������������������������������</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="+33"/>
@@ -204,7 +204,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+1"/>
         <source>Encrypt wallet</source>
-        <translation>กระเป๋าสตางค์ที่เข้ารหัส</translation>
+        <translation>������������������������������������������������������������������������</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -214,7 +214,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+5"/>
         <source>Unlock wallet</source>
-        <translation>เปิดกระเป๋าสตางค์</translation>
+        <translation>���������������������������������������������������</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -224,22 +224,22 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+5"/>
         <source>Decrypt wallet</source>
-        <translation>ถอดรหัสกระเป๋าสตางค์</translation>
+        <translation>������������������������������������������������������������</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Change passphrase</source>
-        <translation>เปลี่ยนรหัสผ่าน</translation>
+        <translation>���������������������������������������������</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Enter the old and new passphrase to the wallet.</source>
-        <translation>กรอกรหัสผ่านเก่าและรหัสผ่านใหม่สำหรับกระเป๋าสตางค์</translation>
+        <translation>������������������������������������������������������������������������������������������������������������������������������������������������������</translation>
     </message>
     <message>
         <location line="+46"/>
         <source>Confirm wallet encryption</source>
-        <translation>ยืนยันการเข้ารหัสกระเป๋าสตางค์</translation>
+        <translation>������������������������������������������������������������������������������������������</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -266,7 +266,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="-130"/>
         <location line="+58"/>
         <source>Wallet encrypted</source>
-        <translation>กระเป๋าสตางค์ถูกเข้ารหัสเรียบร้อยแล้ว</translation>
+        <translation>���������������������������������������������������������������������������������������������������������������</translation>
     </message>
     <message>
         <location line="-56"/>
@@ -279,7 +279,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+42"/>
         <location line="+6"/>
         <source>Wallet encryption failed</source>
-        <translation>การเข้ารหัสกระเป๋าสตางค์ผิดพลาด</translation>
+        <translation>���������������������������������������������������������������������������������������������</translation>
     </message>
     <message>
         <location line="-54"/>
@@ -290,7 +290,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+7"/>
         <location line="+48"/>
         <source>The supplied passphrases do not match.</source>
-        <translation>รหัสผ่านที่คุณกรอกไม่ตรงกัน</translation>
+        <translation>���������������������������������������������������������������������������������</translation>
     </message>
     <message>
         <location line="-37"/>
@@ -1310,7 +1310,7 @@ Address: %4
     </message>
     <message>
         <location line="+10"/>
-        <source>123.456 BTC</source>
+        <source>123.456 IXC</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1851,7 +1851,7 @@ Address: %4
     <message>
         <location line="+0"/>
         <source>Address</source>
-        <translation>ที่อยู่</translation>
+        <translation>���������������������</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1965,7 +1965,7 @@ Address: %4
     <message>
         <location line="-15"/>
         <source>Today</source>
-        <translation>วันนี้</translation>
+        <translation>������������������</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2085,12 +2085,12 @@ Address: %4
     <message>
         <location line="+1"/>
         <source>Label</source>
-        <translation>ชื่อ</translation>
+        <translation>������������</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Address</source>
-        <translation>ที่อยู่</translation>
+        <translation>���������������������</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2105,12 +2105,12 @@ Address: %4
     <message>
         <location line="+4"/>
         <source>Error exporting</source>
-        <translation>ส่งออกผิดพลาด</translation>
+        <translation>���������������������������������������</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Could not write to file %1.</source>
-        <translation>ไม่สามารถเขียนไปยังไฟล์ %1</translation>
+        <translation>��������������������������������������������������������������������� %1</translation>
     </message>
     <message>
         <location line="+100"/>

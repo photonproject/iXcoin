@@ -21,7 +21,7 @@ Distributed under the MIT/X11 software license, see the accompanying file COPYIN
 
 This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
         <translation>
-Questo è un software sperimentale.
+Questo �� un software sperimentale.
 
 Distribuito sotto la licenza software MIT/X11, vedi il file COPYING incluso oppure su http://www.opensource.org/licenses/mit-license.php.
 
@@ -68,7 +68,7 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;uso 
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
         <source>These are your Bitcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Questi sono i tuoi indirizzi Bitcoin per ricevere pagamenti. Potrai darne uno diverso ad ognuno per tenere così traccia di chi ti sta pagando.</translation>
+        <translation>Questi sono i tuoi indirizzi Bitcoin per ricevere pagamenti. Potrai darne uno diverso ad ognuno per tenere cos�� traccia di chi ti sta pagando.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -204,7 +204,7 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;uso 
     <message>
         <location filename="../askpassphrasedialog.cpp" line="+33"/>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Inserisci la passphrase per il portamonete.&lt;br/&gt;Per piacere usare unapassphrase di &lt;b&gt;10 o più caratteri casuali&lt;/b&gt;, o &lt;b&gt;otto o più parole&lt;/b&gt;.</translation>
+        <translation>Inserisci la passphrase per il portamonete.&lt;br/&gt;Per piacere usare unapassphrase di &lt;b&gt;10 o pi�� caratteri casuali&lt;/b&gt;, o &lt;b&gt;otto o pi�� parole&lt;/b&gt;.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -254,7 +254,7 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;uso 
     <message>
         <location line="+0"/>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>Si è sicuri di voler cifrare il portamonete?</translation>
+        <translation>Si �� sicuri di voler cifrare il portamonete?</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -276,7 +276,7 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;uso 
     <message>
         <location line="-56"/>
         <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Bitcoin verrà ora chiuso per finire il processo di crittazione. Ricorda che criptare il tuo portamonete non può fornire una protezione totale contro furti causati da malware che dovessero infettare il tuo computer.</translation>
+        <translation>Bitcoin verr�� ora chiuso per finire il processo di crittazione. Ricorda che criptare il tuo portamonete non pu�� fornire una protezione totale contro furti causati da malware che dovessero infettare il tuo computer.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -289,7 +289,7 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;uso 
     <message>
         <location line="-54"/>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>Cifratura del portamonete fallita a causa di un errore interno. Il portamonete non è stato cifrato.</translation>
+        <translation>Cifratura del portamonete fallita a causa di un errore interno. Il portamonete non �� stato cifrato.</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -307,7 +307,7 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;uso 
         <location line="+11"/>
         <location line="+19"/>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>La passphrase inserita per la decifrazione del portamonete è errata.</translation>
+        <translation>La passphrase inserita per la decifrazione del portamonete �� errata.</translation>
     </message>
     <message>
         <location line="-20"/>
@@ -582,7 +582,7 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;uso 
     <message>
         <location line="+14"/>
         <source>Last received block was generated %1 ago.</source>
-        <translation>L&apos;ultimo blocco ricevuto è stato generato %1 fa.</translation>
+        <translation>L&apos;ultimo blocco ricevuto �� stato generato %1 fa.</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -607,7 +607,7 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;uso 
     <message>
         <location line="+70"/>
         <source>This transaction is over the size limit. You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network. Do you want to pay the fee?</source>
-        <translation>Questa transazione è superiore al limite di dimensione. È comunque possibile inviarla con una commissione di %1, che va ai nodi che processano la tua transazione e contribuisce a sostenere la rete. Vuoi pagare la commissione?</translation>
+        <translation>Questa transazione �� superiore al limite di dimensione. �� comunque possibile inviarla con una commissione di %1, che va ai nodi che processano la tua transazione e contribuisce a sostenere la rete. Vuoi pagare la commissione?</translation>
     </message>
     <message>
         <location line="-140"/>
@@ -642,7 +642,7 @@ Type: %3
 Address: %4
 </source>
         <translation>Data: %1
-Quantità: %2
+Quantit��: %2
 Tipo: %3
 Indirizzo: %4
 
@@ -658,22 +658,22 @@ Indirizzo: %4
         <location line="-23"/>
         <location line="+23"/>
         <source>URI can not be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation>Impossibile interpretare l&apos;URI! Ciò può essere causato da un indirizzo Bitcoin invalido o da parametri URI non corretti.</translation>
+        <translation>Impossibile interpretare l&apos;URI! Ci�� pu�� essere causato da un indirizzo Bitcoin invalido o da parametri URI non corretti.</translation>
     </message>
     <message>
         <location line="+17"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>Il portamonete è &lt;b&gt;cifrato&lt;/b&gt; e attualmente &lt;b&gt;sbloccato&lt;/b&gt;</translation>
+        <translation>Il portamonete �� &lt;b&gt;cifrato&lt;/b&gt; e attualmente &lt;b&gt;sbloccato&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>Il portamonete è &lt;b&gt;cifrato&lt;/b&gt; e attualmente &lt;b&gt;bloccato&lt;/b&gt;</translation>
+        <translation>Il portamonete �� &lt;b&gt;cifrato&lt;/b&gt; e attualmente &lt;b&gt;bloccato&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
         <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
-        <translation>Riscontrato un errore irreversibile. Bitcoin non può più continuare in sicurezza e verrà terminato.</translation>
+        <translation>Riscontrato un errore irreversibile. Bitcoin non pu�� pi�� continuare in sicurezza e verr�� terminato.</translation>
     </message>
 </context>
 <context>
@@ -709,7 +709,7 @@ Indirizzo: %4
     <message>
         <location line="+10"/>
         <source>The address associated with this address book entry. This can only be modified for sending addresses.</source>
-        <translation>L&apos;indirizzo associato a questa voce della rubrica. Si può modificare solo negli indirizzi di spedizione.</translation>
+        <translation>L&apos;indirizzo associato a questa voce della rubrica. Si pu�� modificare solo negli indirizzi di spedizione.</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="+21"/>
@@ -734,12 +734,12 @@ Indirizzo: %4
     <message>
         <location line="+76"/>
         <source>The entered address &quot;%1&quot; is already in the address book.</source>
-        <translation>L&apos;indirizzo inserito &quot;%1&quot; è già in rubrica.</translation>
+        <translation>L&apos;indirizzo inserito &quot;%1&quot; �� gi�� in rubrica.</translation>
     </message>
     <message>
         <location line="-5"/>
         <source>The entered address &quot;%1&quot; is not a valid Bitcoin address.</source>
-        <translation>L&apos;indirizzo inserito &quot;%1&quot; non è un indirizzo bitcoin valido.</translation>
+        <translation>L&apos;indirizzo inserito &quot;%1&quot; non �� un indirizzo bitcoin valido.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -847,7 +847,7 @@ Indirizzo: %4
     <message>
         <location line="+6"/>
         <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Apri automaticamente la porta del client Bitcoin sul router. Questo funziona solo se il router supporta UPnP ed è abilitato.</translation>
+        <translation>Apri automaticamente la porta del client Bitcoin sul router. Questo funziona solo se il router supporta UPnP ed �� abilitato.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -912,7 +912,7 @@ Indirizzo: %4
     <message>
         <location line="+7"/>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
-        <translation>Riduci ad icona, invece di uscire dall&apos;applicazione quando la finestra viene chiusa. Quando questa opzione è attivata, l&apos;applicazione verrà chiusa solo dopo aver selezionato Esci nel menu.</translation>
+        <translation>Riduci ad icona, invece di uscire dall&apos;applicazione quando la finestra viene chiusa. Quando questa opzione �� attivata, l&apos;applicazione verr�� chiusa solo dopo aver selezionato Esci nel menu.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -932,17 +932,17 @@ Indirizzo: %4
     <message>
         <location line="+13"/>
         <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin.</source>
-        <translation>La lingua dell&apos;interfaccia utente può essere impostata qui. L&apos;impostazione avrà effetto dopo il riavvio di Bitcoin.</translation>
+        <translation>La lingua dell&apos;interfaccia utente pu�� essere impostata qui. L&apos;impostazione avr�� effetto dopo il riavvio di Bitcoin.</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>&amp;Unità di misura degli importi in:</translation>
+        <translation>&amp;Unit�� di misura degli importi in:</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Scegli l&apos;unità di suddivisione di default per l&apos;interfaccia e per l&apos;invio di monete</translation>
+        <translation>Scegli l&apos;unit�� di suddivisione di default per l&apos;interfaccia e per l&apos;invio di monete</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -999,12 +999,12 @@ Indirizzo: %4
         <location line="-9"/>
         <location line="+9"/>
         <source>This setting will take effect after restarting Bitcoin.</source>
-        <translation>L&apos;impostazione avrà effetto dopo il riavvio di Bitcoin.</translation>
+        <translation>L&apos;impostazione avr�� effetto dopo il riavvio di Bitcoin.</translation>
     </message>
     <message>
         <location line="+29"/>
         <source>The supplied proxy address is invalid.</source>
-        <translation>L&apos;indirizzo proxy che hai fornito è invalido.</translation>
+        <translation>L&apos;indirizzo proxy che hai fornito �� invalido.</translation>
     </message>
 </context>
 <context>
@@ -1018,7 +1018,7 @@ Indirizzo: %4
         <location line="+50"/>
         <location line="+166"/>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Le informazioni visualizzate sono datate. Il tuo partafogli verrà sincronizzato automaticamente con il network Bitcoin dopo che la connessione è stabilita, ma questo processo non può essere completato ora.</translation>
+        <translation>Le informazioni visualizzate sono datate. Il tuo partafogli verr�� sincronizzato automaticamente con il network Bitcoin dopo che la connessione �� stabilita, ma questo processo non pu�� essere completato ora.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1043,7 +1043,7 @@ Indirizzo: %4
     <message>
         <location line="+13"/>
         <source>Mined balance that has not yet matured</source>
-        <translation>Importo scavato che non è ancora maturato</translation>
+        <translation>Importo scavato che non �� ancora maturato</translation>
     </message>
     <message>
         <location line="+46"/>
@@ -1115,7 +1115,7 @@ Indirizzo: %4
     <message>
         <location line="+40"/>
         <source>The entered amount is invalid, please check.</source>
-        <translation>L&apos;importo specificato non è valido, prego verificare.</translation>
+        <translation>L&apos;importo specificato non �� valido, prego verificare.</translation>
     </message>
     <message>
         <location line="+23"/>
@@ -1257,7 +1257,7 @@ Indirizzo: %4
     <message>
         <location line="+7"/>
         <source>Open the Bitcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Apri il file di log del debug di Bitcoin dalla cartella attuale. Può richiedere alcuni secondi per file di log grandi.</translation>
+        <translation>Apri il file di log del debug di Bitcoin dalla cartella attuale. Pu�� richiedere alcuni secondi per file di log grandi.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1321,8 +1321,8 @@ Indirizzo: %4
     </message>
     <message>
         <location line="+10"/>
-        <source>123.456 BTC</source>
-        <translation>123,456 BTC</translation>
+        <source>123.456 IXC</source>
+        <translation>123,456 IXC</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1347,7 +1347,7 @@ Indirizzo: %4
     <message>
         <location line="+1"/>
         <source>Are you sure you want to send %1?</source>
-        <translation>Si è sicuri di voler spedire %1?</translation>
+        <translation>Si �� sicuri di voler spedire %1?</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1357,7 +1357,7 @@ Indirizzo: %4
     <message>
         <location line="+23"/>
         <source>The recipient address is not valid, please recheck.</source>
-        <translation>L&apos;indirizzo del beneficiario non è valido, per cortesia controlla.</translation>
+        <translation>L&apos;indirizzo del beneficiario non �� valido, per cortesia controlla.</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -1367,17 +1367,17 @@ Indirizzo: %4
     <message>
         <location line="+5"/>
         <source>The amount exceeds your balance.</source>
-        <translation>L&apos;importo è superiore al saldo attuale</translation>
+        <translation>L&apos;importo �� superiore al saldo attuale</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation>Il totale è superiore al saldo attuale includendo la commissione %1.</translation>
+        <translation>Il totale �� superiore al saldo attuale includendo la commissione %1.</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Duplicate address found, can only send to each address once per send operation.</source>
-        <translation>Trovato un indirizzo doppio, si può spedire solo una volta a ciascun indirizzo in una singola operazione.</translation>
+        <translation>Trovato un indirizzo doppio, si pu�� spedire solo una volta a ciascun indirizzo in una singola operazione.</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -1387,7 +1387,7 @@ Indirizzo: %4
     <message>
         <location line="+5"/>
         <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Errore: la transazione è stata rifiutata. Ciò accade se alcuni bitcoin nel portamonete sono stati già spesi, ad esempio se è stata usata una copia del file wallet.dat e i bitcoin sono stati spesi dalla copia ma non segnati come spesi qui.</translation>
+        <translation>Errore: la transazione �� stata rifiutata. Ci�� accade se alcuni bitcoin nel portamonete sono stati gi�� spesi, ad esempio se �� stata usata una copia del file wallet.dat e i bitcoin sono stati spesi dalla copia ma non segnati come spesi qui.</translation>
     </message>
 </context>
 <context>
@@ -1584,7 +1584,7 @@ Indirizzo: %4
         <location line="+82"/>
         <location line="+81"/>
         <source>The entered address is invalid.</source>
-        <translation>L&apos;indirizzo inserito non è valido.</translation>
+        <translation>L&apos;indirizzo inserito non �� valido.</translation>
     </message>
     <message>
         <location line="-81"/>
@@ -1598,7 +1598,7 @@ Indirizzo: %4
         <location line="-81"/>
         <location line="+81"/>
         <source>The entered address does not refer to a key.</source>
-        <translation>L&apos;indirizzo bitcoin inserito non è associato a nessuna chiave.</translation>
+        <translation>L&apos;indirizzo bitcoin inserito non �� associato a nessuna chiave.</translation>
     </message>
     <message>
         <location line="-73"/>
@@ -1608,7 +1608,7 @@ Indirizzo: %4
     <message>
         <location line="+8"/>
         <source>Private key for the entered address is not available.</source>
-        <translation>La chiave privata per l&apos;indirizzo inserito non è disponibile.</translation>
+        <translation>La chiave privata per l&apos;indirizzo inserito non �� disponibile.</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -1623,7 +1623,7 @@ Indirizzo: %4
     <message>
         <location line="+59"/>
         <source>The signature could not be decoded.</source>
-        <translation>Non è stato possibile decodificare la firma.</translation>
+        <translation>Non �� stato possibile decodificare la firma.</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1761,7 +1761,7 @@ Indirizzo: %4
     <message>
         <location line="-39"/>
         <source>Transaction fee</source>
-        <translation>Tranzakciós díj</translation>
+        <translation>Tranzakci��s d��j</translation>
     </message>
     <message>
         <location line="+16"/>
@@ -1786,7 +1786,7 @@ Indirizzo: %4
     <message>
         <location line="+3"/>
         <source>Generated coins must mature 120 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Bisogna attendere 120 blocchi prima di spendere I bitcoin generati. Quando è stato generato questo blocco, è stato trasmesso alla rete per aggiungerlo alla catena di blocchi. Se non riesce a entrare nella catena, verrà modificato in &quot;non accettato&quot; e non sarà spendibile. Questo può accadere a volte, se un altro nodo genera un blocco entro pochi secondi del tuo.</translation>
+        <translation>Bisogna attendere 120 blocchi prima di spendere I bitcoin generati. Quando �� stato generato questo blocco, �� stato trasmesso alla rete per aggiungerlo alla catena di blocchi. Se non riesce a entrare nella catena, verr�� modificato in &quot;non accettato&quot; e non sar�� spendibile. Questo pu�� accadere a volte, se un altro nodo genera un blocco entro pochi secondi del tuo.</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1821,7 +1821,7 @@ Indirizzo: %4
     <message>
         <location line="-209"/>
         <source>, has not been successfully broadcast yet</source>
-        <translation>, non è stato ancora trasmesso con successo</translation>
+        <translation>, non �� stato ancora trasmesso con successo</translation>
     </message>
     <message numerus="yes">
         <location line="-35"/>
@@ -1897,12 +1897,12 @@ Indirizzo: %4
     <message numerus="yes">
         <location line="+8"/>
         <source>Mined balance will be available when it matures in %n more block(s)</source>
-        <translation><numerusform>Il saldo generato sarà disponibile quando maturerà in %n altro blocco</numerusform><numerusform>Il saldo generato sarà disponibile quando maturerà in altri %n blocchi</numerusform></translation>
+        <translation><numerusform>Il saldo generato sar�� disponibile quando maturer�� in %n altro blocco</numerusform><numerusform>Il saldo generato sar�� disponibile quando maturer�� in altri %n blocchi</numerusform></translation>
     </message>
     <message>
         <location line="+5"/>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation>Questo blocco non è stato ricevuto da altri nodi e probabilmente non sarà accettato!</translation>
+        <translation>Questo blocco non �� stato ricevuto da altri nodi e probabilmente non sar�� accettato!</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1947,7 +1947,7 @@ Indirizzo: %4
     <message>
         <location line="+2"/>
         <source>Date and time that the transaction was received.</source>
-        <translation>Data e ora in cui la transazione è stata ricevuta.</translation>
+        <translation>Data e ora in cui la transazione �� stata ricevuta.</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2182,7 +2182,7 @@ Indirizzo: %4
     <message>
         <location line="+0"/>
         <source>The wallet data was successfully saved to the new location.</source>
-        <translation>Il portafoglio è stato correttamente salvato nella nuova cartella.</translation>
+        <translation>Il portafoglio �� stato correttamente salvato nella nuova cartella.</translation>
     </message>
 </context>
 <context>
@@ -2267,12 +2267,12 @@ Indirizzo: %4
     <message>
         <location line="+3"/>
         <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
-        <translation>Soglia di disconnessione dei peer di cattiva qualità (default: 100)</translation>
+        <translation>Soglia di disconnessione dei peer di cattiva qualit�� (default: 100)</translation>
     </message>
     <message>
         <location line="-134"/>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
-        <translation>Numero di secondi di sospensione che i peer di cattiva qualità devono trascorrere prima di riconnettersi (default: 86400)</translation>
+        <translation>Numero di secondi di sospensione che i peer di cattiva qualit�� devono trascorrere prima di riconnettersi (default: 86400)</translation>
     </message>
     <message>
         <location line="-29"/>
@@ -2335,17 +2335,17 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="+3"/>
         <source>Cannot obtain a lock on data directory %s. Bitcoin is probably already running.</source>
-        <translation>Non è possibile ottenere i dati sulla cartella %s. Probabilmente Bitcoin è già in esecuzione.</translation>
+        <translation>Non �� possibile ottenere i dati sulla cartella %s. Probabilmente Bitcoin �� gi�� in esecuzione.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Errore: la transazione è stata rifiutata. Ciò accade se alcuni bitcoin nel portamonete sono stati già spesi, ad esempio se è stata usata una copia del file wallet.dat e i bitcoin sono stati spesi dalla copia ma non segnati come spesi qui.</translation>
+        <translation>Errore: la transazione �� stata rifiutata. Ci�� accade se alcuni bitcoin nel portamonete sono stati gi�� spesi, ad esempio se �� stata usata una copia del file wallet.dat e i bitcoin sono stati spesi dalla copia ma non segnati come spesi qui.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
-        <translation>Errore: questa transazione necessita di una commissione di almeno %s a causa del suo ammontare, della sua complessità, o dell&apos;uso di fondi recentemente ricevuti!</translation>
+        <translation>Errore: questa transazione necessita di una commissione di almeno %s a causa del suo ammontare, della sua complessit��, o dell&apos;uso di fondi recentemente ricevuti!</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2355,22 +2355,22 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="+3"/>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>Esegui comando quando una transazione del portafoglio cambia (%s in cmd è sostituito da TxID)</translation>
+        <translation>Esegui comando quando una transazione del portafoglio cambia (%s in cmd �� sostituito da TxID)</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: 27000)</source>
-        <translation>Imposta dimensione massima delle transazioni ad alta priorità/bassa-tassa in bytes (predefinito: 27000)</translation>
+        <translation>Imposta dimensione massima delle transazioni ad alta priorit��/bassa-tassa in bytes (predefinito: 27000)</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation>Questa versione è una compilazione pre-rilascio - usala a tuo rischio - non utilizzarla per la generazione o per applicazioni di commercio</translation>
+        <translation>Questa versione �� una compilazione pre-rilascio - usala a tuo rischio - non utilizzarla per la generazione o per applicazioni di commercio</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
-        <translation>Attenzione: -paytxfee è molto alta. Questa è la commissione che si paga quando si invia una transazione.</translation>
+        <translation>Attenzione: -paytxfee �� molto alta. Questa �� la commissione che si paga quando si invia una transazione.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2380,7 +2380,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="+3"/>
         <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Bitcoin will not work properly.</source>
-        <translation>Attenzione: si prega di controllare che la data del computer e l&apos;ora siano corrette. Se il vostro orologio è sbagliato Bitcoin non funziona correttamente.</translation>
+        <translation>Attenzione: si prega di controllare che la data del computer e l&apos;ora siano corrette. Se il vostro orologio �� sbagliato Bitcoin non funziona correttamente.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2445,7 +2445,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="+2"/>
         <source>Error: Disk space is low!</source>
-        <translation>Errore: la spazio libero sul disco è poco!</translation>
+        <translation>Errore: la spazio libero sul disco �� poco!</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2515,7 +2515,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="+2"/>
         <source>Find peers using DNS lookup (default: 1 unless -connect)</source>
-        <translation>Trova peer utilizzando la ricerca DNS (predefinito: 1 finché utilizzato -connect)</translation>
+        <translation>Trova peer utilizzando la ricerca DNS (predefinito: 1 finch�� utilizzato -connect)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2695,12 +2695,12 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="+7"/>
         <source>Use UPnP to map the listening port (default: 0)</source>
-        <translation>UPnP-használat engedélyezése a figyelő port feltérképezésénél (default: 0)</translation>
+        <translation>UPnP-haszn��lat enged��lyez��se a figyel�� port felt��rk��pez��s��n��l (default: 0)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Use UPnP to map the listening port (default: 1 when listening)</source>
-        <translation>UPnP-használat engedélyezése a figyelő port feltérképezésénél (default: 1 when listening)</translation>
+        <translation>UPnP-haszn��lat enged��lyez��se a figyel�� port felt��rk��pez��s��n��l (default: 1 when listening)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2721,7 +2721,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="+1"/>
         <source>Warning: This version is obsolete, upgrade required!</source>
-        <translation>Attenzione: questa versione è obsoleta, aggiornamento necessario!</translation>
+        <translation>Attenzione: questa versione �� obsoleta, aggiornamento necessario!</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2754,7 +2754,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="-120"/>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>Esegui il comando quando il miglior block cambia(%s nel cmd è sostituito dall&apos;hash del blocco)</translation>
+        <translation>Esegui il comando quando il miglior block cambia(%s nel cmd �� sostituito dall&apos;hash del blocco)</translation>
     </message>
     <message>
         <location line="+147"/>
@@ -2764,7 +2764,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="-21"/>
         <source>Set key pool size to &lt;n&gt; (default: 100)</source>
-        <translation>Impostare la quantità di chiavi di riserva a &lt;n&gt; (default: 100)
+        <translation>Impostare la quantit�� di chiavi di riserva a &lt;n&gt; (default: 100)
 </translation>
     </message>
     <message>
@@ -2892,12 +2892,12 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="-57"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>Elérendő csomópont megadása and attempt to keep the connection open</translation>
+        <translation>El��rend�� csom��pont megad��sa and attempt to keep the connection open</translation>
     </message>
     <message>
         <location line="-25"/>
         <source>Unable to bind to %s on this computer. Bitcoin is probably already running.</source>
-        <translation>Impossibile collegarsi alla %s su questo computer. Probabilmente Bitcoin è già in esecuzione.</translation>
+        <translation>Impossibile collegarsi alla %s su questo computer. Probabilmente Bitcoin �� gi�� in esecuzione.</translation>
     </message>
     <message>
         <location line="+64"/>
@@ -2912,12 +2912,12 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="-52"/>
         <source>Cannot downgrade wallet</source>
-        <translation>Non è possibile retrocedere il wallet</translation>
+        <translation>Non �� possibile retrocedere il wallet</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Cannot write default address</source>
-        <translation>Non è possibile scrivere l&apos;indirizzo di default</translation>
+        <translation>Non �� possibile scrivere l&apos;indirizzo di default</translation>
     </message>
     <message>
         <location line="+64"/>

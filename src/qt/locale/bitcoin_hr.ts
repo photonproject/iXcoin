@@ -43,7 +43,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+19"/>
         <source>Double-click to edit address or label</source>
-        <translation>Dvostruki klik za uređivanje adrese ili oznake</translation>
+        <translation>Dvostruki klik za ure��ivanje adrese ili oznake</translation>
     </message>
     <message>
         <location line="+27"/>
@@ -53,7 +53,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+14"/>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Kopiraj trenutno odabranu adresu u međuspremnik</translation>
+        <translation>Kopiraj trenutno odabranu adresu u me��uspremnik</translation>
     </message>
     <message>
         <location line="-11"/>
@@ -63,7 +63,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
         <source>These are your Bitcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Ovo su vaše Bitcoin adrese za primanje isplate. Možda želite dati drukčiju adresu svakom primatelju tako da možete pratiti tko je platio.</translation>
+        <translation>Ovo su va��e Bitcoin adrese za primanje isplate. Mo��da ��elite dati druk��iju adresu svakom primatelju tako da mo��ete pratiti tko je platio.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -73,7 +73,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+11"/>
         <source>Show &amp;QR Code</source>
-        <translation>Prikaži &amp;QR Kôd</translation>
+        <translation>Prika��i &amp;QR K��d</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -148,7 +148,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+13"/>
         <source>Error exporting</source>
-        <translation>Pogreška kod izvoza</translation>
+        <translation>Pogre��ka kod izvoza</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -199,32 +199,32 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location filename="../askpassphrasedialog.cpp" line="+33"/>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Unesite novi lozinku za novčanik. &lt;br/&gt; Molimo Vas da koristite zaporku od &lt;b&gt;10 ili više slučajnih znakova,&lt;/b&gt; ili &lt;b&gt;osam ili više riječi.&lt;/b&gt;</translation>
+        <translation>Unesite novi lozinku za nov��anik. &lt;br/&gt; Molimo Vas da koristite zaporku od &lt;b&gt;10 ili vi��e slu��ajnih znakova,&lt;/b&gt; ili &lt;b&gt;osam ili vi��e rije��i.&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Encrypt wallet</source>
-        <translation>Šifriranje novčanika</translation>
+        <translation>��ifriranje nov��anika</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Ova operacija treba lozinku vašeg novčanika kako bi se novčanik otključao.</translation>
+        <translation>Ova operacija treba lozinku va��eg nov��anika kako bi se nov��anik otklju��ao.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Unlock wallet</source>
-        <translation>Otključaj novčanik</translation>
+        <translation>Otklju��aj nov��anik</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>Ova operacija treba lozinku vašeg novčanika kako bi se novčanik dešifrirao.</translation>
+        <translation>Ova operacija treba lozinku va��eg nov��anika kako bi se nov��anik de��ifrirao.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Decrypt wallet</source>
-        <translation>Dešifriranje novčanika.</translation>
+        <translation>De��ifriranje nov��anika.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -234,22 +234,22 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+1"/>
         <source>Enter the old and new passphrase to the wallet.</source>
-        <translation>Unesite staru i novu lozinku za novčanik.</translation>
+        <translation>Unesite staru i novu lozinku za nov��anik.</translation>
     </message>
     <message>
         <location line="+46"/>
         <source>Confirm wallet encryption</source>
-        <translation>Potvrdi šifriranje novčanika</translation>
+        <translation>Potvrdi ��ifriranje nov��anika</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Upozorenje: Ako šifrirate vaš novčanik i izgubite lozinku, &lt;b&gt;IZGUBIT ĆETE SVE SVOJE BITCOINSE!&lt;/b&gt;</translation>
+        <translation>Upozorenje: Ako ��ifrirate va�� nov��anik i izgubite lozinku, &lt;b&gt;IZGUBIT ��ETE SVE SVOJE BITCOINSE!&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>Jeste li sigurni da želite šifrirati svoj novčanik?</translation>
+        <translation>Jeste li sigurni da ��elite ��ifrirati svoj nov��anik?</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -266,12 +266,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="-130"/>
         <location line="+58"/>
         <source>Wallet encrypted</source>
-        <translation>Novčanik šifriran</translation>
+        <translation>Nov��anik ��ifriran</translation>
     </message>
     <message>
         <location line="-56"/>
         <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Bitcoin će se sada zatvoriti kako bi dovršio postupak šifriranja. Zapamtite da šifriranje vašeg novčanika ne može u potpunosti zaštititi vaše bitcoine od krađe preko zloćudnog softvera koji bi bio na vašem računalu.</translation>
+        <translation>Bitcoin ��e se sada zatvoriti kako bi dovr��io postupak ��ifriranja. Zapamtite da ��ifriranje va��eg nov��anika ne mo��e u potpunosti za��tititi va��e bitcoine od kra��e preko zlo��udnog softvera koji bi bio na va��em ra��unalu.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -279,40 +279,40 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+42"/>
         <location line="+6"/>
         <source>Wallet encryption failed</source>
-        <translation>Šifriranje novčanika nije uspjelo</translation>
+        <translation>��ifriranje nov��anika nije uspjelo</translation>
     </message>
     <message>
         <location line="-54"/>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>Šifriranje novčanika nije uspjelo zbog interne pogreške. Vaš novčanik nije šifriran.</translation>
+        <translation>��ifriranje nov��anika nije uspjelo zbog interne pogre��ke. Va�� nov��anik nije ��ifriran.</translation>
     </message>
     <message>
         <location line="+7"/>
         <location line="+48"/>
         <source>The supplied passphrases do not match.</source>
-        <translation>Priložene lozinke se ne podudaraju.</translation>
+        <translation>Prilo��ene lozinke se ne podudaraju.</translation>
     </message>
     <message>
         <location line="-37"/>
         <source>Wallet unlock failed</source>
-        <translation>Otključavanje novčanika nije uspjelo</translation>
+        <translation>Otklju��avanje nov��anika nije uspjelo</translation>
     </message>
     <message>
         <location line="+1"/>
         <location line="+11"/>
         <location line="+19"/>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>Lozinka za dešifriranje novčanika nije točna.</translation>
+        <translation>Lozinka za de��ifriranje nov��anika nije to��na.</translation>
     </message>
     <message>
         <location line="-20"/>
         <source>Wallet decryption failed</source>
-        <translation>Dešifriranje novčanika nije uspjelo</translation>
+        <translation>De��ifriranje nov��anika nije uspjelo</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation>Lozinka novčanika je uspješno promijenjena.</translation>
+        <translation>Lozinka nov��anika je uspje��no promijenjena.</translation>
     </message>
 </context>
 <context>
@@ -320,12 +320,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location filename="../bitcoingui.cpp" line="+233"/>
         <source>Sign &amp;message...</source>
-        <translation>&amp;Potpišite poruku...</translation>
+        <translation>&amp;Potpi��ite poruku...</translation>
     </message>
     <message>
         <location line="+280"/>
         <source>Synchronizing with network...</source>
-        <translation>Usklađivanje s mrežom ...</translation>
+        <translation>Uskla��ivanje s mre��om ...</translation>
     </message>
     <message>
         <location line="-349"/>
@@ -335,7 +335,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+1"/>
         <source>Show general overview of wallet</source>
-        <translation>Prikaži opći pregled novčanika</translation>
+        <translation>Prika��i op��i pregled nov��anika</translation>
     </message>
     <message>
         <location line="+20"/>
@@ -345,17 +345,17 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+1"/>
         <source>Browse transaction history</source>
-        <translation>Pretraži povijest transakcija</translation>
+        <translation>Pretra��i povijest transakcija</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Edit the list of stored addresses and labels</source>
-        <translation>Uređivanje popisa pohranjenih adresa i oznaka</translation>
+        <translation>Ure��ivanje popisa pohranjenih adresa i oznaka</translation>
     </message>
     <message>
         <location line="-14"/>
         <source>Show the list of addresses for receiving payments</source>
-        <translation>Prikaži popis adresa za primanje isplate</translation>
+        <translation>Prika��i popis adresa za primanje isplate</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -370,17 +370,17 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+4"/>
         <source>Show information about Bitcoin</source>
-        <translation>Prikaži informacije o Bitcoinu</translation>
+        <translation>Prika��i informacije o Bitcoinu</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>About &amp;Qt</source>
-        <translation>Više o &amp;Qt</translation>
+        <translation>Vi��e o &amp;Qt</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show information about Qt</source>
-        <translation>Prikaži informacije o Qt</translation>
+        <translation>Prika��i informacije o Qt</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -390,12 +390,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+6"/>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>&amp;Šifriraj novčanik...</translation>
+        <translation>&amp;��ifriraj nov��anik...</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Backup Wallet...</source>
-        <translation>&amp;Backup novčanika...</translation>
+        <translation>&amp;Backup nov��anika...</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -425,12 +425,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+9"/>
         <source>Backup wallet to another location</source>
-        <translation>Napravite sigurnosnu kopiju novčanika na drugoj lokaciji</translation>
+        <translation>Napravite sigurnosnu kopiju nov��anika na drugoj lokaciji</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>Promijenite lozinku za šifriranje novčanika</translation>
+        <translation>Promijenite lozinku za ��ifriranje nov��anika</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -456,7 +456,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-530"/>
         <source>Wallet</source>
-        <translation>Novčanik</translation>
+        <translation>Nov��anik</translation>
     </message>
     <message>
         <location line="+101"/>
@@ -516,7 +516,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+6"/>
         <source>&amp;Help</source>
-        <translation>&amp;Pomoć</translation>
+        <translation>&amp;Pomo��</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -537,7 +537,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message numerus="yes">
         <location line="+141"/>
         <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n aktivna veza na Bitcoin mrežu</numerusform><numerusform>%n aktivne veze na Bitcoin mrežu</numerusform><numerusform>%n aktivnih veza na Bitcoin mrežu</numerusform></translation>
+        <translation><numerusform>%n aktivna veza na Bitcoin mre��u</numerusform><numerusform>%n aktivne veze na Bitcoin mre��u</numerusform><numerusform>%n aktivnih veza na Bitcoin mre��u</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -552,7 +552,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+4"/>
         <source>Processed %1 blocks of transaction history.</source>
-        <translation>Obrađeno %1 blokova povijesti transakcije.</translation>
+        <translation>Obra��eno %1 blokova povijesti transakcije.</translation>
     </message>
     <message numerus="yes">
         <location line="+20"/>
@@ -587,7 +587,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+22"/>
         <source>Error</source>
-        <translation>Greška</translation>
+        <translation>Gre��ka</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -607,12 +607,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-140"/>
         <source>Up to date</source>
-        <translation>Ažurno</translation>
+        <translation>A��urno</translation>
     </message>
     <message>
         <location line="+31"/>
         <source>Catching up...</source>
-        <translation>Ažuriranje...</translation>
+        <translation>A��uriranje...</translation>
     </message>
     <message>
         <location line="+113"/>
@@ -657,12 +657,12 @@ Adresa:%4
     <message>
         <location line="+17"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>Novčanik je &lt;b&gt;šifriran&lt;/b&gt; i trenutno &lt;b&gt;otključan&lt;/b&gt;</translation>
+        <translation>Nov��anik je &lt;b&gt;��ifriran&lt;/b&gt; i trenutno &lt;b&gt;otklju��an&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>Novčanik je &lt;b&gt;šifriran&lt;/b&gt; i trenutno &lt;b&gt;zaključan&lt;/b&gt;</translation>
+        <translation>Nov��anik je &lt;b&gt;��ifriran&lt;/b&gt; i trenutno &lt;b&gt;zaklju��an&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
@@ -703,7 +703,7 @@ Adresa:%4
     <message>
         <location line="+10"/>
         <source>The address associated with this address book entry. This can only be modified for sending addresses.</source>
-        <translation>Adresa ovog upisa u adresar. Može se mjenjati samo kod adresa za slanje.</translation>
+        <translation>Adresa ovog upisa u adresar. Mo��e se mjenjati samo kod adresa za slanje.</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="+21"/>
@@ -728,7 +728,7 @@ Adresa:%4
     <message>
         <location line="+76"/>
         <source>The entered address &quot;%1&quot; is already in the address book.</source>
-        <translation>Upisana adresa &quot;%1&quot; je već u adresaru.</translation>
+        <translation>Upisana adresa &quot;%1&quot; je ve�� u adresaru.</translation>
     </message>
     <message>
         <location line="-5"/>
@@ -738,12 +738,12 @@ Adresa:%4
     <message>
         <location line="+10"/>
         <source>Could not unlock wallet.</source>
-        <translation>Ne mogu otključati novčanik.</translation>
+        <translation>Ne mogu otklju��ati nov��anik.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>New key generation failed.</source>
-        <translation>Stvaranje novog ključa nije uspjelo.</translation>
+        <translation>Stvaranje novog klju��a nije uspjelo.</translation>
     </message>
 </context>
 <context>
@@ -815,7 +815,7 @@ Adresa:%4
     <message>
         <location line="+31"/>
         <source>Automatically start Bitcoin after logging in to the system.</source>
-        <translation>Automatski pokreni Bitcoin kad se uključi računalo</translation>
+        <translation>Automatski pokreni Bitcoin kad se uklju��i ra��unalo</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -840,17 +840,17 @@ Adresa:%4
     <message>
         <location line="+6"/>
         <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatski otvori port Bitcoin klijenta na ruteru. To radi samo ako ruter podržava UPnP i ako je omogućen.</translation>
+        <translation>Automatski otvori port Bitcoin klijenta na ruteru. To radi samo ako ruter podr��ava UPnP i ako je omogu��en.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Map port using &amp;UPnP</source>
-        <translation>Mapiraj port koristeći &amp;UPnP</translation>
+        <translation>Mapiraj port koriste��i &amp;UPnP</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Connect to the Bitcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Spojite se na Bitcon mrežu putem SOCKS proxy-a (npr. kod povezivanja kroz Tor)</translation>
+        <translation>Spojite se na Bitcon mre��u putem SOCKS proxy-a (npr. kod povezivanja kroz Tor)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -895,7 +895,7 @@ Adresa:%4
     <message>
         <location line="+6"/>
         <source>Show only a tray icon after minimizing the window.</source>
-        <translation>Prikaži samo ikonu u sistemskoj traci nakon minimiziranja prozora</translation>
+        <translation>Prika��i samo ikonu u sistemskoj traci nakon minimiziranja prozora</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -905,7 +905,7 @@ Adresa:%4
     <message>
         <location line="+7"/>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
-        <translation>Minimizirati umjesto izaći iz aplikacije kada je prozor zatvoren. Kada je ova opcija omogućena, aplikacija će biti zatvorena tek nakon odabira Izlaz u izborniku.</translation>
+        <translation>Minimizirati umjesto iza��i iz aplikacije kada je prozor zatvoren. Kada je ova opcija omogu��ena, aplikacija ��e biti zatvorena tek nakon odabira Izlaz u izborniku.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -935,7 +935,7 @@ Adresa:%4
     <message>
         <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Izaberite željeni najmanji dio bitcoina koji će biti prikazan u sučelju i koji će se koristiti za plaćanje.</translation>
+        <translation>Izaberite ��eljeni najmanji dio bitcoina koji ��e biti prikazan u su��elju i koji ��e se koristiti za pla��anje.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -945,7 +945,7 @@ Adresa:%4
     <message>
         <location line="+3"/>
         <source>&amp;Display addresses in transaction list</source>
-        <translation>&amp;Prikaži adrese u popisu transakcija</translation>
+        <translation>&amp;Prika��i adrese u popisu transakcija</translation>
     </message>
     <message>
         <location line="+71"/>
@@ -1021,12 +1021,12 @@ Adresa:%4
     <message>
         <location line="+29"/>
         <source>Unconfirmed:</source>
-        <translation>Nepotvrđene:</translation>
+        <translation>Nepotvr��ene:</translation>
     </message>
     <message>
         <location line="-78"/>
         <source>Wallet</source>
-        <translation>Novčanik</translation>
+        <translation>Nov��anik</translation>
     </message>
     <message>
         <location line="+107"/>
@@ -1046,12 +1046,12 @@ Adresa:%4
     <message>
         <location line="-101"/>
         <source>Your current balance</source>
-        <translation>Vaše trenutno stanje računa</translation>
+        <translation>Va��e trenutno stanje ra��una</translation>
     </message>
     <message>
         <location line="+29"/>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
-        <translation>Ukupni iznos transakcija koje tek trebaju biti potvrđene, i još uvijek nisu uračunate u trenutni saldo</translation>
+        <translation>Ukupni iznos transakcija koje tek trebaju biti potvr��ene, i jo�� uvijek nisu ura��unate u trenutni saldo</translation>
     </message>
     <message>
         <location filename="../overviewpage.cpp" line="+116"/>
@@ -1078,7 +1078,7 @@ Adresa:%4
     <message>
         <location line="+59"/>
         <source>Request Payment</source>
-        <translation>Zatraži plaćanje</translation>
+        <translation>Zatra��i pla��anje</translation>
     </message>
     <message>
         <location line="+56"/>
@@ -1113,7 +1113,7 @@ Adresa:%4
     <message>
         <location line="+23"/>
         <source>Resulting URI too long, try to reduce the text for label / message.</source>
-        <translation>Rezultirajući URI je predug, probajte umanjiti tekst za naslov / poruku.</translation>
+        <translation>Rezultiraju��i URI je predug, probajte umanjiti tekst za naslov / poruku.</translation>
     </message>
     <message>
         <location line="+25"/>
@@ -1290,7 +1290,7 @@ Adresa:%4
     <message>
         <location line="+50"/>
         <source>Send to multiple recipients at once</source>
-        <translation>Pošalji k nekoliko primatelja odjednom</translation>
+        <translation>Po��alji k nekoliko primatelja odjednom</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1300,12 +1300,12 @@ Adresa:%4
     <message>
         <location line="+20"/>
         <source>Remove all transaction fields</source>
-        <translation>Obriši sva polja transakcija</translation>
+        <translation>Obri��i sva polja transakcija</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Clear &amp;All</source>
-        <translation>Obriši &amp;sve</translation>
+        <translation>Obri��i &amp;sve</translation>
     </message>
     <message>
         <location line="+22"/>
@@ -1314,8 +1314,8 @@ Adresa:%4
     </message>
     <message>
         <location line="+10"/>
-        <source>123.456 BTC</source>
-        <translation>123,456 BTC</translation>
+        <source>123.456 IXC</source>
+        <translation>123,456 IXC</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1325,7 +1325,7 @@ Adresa:%4
     <message>
         <location line="+3"/>
         <source>S&amp;end</source>
-        <translation>&amp;Pošalji</translation>
+        <translation>&amp;Po��alji</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-59"/>
@@ -1340,7 +1340,7 @@ Adresa:%4
     <message>
         <location line="+1"/>
         <source>Are you sure you want to send %1?</source>
-        <translation>Jeste li sigurni da želite poslati %1?</translation>
+        <translation>Jeste li sigurni da ��elite poslati %1?</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1355,22 +1355,22 @@ Adresa:%4
     <message>
         <location line="+5"/>
         <source>The amount to pay must be larger than 0.</source>
-        <translation>Iznos mora biti veći od 0.</translation>
+        <translation>Iznos mora biti ve��i od 0.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>The amount exceeds your balance.</source>
-        <translation>Iznos je veći od stanja računa.</translation>
+        <translation>Iznos je ve��i od stanja ra��una.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation>Iznos je veći od stanja računa kad se doda naknada za transakcije od %1.</translation>
+        <translation>Iznos je ve��i od stanja ra��una kad se doda naknada za transakcije od %1.</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Duplicate address found, can only send to each address once per send operation.</source>
-        <translation>Pronašli smo adresu koja se ponavlja. U svakom plaćanju program može svaku adresu koristiti samo jedanput.</translation>
+        <translation>Prona��li smo adresu koja se ponavlja. U svakom pla��anju program mo��e svaku adresu koristiti samo jedanput.</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -1380,7 +1380,7 @@ Adresa:%4
     <message>
         <location line="+5"/>
         <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Generirani novčići moraju pričekati nastanak 120 blokova prije nego što ih je moguće potrošiti. Kad ste generirali taj blok, on je bio emitiran u mrežu kako bi bio dodan postojećim lancima blokova. Ako ne uspije biti dodan, njegov status bit će promijenjen u &quot;nije prihvatljiv&quot; i on neće biti potrošiv. S vremena na vrijeme tako nešto se može desiti ako neki drugi nod približno istovremeno generira blok.</translation>
+        <translation>Generirani nov��i��i moraju pri��ekati nastanak 120 blokova prije nego ��to ih je mogu��e potro��iti. Kad ste generirali taj blok, on je bio emitiran u mre��u kako bi bio dodan postoje��im lancima blokova. Ako ne uspije biti dodan, njegov status bit ��e promijenjen u &quot;nije prihvatljiv&quot; i on ne��e biti potro��iv. S vremena na vrijeme tako ne��to se mo��e desiti ako neki drugi nod pribli��no istovremeno generira blok.</translation>
     </message>
 </context>
 <context>
@@ -1398,7 +1398,7 @@ Adresa:%4
     <message>
         <location line="+13"/>
         <source>Pay &amp;To:</source>
-        <translation>&amp;Primatelj plaćanja:</translation>
+        <translation>&amp;Primatelj pla��anja:</translation>
     </message>
     <message>
         <location line="+34"/>
@@ -1409,7 +1409,7 @@ Adresa:%4
         <location line="+60"/>
         <location filename="../sendcoinsentry.cpp" line="+26"/>
         <source>Enter a label for this address to add it to your address book</source>
-        <translation>Unesite oznaku za ovu adresu kako bi ju dodali u vaš adresar</translation>
+        <translation>Unesite oznaku za ovu adresu kako bi ju dodali u va�� adresar</translation>
     </message>
     <message>
         <location line="-78"/>
@@ -1429,7 +1429,7 @@ Adresa:%4
     <message>
         <location line="+7"/>
         <source>Paste address from clipboard</source>
-        <translation>Zalijepi adresu iz međuspremnika</translation>
+        <translation>Zalijepi adresu iz me��uspremnika</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1457,12 +1457,12 @@ Adresa:%4
     <message>
         <location line="+13"/>
         <source>&amp;Sign Message</source>
-        <translation>&amp;Potpišite poruku</translation>
+        <translation>&amp;Potpi��ite poruku</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Možete potpisati poruke sa svojom adresom kako bi dokazali da ih posjedujete. Budite oprezni da ne potpisujete ništa mutno, jer bi vas phishing napadi mogli na prevaru natjerati da prepišete svoj identitet njima. Potpisujte samo detaljno objašnjene izjave sa kojima se slažete.</translation>
+        <translation>Mo��ete potpisati poruke sa svojom adresom kako bi dokazali da ih posjedujete. Budite oprezni da ne potpisujete ni��ta mutno, jer bi vas phishing napadi mogli na prevaru natjerati da prepi��ete svoj identitet njima. Potpisujte samo detaljno obja��njene izjave sa kojima se sla��ete.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -1484,7 +1484,7 @@ Adresa:%4
     <message>
         <location line="-203"/>
         <source>Paste address from clipboard</source>
-        <translation>Zalijepi adresu iz međuspremnika</translation>
+        <translation>Zalijepi adresu iz me��uspremnika</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1494,7 +1494,7 @@ Adresa:%4
     <message>
         <location line="+12"/>
         <source>Enter the message you want to sign here</source>
-        <translation>Upišite poruku koju želite potpisati ovdje</translation>
+        <translation>Upi��ite poruku koju ��elite potpisati ovdje</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1525,7 +1525,7 @@ Adresa:%4
         <location line="+3"/>
         <location line="+146"/>
         <source>Clear &amp;All</source>
-        <translation>Obriši &amp;sve</translation>
+        <translation>Obri��i &amp;sve</translation>
     </message>
     <message>
         <location line="-87"/>
@@ -1668,7 +1668,7 @@ Adresa:%4
     <message>
         <location line="+2"/>
         <source>%1/unconfirmed</source>
-        <translation>%1/nepotvrđeno</translation>
+        <translation>%1/nepotvr��eno</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1731,7 +1731,7 @@ Adresa:%4
         <location line="+17"/>
         <location line="+30"/>
         <source>Credit</source>
-        <translation>Uplaćeno</translation>
+        <translation>Upla��eno</translation>
     </message>
     <message numerus="yes">
         <location line="-102"/>
@@ -1741,7 +1741,7 @@ Adresa:%4
     <message>
         <location line="+2"/>
         <source>not accepted</source>
-        <translation>Nije prihvaćeno</translation>
+        <translation>Nije prihva��eno</translation>
     </message>
     <message>
         <location line="+44"/>
@@ -1749,7 +1749,7 @@ Adresa:%4
         <location line="+15"/>
         <location line="+30"/>
         <source>Debit</source>
-        <translation>Zaduženje</translation>
+        <translation>Zadu��enje</translation>
     </message>
     <message>
         <location line="-39"/>
@@ -1779,7 +1779,7 @@ Adresa:%4
     <message>
         <location line="+3"/>
         <source>Generated coins must mature 120 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Generirani novčići moraju pričekati nastanak 120 blokova prije nego što ih je moguće potrošiti. Kad ste generirali taj blok, on je bio emitiran u mrežu kako bi bio dodan postojećim lancima blokova. Ako ne uspije biti dodan, njegov status bit će promijenjen u &quot;nije prihvaćen&quot; i on neće biti potrošiv. S vremena na vrijeme tako nešto se može desiti ako neki drugi nod generira blok u približno isto vrijeme.</translation>
+        <translation>Generirani nov��i��i moraju pri��ekati nastanak 120 blokova prije nego ��to ih je mogu��e potro��iti. Kad ste generirali taj blok, on je bio emitiran u mre��u kako bi bio dodan postoje��im lancima blokova. Ako ne uspije biti dodan, njegov status bit ��e promijenjen u &quot;nije prihva��en&quot; i on ne��e biti potro��iv. S vremena na vrijeme tako ne��to se mo��e desiti ako neki drugi nod generira blok u pribli��no isto vrijeme.</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1814,7 +1814,7 @@ Adresa:%4
     <message>
         <location line="-209"/>
         <source>, has not been successfully broadcast yet</source>
-        <translation>, još nije bio uspješno emitiran</translation>
+        <translation>, jo�� nije bio uspje��no emitiran</translation>
     </message>
     <message numerus="yes">
         <location line="-35"/>
@@ -1875,17 +1875,17 @@ Adresa:%4
     <message>
         <location line="+3"/>
         <source>Offline (%1 confirmations)</source>
-        <translation>Nije na mreži (%1 potvrda)</translation>
+        <translation>Nije na mre��i (%1 potvrda)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Unconfirmed (%1 of %2 confirmations)</source>
-        <translation>Nepotvrđen (%1 od %2 potvrda)</translation>
+        <translation>Nepotvr��en (%1 od %2 potvrda)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Confirmed (%1 confirmations)</source>
-        <translation>Potvrđen (%1 potvrda)</translation>
+        <translation>Potvr��en (%1 potvrda)</translation>
     </message>
     <message numerus="yes">
         <location line="+8"/>
@@ -1895,12 +1895,12 @@ Adresa:%4
     <message>
         <location line="+5"/>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation>Generirano - Upozorenje: ovaj blok nije bio primljen od strane bilo kojeg drugog noda i vjerojatno neće biti prihvaćen!</translation>
+        <translation>Generirano - Upozorenje: ovaj blok nije bio primljen od strane bilo kojeg drugog noda i vjerojatno ne��e biti prihva��en!</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Generated but not accepted</source>
-        <translation>Generirano, ali nije prihvaćeno</translation>
+        <translation>Generirano, ali nije prihva��eno</translation>
     </message>
     <message>
         <location line="+43"/>
@@ -1920,7 +1920,7 @@ Adresa:%4
     <message>
         <location line="+2"/>
         <source>Payment to yourself</source>
-        <translation>Plaćanje samom sebi</translation>
+        <translation>Pla��anje samom sebi</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1950,7 +1950,7 @@ Adresa:%4
     <message>
         <location line="+2"/>
         <source>Destination address of transaction.</source>
-        <translation>Odredište transakcije</translation>
+        <translation>Odredi��te transakcije</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1984,7 +1984,7 @@ Adresa:%4
     <message>
         <location line="+1"/>
         <source>Last month</source>
-        <translation>Prošli mjesec</translation>
+        <translation>Pro��li mjesec</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2024,7 +2024,7 @@ Adresa:%4
     <message>
         <location line="+7"/>
         <source>Enter address or label to search</source>
-        <translation>Unesite adresu ili oznaku za pretraživanje</translation>
+        <translation>Unesite adresu ili oznaku za pretra��ivanje</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -2074,7 +2074,7 @@ Adresa:%4
     <message>
         <location line="+8"/>
         <source>Confirmed</source>
-        <translation>Potvrđeno</translation>
+        <translation>Potvr��eno</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2109,7 +2109,7 @@ Adresa:%4
     <message>
         <location line="+4"/>
         <source>Error exporting</source>
-        <translation>Izvoz pogreške</translation>
+        <translation>Izvoz pogre��ke</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -2193,17 +2193,17 @@ Adresa:%4
     <message>
         <location line="-29"/>
         <source>Send command to -server or bitcoind</source>
-        <translation>Pošalji komandu usluzi -server ili bitcoind</translation>
+        <translation>Po��alji komandu usluzi -server ili bitcoind</translation>
     </message>
     <message>
         <location line="-23"/>
         <source>List commands</source>
-        <translation>Prikaži komande</translation>
+        <translation>Prika��i komande</translation>
     </message>
     <message>
         <location line="-12"/>
         <source>Get help for a command</source>
-        <translation>Potraži pomoć za komandu</translation>
+        <translation>Potra��i pomo�� za komandu</translation>
     </message>
     <message>
         <location line="+24"/>
@@ -2213,12 +2213,12 @@ Adresa:%4
     <message>
         <location line="+24"/>
         <source>Specify configuration file (default: bitcoin.conf)</source>
-        <translation>Odredi konfiguracijsku datoteku (ugrađeni izbor: bitcoin.conf)</translation>
+        <translation>Odredi konfiguracijsku datoteku (ugra��eni izbor: bitcoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Specify pid file (default: bitcoind.pid)</source>
-        <translation>Odredi proces ID datoteku (ugrađeni izbor: bitcoin.pid)</translation>
+        <translation>Odredi proces ID datoteku (ugra��eni izbor: bitcoin.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2233,12 +2233,12 @@ Adresa:%4
     <message>
         <location line="-28"/>
         <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
-        <translation>Slušaj na &lt;port&gt;u (default: 8333 ili testnet: 18333)</translation>
+        <translation>Slu��aj na &lt;port&gt;u (default: 8333 ili testnet: 18333)</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
-        <translation>Održavaj najviše &lt;n&gt; veza sa članovima (default: 125)</translation>
+        <translation>Odr��avaj najvi��e &lt;n&gt; veza sa ��lanovima (default: 125)</translation>
     </message>
     <message>
         <location line="-48"/>
@@ -2253,12 +2253,12 @@ Adresa:%4
     <message>
         <location line="+3"/>
         <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
-        <translation>Prag za odspajanje članova koji se čudno ponašaju (default: 100)</translation>
+        <translation>Prag za odspajanje ��lanova koji se ��udno pona��aju (default: 100)</translation>
     </message>
     <message>
         <location line="-134"/>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
-        <translation>Broj sekundi koliko se članovima koji se čudno ponašaju neće dopustiti da se opet spoje (default: 86400)</translation>
+        <translation>Broj sekundi koliko se ��lanovima koji se ��udno pona��aju ne��e dopustiti da se opet spoje (default: 86400)</translation>
     </message>
     <message>
         <location line="-29"/>
@@ -2268,7 +2268,7 @@ Adresa:%4
     <message>
         <location line="+27"/>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>Prihvaćaj JSON-RPC povezivanje na portu broj &lt;port&gt; (ugrađeni izbor: 8332 or testnet: 18332)</translation>
+        <translation>Prihva��aj JSON-RPC povezivanje na portu broj &lt;port&gt; (ugra��eni izbor: 8332 or testnet: 18332)</translation>
     </message>
     <message>
         <location line="+37"/>
@@ -2278,12 +2278,12 @@ Adresa:%4
     <message>
         <location line="+76"/>
         <source>Run in the background as a daemon and accept commands</source>
-        <translation>Izvršavaj u pozadini kao uslužnik i prihvaćaj komande</translation>
+        <translation>Izvr��avaj u pozadini kao uslu��nik i prihva��aj komande</translation>
     </message>
     <message>
         <location line="+37"/>
         <source>Use the test network</source>
-        <translation>Koristi test mrežu</translation>
+        <translation>Koristi test mre��u</translation>
     </message>
     <message>
         <location line="-112"/>
@@ -2353,7 +2353,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="+5"/>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
-        <translation>Upozorenje: -paytxfee je podešen na preveliki iznos.  To je iznos koji ćete platiti za obradu transakcije.</translation>
+        <translation>Upozorenje: -paytxfee je pode��en na preveliki iznos.  To je iznos koji ��ete platiti za obradu transakcije.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2363,7 +2363,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="+3"/>
         <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Bitcoin will not work properly.</source>
-        <translation>Upozorenje: Molimo provjerite jesu li datum i vrijeme na vašem računalu točni. Ako vaš sat ide krivo, Bitcoin neće raditi ispravno.</translation>
+        <translation>Upozorenje: Molimo provjerite jesu li datum i vrijeme na va��em ra��unalu to��ni. Ako va�� sat ide krivo, Bitcoin ne��e raditi ispravno.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2388,7 +2388,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="+5"/>
         <source>Connect only to the specified node(s)</source>
-        <translation>Poveži se samo sa određenim nodom</translation>
+        <translation>Pove��i se samo sa odre��enim nodom</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2588,7 +2588,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="+2"/>
         <source>Only accept block chain matching built-in checkpoints (default: 1)</source>
-        <translation>Prihvati samo lance blokova koji se podudaraju sa ugrađenim checkpoint-ovima (default: 1)</translation>
+        <translation>Prihvati samo lance blokova koji se podudaraju sa ugra��enim checkpoint-ovima (default: 1)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2608,12 +2608,12 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="+2"/>
         <source>Prepend debug output with timestamp</source>
-        <translation>Dodaj izlaz debuga na početak sa vremenskom oznakom</translation>
+        <translation>Dodaj izlaz debuga na po��etak sa vremenskom oznakom</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation>SSL postavke: (za detalje o podešavanju SSL opcija vidi Bitcoin Wiki)</translation>
+        <translation>SSL postavke: (za detalje o pode��avanju SSL opcija vidi Bitcoin Wiki)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2623,22 +2623,22 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="+3"/>
         <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation>Šalji trace/debug informacije na konzolu umjesto u debug.log datoteku</translation>
+        <translation>��alji trace/debug informacije na konzolu umjesto u debug.log datoteku</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Send trace/debug info to debugger</source>
-        <translation>Pošalji trace/debug informacije u debugger</translation>
+        <translation>Po��alji trace/debug informacije u debugger</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Set maximum block size in bytes (default: 250000)</source>
-        <translation>Podesite maksimalnu veličinu bloka u bajtovima (default: 250000)</translation>
+        <translation>Podesite maksimalnu veli��inu bloka u bajtovima (default: 250000)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Set minimum block size in bytes (default: 0)</source>
-        <translation>Podesite minimalnu veličinu bloka u bajtovima (default: 0)</translation>
+        <translation>Podesite minimalnu veli��inu bloka u bajtovima (default: 0)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2653,7 +2653,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="+2"/>
         <source>Specify connection timeout in milliseconds (default: 5000)</source>
-        <translation>Odredi vremenski prozor za spajanje na mrežu u milisekundama (ugrađeni izbor: 5000)</translation>
+        <translation>Odredi vremenski prozor za spajanje na mre��u u milisekundama (ugra��eni izbor: 5000)</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -2678,12 +2678,12 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="+7"/>
         <source>Use UPnP to map the listening port (default: 0)</source>
-        <translation>Pokušaj koristiti UPnP da otvoriš port za uslugu (default: 0)</translation>
+        <translation>Poku��aj koristiti UPnP da otvori�� port za uslugu (default: 0)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Use UPnP to map the listening port (default: 1 when listening)</source>
-        <translation>Pokušaj koristiti UPnP da otvoriš port za uslugu (default: 1 when listening)</translation>
+        <translation>Poku��aj koristiti UPnP da otvori�� port za uslugu (default: 1 when listening)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2693,7 +2693,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="+2"/>
         <source>Username for JSON-RPC connections</source>
-        <translation>Korisničko ime za JSON-RPC veze</translation>
+        <translation>Korisni��ko ime za JSON-RPC veze</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -2723,32 +2723,32 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="-67"/>
         <source>Allow JSON-RPC connections from specified IP address</source>
-        <translation>Dozvoli JSON-RPC povezivanje s određene IP adrese</translation>
+        <translation>Dozvoli JSON-RPC povezivanje s odre��ene IP adrese</translation>
     </message>
     <message>
         <location line="+76"/>
         <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
-        <translation>Pošalji komande nodu na adresi &lt;ip&gt; (ugrađeni izbor: 127.0.0.1)</translation>
+        <translation>Po��alji komande nodu na adresi &lt;ip&gt; (ugra��eni izbor: 127.0.0.1)</translation>
     </message>
     <message>
         <location line="-120"/>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>Izvršite naredbu kada se najbolji blok promjeni (%s u cmd je zamjenjen sa block hash)</translation>
+        <translation>Izvr��ite naredbu kada se najbolji blok promjeni (%s u cmd je zamjenjen sa block hash)</translation>
     </message>
     <message>
         <location line="+147"/>
         <source>Upgrade wallet to latest format</source>
-        <translation>Nadogradite novčanik u posljednji format.</translation>
+        <translation>Nadogradite nov��anik u posljednji format.</translation>
     </message>
     <message>
         <location line="-21"/>
         <source>Set key pool size to &lt;n&gt; (default: 100)</source>
-        <translation>Podesi memorijski prostor za ključeve na &lt;n&gt; (ugrađeni izbor: 100)</translation>
+        <translation>Podesi memorijski prostor za klju��eve na &lt;n&gt; (ugra��eni izbor: 100)</translation>
     </message>
     <message>
         <location line="-12"/>
         <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>Ponovno pretraži lanac blokova za transakcije koje nedostaju</translation>
+        <translation>Ponovno pretra��i lanac blokova za transakcije koje nedostaju</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -2758,32 +2758,32 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="-26"/>
         <source>Server certificate file (default: server.cert)</source>
-        <translation>Uslužnikov SSL certifikat (ugrađeni izbor: server.cert)</translation>
+        <translation>Uslu��nikov SSL certifikat (ugra��eni izbor: server.cert)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Server private key (default: server.pem)</source>
-        <translation>Uslužnikov privatni ključ (ugrađeni izbor: server.pem)</translation>
+        <translation>Uslu��nikov privatni klju�� (ugra��eni izbor: server.pem)</translation>
     </message>
     <message>
         <location line="-151"/>
         <source>Acceptable ciphers (default: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</source>
-        <translation>Prihvaljivi načini šifriranja (ugrađeni izbor: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</translation>
+        <translation>Prihvaljivi na��ini ��ifriranja (ugra��eni izbor: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</translation>
     </message>
     <message>
         <location line="+165"/>
         <source>This help message</source>
-        <translation>Ova poruka za pomoć</translation>
+        <translation>Ova poruka za pomo��</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
-        <translation>Program ne može koristiti %s na ovom računalu (bind returned error %d, %s)</translation>
+        <translation>Program ne mo��e koristiti %s na ovom ra��unalu (bind returned error %d, %s)</translation>
     </message>
     <message>
         <location line="-91"/>
         <source>Connect through socks proxy</source>
-        <translation>Poveži se kroz socks proxy</translation>
+        <translation>Pove��i se kroz socks proxy</translation>
     </message>
     <message>
         <location line="-10"/>
@@ -2793,27 +2793,27 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="+55"/>
         <source>Loading addresses...</source>
-        <translation>Učitavanje adresa...</translation>
+        <translation>U��itavanje adresa...</translation>
     </message>
     <message>
         <location line="-35"/>
         <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation>Greška kod učitavanja wallet.dat: Novčanik pokvaren</translation>
+        <translation>Gre��ka kod u��itavanja wallet.dat: Nov��anik pokvaren</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin</source>
-        <translation>Greška kod učitavanja wallet.dat: Novčanik zahtjeva noviju verziju Bitcoina</translation>
+        <translation>Gre��ka kod u��itavanja wallet.dat: Nov��anik zahtjeva noviju verziju Bitcoina</translation>
     </message>
     <message>
         <location line="+93"/>
         <source>Wallet needed to be rewritten: restart Bitcoin to complete</source>
-        <translation>Novčanik je trebao prepravak: ponovo pokrenite Bitcoin</translation>
+        <translation>Nov��anik je trebao prepravak: ponovo pokrenite Bitcoin</translation>
     </message>
     <message>
         <location line="-95"/>
         <source>Error loading wallet.dat</source>
-        <translation>Greška kod učitavanja wallet.dat</translation>
+        <translation>Gre��ka kod u��itavanja wallet.dat</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -2858,37 +2858,37 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="+10"/>
         <source>Loading block index...</source>
-        <translation>Učitavanje indeksa blokova...</translation>
+        <translation>U��itavanje indeksa blokova...</translation>
     </message>
     <message>
         <location line="-57"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>Unesite nod s kojim se želite spojiti and attempt to keep the connection open</translation>
+        <translation>Unesite nod s kojim se ��elite spojiti and attempt to keep the connection open</translation>
     </message>
     <message>
         <location line="-25"/>
         <source>Unable to bind to %s on this computer. Bitcoin is probably already running.</source>
-        <translation>Program ne može koristiti %s na ovom računalu.  Bitcoin program je vjerojatno već pokrenut.</translation>
+        <translation>Program ne mo��e koristiti %s na ovom ra��unalu.  Bitcoin program je vjerojatno ve�� pokrenut.</translation>
     </message>
     <message>
         <location line="+64"/>
         <source>Fee per KB to add to transactions you send</source>
-        <translation>Naknada posredniku po KB-u koja će biti dodana svakoj transakciji koju pošalješ</translation>
+        <translation>Naknada posredniku po KB-u koja ��e biti dodana svakoj transakciji koju po��alje��</translation>
     </message>
     <message>
         <location line="+19"/>
         <source>Loading wallet...</source>
-        <translation>Učitavanje novčanika...</translation>
+        <translation>U��itavanje nov��anika...</translation>
     </message>
     <message>
         <location line="-52"/>
         <source>Cannot downgrade wallet</source>
-        <translation>Nije moguće novčanik vratiti na prijašnju verziju.</translation>
+        <translation>Nije mogu��e nov��anik vratiti na prija��nju verziju.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Cannot write default address</source>
-        <translation>Nije moguće upisati zadanu adresu.</translation>
+        <translation>Nije mogu��e upisati zadanu adresu.</translation>
     </message>
     <message>
         <location line="+64"/>
@@ -2898,7 +2898,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="-57"/>
         <source>Done loading</source>
-        <translation>Učitavanje gotovo</translation>
+        <translation>U��itavanje gotovo</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2908,7 +2908,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="-74"/>
         <source>Error</source>
-        <translation>Greška</translation>
+        <translation>Gre��ka</translation>
     </message>
     <message>
         <location line="-31"/>

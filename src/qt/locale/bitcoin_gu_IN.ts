@@ -5,7 +5,7 @@
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
         <source>About Bitcoin</source>
-        <translation>બીટકોઈન વિષે</translation>
+        <translation>��������������������� ������������</translation>
     </message>
     <message>
         <location line="+39"/>
@@ -1310,7 +1310,7 @@ Address: %4
     </message>
     <message>
         <location line="+10"/>
-        <source>123.456 BTC</source>
+        <source>123.456 IXC</source>
         <translation type="unfinished"/>
     </message>
     <message>

@@ -23,7 +23,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>
 Dette program er ekperimentielt.
 
-Det er gjort tilgængeligt under MIT/X11-softwarelicensen. Se den tilhørende fil &quot;COPYING&quot; eller http://www.opensource.org/licenses/mit-license.php.
+Det er gjort tilg��ngeligt under MIT/X11-softwarelicensen. Se den tilh��rende fil &quot;COPYING&quot; eller http://www.opensource.org/licenses/mit-license.php.
 
 Produktet indeholder software som er udviklet af OpenSSL Project til brug i OpenSSL Toolkit (http://www.openssl.org/), kryptografisk software skrevet af Eric Young (eay@cryptsoft.com) og UPnP-software skrevet af Thomas Bernard.</translation>
     </message>
@@ -48,7 +48,7 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     <message>
         <location line="+19"/>
         <source>Double-click to edit address or label</source>
-        <translation>Dobbeltklik for at redigere adresse eller mærkat</translation>
+        <translation>Dobbeltklik for at redigere adresse eller m��rkat</translation>
     </message>
     <message>
         <location line="+27"/>
@@ -68,7 +68,7 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
         <source>These are your Bitcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Dette er dine Bitcoin-adresser til at modtage betalinger med. Du kan give en forskellig adresse til hver afsender, så du kan holde styr på, hvem der betaler dig.</translation>
+        <translation>Dette er dine Bitcoin-adresser til at modtage betalinger med. Du kan give en forskellig adresse til hver afsender, s�� du kan holde styr p��, hvem der betaler dig.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -83,7 +83,7 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     <message>
         <location line="+11"/>
         <source>Sign a message to prove you own a Bitcoin address</source>
-        <translation>Underskriv en besked for at bevise, at en Bitcoin-adresse tilhører dig</translation>
+        <translation>Underskriv en besked for at bevise, at en Bitcoin-adresse tilh��rer dig</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -98,7 +98,7 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     <message>
         <location line="+27"/>
         <source>Export the data in the current tab to a file</source>
-        <translation>Eksportér den aktuelle visning til en fil</translation>
+        <translation>Eksport��r den aktuelle visning til en fil</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -108,12 +108,12 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     <message>
         <location line="-44"/>
         <source>Verify a message to ensure it was signed with a specified Bitcoin address</source>
-        <translation>Efterprøv en besked for at sikre, at den er underskrevet med den angivne Bitcoin-adresse</translation>
+        <translation>Efterpr��v en besked for at sikre, at den er underskrevet med den angivne Bitcoin-adresse</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Verify Message</source>
-        <translation>Efterprøv besked</translation>
+        <translation>Efterpr��v besked</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -123,12 +123,12 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
         <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Disse er dine Bitcoin-adresser for at sende betalinger. Tjek altid beløb og modtageradresse, inden du sender bitcoins.</translation>
+        <translation>Disse er dine Bitcoin-adresser for at sende betalinger. Tjek altid bel��b og modtageradresse, inden du sender bitcoins.</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Copy &amp;Label</source>
-        <translation>Kopier mærkat</translation>
+        <translation>Kopier m��rkat</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -166,7 +166,7 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     <message>
         <location filename="../addresstablemodel.cpp" line="+144"/>
         <source>Label</source>
-        <translation>Mærkat</translation>
+        <translation>M��rkat</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -176,7 +176,7 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     <message>
         <location line="+36"/>
         <source>(no label)</source>
-        <translation>(ingen mærkat)</translation>
+        <translation>(ingen m��rkat)</translation>
     </message>
 </context>
 <context>
@@ -204,7 +204,7 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     <message>
         <location filename="../askpassphrasedialog.cpp" line="+33"/>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Indtast den nye adgangskode til tegnebogen.&lt;br/&gt;Brug venligst en adgangskode på &lt;b&gt;10 eller flere tilfældige tegn&lt;/b&gt; eller &lt;b&gt;otte eller flere ord&lt;/b&gt;.</translation>
+        <translation>Indtast den nye adgangskode til tegnebogen.&lt;br/&gt;Brug venligst en adgangskode p�� &lt;b&gt;10 eller flere tilf��ldige tegn&lt;/b&gt; eller &lt;b&gt;otte eller flere ord&lt;/b&gt;.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -214,12 +214,12 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     <message>
         <location line="+3"/>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Denne funktion har brug for din tegnebogs adgangskode for at låse tegnebogen op.</translation>
+        <translation>Denne funktion har brug for din tegnebogs adgangskode for at l��se tegnebogen op.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Unlock wallet</source>
-        <translation>Lås tegnebog op</translation>
+        <translation>L��s tegnebog op</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -244,7 +244,7 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     <message>
         <location line="+46"/>
         <source>Confirm wallet encryption</source>
-        <translation>Bekræft tegnebogskryptering</translation>
+        <translation>Bekr��ft tegnebogskryptering</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -254,12 +254,12 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     <message>
         <location line="+0"/>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>Er du sikker på, at du ønsker at kryptere din tegnebog?</translation>
+        <translation>Er du sikker p��, at du ��nsker at kryptere din tegnebog?</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>VIGTIGT: Enhver tidligere sikkerhedskopi, som du har lavet af tegnebogsfilen, bør blive erstattet af den nyligt genererede, krypterede tegnebogsfil. Af sikkerhedsmæssige årsager vil tidligere sikkerhedskopier af den ikke-krypterede tegnebogsfil blive ubrugelig i det øjeblik, du starter med at anvende den nye, krypterede tegnebog.</translation>
+        <translation>VIGTIGT: Enhver tidligere sikkerhedskopi, som du har lavet af tegnebogsfilen, b��r blive erstattet af den nyligt genererede, krypterede tegnebogsfil. Af sikkerhedsm��ssige ��rsager vil tidligere sikkerhedskopier af den ikke-krypterede tegnebogsfil blive ubrugelig i det ��jeblik, du starter med at anvende den nye, krypterede tegnebog.</translation>
     </message>
     <message>
         <location line="+100"/>
@@ -276,7 +276,7 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     <message>
         <location line="-56"/>
         <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Bitcoin vil nu lukke for at gennemføre krypteringsprocessen. Husk på, at kryptering af din tegnebog vil ikke beskytte dine bitcoins fuldt ud mod at blive stjålet af malware på din computer.</translation>
+        <translation>Bitcoin vil nu lukke for at gennemf��re krypteringsprocessen. Husk p��, at kryptering af din tegnebog vil ikke beskytte dine bitcoins fuldt ud mod at blive stj��let af malware p�� din computer.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -289,7 +289,7 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     <message>
         <location line="-54"/>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>Tegnebogskryptering mislykkedes på grund af en intern fejl. Din tegnebog blev ikke krypteret.</translation>
+        <translation>Tegnebogskryptering mislykkedes p�� grund af en intern fejl. Din tegnebog blev ikke krypteret.</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -300,7 +300,7 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     <message>
         <location line="-37"/>
         <source>Wallet unlock failed</source>
-        <translation>Tegnebogsoplåsning mislykkedes</translation>
+        <translation>Tegnebogsopl��sning mislykkedes</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -317,7 +317,7 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     <message>
         <location line="+14"/>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation>Tegnebogens adgangskode blev ændret.</translation>
+        <translation>Tegnebogens adgangskode blev ��ndret.</translation>
     </message>
 </context>
 <context>
@@ -330,7 +330,7 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     <message>
         <location line="+280"/>
         <source>Synchronizing with network...</source>
-        <translation>Synkroniserer med netværk...</translation>
+        <translation>Synkroniserer med netv��rk...</translation>
     </message>
     <message>
         <location line="-349"/>
@@ -355,7 +355,7 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     <message>
         <location line="+7"/>
         <source>Edit the list of stored addresses and labels</source>
-        <translation>Rediger listen over gemte adresser og mærkater</translation>
+        <translation>Rediger listen over gemte adresser og m��rkater</translation>
     </message>
     <message>
         <location line="-14"/>
@@ -415,7 +415,7 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     <message>
         <location line="+3"/>
         <source>Reindexing blocks on disk...</source>
-        <translation>Genindekserer blokke på disken...</translation>
+        <translation>Genindekserer blokke p�� disken...</translation>
     </message>
     <message>
         <location line="-347"/>
@@ -440,17 +440,17 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     <message>
         <location line="+6"/>
         <source>&amp;Debug window</source>
-        <translation>Fejlsøgningsvindue</translation>
+        <translation>Fejls��gningsvindue</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Open debugging and diagnostic console</source>
-        <translation>Åbn fejlsøgnings- og diagnosticeringskonsollen</translation>
+        <translation>��bn fejls��gnings- og diagnosticeringskonsollen</translation>
     </message>
     <message>
         <location line="-4"/>
         <source>&amp;Verify message...</source>
-        <translation>Efterprøv besked...</translation>
+        <translation>Efterpr��v besked...</translation>
     </message>
     <message>
         <location line="-165"/>
@@ -496,17 +496,17 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     <message>
         <location line="+3"/>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>Krypter de private nøgler, der hører til din tegnebog</translation>
+        <translation>Krypter de private n��gler, der h��rer til din tegnebog</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Underskriv beskeder med dine Bitcoin-adresser for at bevise, at de tilhører dig</translation>
+        <translation>Underskriv beskeder med dine Bitcoin-adresser for at bevise, at de tilh��rer dig</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Efterprøv beskeder for at sikre, at de er underskrevet med de(n) angivne Bitcoin-adresse(r)</translation>
+        <translation>Efterpr��v beskeder for at sikre, at de er underskrevet med de(n) angivne Bitcoin-adresse(r)</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -521,18 +521,18 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     <message>
         <location line="+6"/>
         <source>&amp;Help</source>
-        <translation>Hjælp</translation>
+        <translation>Hj��lp</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Tabs toolbar</source>
-        <translation>Faneværktøjslinje</translation>
+        <translation>Fanev��rkt��jslinje</translation>
     </message>
     <message>
         <location line="+17"/>
         <location line="+10"/>
         <source>[testnet]</source>
-        <translation>[testnetværk]</translation>
+        <translation>[testnetv��rk]</translation>
     </message>
     <message>
         <location line="+47"/>
@@ -542,12 +542,12 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     <message numerus="yes">
         <location line="+141"/>
         <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n aktiv(e) forbindelse(r) til Bitcoin-netværket</numerusform><numerusform>%n aktiv(e) forbindelse(r) til Bitcoin-netværket</numerusform></translation>
+        <translation><numerusform>%n aktiv(e) forbindelse(r) til Bitcoin-netv��rket</numerusform><numerusform>%n aktiv(e) forbindelse(r) til Bitcoin-netv��rket</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
         <source>No block source available...</source>
-        <translation>Ingen blokkilde tilgængelig...</translation>
+        <translation>Ingen blokkilde tilg��ngelig...</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -587,7 +587,7 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     <message>
         <location line="+2"/>
         <source>Transactions after this will not yet be visible.</source>
-        <translation>Transaktioner herefter vil endnu ikke være synlige.</translation>
+        <translation>Transaktioner herefter vil endnu ikke v��re synlige.</translation>
     </message>
     <message>
         <location line="+22"/>
@@ -607,7 +607,7 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     <message>
         <location line="+70"/>
         <source>This transaction is over the size limit. You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network. Do you want to pay the fee?</source>
-        <translation>Transaktionen overskrider størrelsesgrænsen. Du kan stadig sende den for et gebyr på %1, hvilket går til de knuder, der behandler din transaktion og hjælper med at understøtte netværket. Vil du betale gebyret?</translation>
+        <translation>Transaktionen overskrider st��rrelsesgr��nsen. Du kan stadig sende den for et gebyr p�� %1, hvilket g��r til de knuder, der behandler din transaktion og hj��lper med at underst��tte netv��rket. Vil du betale gebyret?</translation>
     </message>
     <message>
         <location line="-140"/>
@@ -622,7 +622,7 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     <message>
         <location line="+113"/>
         <source>Confirm transaction fee</source>
-        <translation>Bekræft transaktionsgebyr</translation>
+        <translation>Bekr��ft transaktionsgebyr</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -632,7 +632,7 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     <message>
         <location line="+0"/>
         <source>Incoming transaction</source>
-        <translation>Indgående transaktion</translation>
+        <translation>Indg��ende transaktion</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -642,7 +642,7 @@ Type: %3
 Address: %4
 </source>
         <translation>Dato: %1
-Beløb: %2
+Bel��b: %2
 Type: %3
 Adresse: %4
 </translation>
@@ -651,7 +651,7 @@ Adresse: %4
         <location line="+33"/>
         <location line="+23"/>
         <source>URI handling</source>
-        <translation>URI-håndtering</translation>
+        <translation>URI-h��ndtering</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -662,17 +662,17 @@ Adresse: %4
     <message>
         <location line="+17"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>Tegnebog er &lt;b&gt;krypteret&lt;/b&gt; og i øjeblikket &lt;b&gt;ulåst&lt;/b&gt;</translation>
+        <translation>Tegnebog er &lt;b&gt;krypteret&lt;/b&gt; og i ��jeblikket &lt;b&gt;ul��st&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>Tegnebog er &lt;b&gt;krypteret&lt;/b&gt; og i øjeblikket &lt;b&gt;låst&lt;/b&gt;</translation>
+        <translation>Tegnebog er &lt;b&gt;krypteret&lt;/b&gt; og i ��jeblikket &lt;b&gt;l��st&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
         <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
-        <translation>Der opstod en fatal fejl. Bitcoin kan ikke længere fortsætte sikkert og vil afslutte.</translation>
+        <translation>Der opstod en fatal fejl. Bitcoin kan ikke l��ngere forts��tte sikkert og vil afslutte.</translation>
     </message>
 </context>
 <context>
@@ -680,7 +680,7 @@ Adresse: %4
     <message>
         <location filename="../clientmodel.cpp" line="+104"/>
         <source>Network Alert</source>
-        <translation>Netværksadvarsel</translation>
+        <translation>Netv��rksadvarsel</translation>
     </message>
 </context>
 <context>
@@ -693,12 +693,12 @@ Adresse: %4
     <message>
         <location line="+11"/>
         <source>&amp;Label</source>
-        <translation>Mærkat</translation>
+        <translation>M��rkat</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>The label associated with this address book entry</source>
-        <translation>Mærkaten forbundet med denne post i adressebogen</translation>
+        <translation>M��rkaten forbundet med denne post i adressebogen</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -708,7 +708,7 @@ Adresse: %4
     <message>
         <location line="+10"/>
         <source>The address associated with this address book entry. This can only be modified for sending addresses.</source>
-        <translation>Adressen tilknyttet til denne post i adressebogen. Dette kan kun ændres for afsendelsesadresser.</translation>
+        <translation>Adressen tilknyttet til denne post i adressebogen. Dette kan kun ��ndres for afsendelsesadresser.</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="+21"/>
@@ -743,12 +743,12 @@ Adresse: %4
     <message>
         <location line="+10"/>
         <source>Could not unlock wallet.</source>
-        <translation>Kunne ikke låse tegnebog op.</translation>
+        <translation>Kunne ikke l��se tegnebog op.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>New key generation failed.</source>
-        <translation>Ny nøglegenerering mislykkedes.</translation>
+        <translation>Ny n��glegenerering mislykkedes.</translation>
     </message>
 </context>
 <context>
@@ -777,7 +777,7 @@ Adresse: %4
     <message>
         <location line="+4"/>
         <source>UI options</source>
-        <translation>Brugergrænsefladeindstillinger</translation>
+        <translation>Brugergr��nsefladeindstillinger</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -810,7 +810,7 @@ Adresse: %4
     <message>
         <location line="+6"/>
         <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
-        <translation>Valgfrit transaktionsgebyr pr. kB, der hjælper dine transaktioner med at blive behandlet hurtigt. De fleste transaktioner er på 1 kB.</translation>
+        <translation>Valgfrit transaktionsgebyr pr. kB, der hj��lper dine transaktioner med at blive behandlet hurtigt. De fleste transaktioner er p�� 1 kB.</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -820,12 +820,12 @@ Adresse: %4
     <message>
         <location line="+31"/>
         <source>Automatically start Bitcoin after logging in to the system.</source>
-        <translation>Start Bitcoin automatisk, når der logges ind på systemet</translation>
+        <translation>Start Bitcoin automatisk, n��r der logges ind p�� systemet</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Start Bitcoin on system login</source>
-        <translation>Start Bitcoin, når systemet startes</translation>
+        <translation>Start Bitcoin, n��r systemet startes</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -840,12 +840,12 @@ Adresse: %4
     <message>
         <location line="+13"/>
         <source>&amp;Network</source>
-        <translation>Netværk</translation>
+        <translation>Netv��rk</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Åbn Bitcoin-klientens port på routeren automatisk. Dette virker kun, når din router understøtter UPnP og UPnP er aktiveret.</translation>
+        <translation>��bn Bitcoin-klientens port p�� routeren automatisk. Dette virker kun, n��r din router underst��tter UPnP og UPnP er aktiveret.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -855,7 +855,7 @@ Adresse: %4
     <message>
         <location line="+7"/>
         <source>Connect to the Bitcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Opret forbindelse til Bitcoin-netværket via en SOCKS-proxy (f.eks. ved tilslutning gennem Tor)</translation>
+        <translation>Opret forbindelse til Bitcoin-netv��rket via en SOCKS-proxy (f.eks. ved tilslutning gennem Tor)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -870,7 +870,7 @@ Adresse: %4
     <message>
         <location line="+19"/>
         <source>IP address of the proxy (e.g. 127.0.0.1)</source>
-        <translation>IP-adressen på proxyen (f.eks. 127.0.0.1)</translation>
+        <translation>IP-adressen p�� proxyen (f.eks. 127.0.0.1)</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -880,7 +880,7 @@ Adresse: %4
     <message>
         <location line="+19"/>
         <source>Port of the proxy (e.g. 9050)</source>
-        <translation>Porten på proxyen (f.eks. 9050)</translation>
+        <translation>Porten p�� proxyen (f.eks. 9050)</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -910,7 +910,7 @@ Adresse: %4
     <message>
         <location line="+7"/>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
-        <translation>Minimer i stedet for at afslutte programmet, når vinduet lukkes. Når denne indstilling er valgt, vil programmet kun blive lukket, når du har valgt Afslut i menuen.</translation>
+        <translation>Minimer i stedet for at afslutte programmet, n��r vinduet lukkes. N��r denne indstilling er valgt, vil programmet kun blive lukket, n��r du har valgt Afslut i menuen.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -925,27 +925,27 @@ Adresse: %4
     <message>
         <location line="+8"/>
         <source>User Interface &amp;language:</source>
-        <translation>Brugergrænsefladesprog:</translation>
+        <translation>Brugergr��nsefladesprog:</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin.</source>
-        <translation>Brugergrænsefladesproget kan angives her. Denne indstilling træder først i kraft, når Bitcoin genstartes.</translation>
+        <translation>Brugergr��nsefladesproget kan angives her. Denne indstilling tr��der f��rst i kraft, n��r Bitcoin genstartes.</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>Enhed at vise beløb i:</translation>
+        <translation>Enhed at vise bel��b i:</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Vælg den standard underopdelingsenhed, som skal vises i brugergrænsefladen og ved afsendelse af bitcoins.</translation>
+        <translation>V��lg den standard underopdelingsenhed, som skal vises i brugergr��nsefladen og ved afsendelse af bitcoins.</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Whether to show Bitcoin addresses in the transaction list or not.</source>
-        <translation>Afgør hvorvidt Bitcoin-adresser skal vises i transaktionslisten eller ej.</translation>
+        <translation>Afg��r hvorvidt Bitcoin-adresser skal vises i transaktionslisten eller ej.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -975,17 +975,17 @@ Adresse: %4
     <message>
         <location line="+130"/>
         <source>Confirm options reset</source>
-        <translation>Bekræft nulstilling af indstillinger</translation>
+        <translation>Bekr��ft nulstilling af indstillinger</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Some settings may require a client restart to take effect.</source>
-        <translation>Nogle indstillinger kan kræve, at klienten genstartes, før de træder i kraft.</translation>
+        <translation>Nogle indstillinger kan kr��ve, at klienten genstartes, f��r de tr��der i kraft.</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Do you want to proceed?</source>
-        <translation>Ønsker du at fortsætte?</translation>
+        <translation>��nsker du at forts��tte?</translation>
     </message>
     <message>
         <location line="+42"/>
@@ -997,7 +997,7 @@ Adresse: %4
         <location line="-9"/>
         <location line="+9"/>
         <source>This setting will take effect after restarting Bitcoin.</source>
-        <translation>Denne indstilling træder i kraft, efter Bitcoin genstartes.</translation>
+        <translation>Denne indstilling tr��der i kraft, efter Bitcoin genstartes.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1016,7 +1016,7 @@ Adresse: %4
         <location line="+50"/>
         <location line="+166"/>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Den viste information kan være forældet. Din tegnebog synkroniserer automatisk med Bitcoin-netværket, når en forbindelse etableres, men denne proces er ikke gennemført endnu.</translation>
+        <translation>Den viste information kan v��re for��ldet. Din tegnebog synkroniserer automatisk med Bitcoin-netv��rket, n��r en forbindelse etableres, men denne proces er ikke gennemf��rt endnu.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1026,7 +1026,7 @@ Adresse: %4
     <message>
         <location line="+29"/>
         <source>Unconfirmed:</source>
-        <translation>Ubekræftede:</translation>
+        <translation>Ubekr��ftede:</translation>
     </message>
     <message>
         <location line="-78"/>
@@ -1051,12 +1051,12 @@ Adresse: %4
     <message>
         <location line="-101"/>
         <source>Your current balance</source>
-        <translation>Din nuværende saldo</translation>
+        <translation>Din nuv��rende saldo</translation>
     </message>
     <message>
         <location line="+29"/>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
-        <translation>Summen af transaktioner, der endnu ikke er bekræftet og endnu ikke er inkluderet i den nuværende saldo</translation>
+        <translation>Summen af transaktioner, der endnu ikke er bekr��ftet og endnu ikke er inkluderet i den nuv��rende saldo</translation>
     </message>
     <message>
         <location filename="../overviewpage.cpp" line="+116"/>
@@ -1070,7 +1070,7 @@ Adresse: %4
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
         <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>Kan ikke starte bitcoin: click-to-pay-håndtering</translation>
+        <translation>Kan ikke starte bitcoin: click-to-pay-h��ndtering</translation>
     </message>
 </context>
 <context>
@@ -1088,12 +1088,12 @@ Adresse: %4
     <message>
         <location line="+56"/>
         <source>Amount:</source>
-        <translation>Beløb:</translation>
+        <translation>Bel��b:</translation>
     </message>
     <message>
         <location line="-44"/>
         <source>Label:</source>
-        <translation>Mærkat:</translation>
+        <translation>M��rkat:</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -1113,12 +1113,12 @@ Adresse: %4
     <message>
         <location line="+40"/>
         <source>The entered amount is invalid, please check.</source>
-        <translation>Det indtastede beløb er ugyldig, tjek venligst.</translation>
+        <translation>Det indtastede bel��b er ugyldig, tjek venligst.</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Resulting URI too long, try to reduce the text for label / message.</source>
-        <translation>Resulterende URI var for lang; prøv at forkorte teksten til mærkaten/beskeden.</translation>
+        <translation>Resulterende URI var for lang; pr��v at forkorte teksten til m��rkaten/beskeden.</translation>
     </message>
     <message>
         <location line="+25"/>
@@ -1175,7 +1175,7 @@ Adresse: %4
     <message>
         <location line="+29"/>
         <source>Network</source>
-        <translation>Netværk</translation>
+        <translation>Netv��rk</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1185,17 +1185,17 @@ Adresse: %4
     <message>
         <location line="+23"/>
         <source>On testnet</source>
-        <translation>Tilsluttet testnetværk</translation>
+        <translation>Tilsluttet testnetv��rk</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Block chain</source>
-        <translation>Blokkæde</translation>
+        <translation>Blokk��de</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Current number of blocks</source>
-        <translation>Nuværende antal blokke</translation>
+        <translation>Nuv��rende antal blokke</translation>
     </message>
     <message>
         <location line="+23"/>
@@ -1210,7 +1210,7 @@ Adresse: %4
     <message>
         <location line="+52"/>
         <source>&amp;Open</source>
-        <translation>Åbn</translation>
+        <translation>��bn</translation>
     </message>
     <message>
         <location line="+16"/>
@@ -1220,7 +1220,7 @@ Adresse: %4
     <message>
         <location line="+7"/>
         <source>Show the Bitcoin-Qt help message to get a list with possible Bitcoin command-line options.</source>
-        <translation>Vis Bitcoin-Qt-hjælpebeskeden for at få en liste over de tilgængelige Bitcoin-kommandolinjeindstillinger.</translation>
+        <translation>Vis Bitcoin-Qt-hj��lpebeskeden for at f�� en liste over de tilg��ngelige Bitcoin-kommandolinjeindstillinger.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1240,7 +1240,7 @@ Adresse: %4
     <message>
         <location line="-104"/>
         <source>Bitcoin - Debug window</source>
-        <translation>Bitcoin - Fejlsøgningsvindue</translation>
+        <translation>Bitcoin - Fejls��gningsvindue</translation>
     </message>
     <message>
         <location line="+25"/>
@@ -1250,12 +1250,12 @@ Adresse: %4
     <message>
         <location line="+279"/>
         <source>Debug log file</source>
-        <translation>Fejlsøgningslogfil</translation>
+        <translation>Fejls��gningslogfil</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Open the Bitcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Åbn Bitcoin-fejlsøgningslogfilen fra det nuværende datakatalog. Dette kan tage nogle få sekunder for en store logfiler.</translation>
+        <translation>��bn Bitcoin-fejls��gningslogfilen fra det nuv��rende datakatalog. Dette kan tage nogle f�� sekunder for en store logfiler.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1270,12 +1270,12 @@ Adresse: %4
     <message>
         <location line="+1"/>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
-        <translation>Brug op og ned-piletasterne til at navigere historikken og &lt;b&gt;Ctrl-L&lt;/b&gt; til at rydde skærmen.</translation>
+        <translation>Brug op og ned-piletasterne til at navigere historikken og &lt;b&gt;Ctrl-L&lt;/b&gt; til at rydde sk��rmen.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>Tast &lt;b&gt;help&lt;/b&gt; for en oversigt over de tilgængelige kommandoer.</translation>
+        <translation>Tast &lt;b&gt;help&lt;/b&gt; for en oversigt over de tilg��ngelige kommandoer.</translation>
     </message>
 </context>
 <context>
@@ -1295,12 +1295,12 @@ Adresse: %4
     <message>
         <location line="+50"/>
         <source>Send to multiple recipients at once</source>
-        <translation>Send til flere modtagere på en gang</translation>
+        <translation>Send til flere modtagere p�� en gang</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Add &amp;Recipient</source>
-        <translation>Tilføj modtager</translation>
+        <translation>Tilf��j modtager</translation>
     </message>
     <message>
         <location line="+20"/>
@@ -1319,13 +1319,13 @@ Adresse: %4
     </message>
     <message>
         <location line="+10"/>
-        <source>123.456 BTC</source>
-        <translation>123,456 BTC</translation>
+        <source>123.456 IXC</source>
+        <translation>123,456 IXC</translation>
     </message>
     <message>
         <location line="+31"/>
         <source>Confirm the send action</source>
-        <translation>Bekræft afsendelsen</translation>
+        <translation>Bekr��ft afsendelsen</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1340,12 +1340,12 @@ Adresse: %4
     <message>
         <location line="+5"/>
         <source>Confirm send coins</source>
-        <translation>Bekræft afsendelse af bitcoins</translation>
+        <translation>Bekr��ft afsendelse af bitcoins</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Are you sure you want to send %1?</source>
-        <translation>Er du sikker på, at du vil sende %1?</translation>
+        <translation>Er du sikker p��, at du vil sende %1?</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1360,17 +1360,17 @@ Adresse: %4
     <message>
         <location line="+5"/>
         <source>The amount to pay must be larger than 0.</source>
-        <translation>Beløbet til betaling skal være større end 0.</translation>
+        <translation>Bel��bet til betaling skal v��re st��rre end 0.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>The amount exceeds your balance.</source>
-        <translation>Beløbet overstiger din saldo.</translation>
+        <translation>Bel��bet overstiger din saldo.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation>Totalen overstiger din saldo, når %1 transaktionsgebyr er inkluderet.</translation>
+        <translation>Totalen overstiger din saldo, n��r %1 transaktionsgebyr er inkluderet.</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -1398,7 +1398,7 @@ Adresse: %4
     <message>
         <location line="+15"/>
         <source>A&amp;mount:</source>
-        <translation>Beløb:</translation>
+        <translation>Bel��b:</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1414,17 +1414,17 @@ Adresse: %4
         <location line="+60"/>
         <location filename="../sendcoinsentry.cpp" line="+26"/>
         <source>Enter a label for this address to add it to your address book</source>
-        <translation>Indtast en mærkat for denne adresse for at føje den til din adressebog</translation>
+        <translation>Indtast en m��rkat for denne adresse for at f��je den til din adressebog</translation>
     </message>
     <message>
         <location line="-78"/>
         <source>&amp;Label:</source>
-        <translation>Mærkat:</translation>
+        <translation>M��rkat:</translation>
     </message>
     <message>
         <location line="+28"/>
         <source>Choose address from address book</source>
-        <translation>Vælg adresse fra adressebog</translation>
+        <translation>V��lg adresse fra adressebog</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1434,7 +1434,7 @@ Adresse: %4
     <message>
         <location line="+7"/>
         <source>Paste address from clipboard</source>
-        <translation>Indsæt adresse fra udklipsholderen</translation>
+        <translation>Inds��t adresse fra udklipsholderen</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1457,7 +1457,7 @@ Adresse: %4
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="+14"/>
         <source>Signatures - Sign / Verify a Message</source>
-        <translation>Underskrifter - Underskriv/efterprøv en besked</translation>
+        <translation>Underskrifter - Underskriv/efterpr��v en besked</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1467,7 +1467,7 @@ Adresse: %4
     <message>
         <location line="+6"/>
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Du kan underskrive beskeder med dine Bitcoin-adresser for at bevise, at de tilhører dig. Pas på ikke at underskrive noget vagt, da phisingangreb kan narre dig til at overdrage din identitet. Underskriv kun fuldt detaljerede udsagn, du er enig i.</translation>
+        <translation>Du kan underskrive beskeder med dine Bitcoin-adresser for at bevise, at de tilh��rer dig. Pas p�� ikke at underskrive noget vagt, da phisingangreb kan narre dig til at overdrage din identitet. Underskriv kun fuldt detaljerede udsagn, du er enig i.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -1478,7 +1478,7 @@ Adresse: %4
         <location line="+10"/>
         <location line="+213"/>
         <source>Choose an address from the address book</source>
-        <translation>Vælg adresse fra adressebog</translation>
+        <translation>V��lg adresse fra adressebog</translation>
     </message>
     <message>
         <location line="-203"/>
@@ -1489,7 +1489,7 @@ Adresse: %4
     <message>
         <location line="-203"/>
         <source>Paste address from clipboard</source>
-        <translation>Indsæt adresse fra udklipsholderen</translation>
+        <translation>Inds��t adresse fra udklipsholderen</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1499,7 +1499,7 @@ Adresse: %4
     <message>
         <location line="+12"/>
         <source>Enter the message you want to sign here</source>
-        <translation>Indtast beskeden, du ønsker at underskrive</translation>
+        <translation>Indtast beskeden, du ��nsker at underskrive</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1509,12 +1509,12 @@ Adresse: %4
     <message>
         <location line="+27"/>
         <source>Copy the current signature to the system clipboard</source>
-        <translation>Kopier den nuværende underskrift til systemets udklipsholder</translation>
+        <translation>Kopier den nuv��rende underskrift til systemets udklipsholder</translation>
     </message>
     <message>
         <location line="+21"/>
         <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation>Underskriv denne besked for at bevise, at Bitcoin-adressen tilhører dig</translation>
+        <translation>Underskriv denne besked for at bevise, at Bitcoin-adressen tilh��rer dig</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1535,12 +1535,12 @@ Adresse: %4
     <message>
         <location line="-87"/>
         <source>&amp;Verify Message</source>
-        <translation>Efterprøv besked</translation>
+        <translation>Efterpr��v besked</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
-        <translation>Indtast den underskrevne adresse, beskeden (inkluder linjeskift, mellemrum mv. nøjagtigt, som de fremgår) og underskriften for at efterprøve beskeden. Vær forsigtig med ikke at lægge mere i underskriften end besked selv, så du undgår at blive narret af et man-in-the-middle-angreb.</translation>
+        <translation>Indtast den underskrevne adresse, beskeden (inkluder linjeskift, mellemrum mv. n��jagtigt, som de fremg��r) og underskriften for at efterpr��ve beskeden. V��r forsigtig med ikke at l��gge mere i underskriften end besked selv, s�� du undg��r at blive narret af et man-in-the-middle-angreb.</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1550,17 +1550,17 @@ Adresse: %4
     <message>
         <location line="+40"/>
         <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Efterprøv beskeden for at sikre, at den er underskrevet med den angivne Bitcoin-adresse</translation>
+        <translation>Efterpr��v beskeden for at sikre, at den er underskrevet med den angivne Bitcoin-adresse</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Verify &amp;Message</source>
-        <translation>Efterprøv besked</translation>
+        <translation>Efterpr��v besked</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Reset all verify message fields</source>
-        <translation>Nulstil alle efterprøv besked-indtastningsfelter</translation>
+        <translation>Nulstil alle efterpr��v besked-indtastningsfelter</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
@@ -1590,23 +1590,23 @@ Adresse: %4
         <location line="+73"/>
         <location line="+8"/>
         <source>Please check the address and try again.</source>
-        <translation>Tjek venligst adressen, og forsøg igen.</translation>
+        <translation>Tjek venligst adressen, og fors��g igen.</translation>
     </message>
     <message>
         <location line="-81"/>
         <location line="+81"/>
         <source>The entered address does not refer to a key.</source>
-        <translation>Den indtastede adresse henviser ikke til en nøgle.</translation>
+        <translation>Den indtastede adresse henviser ikke til en n��gle.</translation>
     </message>
     <message>
         <location line="-73"/>
         <source>Wallet unlock was cancelled.</source>
-        <translation>Tegnebogsoplåsning annulleret.</translation>
+        <translation>Tegnebogsopl��sning annulleret.</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Private key for the entered address is not available.</source>
-        <translation>Den private nøgle for den indtastede adresse er ikke tilgængelig.</translation>
+        <translation>Den private n��gle for den indtastede adresse er ikke tilg��ngelig.</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -1627,7 +1627,7 @@ Adresse: %4
         <location line="+0"/>
         <location line="+13"/>
         <source>Please check the signature and try again.</source>
-        <translation>Tjek venligst underskriften, og forsøg igen.</translation>
+        <translation>Tjek venligst underskriften, og fors��g igen.</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1637,12 +1637,12 @@ Adresse: %4
     <message>
         <location line="+7"/>
         <source>Message verification failed.</source>
-        <translation>Efterprøvelse af besked mislykkedes.</translation>
+        <translation>Efterpr��velse af besked mislykkedes.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Message verified.</source>
-        <translation>Besked efterprøvet.</translation>
+        <translation>Besked efterpr��vet.</translation>
     </message>
 </context>
 <context>
@@ -1663,7 +1663,7 @@ Adresse: %4
     <message>
         <location filename="../transactiondesc.cpp" line="+20"/>
         <source>Open until %1</source>
-        <translation>Åben indtil %1</translation>
+        <translation>��ben indtil %1</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -1673,12 +1673,12 @@ Adresse: %4
     <message>
         <location line="+2"/>
         <source>%1/unconfirmed</source>
-        <translation>%1/ubekræftet</translation>
+        <translation>%1/ubekr��ftet</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>%1 confirmations</source>
-        <translation>%1 bekræftelser</translation>
+        <translation>%1 bekr��ftelser</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -1727,7 +1727,7 @@ Adresse: %4
     <message>
         <location line="-2"/>
         <source>label</source>
-        <translation>mærkat</translation>
+        <translation>m��rkat</translation>
     </message>
     <message>
         <location line="+37"/>
@@ -1764,7 +1764,7 @@ Adresse: %4
     <message>
         <location line="+16"/>
         <source>Net amount</source>
-        <translation>Nettobeløb</translation>
+        <translation>Nettobel��b</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -1784,12 +1784,12 @@ Adresse: %4
     <message>
         <location line="+3"/>
         <source>Generated coins must mature 120 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Genererede bitcoins skal vente 120 blokke, før de kan blive brugt. Da du genererede denne blok, blev den transmitteret til netværket for at blive føjet til blokkæden. Hvis det mislykkes at komme ind i kæden, vil den skifte til &quot;ikke godkendt&quot; og ikke blive kunne bruges. Dette kan lejlighedsvis ske, hvis en anden knude genererer en blok inden for få sekunder af din.</translation>
+        <translation>Genererede bitcoins skal vente 120 blokke, f��r de kan blive brugt. Da du genererede denne blok, blev den transmitteret til netv��rket for at blive f��jet til blokk��den. Hvis det mislykkes at komme ind i k��den, vil den skifte til &quot;ikke godkendt&quot; og ikke blive kunne bruges. Dette kan lejlighedsvis ske, hvis en anden knude genererer en blok inden for f�� sekunder af din.</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Debug information</source>
-        <translation>Fejlsøgningsinformation</translation>
+        <translation>Fejls��gningsinformation</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -1804,7 +1804,7 @@ Adresse: %4
     <message>
         <location line="+23"/>
         <source>Amount</source>
-        <translation>Beløb</translation>
+        <translation>Bel��b</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1824,7 +1824,7 @@ Adresse: %4
     <message numerus="yes">
         <location line="-35"/>
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>Åben %n blok yderligere</numerusform><numerusform>Åben %n blokke yderligere</numerusform></translation>
+        <translation><numerusform>��ben %n blok yderligere</numerusform><numerusform>��ben %n blokke yderligere</numerusform></translation>
     </message>
     <message>
         <location line="+70"/>
@@ -1865,37 +1865,37 @@ Adresse: %4
     <message>
         <location line="+0"/>
         <source>Amount</source>
-        <translation>Beløb</translation>
+        <translation>Bel��b</translation>
     </message>
     <message numerus="yes">
         <location line="+57"/>
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>Åben %n blok(ke) yderligere</numerusform><numerusform>Åben %n blok(ke) yderligere</numerusform></translation>
+        <translation><numerusform>��ben %n blok(ke) yderligere</numerusform><numerusform>��ben %n blok(ke) yderligere</numerusform></translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Open until %1</source>
-        <translation>Åben indtil %1</translation>
+        <translation>��ben indtil %1</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Offline (%1 confirmations)</source>
-        <translation>Offline (%1 bekræftelser)</translation>
+        <translation>Offline (%1 bekr��ftelser)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Unconfirmed (%1 of %2 confirmations)</source>
-        <translation>Ubekræftet (%1 af %2 bekræftelser)</translation>
+        <translation>Ubekr��ftet (%1 af %2 bekr��ftelser)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Confirmed (%1 confirmations)</source>
-        <translation>Bekræftet (%1 bekræftelser)</translation>
+        <translation>Bekr��ftet (%1 bekr��ftelser)</translation>
     </message>
     <message numerus="yes">
         <location line="+8"/>
         <source>Mined balance will be available when it matures in %n more block(s)</source>
-        <translation><numerusform>Udvunden saldo, som vil være tilgængelig, når den modner efter yderligere %n blok(ke)</numerusform><numerusform>Udvunden saldo, som vil være tilgængelig, når den modner efter yderligere %n blok(ke)</numerusform></translation>
+        <translation><numerusform>Udvunden saldo, som vil v��re tilg��ngelig, n��r den modner efter yderligere %n blok(ke)</numerusform><numerusform>Udvunden saldo, som vil v��re tilg��ngelig, n��r den modner efter yderligere %n blok(ke)</numerusform></translation>
     </message>
     <message>
         <location line="+5"/>
@@ -1940,12 +1940,12 @@ Adresse: %4
     <message>
         <location line="+199"/>
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
-        <translation>Transaktionsstatus. Hold musen over dette felt for at vise antallet af bekræftelser.</translation>
+        <translation>Transaktionsstatus. Hold musen over dette felt for at vise antallet af bekr��ftelser.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Date and time that the transaction was received.</source>
-        <translation>Dato og klokkeslæt for modtagelse af transaktionen.</translation>
+        <translation>Dato og klokkesl��t for modtagelse af transaktionen.</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1960,7 +1960,7 @@ Adresse: %4
     <message>
         <location line="+2"/>
         <source>Amount removed from or added to balance.</source>
-        <translation>Beløb fjernet eller tilføjet balance.</translation>
+        <translation>Bel��b fjernet eller tilf��jet balance.</translation>
     </message>
 </context>
 <context>
@@ -1984,17 +1984,17 @@ Adresse: %4
     <message>
         <location line="+1"/>
         <source>This month</source>
-        <translation>Denne måned</translation>
+        <translation>Denne m��ned</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Last month</source>
-        <translation>Sidste måned</translation>
+        <translation>Sidste m��ned</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>This year</source>
-        <translation>Dette år</translation>
+        <translation>Dette ��r</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2029,12 +2029,12 @@ Adresse: %4
     <message>
         <location line="+7"/>
         <source>Enter address or label to search</source>
-        <translation>Indtast adresse eller mærkat for at søge</translation>
+        <translation>Indtast adresse eller m��rkat for at s��ge</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Min amount</source>
-        <translation>Minimumsbeløb</translation>
+        <translation>Minimumsbel��b</translation>
     </message>
     <message>
         <location line="+34"/>
@@ -2044,12 +2044,12 @@ Adresse: %4
     <message>
         <location line="+1"/>
         <source>Copy label</source>
-        <translation>Kopier mærkat</translation>
+        <translation>Kopier m��rkat</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy amount</source>
-        <translation>Kopier beløb</translation>
+        <translation>Kopier bel��b</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2059,7 +2059,7 @@ Adresse: %4
     <message>
         <location line="+1"/>
         <source>Edit label</source>
-        <translation>Rediger mærkat</translation>
+        <translation>Rediger m��rkat</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2079,7 +2079,7 @@ Adresse: %4
     <message>
         <location line="+8"/>
         <source>Confirmed</source>
-        <translation>Bekræftet</translation>
+        <translation>Bekr��ftet</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2094,7 +2094,7 @@ Adresse: %4
     <message>
         <location line="+1"/>
         <source>Label</source>
-        <translation>Mærkat</translation>
+        <translation>M��rkat</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2104,7 +2104,7 @@ Adresse: %4
     <message>
         <location line="+1"/>
         <source>Amount</source>
-        <translation>Beløb</translation>
+        <translation>Bel��b</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2150,7 +2150,7 @@ Adresse: %4
     <message>
         <location line="+1"/>
         <source>Export the data in the current tab to a file</source>
-        <translation>Eksportér den aktuelle visning til en fil</translation>
+        <translation>Eksport��r den aktuelle visning til en fil</translation>
     </message>
     <message>
         <location line="+193"/>
@@ -2208,7 +2208,7 @@ Adresse: %4
     <message>
         <location line="-12"/>
         <source>Get help for a command</source>
-        <translation>Få hjælp til en kommando</translation>
+        <translation>F�� hj��lp til en kommando</translation>
     </message>
     <message>
         <location line="+24"/>
@@ -2233,17 +2233,17 @@ Adresse: %4
     <message>
         <location line="-9"/>
         <source>Set database cache size in megabytes (default: 25)</source>
-        <translation>Angiv databasecachestørrelse i megabytes (standard: 25)</translation>
+        <translation>Angiv databasecachest��rrelse i megabytes (standard: 25)</translation>
     </message>
     <message>
         <location line="-28"/>
         <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
-        <translation>Lyt til forbindelser på &lt;port&gt; (standard: 8333 eller testnetværk: 18333)</translation>
+        <translation>Lyt til forbindelser p�� &lt;port&gt; (standard: 8333 eller testnetv��rk: 18333)</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
-        <translation>Oprethold højest &lt;n&gt; forbindelser til andre i netværket (standard: 125)</translation>
+        <translation>Oprethold h��jest &lt;n&gt; forbindelser til andre i netv��rket (standard: 125)</translation>
     </message>
     <message>
         <location line="-48"/>
@@ -2258,22 +2258,22 @@ Adresse: %4
     <message>
         <location line="+3"/>
         <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
-        <translation>Grænse for afbrydelse til dårlige forbindelser (standard: 100)</translation>
+        <translation>Gr��nse for afbrydelse til d��rlige forbindelser (standard: 100)</translation>
     </message>
     <message>
         <location line="-134"/>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
-        <translation>Antal sekunder dårlige forbindelser skal vente før reetablering (standard: 86400)</translation>
+        <translation>Antal sekunder d��rlige forbindelser skal vente f��r reetablering (standard: 86400)</translation>
     </message>
     <message>
         <location line="-29"/>
         <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
-        <translation>Der opstod en fejl ved angivelse af RPC-porten %u til at lytte på IPv4: %s</translation>
+        <translation>Der opstod en fejl ved angivelse af RPC-porten %u til at lytte p�� IPv4: %s</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>Lyt til JSON-RPC-forbindelser på &lt;port&gt; (standard: 8332 eller testnetværk: 18332)</translation>
+        <translation>Lyt til JSON-RPC-forbindelser p�� &lt;port&gt; (standard: 8332 eller testnetv��rk: 18332)</translation>
     </message>
     <message>
         <location line="+37"/>
@@ -2283,12 +2283,12 @@ Adresse: %4
     <message>
         <location line="+76"/>
         <source>Run in the background as a daemon and accept commands</source>
-        <translation>Kør i baggrunden som en service, og accepter kommandoer</translation>
+        <translation>K��r i baggrunden som en service, og accepter kommandoer</translation>
     </message>
     <message>
         <location line="+37"/>
         <source>Use the test network</source>
-        <translation>Brug testnetværket</translation>
+        <translation>Brug testnetv��rket</translation>
     </message>
     <message>
         <location line="-112"/>
@@ -2310,30 +2310,30 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
 </source>
         <translation>%s, du skal angive en RPC-adgangskode i konfigurationsfilen:
 %s
-Det anbefales, at du bruger nedenstående, tilfældige adgangskode:
+Det anbefales, at du bruger nedenst��ende, tilf��ldige adgangskode:
 rpcuser=bitcoinrpc
 rpcpassword=%s
-(du behøver ikke huske denne adgangskode)
-Brugernavnet og adgangskode MÅ IKKE være det samme.
-Hvis filen ikke eksisterer, opret den og giv ingen andre end ejeren læserettighed.
-Det anbefales også at angive alertnotify, så du påmindes om problemer;
+(du beh��ver ikke huske denne adgangskode)
+Brugernavnet og adgangskode M�� IKKE v��re det samme.
+Hvis filen ikke eksisterer, opret den og giv ingen andre end ejeren l��serettighed.
+Det anbefales ogs�� at angive alertnotify, s�� du p��mindes om problemer;
 f.eks.: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
         <location line="+17"/>
         <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
-        <translation>Der opstod en fejl ved angivelse af RPC-porten %u til at lytte på IPv6, falder tilbage til IPv4: %s</translation>
+        <translation>Der opstod en fejl ved angivelse af RPC-porten %u til at lytte p�� IPv6, falder tilbage til IPv4: %s</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
-        <translation>Tildel til den givne adresse og lyt altid på den. Brug [vært]:port-notation for IPv6</translation>
+        <translation>Tildel til den givne adresse og lyt altid p�� den. Brug [v��rt]:port-notation for IPv6</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Cannot obtain a lock on data directory %s. Bitcoin is probably already running.</source>
-        <translation>Kan ikke opnå lås på datakatalog %s. Bitcoin er sandsynligvis allerede startet.</translation>
+        <translation>Kan ikke opn�� l��s p�� datakatalog %s. Bitcoin er sandsynligvis allerede startet.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2343,57 +2343,57 @@ f.eks.: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
     <message>
         <location line="+4"/>
         <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
-        <translation>Fejl: Denne transaktion kræver et transaktionsgebyr på minimum %s pga. dens størrelse, kompleksitet eller anvendelse af nyligt modtagne bitcoins!</translation>
+        <translation>Fejl: Denne transaktion kr��ver et transaktionsgebyr p�� minimum %s pga. dens st��rrelse, kompleksitet eller anvendelse af nyligt modtagne bitcoins!</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Execute command when a relevant alert is received (%s in cmd is replaced by message)</source>
-        <translation>Udfør kommando, når en relevant advarsel modtages (%s i kommandoen erstattes med beskeden)</translation>
+        <translation>Udf��r kommando, n��r en relevant advarsel modtages (%s i kommandoen erstattes med beskeden)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>Udfør kommando, når en transaktion i tegnebogen ændres (%s i kommandoen erstattes med TxID)</translation>
+        <translation>Udf��r kommando, n��r en transaktion i tegnebogen ��ndres (%s i kommandoen erstattes med TxID)</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: 27000)</source>
-        <translation>Angiv maksimumstørrelse for høj prioritet/lavt gebyr-transaktioner i bytes (standard: 27000)</translation>
+        <translation>Angiv maksimumst��rrelse for h��j prioritet/lavt gebyr-transaktioner i bytes (standard: 27000)</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation>Dette er en foreløbig testudgivelse - brug på eget ansvar - brug ikke til udvinding eller handelsprogrammer</translation>
+        <translation>Dette er en forel��big testudgivelse - brug p�� eget ansvar - brug ikke til udvinding eller handelsprogrammer</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
-        <translation>Advarsel: -paytxfee er sat meget højt! Dette er det gebyr du vil betale, hvis du sender en transaktion.</translation>
+        <translation>Advarsel: -paytxfee er sat meget h��jt! Dette er det gebyr du vil betale, hvis du sender en transaktion.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Warning: Displayed transactions may not be correct! You may need to upgrade, or other nodes may need to upgrade.</source>
-        <translation>Advarsel: Viste transaktioner kan være ukorrekte! Du eller andre knuder kan have behov for at opgradere.</translation>
+        <translation>Advarsel: Viste transaktioner kan v��re ukorrekte! Du eller andre knuder kan have behov for at opgradere.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Bitcoin will not work properly.</source>
-        <translation>Advarsel: Undersøg venligst, at din computers dato og klokkeslæt er korrekt indstillet! Hvis der er fejl i disse, vil Bitcoin ikke fungere korrekt.</translation>
+        <translation>Advarsel: Unders��g venligst, at din computers dato og klokkesl��t er korrekt indstillet! Hvis der er fejl i disse, vil Bitcoin ikke fungere korrekt.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
-        <translation>Advarsel: fejl under læsning af wallet.dat! Alle nøgler blev læst korrekt, men transaktionsdata eller adressebogsposter kan mangle eller være forkerte.</translation>
+        <translation>Advarsel: fejl under l��sning af wallet.dat! Alle n��gler blev l��st korrekt, men transaktionsdata eller adressebogsposter kan mangle eller v��re forkerte.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
-        <translation>Advarsel: wallet.dat ødelagt, data reddet! Oprindelig wallet.net gemt som wallet.{timestamp}.bak i %s; hvis din saldo eller dine transaktioner er forkert, bør du genskabe fra en sikkerhedskopi.</translation>
+        <translation>Advarsel: wallet.dat ��delagt, data reddet! Oprindelig wallet.net gemt som wallet.{timestamp}.bak i %s; hvis din saldo eller dine transaktioner er forkert, b��r du genskabe fra en sikkerhedskopi.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Attempt to recover private keys from a corrupt wallet.dat</source>
-        <translation>Forsøg at genskabe private nøgler fra ødelagt wallet.dat</translation>
+        <translation>Fors��g at genskabe private n��gler fra ��delagt wallet.dat</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2408,47 +2408,47 @@ f.eks.: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
     <message>
         <location line="+3"/>
         <source>Corrupted block database detected</source>
-        <translation>Ødelagt blokdatabase opdaget</translation>
+        <translation>��delagt blokdatabase opdaget</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
-        <translation>Find egen IP-adresse (standard: 1 når lytter og ingen -externalip)</translation>
+        <translation>Find egen IP-adresse (standard: 1 n��r lytter og ingen -externalip)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Do you want to rebuild the block database now?</source>
-        <translation>Ønsker du at genbygge blokdatabasen nu?</translation>
+        <translation>��nsker du at genbygge blokdatabasen nu?</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Error initializing block database</source>
-        <translation>Klargøring af blokdatabase mislykkedes</translation>
+        <translation>Klarg��ring af blokdatabase mislykkedes</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Error initializing wallet database environment %s!</source>
-        <translation>Klargøring af tegnebogsdatabasemiljøet %s mislykkedes!</translation>
+        <translation>Klarg��ring af tegnebogsdatabasemilj��et %s mislykkedes!</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Error loading block database</source>
-        <translation>Indlæsning af blokdatabase mislykkedes</translation>
+        <translation>Indl��sning af blokdatabase mislykkedes</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Error opening block database</source>
-        <translation>Åbning af blokdatabase mislykkedes</translation>
+        <translation>��bning af blokdatabase mislykkedes</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Error: Disk space is low!</source>
-        <translation>Fejl: Mangel på ledig diskplads!</translation>
+        <translation>Fejl: Mangel p�� ledig diskplads!</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Error: Wallet locked, unable to create transaction!</source>
-        <translation>Fejl: Tegnebog låst, kan ikke oprette transaktion!</translation>
+        <translation>Fejl: Tegnebog l��st, kan ikke oprette transaktion!</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2458,17 +2458,17 @@ f.eks.: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
     <message>
         <location line="+1"/>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation>Lytning på enhver port mislykkedes. Brug -listen=0, hvis du ønsker dette.</translation>
+        <translation>Lytning p�� enhver port mislykkedes. Brug -listen=0, hvis du ��nsker dette.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Failed to read block info</source>
-        <translation>Læsning af blokinformation mislykkedes</translation>
+        <translation>L��sning af blokinformation mislykkedes</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Failed to read block</source>
-        <translation>Læsning af blok mislykkedes</translation>
+        <translation>L��sning af blok mislykkedes</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2513,7 +2513,7 @@ f.eks.: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
     <message>
         <location line="+2"/>
         <source>Find peers using DNS lookup (default: 1 unless -connect)</source>
-        <translation>Find ligeværdige ved DNS-opslag (standard: 1 hvis ikke -connect)</translation>
+        <translation>Find ligev��rdige ved DNS-opslag (standard: 1 hvis ikke -connect)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2528,32 +2528,32 @@ f.eks.: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
     <message>
         <location line="+1"/>
         <source>How thorough the block verification is (0-4, default: 3)</source>
-        <translation>Grundighed af efterprøvning af blokke (0-4, standard: 3)</translation>
+        <translation>Grundighed af efterpr��vning af blokke (0-4, standard: 3)</translation>
     </message>
     <message>
         <location line="+19"/>
         <source>Not enough file descriptors available.</source>
-        <translation>For få tilgængelige fildeskriptorer.</translation>
+        <translation>For f�� tilg��ngelige fildeskriptorer.</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Rebuild block chain index from current blk000??.dat files</source>
-        <translation>Genbyg blokkædeindeks fra nuværende blk000??.dat filer</translation>
+        <translation>Genbyg blokk��deindeks fra nuv��rende blk000??.dat filer</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Set the number of threads to service RPC calls (default: 4)</source>
-        <translation>Angiv antallet af tråde til at håndtere RPC-kald (standard: 4)</translation>
+        <translation>Angiv antallet af tr��de til at h��ndtere RPC-kald (standard: 4)</translation>
     </message>
     <message>
         <location line="+26"/>
         <source>Verifying blocks...</source>
-        <translation>Efterprøver blokke...</translation>
+        <translation>Efterpr��ver blokke...</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Verifying wallet...</source>
-        <translation>Efterprøver tegnebog...</translation>
+        <translation>Efterpr��ver tegnebog...</translation>
     </message>
     <message>
         <location line="-69"/>
@@ -2563,7 +2563,7 @@ f.eks.: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
     <message>
         <location line="-76"/>
         <source>Set the number of script verification threads (up to 16, 0 = auto, &lt;0 = leave that many cores free, default: 0)</source>
-        <translation>Angiv nummeret af skriptefterprøvningstråde (op til 16, 0 = automatisk, &lt;0 = efterlad det antal kerner tilgængelige, standard: 0)</translation>
+        <translation>Angiv nummeret af skriptefterpr��vningstr��de (op til 16, 0 = automatisk, &lt;0 = efterlad det antal kerner tilg��ngelige, standard: 0)</translation>
     </message>
     <message>
         <location line="+77"/>
@@ -2578,12 +2578,12 @@ f.eks.: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
     <message>
         <location line="+1"/>
         <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation>Ugyldigt beløb til -minrelaytxfee=&lt;beløb&gt;:&apos;%s&apos;</translation>
+        <translation>Ugyldigt bel��b til -minrelaytxfee=&lt;bel��b&gt;:&apos;%s&apos;</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Invalid amount for -mintxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation>Ugyldigt beløb til -mintxfee=&lt;beløb&gt;:&apos;%s&apos;</translation>
+        <translation>Ugyldigt bel��b til -mintxfee=&lt;bel��b&gt;:&apos;%s&apos;</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -2603,32 +2603,32 @@ f.eks.: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
     <message>
         <location line="+2"/>
         <source>Only accept block chain matching built-in checkpoints (default: 1)</source>
-        <translation>Accepter kun blokkæde, som matcher indbyggede kontrolposter (standard: 1)</translation>
+        <translation>Accepter kun blokk��de, som matcher indbyggede kontrolposter (standard: 1)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Only connect to nodes in network &lt;net&gt; (IPv4, IPv6 or Tor)</source>
-        <translation>Tilslut kun til knuder i netværk &lt;net&gt; (IPv4, IPv6 eller Tor)</translation>
+        <translation>Tilslut kun til knuder i netv��rk &lt;net&gt; (IPv4, IPv6 eller Tor)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Output extra debugging information. Implies all other -debug* options</source>
-        <translation>Skriv ekstra fejlsøgningsinformation. Indebærer alle andre -debug* tilvalg</translation>
+        <translation>Skriv ekstra fejls��gningsinformation. Indeb��rer alle andre -debug* tilvalg</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Output extra network debugging information</source>
-        <translation>Skriv ekstra netværksfejlsøgningsinformation</translation>
+        <translation>Skriv ekstra netv��rksfejls��gningsinformation</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Prepend debug output with timestamp</source>
-        <translation>Tilføj fejlsøgningsoutput med tidsstempel</translation>
+        <translation>Tilf��j fejls��gningsoutput med tidsstempel</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation>SSL-indstillinger: (se Bitcoin Wiki for SSL-opsætningsinstruktioner)</translation>
+        <translation>SSL-indstillinger: (se Bitcoin Wiki for SSL-ops��tningsinstruktioner)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2638,22 +2638,22 @@ f.eks.: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
     <message>
         <location line="+3"/>
         <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation>Send sporings-/fejlsøgningsinformation til konsollen i stedet for debug.log filen</translation>
+        <translation>Send sporings-/fejls��gningsinformation til konsollen i stedet for debug.log filen</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Send trace/debug info to debugger</source>
-        <translation>Send sporings-/fejlsøgningsinformation til fejlsøgningprogrammet</translation>
+        <translation>Send sporings-/fejls��gningsinformation til fejls��gningprogrammet</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Set maximum block size in bytes (default: 250000)</source>
-        <translation>Angiv maksimumblokstørrelse i bytes (standard: 250000)</translation>
+        <translation>Angiv maksimumblokst��rrelse i bytes (standard: 250000)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Set minimum block size in bytes (default: 0)</source>
-        <translation>Angiv minimumsblokstørrelse i bytes (standard: 0)</translation>
+        <translation>Angiv minimumsblokst��rrelse i bytes (standard: 0)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2678,12 +2678,12 @@ f.eks.: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
     <message>
         <location line="+4"/>
         <source>Transaction amount too small</source>
-        <translation>Transaktionsbeløb er for lavt</translation>
+        <translation>Transaktionsbel��b er for lavt</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Transaction amounts must be positive</source>
-        <translation>Transaktionsbeløb skal være positive</translation>
+        <translation>Transaktionsbel��b skal v��re positive</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2693,17 +2693,17 @@ f.eks.: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
     <message>
         <location line="+7"/>
         <source>Use UPnP to map the listening port (default: 0)</source>
-        <translation>Forsøg at bruge UPnP til at konfigurere den lyttende port (standard: 0)</translation>
+        <translation>Fors��g at bruge UPnP til at konfigurere den lyttende port (standard: 0)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Use UPnP to map the listening port (default: 1 when listening)</source>
-        <translation>Forsøg at bruge UPnP til at konfigurere den lyttende port (standard: 1 når lytter)</translation>
+        <translation>Fors��g at bruge UPnP til at konfigurere den lyttende port (standard: 1 n��r lytter)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Use proxy to reach tor hidden services (default: same as -proxy)</source>
-        <translation>Brug proxy til at tilgå Tor Hidden Services (standard: som -proxy)</translation>
+        <translation>Brug proxy til at tilg�� Tor Hidden Services (standard: som -proxy)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2718,17 +2718,17 @@ f.eks.: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
     <message>
         <location line="+1"/>
         <source>Warning: This version is obsolete, upgrade required!</source>
-        <translation>Advarsel: Denne version er forældet, opgradering påkrævet!</translation>
+        <translation>Advarsel: Denne version er for��ldet, opgradering p��kr��vet!</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>You need to rebuild the databases using -reindex to change -txindex</source>
-        <translation>Du skal genbygge databaserne med -reindex for at ændre -txindex</translation>
+        <translation>Du skal genbygge databaserne med -reindex for at ��ndre -txindex</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>wallet.dat corrupt, salvage failed</source>
-        <translation>wallet.dat ødelagt, redning af data mislykkedes</translation>
+        <translation>wallet.dat ��delagt, redning af data mislykkedes</translation>
     </message>
     <message>
         <location line="-50"/>
@@ -2743,12 +2743,12 @@ f.eks.: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
     <message>
         <location line="+76"/>
         <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
-        <translation>Send kommandoer til knude, der kører på &lt;ip&gt; (standard: 127.0.0.1)</translation>
+        <translation>Send kommandoer til knude, der k��rer p�� &lt;ip&gt; (standard: 127.0.0.1)</translation>
     </message>
     <message>
         <location line="-120"/>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>Udfør kommando, når den bedste blok ændres (%s i kommandoen erstattes med blokhash)</translation>
+        <translation>Udf��r kommando, n��r den bedste blok ��ndres (%s i kommandoen erstattes med blokhash)</translation>
     </message>
     <message>
         <location line="+147"/>
@@ -2758,12 +2758,12 @@ f.eks.: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
     <message>
         <location line="-21"/>
         <source>Set key pool size to &lt;n&gt; (default: 100)</source>
-        <translation>Angiv nøglepoolstørrelse til &lt;n&gt; (standard: 100)</translation>
+        <translation>Angiv n��glepoolst��rrelse til &lt;n&gt; (standard: 100)</translation>
     </message>
     <message>
         <location line="-12"/>
         <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>Gennemsøg blokkæden for manglende tegnebogstransaktioner</translation>
+        <translation>Gennems��g blokk��den for manglende tegnebogstransaktioner</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -2778,7 +2778,7 @@ f.eks.: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
     <message>
         <location line="+1"/>
         <source>Server private key (default: server.pem)</source>
-        <translation>Serverens private nøgle (standard: server.pem)</translation>
+        <translation>Serverens private n��gle (standard: server.pem)</translation>
     </message>
     <message>
         <location line="-151"/>
@@ -2788,12 +2788,12 @@ f.eks.: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
     <message>
         <location line="+165"/>
         <source>This help message</source>
-        <translation>Denne hjælpebesked</translation>
+        <translation>Denne hj��lpebesked</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
-        <translation>Kunne ikke tildele %s på denne computer (bind returnerede fejl %d, %s)</translation>
+        <translation>Kunne ikke tildele %s p�� denne computer (bind returnerede fejl %d, %s)</translation>
     </message>
     <message>
         <location line="-91"/>
@@ -2808,27 +2808,27 @@ f.eks.: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
     <message>
         <location line="+55"/>
         <source>Loading addresses...</source>
-        <translation>Indlæser adresser...</translation>
+        <translation>Indl��ser adresser...</translation>
     </message>
     <message>
         <location line="-35"/>
         <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation>Fejl ved indlæsning af wallet.dat: Tegnebog ødelagt</translation>
+        <translation>Fejl ved indl��sning af wallet.dat: Tegnebog ��delagt</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin</source>
-        <translation>Fejl ved indlæsning af wallet.dat: Tegnebog kræver en nyere version af Bitcoin</translation>
+        <translation>Fejl ved indl��sning af wallet.dat: Tegnebog kr��ver en nyere version af Bitcoin</translation>
     </message>
     <message>
         <location line="+93"/>
         <source>Wallet needed to be rewritten: restart Bitcoin to complete</source>
-        <translation>Det var nødvendigt at genskrive tegnebogen: genstart Bitcoin for at gennemføre</translation>
+        <translation>Det var n��dvendigt at genskrive tegnebogen: genstart Bitcoin for at gennemf��re</translation>
     </message>
     <message>
         <location line="-95"/>
         <source>Error loading wallet.dat</source>
-        <translation>Fejl ved indlæsning af wallet.dat</translation>
+        <translation>Fejl ved indl��sning af wallet.dat</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -2838,7 +2838,7 @@ f.eks.: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
     <message>
         <location line="+56"/>
         <source>Unknown network specified in -onlynet: &apos;%s&apos;</source>
-        <translation>Ukendt netværk anført i -onlynet: &apos;%s&apos;</translation>
+        <translation>Ukendt netv��rk anf��rt i -onlynet: &apos;%s&apos;</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2858,42 +2858,42 @@ f.eks.: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
     <message>
         <location line="+44"/>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation>Ugyldigt beløb for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</translation>
+        <translation>Ugyldigt bel��b for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Invalid amount</source>
-        <translation>Ugyldigt beløb</translation>
+        <translation>Ugyldigt bel��b</translation>
     </message>
     <message>
         <location line="-6"/>
         <source>Insufficient funds</source>
-        <translation>Manglende dækning</translation>
+        <translation>Manglende d��kning</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Loading block index...</source>
-        <translation>Indlæser blokindeks...</translation>
+        <translation>Indl��ser blokindeks...</translation>
     </message>
     <message>
         <location line="-57"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>Tilføj en knude til at forbinde til og forsøg at holde forbindelsen åben</translation>
+        <translation>Tilf��j en knude til at forbinde til og fors��g at holde forbindelsen ��ben</translation>
     </message>
     <message>
         <location line="-25"/>
         <source>Unable to bind to %s on this computer. Bitcoin is probably already running.</source>
-        <translation>Kunne ikke tildele %s på denne computer. Bitcoin kører sikkert allerede.</translation>
+        <translation>Kunne ikke tildele %s p�� denne computer. Bitcoin k��rer sikkert allerede.</translation>
     </message>
     <message>
         <location line="+64"/>
         <source>Fee per KB to add to transactions you send</source>
-        <translation>Gebyr pr. kB, som skal tilføjes til transaktioner, du sender</translation>
+        <translation>Gebyr pr. kB, som skal tilf��jes til transaktioner, du sender</translation>
     </message>
     <message>
         <location line="+19"/>
         <source>Loading wallet...</source>
-        <translation>Indlæser tegnebog...</translation>
+        <translation>Indl��ser tegnebog...</translation>
     </message>
     <message>
         <location line="-52"/>
@@ -2908,12 +2908,12 @@ f.eks.: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
     <message>
         <location line="+64"/>
         <source>Rescanning...</source>
-        <translation>Genindlæser...</translation>
+        <translation>Genindl��ser...</translation>
     </message>
     <message>
         <location line="-57"/>
         <source>Done loading</source>
-        <translation>Indlæsning gennemført</translation>
+        <translation>Indl��sning gennemf��rt</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2932,7 +2932,7 @@ f.eks.: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
 If the file does not exist, create it with owner-readable-only file permissions.</source>
         <translation>Du skal angive rpcpassword=&lt;password&gt; i konfigurationsfilen:
 %s
-Hvis filen ikke eksisterer, opret den og giv ingen andre end ejeren læserettighed.</translation>
+Hvis filen ikke eksisterer, opret den og giv ingen andre end ejeren l��serettighed.</translation>
     </message>
 </context>
 </TS>

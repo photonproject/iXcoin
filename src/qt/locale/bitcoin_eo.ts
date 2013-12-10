@@ -43,7 +43,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+19"/>
         <source>Double-click to edit address or label</source>
-        <translation>Duoble-klaku por redakti adreson aŭ etikedon</translation>
+        <translation>Duoble-klaku por redakti adreson a�� etikedon</translation>
     </message>
     <message>
         <location line="+27"/>
@@ -113,7 +113,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+14"/>
         <source>&amp;Delete</source>
-        <translation>&amp;Forviŝu</translation>
+        <translation>&amp;Forvi��u</translation>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
@@ -199,37 +199,37 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location filename="../askpassphrasedialog.cpp" line="+33"/>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Enigu novan pasfrazon por la monujo.&lt;br/&gt;Bonvolu, uzu pasfrazon kun &lt;b&gt;10 aŭ pli hazardaj signoj&lt;/b&gt;, aŭ &lt;b&gt;ok aŭ pli vortoj&lt;/b&gt;.</translation>
+        <translation>Enigu novan pasfrazon por la monujo.&lt;br/&gt;Bonvolu, uzu pasfrazon kun &lt;b&gt;10 a�� pli hazardaj signoj&lt;/b&gt;, a�� &lt;b&gt;ok a�� pli vortoj&lt;/b&gt;.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Encrypt wallet</source>
-        <translation>Ĉifru monujon</translation>
+        <translation>��ifru monujon</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Ĉi tiu operacio devas vian monujan pasfrazon, por malŝlosi la monujon.</translation>
+        <translation>��i tiu operacio devas vian monujan pasfrazon, por mal��losi la monujon.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Unlock wallet</source>
-        <translation>Malŝlosu monujon</translation>
+        <translation>Mal��losu monujon</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>Ĉi tiu operacio devas vian monujan pasfrazon, por malĉifri la monujon.</translation>
+        <translation>��i tiu operacio devas vian monujan pasfrazon, por mal��ifri la monujon.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Decrypt wallet</source>
-        <translation>Malĉifru monujon</translation>
+        <translation>Mal��ifru monujon</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Change passphrase</source>
-        <translation>Anstataŭigu pasfrazon</translation>
+        <translation>Anstata��igu pasfrazon</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -239,7 +239,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+46"/>
         <source>Confirm wallet encryption</source>
-        <translation>Konfirmu ĉifrado de monujo</translation>
+        <translation>Konfirmu ��ifrado de monujo</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -266,7 +266,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="-130"/>
         <location line="+58"/>
         <source>Wallet encrypted</source>
-        <translation>Monujo ĉifrita</translation>
+        <translation>Monujo ��ifrita</translation>
     </message>
     <message>
         <location line="-56"/>
@@ -279,12 +279,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+42"/>
         <location line="+6"/>
         <source>Wallet encryption failed</source>
-        <translation>Monujo ĉifrado fiaskis</translation>
+        <translation>Monujo ��ifrado fiaskis</translation>
     </message>
     <message>
         <location line="-54"/>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>Ĉifrado de monujo fiaskis, kaŭze de interna eraro. Via monujo ne ĉifritas.</translation>
+        <translation>��ifrado de monujo fiaskis, ka��ze de interna eraro. Via monujo ne ��ifritas.</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -295,19 +295,19 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-37"/>
         <source>Wallet unlock failed</source>
-        <translation>Monujo malŝlosado fiaskis</translation>
+        <translation>Monujo mal��losado fiaskis</translation>
     </message>
     <message>
         <location line="+1"/>
         <location line="+11"/>
         <location line="+19"/>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>La pasfrazo enigita por ĉifrado de monujo ne konformas.</translation>
+        <translation>La pasfrazo enigita por ��ifrado de monujo ne konformas.</translation>
     </message>
     <message>
         <location line="-20"/>
         <source>Wallet decryption failed</source>
-        <translation>Monujo malĉifrado fiaskis</translation>
+        <translation>Monujo mal��ifrado fiaskis</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -320,7 +320,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location filename="../bitcoingui.cpp" line="+233"/>
         <source>Sign &amp;message...</source>
-        <translation>Subskribu &amp;mesaĝon...</translation>
+        <translation>Subskribu &amp;mesa��on...</translation>
     </message>
     <message>
         <location line="+280"/>
@@ -365,12 +365,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+1"/>
         <source>Quit application</source>
-        <translation>Eliru de aplikaĵo</translation>
+        <translation>Eliru de aplika��o</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Show information about Bitcoin</source>
-        <translation>Vidigu informaĵon pri Bitmono</translation>
+        <translation>Vidigu informa��on pri Bitmono</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -380,7 +380,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+1"/>
         <source>Show information about Qt</source>
-        <translation>Vidigu informaĵon pri Qt</translation>
+        <translation>Vidigu informa��on pri Qt</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -390,7 +390,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+6"/>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>&amp;Ĉifru Monujon...</translation>
+        <translation>&amp;��ifru Monujon...</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -400,7 +400,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+2"/>
         <source>&amp;Change Passphrase...</source>
-        <translation>&amp;Anstataŭigu pasfrazon...</translation>
+        <translation>&amp;Anstata��igu pasfrazon...</translation>
     </message>
     <message>
         <location line="+285"/>
@@ -445,7 +445,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-4"/>
         <source>&amp;Verify message...</source>
-        <translation>&amp;Kontrolu mesaĝon...</translation>
+        <translation>&amp;Kontrolu mesa��on...</translation>
     </message>
     <message>
         <location line="-165"/>
@@ -607,12 +607,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-140"/>
         <source>Up to date</source>
-        <translation>Ĝisdata</translation>
+        <translation>��isdata</translation>
     </message>
     <message>
         <location line="+31"/>
         <source>Catching up...</source>
-        <translation>Ĝisdatigante...</translation>
+        <translation>��isdatigante...</translation>
     </message>
     <message>
         <location line="+113"/>
@@ -653,12 +653,12 @@ Address: %4
     <message>
         <location line="+17"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>Monujo estas &lt;b&gt;ĉifrita&lt;/b&gt; kaj nun &lt;b&gt;malŝlosita&lt;/b&gt;</translation>
+        <translation>Monujo estas &lt;b&gt;��ifrita&lt;/b&gt; kaj nun &lt;b&gt;mal��losita&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>Monujo estas &lt;b&gt;ĉifrita&lt;/b&gt; kaj nun &lt;b&gt;ŝlosita&lt;/b&gt;</translation>
+        <translation>Monujo estas &lt;b&gt;��ifrita&lt;/b&gt; kaj nun &lt;b&gt;��losita&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
@@ -689,7 +689,7 @@ Address: %4
     <message>
         <location line="+10"/>
         <source>The label associated with this address book entry</source>
-        <translation>La etikedo interrilatita kun ĉi tiun adreso</translation>
+        <translation>La etikedo interrilatita kun ��i tiun adreso</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -734,7 +734,7 @@ Address: %4
     <message>
         <location line="+10"/>
         <source>Could not unlock wallet.</source>
-        <translation>Ne eblis malŝlosi monujon</translation>
+        <translation>Ne eblis mal��losi monujon</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -1310,8 +1310,8 @@ Address: %4
     </message>
     <message>
         <location line="+10"/>
-        <source>123.456 BTC</source>
-        <translation>123,456 BTC</translation>
+        <source>123.456 IXC</source>
+        <translation>123,456 IXC</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1336,7 +1336,7 @@ Address: %4
     <message>
         <location line="+1"/>
         <source>Are you sure you want to send %1?</source>
-        <translation>Ĉu vi vere volas sendi %1?</translation>
+        <translation>��u vi vere volas sendi %1?</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1435,7 +1435,7 @@ Address: %4
     <message>
         <location line="+7"/>
         <source>Remove this recipient</source>
-        <translation>Forigu ĉi tiun ricevanton</translation>
+        <translation>Forigu ��i tiun ricevanton</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
@@ -1810,7 +1810,7 @@ Address: %4
     <message>
         <location line="-209"/>
         <source>, has not been successfully broadcast yet</source>
-        <translation>, ankoraŭ ne elsendita sukcese</translation>
+        <translation>, ankora�� ne elsendita sukcese</translation>
     </message>
     <message numerus="yes">
         <location line="-35"/>
@@ -1960,12 +1960,12 @@ Address: %4
         <location filename="../transactionview.cpp" line="+52"/>
         <location line="+16"/>
         <source>All</source>
-        <translation>Ĉiuj</translation>
+        <translation>��iuj</translation>
     </message>
     <message>
         <location line="-15"/>
         <source>Today</source>
-        <translation>Hodiaŭ</translation>
+        <translation>Hodia��</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2789,7 +2789,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="+55"/>
         <source>Loading addresses...</source>
-        <translation>Ŝarĝante adresojn...</translation>
+        <translation>��ar��ante adresojn...</translation>
     </message>
     <message>
         <location line="-35"/>
@@ -2854,7 +2854,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="+10"/>
         <source>Loading block index...</source>
-        <translation>Ŝarĝante blok-indekson...</translation>
+        <translation>��ar��ante blok-indekson...</translation>
     </message>
     <message>
         <location line="-57"/>
@@ -2874,7 +2874,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="+19"/>
         <source>Loading wallet...</source>
-        <translation>Ŝarĝante monujon...</translation>
+        <translation>��ar��ante monujon...</translation>
     </message>
     <message>
         <location line="-52"/>
@@ -2894,7 +2894,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="-57"/>
         <source>Done loading</source>
-        <translation>Ŝarĝado finitas</translation>
+        <translation>��ar��ado finitas</translation>
     </message>
     <message>
         <location line="+82"/>

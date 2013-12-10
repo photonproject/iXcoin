@@ -43,17 +43,17 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
         <source>Address Book</source>
-        <translation>Książka Adresowa</translation>
+        <translation>Ksi����ka Adresowa</translation>
     </message>
     <message>
         <location line="+19"/>
         <source>Double-click to edit address or label</source>
-        <translation>Kliknij dwukrotnie, aby edytować adres lub etykietę</translation>
+        <translation>Kliknij dwukrotnie, aby edytowa�� adres lub etykiet��</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>Create a new address</source>
-        <translation>Utwórz nowy adres</translation>
+        <translation>Utw��rz nowy adres</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -68,7 +68,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
         <source>These are your Bitcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Tutaj znajdują się twoje adresy Bitcoin do odbioru płatności. Możesz nadać oddzielne adresy dla każdego z wysyłających monety, żeby śledzić oddzielnie ich opłaty.</translation>
+        <translation>Tutaj znajduj�� si�� twoje adresy Bitcoin do odbioru p��atno��ci. Mo��esz nada�� oddzielne adresy dla ka��dego z wysy��aj��cych monety, ��eby ��ledzi�� oddzielnie ich op��aty.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -78,22 +78,22 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+11"/>
         <source>Show &amp;QR Code</source>
-        <translation>Pokaż Kod &amp;QR</translation>
+        <translation>Poka�� Kod &amp;QR</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>Sign a message to prove you own a Bitcoin address</source>
-        <translation>Podpisz wiadomość aby dowieść, że ten adres jest twój</translation>
+        <translation>Podpisz wiadomo���� aby dowie����, ��e ten adres jest tw��j</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Sign &amp;Message</source>
-        <translation>Podpisz wiado&amp;mość</translation>
+        <translation>Podpisz wiado&amp;mo����</translation>
     </message>
     <message>
         <location line="+25"/>
         <source>Delete the currently selected address from the list</source>
-        <translation>Usuń zaznaczony adres z listy</translation>
+        <translation>Usu�� zaznaczony adres z listy</translation>
     </message>
     <message>
         <location line="+27"/>
@@ -108,27 +108,27 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-44"/>
         <source>Verify a message to ensure it was signed with a specified Bitcoin address</source>
-        <translation>Zweryfikuj wiadomość,  aby upewnić się, że została podpisana odpowiednim adresem Bitcoin.</translation>
+        <translation>Zweryfikuj wiadomo����,  aby upewni�� si��, ��e zosta��a podpisana odpowiednim adresem Bitcoin.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Verify Message</source>
-        <translation>&amp;Zweryfikuj wiadomość</translation>
+        <translation>&amp;Zweryfikuj wiadomo����</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>&amp;Delete</source>
-        <translation>&amp;Usuń</translation>
+        <translation>&amp;Usu��</translation>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
         <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Tutaj znajdują się Twoje adresy Bitcoin do wysyłania płatności. Zawsze sprawdzaj ilość i adres odbiorcy przed wysyłką monet.</translation>
+        <translation>Tutaj znajduj�� si�� Twoje adresy Bitcoin do wysy��ania p��atno��ci. Zawsze sprawdzaj ilo���� i adres odbiorcy przed wysy��k�� monet.</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Copy &amp;Label</source>
-        <translation>Kopiuj &amp;Etykietę</translation>
+        <translation>Kopiuj &amp;Etykiet��</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -138,12 +138,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+1"/>
         <source>Send &amp;Coins</source>
-        <translation>Wyślij monety</translation>
+        <translation>Wy��lij monety</translation>
     </message>
     <message>
         <location line="+260"/>
         <source>Export Address Book Data</source>
-        <translation>Eksportuj książkę adresową</translation>
+        <translation>Eksportuj ksi����k�� adresow��</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -153,12 +153,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+13"/>
         <source>Error exporting</source>
-        <translation>Błąd podczas eksportowania</translation>
+        <translation>B����d podczas eksportowania</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Could not write to file %1.</source>
-        <translation>Błąd zapisu do pliku %1.</translation>
+        <translation>B����d zapisu do pliku %1.</translation>
     </message>
 </context>
 <context>
@@ -184,27 +184,27 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location filename="../forms/askpassphrasedialog.ui" line="+26"/>
         <source>Passphrase Dialog</source>
-        <translation>Okienko Hasła</translation>
+        <translation>Okienko Has��a</translation>
     </message>
     <message>
         <location line="+21"/>
         <source>Enter passphrase</source>
-        <translation>Wpisz hasło</translation>
+        <translation>Wpisz has��o</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>New passphrase</source>
-        <translation>Nowe hasło</translation>
+        <translation>Nowe has��o</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Repeat new passphrase</source>
-        <translation>Powtórz nowe hasło</translation>
+        <translation>Powt��rz nowe has��o</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="+33"/>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Wprowadź nowe hasło dla portfela.&lt;br/&gt;Proszę użyć hasła składającego się z &lt;b&gt;10 lub więcej losowych znaków&lt;/b&gt; lub &lt;b&gt;ośmiu lub więcej słów&lt;/b&gt;.</translation>
+        <translation>Wprowad�� nowe has��o dla portfela.&lt;br/&gt;Prosz�� u��y�� has��a sk��adaj��cego si�� z &lt;b&gt;10 lub wi��cej losowych znak��w&lt;/b&gt; lub &lt;b&gt;o��miu lub wi��cej s����w&lt;/b&gt;.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -214,7 +214,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+3"/>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Ta operacja wymaga hasła do portfela ażeby odblokować portfel.</translation>
+        <translation>Ta operacja wymaga has��a do portfela a��eby odblokowa�� portfel.</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -224,7 +224,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+3"/>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>Ta operacja wymaga hasła do portfela ażeby odszyfrować portfel.</translation>
+        <translation>Ta operacja wymaga has��a do portfela a��eby odszyfrowa�� portfel.</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -234,38 +234,38 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+3"/>
         <source>Change passphrase</source>
-        <translation>Zmień hasło</translation>
+        <translation>Zmie�� has��o</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Enter the old and new passphrase to the wallet.</source>
-        <translation>Podaj stare i nowe hasło do portfela.</translation>
+        <translation>Podaj stare i nowe has��o do portfela.</translation>
     </message>
     <message>
         <location line="+46"/>
         <source>Confirm wallet encryption</source>
-        <translation>Potwierdź szyfrowanie portfela</translation>
+        <translation>Potwierd�� szyfrowanie portfela</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Uwaga: Jeśli zaszyfrujesz swój portfel i zgubisz hasło to &lt;b&gt;STRACISZ WSZYSTKIE SWOJE BITCOIN&apos;Y&lt;/b&gt;!</translation>
+        <translation>Uwaga: Je��li zaszyfrujesz sw��j portfel i zgubisz has��o to &lt;b&gt;STRACISZ WSZYSTKIE SWOJE BITCOIN&apos;Y&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>Jesteś pewien, że chcesz zaszyfrować swój portfel?</translation>
+        <translation>Jeste�� pewien, ��e chcesz zaszyfrowa�� sw��j portfel?</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>WAŻNE: Wszystkie wykonane wcześniej kopie pliku portfela powinny być zamienione na nowe, szyfrowane pliki. Z powodów bezpieczeństwa, poprzednie kopie nieszyfrowanych plików portfela staną się bezużyteczne jak tylko zaczniesz korzystać z nowego, szyfrowanego portfela.</translation>
+        <translation>WA��NE: Wszystkie wykonane wcze��niej kopie pliku portfela powinny by�� zamienione na nowe, szyfrowane pliki. Z powod��w bezpiecze��stwa, poprzednie kopie nieszyfrowanych plik��w portfela stan�� si�� bezu��yteczne jak tylko zaczniesz korzysta�� z nowego, szyfrowanego portfela.</translation>
     </message>
     <message>
         <location line="+100"/>
         <location line="+24"/>
         <source>Warning: The Caps Lock key is on!</source>
-        <translation>Uwaga: Klawisz Caps Lock jest włączony</translation>
+        <translation>Uwaga: Klawisz Caps Lock jest w����czony</translation>
     </message>
     <message>
         <location line="-130"/>
@@ -276,7 +276,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-56"/>
         <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Program Bitcoin zamknie się aby dokończyć proces szyfrowania. Pamiętaj, że szyfrowanie portfela nie zabezpiecza w pełni Twoich bitcoinów przed kradzieżą przez wirusy lub trojany mogące zainfekować Twój komputer.</translation>
+        <translation>Program Bitcoin zamknie si�� aby doko��czy�� proces szyfrowania. Pami��taj, ��e szyfrowanie portfela nie zabezpiecza w pe��ni Twoich bitcoin��w przed kradzie���� przez wirusy lub trojany mog��ce zainfekowa�� Tw��j komputer.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -284,40 +284,40 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+42"/>
         <location line="+6"/>
         <source>Wallet encryption failed</source>
-        <translation>Szyfrowanie portfela nie powiodło się</translation>
+        <translation>Szyfrowanie portfela nie powiod��o si��</translation>
     </message>
     <message>
         <location line="-54"/>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>Szyfrowanie portfela nie powiodło się z powodu wewnętrznego błędu. Twój portfel nie został zaszyfrowany.</translation>
+        <translation>Szyfrowanie portfela nie powiod��o si�� z powodu wewn��trznego b����du. Tw��j portfel nie zosta�� zaszyfrowany.</translation>
     </message>
     <message>
         <location line="+7"/>
         <location line="+48"/>
         <source>The supplied passphrases do not match.</source>
-        <translation>Podane hasła nie są takie same.</translation>
+        <translation>Podane has��a nie s�� takie same.</translation>
     </message>
     <message>
         <location line="-37"/>
         <source>Wallet unlock failed</source>
-        <translation>Odblokowanie portfela nie powiodło się</translation>
+        <translation>Odblokowanie portfela nie powiod��o si��</translation>
     </message>
     <message>
         <location line="+1"/>
         <location line="+11"/>
         <location line="+19"/>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>Wprowadzone hasło do odszyfrowania portfela jest niepoprawne.</translation>
+        <translation>Wprowadzone has��o do odszyfrowania portfela jest niepoprawne.</translation>
     </message>
     <message>
         <location line="-20"/>
         <source>Wallet decryption failed</source>
-        <translation>Odszyfrowywanie portfela nie powiodło się</translation>
+        <translation>Odszyfrowywanie portfela nie powiod��o si��</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation>Hasło portfela zostało pomyślnie zmienione.</translation>
+        <translation>Has��o portfela zosta��o pomy��lnie zmienione.</translation>
     </message>
 </context>
 <context>
@@ -325,12 +325,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location filename="../bitcoingui.cpp" line="+233"/>
         <source>Sign &amp;message...</source>
-        <translation>Podpisz wiado&amp;mość...</translation>
+        <translation>Podpisz wiado&amp;mo����...</translation>
     </message>
     <message>
         <location line="+280"/>
         <source>Synchronizing with network...</source>
-        <translation>Synchronizacja z siecią...</translation>
+        <translation>Synchronizacja z sieci��...</translation>
     </message>
     <message>
         <location line="-349"/>
@@ -340,7 +340,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+1"/>
         <source>Show general overview of wallet</source>
-        <translation>Pokazuje ogólny zarys portfela</translation>
+        <translation>Pokazuje og��lny zarys portfela</translation>
     </message>
     <message>
         <location line="+20"/>
@@ -350,22 +350,22 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+1"/>
         <source>Browse transaction history</source>
-        <translation>Przeglądaj historię transakcji</translation>
+        <translation>Przegl��daj histori�� transakcji</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Edit the list of stored addresses and labels</source>
-        <translation>Edytuj listę zapisanych adresów i i etykiet</translation>
+        <translation>Edytuj list�� zapisanych adres��w i i etykiet</translation>
     </message>
     <message>
         <location line="-14"/>
         <source>Show the list of addresses for receiving payments</source>
-        <translation>Pokaż listę adresów do otrzymywania płatności</translation>
+        <translation>Poka�� list�� adres��w do otrzymywania p��atno��ci</translation>
     </message>
     <message>
         <location line="+31"/>
         <source>E&amp;xit</source>
-        <translation>&amp;Zakończ</translation>
+        <translation>&amp;Zako��cz</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -375,7 +375,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+4"/>
         <source>Show information about Bitcoin</source>
-        <translation>Pokaż informację o Bitcoin</translation>
+        <translation>Poka�� informacj�� o Bitcoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -400,27 +400,27 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+3"/>
         <source>&amp;Backup Wallet...</source>
-        <translation>Wykonaj kopię zapasową...</translation>
+        <translation>Wykonaj kopi�� zapasow��...</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>&amp;Change Passphrase...</source>
-        <translation>&amp;Zmień hasło...</translation>
+        <translation>&amp;Zmie�� has��o...</translation>
     </message>
     <message>
         <location line="+285"/>
         <source>Importing blocks from disk...</source>
-        <translation>Importowanie bloków z dysku...</translation>
+        <translation>Importowanie blok��w z dysku...</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Reindexing blocks on disk...</source>
-        <translation>Ponowne indeksowanie bloków na dysku...</translation>
+        <translation>Ponowne indeksowanie blok��w na dysku...</translation>
     </message>
     <message>
         <location line="-347"/>
         <source>Send coins to a Bitcoin address</source>
-        <translation>Wyślij monety na adres Bitcoin</translation>
+        <translation>Wy��lij monety na adres Bitcoin</translation>
     </message>
     <message>
         <location line="+49"/>
@@ -435,7 +435,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+2"/>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>Zmień hasło użyte do szyfrowania portfela</translation>
+        <translation>Zmie�� has��o u��yte do szyfrowania portfela</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -445,12 +445,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+1"/>
         <source>Open debugging and diagnostic console</source>
-        <translation>Otwórz konsolę debugowania i diagnostyki</translation>
+        <translation>Otw��rz konsol�� debugowania i diagnostyki</translation>
     </message>
     <message>
         <location line="-4"/>
         <source>&amp;Verify message...</source>
-        <translation>&amp;Zweryfikuj wiadomość...</translation>
+        <translation>&amp;Zweryfikuj wiadomo����...</translation>
     </message>
     <message>
         <location line="-165"/>
@@ -466,7 +466,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+101"/>
         <source>&amp;Send</source>
-        <translation>Wyślij</translation>
+        <translation>Wy��lij</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -486,27 +486,27 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+9"/>
         <source>&amp;Show / Hide</source>
-        <translation>&amp;Pokaż / Ukryj</translation>
+        <translation>&amp;Poka�� / Ukryj</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show or hide the main Window</source>
-        <translation>Pokazuje lub ukrywa główne okno</translation>
+        <translation>Pokazuje lub ukrywa g����wne okno</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>Szyfruj klucze prywatne, które są powiązane z twoim portfelem</translation>
+        <translation>Szyfruj klucze prywatne, kt��re s�� powi��zane z twoim portfelem</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Podpisz wiadomości swoim adresem aby udowodnić jego posiadanie</translation>
+        <translation>Podpisz wiadomo��ci swoim adresem aby udowodni�� jego posiadanie</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Zweryfikuj wiadomość,  aby upewnić się, że została podpisana odpowiednim adresem Bitcoin.</translation>
+        <translation>Zweryfikuj wiadomo����,  aby upewni�� si��, ��e zosta��a podpisana odpowiednim adresem Bitcoin.</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -526,7 +526,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+9"/>
         <source>Tabs toolbar</source>
-        <translation>Pasek zakładek</translation>
+        <translation>Pasek zak��adek</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -542,7 +542,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message numerus="yes">
         <location line="+141"/>
         <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n aktywne połączenie do sieci Bitcoin</numerusform><numerusform>%n aktywne połączenia do sieci Bitcoin</numerusform><numerusform>%n aktywnych połączeń do sieci Bitcoin</numerusform></translation>
+        <translation><numerusform>%n aktywne po����czenie do sieci Bitcoin</numerusform><numerusform>%n aktywne po����czenia do sieci Bitcoin</numerusform><numerusform>%n aktywnych po����cze�� do sieci Bitcoin</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -552,12 +552,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+12"/>
         <source>Processed %1 of %2 (estimated) blocks of transaction history.</source>
-        <translation>Przetworzono (w przybliżeniu) %1 z %2 bloków historii transakcji.</translation>
+        <translation>Przetworzono (w przybli��eniu) %1 z %2 blok��w historii transakcji.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Processed %1 blocks of transaction history.</source>
-        <translation>Pobrano %1 bloków z historią transakcji.</translation>
+        <translation>Pobrano %1 blok��w z histori�� transakcji.</translation>
     </message>
     <message numerus="yes">
         <location line="+20"/>
@@ -567,12 +567,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message numerus="yes">
         <location line="+4"/>
         <source>%n day(s)</source>
-        <translation><numerusform>%n dzień</numerusform><numerusform>%n dni</numerusform><numerusform>%n dni</numerusform></translation>
+        <translation><numerusform>%n dzie��</numerusform><numerusform>%n dni</numerusform><numerusform>%n dni</numerusform></translation>
     </message>
     <message numerus="yes">
         <location line="+4"/>
         <source>%n week(s)</source>
-        <translation><numerusform>%n tydzień</numerusform><numerusform>%n tygodni</numerusform><numerusform>%n tygodni</numerusform></translation>
+        <translation><numerusform>%n tydzie��</numerusform><numerusform>%n tygodni</numerusform><numerusform>%n tygodni</numerusform></translation>
     </message>
     <message>
         <location line="+4"/>
@@ -582,7 +582,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+14"/>
         <source>Last received block was generated %1 ago.</source>
-        <translation>Ostatni otrzymany blok został wygenerowany %1 temu.</translation>
+        <translation>Ostatni otrzymany blok zosta�� wygenerowany %1 temu.</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -592,12 +592,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+22"/>
         <source>Error</source>
-        <translation>Błąd</translation>
+        <translation>B����d</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Warning</source>
-        <translation>Ostrzeżenie</translation>
+        <translation>Ostrze��enie</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -607,7 +607,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+70"/>
         <source>This transaction is over the size limit. You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network. Do you want to pay the fee?</source>
-        <translation>Transakcja przekracza limit. Możesz wysłać ją płacąc prowizję %1, która zostaje przekazana do węzłów, które ją prześlą i pomoże wspierać sieć Bitcoin. Czy chcesz zapłacić prowizję?</translation>
+        <translation>Transakcja przekracza limit. Mo��esz wys��a�� j�� p��ac��c prowizj�� %1, kt��ra zostaje przekazana do w��z����w, kt��re j�� prze��l�� i pomo��e wspiera�� sie�� Bitcoin. Czy chcesz zap��aci�� prowizj��?</translation>
     </message>
     <message>
         <location line="-140"/>
@@ -617,22 +617,22 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+31"/>
         <source>Catching up...</source>
-        <translation>Łapanie bloków...</translation>
+        <translation>��apanie blok��w...</translation>
     </message>
     <message>
         <location line="+113"/>
         <source>Confirm transaction fee</source>
-        <translation>Potwierdź prowizję transakcyjną</translation>
+        <translation>Potwierd�� prowizj�� transakcyjn��</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Sent transaction</source>
-        <translation>Transakcja wysłana</translation>
+        <translation>Transakcja wys��ana</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Incoming transaction</source>
-        <translation>Transakcja przychodząca</translation>
+        <translation>Transakcja przychodz��ca</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -651,13 +651,13 @@ Adres: %4
         <location line="+33"/>
         <location line="+23"/>
         <source>URI handling</source>
-        <translation>Obsługa URI</translation>
+        <translation>Obs��uga URI</translation>
     </message>
     <message>
         <location line="-23"/>
         <location line="+23"/>
         <source>URI can not be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation>URI nie może zostać przetworzony! Prawdopodobnie błędny adres Bitcoin bądź nieprawidłowe parametry URI.</translation>
+        <translation>URI nie mo��e zosta�� przetworzony! Prawdopodobnie b����dny adres Bitcoin b��d�� nieprawid��owe parametry URI.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -672,7 +672,7 @@ Adres: %4
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
         <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
-        <translation>Błąd krytyczny. Bitcoin nie może kontynuować bezpiecznie więc zostanie zamknięty.</translation>
+        <translation>B����d krytyczny. Bitcoin nie mo��e kontynuowa�� bezpiecznie wi��c zostanie zamkni��ty.</translation>
     </message>
 </context>
 <context>
@@ -680,7 +680,7 @@ Adres: %4
     <message>
         <location filename="../clientmodel.cpp" line="+104"/>
         <source>Network Alert</source>
-        <translation>Sieć Alert</translation>
+        <translation>Sie�� Alert</translation>
     </message>
 </context>
 <context>
@@ -698,7 +698,7 @@ Adres: %4
     <message>
         <location line="+10"/>
         <source>The label associated with this address book entry</source>
-        <translation>Etykieta skojarzona z tym wpisem w książce adresowej</translation>
+        <translation>Etykieta skojarzona z tym wpisem w ksi����ce adresowej</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -708,7 +708,7 @@ Adres: %4
     <message>
         <location line="+10"/>
         <source>The address associated with this address book entry. This can only be modified for sending addresses.</source>
-        <translation>Ten adres jest skojarzony z wpisem w książce adresowej. Może być zmodyfikowany jedynie dla adresów wysyłających.</translation>
+        <translation>Ten adres jest skojarzony z wpisem w ksi����ce adresowej. Mo��e by�� zmodyfikowany jedynie dla adres��w wysy��aj��cych.</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="+21"/>
@@ -718,7 +718,7 @@ Adres: %4
     <message>
         <location line="+4"/>
         <source>New sending address</source>
-        <translation>Nowy adres wysyłania</translation>
+        <translation>Nowy adres wysy��ania</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -728,12 +728,12 @@ Adres: %4
     <message>
         <location line="+4"/>
         <source>Edit sending address</source>
-        <translation>Edytuj adres wysyłania</translation>
+        <translation>Edytuj adres wysy��ania</translation>
     </message>
     <message>
         <location line="+76"/>
         <source>The entered address &quot;%1&quot; is already in the address book.</source>
-        <translation>Wprowadzony adres &quot;%1&quot; już istnieje w książce adresowej.</translation>
+        <translation>Wprowadzony adres &quot;%1&quot; ju�� istnieje w ksi����ce adresowej.</translation>
     </message>
     <message>
         <location line="-5"/>
@@ -743,12 +743,12 @@ Adres: %4
     <message>
         <location line="+10"/>
         <source>Could not unlock wallet.</source>
-        <translation>Nie można było odblokować portfela.</translation>
+        <translation>Nie mo��na by��o odblokowa�� portfela.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>New key generation failed.</source>
-        <translation>Tworzenie nowego klucza nie powiodło się.</translation>
+        <translation>Tworzenie nowego klucza nie powiod��o si��.</translation>
     </message>
 </context>
 <context>
@@ -767,7 +767,7 @@ Adres: %4
     <message>
         <location line="+2"/>
         <source>Usage:</source>
-        <translation>Użycie:</translation>
+        <translation>U��ycie:</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -782,7 +782,7 @@ Adres: %4
     <message>
         <location line="+1"/>
         <source>Set language, for example &quot;de_DE&quot; (default: system locale)</source>
-        <translation>Ustaw Język, na przykład &quot;pl_PL&quot; (domyślnie: systemowy)</translation>
+        <translation>Ustaw J��zyk, na przyk��ad &quot;pl_PL&quot; (domy��lnie: systemowy)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -792,7 +792,7 @@ Adres: %4
     <message>
         <location line="+1"/>
         <source>Show splash screen on startup (default: 1)</source>
-        <translation>Pokazuj okno powitalne przy starcie (domyślnie: 1)</translation>
+        <translation>Pokazuj okno powitalne przy starcie (domy��lnie: 1)</translation>
     </message>
 </context>
 <context>
@@ -805,7 +805,7 @@ Adres: %4
     <message>
         <location line="+16"/>
         <source>&amp;Main</source>
-        <translation>Główne</translation>
+        <translation>G����wne</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -815,7 +815,7 @@ Adres: %4
     <message>
         <location line="+15"/>
         <source>Pay transaction &amp;fee</source>
-        <translation>Płać prowizję za transakcje</translation>
+        <translation>P��a�� prowizj�� za transakcje</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -830,7 +830,7 @@ Adres: %4
     <message>
         <location line="+35"/>
         <source>Reset all client options to default.</source>
-        <translation>Przywróć domyślne wszystkie ustawienia klienta.</translation>
+        <translation>Przywr���� domy��lne wszystkie ustawienia klienta.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -840,27 +840,27 @@ Adres: %4
     <message>
         <location line="+13"/>
         <source>&amp;Network</source>
-        <translation>&amp;Sieć</translation>
+        <translation>&amp;Sie��</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatycznie otwiera port klienta Bitcoin na routerze. Ta opcja dzieła tylko jeśli twój router wspiera UPnP i jest ono włączone.</translation>
+        <translation>Automatycznie otwiera port klienta Bitcoin na routerze. Ta opcja dzie��a tylko je��li tw��j router wspiera UPnP i jest ono w����czone.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Map port using &amp;UPnP</source>
-        <translation>Mapuj port używając &amp;UPnP</translation>
+        <translation>Mapuj port u��ywaj��c &amp;UPnP</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Connect to the Bitcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Podłącz się do sieci Bitcoin przez proxy SOCKS (np. gdy łączysz się poprzez Tor&apos;a)</translation>
+        <translation>Pod����cz si�� do sieci Bitcoin przez proxy SOCKS (np. gdy ����czysz si�� poprzez Tor&apos;a)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Connect through SOCKS proxy:</source>
-        <translation>&amp;Połącz się przez proxy SOCKS</translation>
+        <translation>&amp;Po����cz si�� przez proxy SOCKS</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -900,37 +900,37 @@ Adres: %4
     <message>
         <location line="+6"/>
         <source>Show only a tray icon after minimizing the window.</source>
-        <translation>Pokazuj tylko ikonę przy zegarku po zminimalizowaniu okna.</translation>
+        <translation>Pokazuj tylko ikon�� przy zegarku po zminimalizowaniu okna.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation>&amp;Minimalizuj do paska przy zegarku zamiast do paska zadań</translation>
+        <translation>&amp;Minimalizuj do paska przy zegarku zamiast do paska zada��</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
-        <translation>Minimalizuje zamiast zakończyć działanie programu przy zamykaniu okna. Kiedy ta opcja jest włączona, program zakończy działanie po wybieraniu Zamknij w menu.</translation>
+        <translation>Minimalizuje zamiast zako��czy�� dzia��anie programu przy zamykaniu okna. Kiedy ta opcja jest w����czona, program zako��czy dzia��anie po wybieraniu Zamknij w menu.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>M&amp;inimize on close</source>
-        <translation>M&amp;inimalizuj przy zamknięciu</translation>
+        <translation>M&amp;inimalizuj przy zamkni��ciu</translation>
     </message>
     <message>
         <location line="+21"/>
         <source>&amp;Display</source>
-        <translation>&amp;Wyświetlanie</translation>
+        <translation>&amp;Wy��wietlanie</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>User Interface &amp;language:</source>
-        <translation>Język &amp;Użytkownika:</translation>
+        <translation>J��zyk &amp;U��ytkownika:</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin.</source>
-        <translation>Można tu ustawić język interfejsu uzytkownika. Żeby ustawienie przyniosło skutek trzeba uruchomić ponownie Bitcoin.</translation>
+        <translation>Mo��na tu ustawi�� j��zyk interfejsu uzytkownika. ��eby ustawienie przynios��o skutek trzeba uruchomi�� ponownie Bitcoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -940,17 +940,17 @@ Adres: %4
     <message>
         <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Wybierz podział jednostki pokazywany w interfejsie  oraz podczas wysyłania monet</translation>
+        <translation>Wybierz podzia�� jednostki pokazywany w interfejsie  oraz podczas wysy��ania monet</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Whether to show Bitcoin addresses in the transaction list or not.</source>
-        <translation>Pokazuj adresy Bitcoin na liście transakcji.</translation>
+        <translation>Pokazuj adresy Bitcoin na li��cie transakcji.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Display addresses in transaction list</source>
-        <translation>&amp;Wyświetlaj adresy w liście transakcji</translation>
+        <translation>&amp;Wy��wietlaj adresy w li��cie transakcji</translation>
     </message>
     <message>
         <location line="+71"/>
@@ -970,28 +970,28 @@ Adres: %4
     <message>
         <location filename="../optionsdialog.cpp" line="+53"/>
         <source>default</source>
-        <translation>domyślny</translation>
+        <translation>domy��lny</translation>
     </message>
     <message>
         <location line="+130"/>
         <source>Confirm options reset</source>
-        <translation>Potwierdź reset ustawień</translation>
+        <translation>Potwierd�� reset ustawie��</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Some settings may require a client restart to take effect.</source>
-        <translation>Niektóre ustawienia mogą wymagać ponownego uruchomienia klienta, żeby zacząć działać.</translation>
+        <translation>Niekt��re ustawienia mog�� wymaga�� ponownego uruchomienia klienta, ��eby zacz���� dzia��a��.</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Do you want to proceed?</source>
-        <translation>Czy chcesz kontynuować?</translation>
+        <translation>Czy chcesz kontynuowa��?</translation>
     </message>
     <message>
         <location line="+42"/>
         <location line="+9"/>
         <source>Warning</source>
-        <translation>Ostrzeżenie</translation>
+        <translation>Ostrze��enie</translation>
     </message>
     <message>
         <location line="-9"/>
@@ -1002,7 +1002,7 @@ Adres: %4
     <message>
         <location line="+29"/>
         <source>The supplied proxy address is invalid.</source>
-        <translation>Adres podanego proxy jest nieprawidłowy</translation>
+        <translation>Adres podanego proxy jest nieprawid��owy</translation>
     </message>
 </context>
 <context>
@@ -1016,7 +1016,7 @@ Adres: %4
         <location line="+50"/>
         <location line="+166"/>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Wyświetlana informacja może być nieaktualna. Twój portfel synchronizuje się automatycznie z siecią bitcoin, zaraz po tym jak uzyskano połączenie, ale proces ten nie został jeszcze ukończony.</translation>
+        <translation>Wy��wietlana informacja mo��e by�� nieaktualna. Tw��j portfel synchronizuje si�� automatycznie z sieci�� bitcoin, zaraz po tym jak uzyskano po����czenie, ale proces ten nie zosta�� jeszcze uko��czony.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1036,12 +1036,12 @@ Adres: %4
     <message>
         <location line="+107"/>
         <source>Immature:</source>
-        <translation>Niedojrzały: </translation>
+        <translation>Niedojrza��y: </translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Mined balance that has not yet matured</source>
-        <translation>Balans wydobycia, który jeszcze nie dojrzał</translation>
+        <translation>Balans wydobycia, kt��ry jeszcze nie dojrza��</translation>
     </message>
     <message>
         <location line="+46"/>
@@ -1056,7 +1056,7 @@ Adres: %4
     <message>
         <location line="+29"/>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
-        <translation>Suma transakcji, które nie zostały jeszcze potwierdzone, i które nie zostały wliczone do twojego obecnego salda</translation>
+        <translation>Suma transakcji, kt��re nie zosta��y jeszcze potwierdzone, i kt��re nie zosta��y wliczone do twojego obecnego salda</translation>
     </message>
     <message>
         <location filename="../overviewpage.cpp" line="+116"/>
@@ -1083,7 +1083,7 @@ Adres: %4
     <message>
         <location line="+59"/>
         <source>Request Payment</source>
-        <translation>Prośba o płatność</translation>
+        <translation>Pro��ba o p��atno����</translation>
     </message>
     <message>
         <location line="+56"/>
@@ -1098,7 +1098,7 @@ Adres: %4
     <message>
         <location line="+19"/>
         <source>Message:</source>
-        <translation>Wiadomość:</translation>
+        <translation>Wiadomo����:</translation>
     </message>
     <message>
         <location line="+71"/>
@@ -1108,17 +1108,17 @@ Adres: %4
     <message>
         <location filename="../qrcodedialog.cpp" line="+62"/>
         <source>Error encoding URI into QR Code.</source>
-        <translation>Błąd kodowania URI w Kodzie QR.</translation>
+        <translation>B����d kodowania URI w Kodzie QR.</translation>
     </message>
     <message>
         <location line="+40"/>
         <source>The entered amount is invalid, please check.</source>
-        <translation>Podana ilość jest nieprawidłowa, proszę sprawdzić</translation>
+        <translation>Podana ilo���� jest nieprawid��owa, prosz�� sprawdzi��</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Resulting URI too long, try to reduce the text for label / message.</source>
-        <translation>Wynikowy URI jest zbyt długi, spróbuj zmniejszyć tekst etykiety / wiadomości</translation>
+        <translation>Wynikowy URI jest zbyt d��ugi, spr��buj zmniejszy�� tekst etykiety / wiadomo��ci</translation>
     </message>
     <message>
         <location line="+25"/>
@@ -1150,7 +1150,7 @@ Adres: %4
         <location line="+23"/>
         <location filename="../rpcconsole.cpp" line="+339"/>
         <source>N/A</source>
-        <translation>NIEDOSTĘPNE</translation>
+        <translation>NIEDOST��PNE</translation>
     </message>
     <message>
         <location line="-217"/>
@@ -1165,7 +1165,7 @@ Adres: %4
     <message>
         <location line="+68"/>
         <source>Using OpenSSL version</source>
-        <translation>Używana wersja OpenSSL</translation>
+        <translation>U��ywana wersja OpenSSL</translation>
     </message>
     <message>
         <location line="+49"/>
@@ -1175,12 +1175,12 @@ Adres: %4
     <message>
         <location line="+29"/>
         <source>Network</source>
-        <translation>Sieć</translation>
+        <translation>Sie��</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Number of connections</source>
-        <translation>Liczba połączeń</translation>
+        <translation>Liczba po����cze��</translation>
     </message>
     <message>
         <location line="+23"/>
@@ -1190,17 +1190,17 @@ Adres: %4
     <message>
         <location line="+23"/>
         <source>Block chain</source>
-        <translation>Ciąg bloków</translation>
+        <translation>Ci��g blok��w</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Current number of blocks</source>
-        <translation>Aktualna liczba bloków</translation>
+        <translation>Aktualna liczba blok��w</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Estimated total blocks</source>
-        <translation>Szacowana ilość bloków</translation>
+        <translation>Szacowana ilo���� blok��w</translation>
     </message>
     <message>
         <location line="+23"/>
@@ -1210,7 +1210,7 @@ Adres: %4
     <message>
         <location line="+52"/>
         <source>&amp;Open</source>
-        <translation>&amp;Otwórz</translation>
+        <translation>&amp;Otw��rz</translation>
     </message>
     <message>
         <location line="+16"/>
@@ -1220,12 +1220,12 @@ Adres: %4
     <message>
         <location line="+7"/>
         <source>Show the Bitcoin-Qt help message to get a list with possible Bitcoin command-line options.</source>
-        <translation>Pokaż pomoc Bitcoin-Qt, aby zobaczyć listę wszystkich opcji linii poleceń</translation>
+        <translation>Poka�� pomoc Bitcoin-Qt, aby zobaczy�� list�� wszystkich opcji linii polece��</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Show</source>
-        <translation>&amp;Pokaż</translation>
+        <translation>&amp;Poka��</translation>
     </message>
     <message>
         <location line="+24"/>
@@ -1245,7 +1245,7 @@ Adres: %4
     <message>
         <location line="+25"/>
         <source>Bitcoin Core</source>
-        <translation>Rdzeń BitCoin</translation>
+        <translation>Rdze�� BitCoin</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1260,7 +1260,7 @@ Adres: %4
     <message>
         <location line="+102"/>
         <source>Clear console</source>
-        <translation>Wyczyść konsolę</translation>
+        <translation>Wyczy���� konsol��</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
@@ -1270,12 +1270,12 @@ Adres: %4
     <message>
         <location line="+1"/>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
-        <translation>Użyj strzałek do przewijania historii i &lt;b&gt;Ctrl-L&lt;/b&gt; aby wyczyścić ekran</translation>
+        <translation>U��yj strza��ek do przewijania historii i &lt;b&gt;Ctrl-L&lt;/b&gt; aby wyczy��ci�� ekran</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>Wpisz &lt;b&gt;help&lt;/b&gt; aby uzyskać listę dostępnych komend</translation>
+        <translation>Wpisz &lt;b&gt;help&lt;/b&gt; aby uzyska�� list�� dost��pnych komend</translation>
     </message>
 </context>
 <context>
@@ -1290,12 +1290,12 @@ Adres: %4
         <location line="+5"/>
         <location line="+5"/>
         <source>Send Coins</source>
-        <translation>Wyślij płatność</translation>
+        <translation>Wy��lij p��atno����</translation>
     </message>
     <message>
         <location line="+50"/>
         <source>Send to multiple recipients at once</source>
-        <translation>Wyślij do wielu odbiorców na raz</translation>
+        <translation>Wy��lij do wielu odbiorc��w na raz</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1305,12 +1305,12 @@ Adres: %4
     <message>
         <location line="+20"/>
         <source>Remove all transaction fields</source>
-        <translation>Wyczyść wszystkie pola transakcji</translation>
+        <translation>Wyczy���� wszystkie pola transakcji</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Clear &amp;All</source>
-        <translation>Wyczyść &amp;wszystko</translation>
+        <translation>Wyczy���� &amp;wszystko</translation>
     </message>
     <message>
         <location line="+22"/>
@@ -1319,18 +1319,18 @@ Adres: %4
     </message>
     <message>
         <location line="+10"/>
-        <source>123.456 BTC</source>
-        <translation>123.456 BTC</translation>
+        <source>123.456 IXC</source>
+        <translation>123.456 IXC</translation>
     </message>
     <message>
         <location line="+31"/>
         <source>Confirm the send action</source>
-        <translation>Potwierdź akcję wysyłania</translation>
+        <translation>Potwierd�� akcj�� wysy��ania</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>S&amp;end</source>
-        <translation>Wy&amp;syłka</translation>
+        <translation>Wy&amp;sy��ka</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-59"/>
@@ -1340,12 +1340,12 @@ Adres: %4
     <message>
         <location line="+5"/>
         <source>Confirm send coins</source>
-        <translation>Potwierdź wysyłanie monet</translation>
+        <translation>Potwierd�� wysy��anie monet</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Are you sure you want to send %1?</source>
-        <translation>Czy na pewno chcesz wysłać %1?</translation>
+        <translation>Czy na pewno chcesz wys��a�� %1?</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1355,12 +1355,12 @@ Adres: %4
     <message>
         <location line="+23"/>
         <source>The recipient address is not valid, please recheck.</source>
-        <translation>Adres odbiorcy jest nieprawidłowy, proszę poprawić</translation>
+        <translation>Adres odbiorcy jest nieprawid��owy, prosz�� poprawi��</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>The amount to pay must be larger than 0.</source>
-        <translation>Kwota do zapłacenia musi być większa od 0.</translation>
+        <translation>Kwota do zap��acenia musi by�� wi��ksza od 0.</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -1375,17 +1375,17 @@ Adres: %4
     <message>
         <location line="+6"/>
         <source>Duplicate address found, can only send to each address once per send operation.</source>
-        <translation>Znaleziono powtórzony adres, można wysłać tylko raz na każdy adres podczas operacji wysyłania.</translation>
+        <translation>Znaleziono powt��rzony adres, mo��na wys��a�� tylko raz na ka��dy adres podczas operacji wysy��ania.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Error: Transaction creation failed!</source>
-        <translation>Błąd: Tworzenie transakcji zakończone niepowodzeniem!</translation>
+        <translation>B����d: Tworzenie transakcji zako��czone niepowodzeniem!</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Błąd: transakcja została odrzucona. Może się to zdarzyć, gdy monety z Twojego portfela zostały już wydane, na przykład gdy używałeś kopii wallet.dat i bitcoiny które tam wydałeś nie zostały jeszcze odjęte z portfela z którego teraz korzystasz.</translation>
+        <translation>B����d: transakcja zosta��a odrzucona. Mo��e si�� to zdarzy��, gdy monety z Twojego portfela zosta��y ju�� wydane, na przyk��ad gdy u��ywa��e�� kopii wallet.dat i bitcoiny kt��re tam wyda��e�� nie zosta��y jeszcze odj��te z portfela z kt��rego teraz korzystasz.</translation>
     </message>
 </context>
 <context>
@@ -1403,18 +1403,18 @@ Adres: %4
     <message>
         <location line="+13"/>
         <source>Pay &amp;To:</source>
-        <translation>Zapłać dla:</translation>
+        <translation>Zap��a�� dla:</translation>
     </message>
     <message>
         <location line="+34"/>
         <source>The address to send the payment to (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Adres, na który wysłasz płatności (np. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <translation>Adres, na kt��ry wys��asz p��atno��ci (np. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="+60"/>
         <location filename="../sendcoinsentry.cpp" line="+26"/>
         <source>Enter a label for this address to add it to your address book</source>
-        <translation>Wprowadź etykietę dla tego adresu by dodać go do książki adresowej</translation>
+        <translation>Wprowad�� etykiet�� dla tego adresu by doda�� go do ksi����ki adresowej</translation>
     </message>
     <message>
         <location line="-78"/>
@@ -1424,7 +1424,7 @@ Adres: %4
     <message>
         <location line="+28"/>
         <source>Choose address from address book</source>
-        <translation>Wybierz adres z książki adresowej</translation>
+        <translation>Wybierz adres z ksi����ki adresowej</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1444,12 +1444,12 @@ Adres: %4
     <message>
         <location line="+7"/>
         <source>Remove this recipient</source>
-        <translation>Usuń tego odbiorce</translation>
+        <translation>Usu�� tego odbiorce</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
         <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Wprowadź adres Bitcoin (np. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <translation>Wprowad�� adres Bitcoin (np. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
 <context>
@@ -1457,28 +1457,28 @@ Adres: %4
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="+14"/>
         <source>Signatures - Sign / Verify a Message</source>
-        <translation>Podpisy - Podpisz / zweryfikuj wiadomość</translation>
+        <translation>Podpisy - Podpisz / zweryfikuj wiadomo����</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>&amp;Sign Message</source>
-        <translation>Podpi&amp;sz Wiadomość</translation>
+        <translation>Podpi&amp;sz Wiadomo����</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Możesz podpisywać wiadomości swoimi adresami aby udowodnić, że jesteś ich właścicielem. Uważaj, aby nie podpisywać niczego co wzbudza Twoje podejrzenia, ponieważ ktoś może stosować phishing próbując nakłonić Cię do ich podpisania. Akceptuj i podpisuj tylko w pełni zrozumiałe komunikaty i wiadomości.</translation>
+        <translation>Mo��esz podpisywa�� wiadomo��ci swoimi adresami aby udowodni��, ��e jeste�� ich w��a��cicielem. Uwa��aj, aby nie podpisywa�� niczego co wzbudza Twoje podejrzenia, poniewa�� kto�� mo��e stosowa�� phishing pr��buj��c nak��oni�� Ci�� do ich podpisania. Akceptuj i podpisuj tylko w pe��ni zrozumia��e komunikaty i wiadomo��ci.</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Wprowadź adres Bitcoin (np. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <translation>Wprowad�� adres Bitcoin (np. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="+10"/>
         <location line="+213"/>
         <source>Choose an address from the address book</source>
-        <translation>Wybierz adres z książki kontaktowej</translation>
+        <translation>Wybierz adres z ksi����ki kontaktowej</translation>
     </message>
     <message>
         <location line="-203"/>
@@ -1499,7 +1499,7 @@ Adres: %4
     <message>
         <location line="+12"/>
         <source>Enter the message you want to sign here</source>
-        <translation>Wprowadź wiadomość, którą chcesz podpisać, tutaj</translation>
+        <translation>Wprowad�� wiadomo����, kt��r�� chcesz podpisa��, tutaj</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1514,28 +1514,28 @@ Adres: %4
     <message>
         <location line="+21"/>
         <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation>Podpisz wiadomość aby dowieść, że ten adres jest twój</translation>
+        <translation>Podpisz wiadomo���� aby dowie����, ��e ten adres jest tw��j</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Sign &amp;Message</source>
-        <translation>Podpisz Wiado&amp;mość</translation>
+        <translation>Podpisz Wiado&amp;mo����</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Reset all sign message fields</source>
-        <translation>Zresetuj wszystkie pola podpisanej wiadomości</translation>
+        <translation>Zresetuj wszystkie pola podpisanej wiadomo��ci</translation>
     </message>
     <message>
         <location line="+3"/>
         <location line="+146"/>
         <source>Clear &amp;All</source>
-        <translation>Wyczyść &amp;wszystko</translation>
+        <translation>Wyczy���� &amp;wszystko</translation>
     </message>
     <message>
         <location line="-87"/>
         <source>&amp;Verify Message</source>
-        <translation>&amp;Zweryfikuj wiadomość</translation>
+        <translation>&amp;Zweryfikuj wiadomo����</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -1545,44 +1545,44 @@ Adres: %4
     <message>
         <location line="+21"/>
         <source>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Wprowadź adres Bitcoin (np. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <translation>Wprowad�� adres Bitcoin (np. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="+40"/>
         <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Zweryfikuj wiadomość,  aby upewnić się, że została podpisana odpowiednim adresem Bitcoin.</translation>
+        <translation>Zweryfikuj wiadomo����,  aby upewni�� si��, ��e zosta��a podpisana odpowiednim adresem Bitcoin.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Verify &amp;Message</source>
-        <translation>Zweryfikuj Wiado&amp;mość</translation>
+        <translation>Zweryfikuj Wiado&amp;mo����</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Reset all verify message fields</source>
-        <translation>Resetuje wszystkie pola weryfikacji wiadomości</translation>
+        <translation>Resetuje wszystkie pola weryfikacji wiadomo��ci</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
         <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Wprowadź adres Bitcoin (np. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <translation>Wprowad�� adres Bitcoin (np. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="-2"/>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
-        <translation>Kliknij &quot;Podpisz Wiadomość&quot; żeby uzyskać podpis</translation>
+        <translation>Kliknij &quot;Podpisz Wiadomo����&quot; ��eby uzyska�� podpis</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Enter Bitcoin signature</source>
-        <translation>Wprowadź podpis Bitcoin</translation>
+        <translation>Wprowad�� podpis Bitcoin</translation>
     </message>
     <message>
         <location line="+82"/>
         <location line="+81"/>
         <source>The entered address is invalid.</source>
-        <translation>Podany adres jest nieprawidłowy.</translation>
+        <translation>Podany adres jest nieprawid��owy.</translation>
     </message>
     <message>
         <location line="-81"/>
@@ -1590,44 +1590,44 @@ Adres: %4
         <location line="+73"/>
         <location line="+8"/>
         <source>Please check the address and try again.</source>
-        <translation>Proszę sprawdzić adres i spróbować ponownie.</translation>
+        <translation>Prosz�� sprawdzi�� adres i spr��bowa�� ponownie.</translation>
     </message>
     <message>
         <location line="-81"/>
         <location line="+81"/>
         <source>The entered address does not refer to a key.</source>
-        <translation>Wprowadzony adres nie odnosi się do klucza.</translation>
+        <translation>Wprowadzony adres nie odnosi si�� do klucza.</translation>
     </message>
     <message>
         <location line="-73"/>
         <source>Wallet unlock was cancelled.</source>
-        <translation>Odblokowanie portfela zostało anulowane.</translation>
+        <translation>Odblokowanie portfela zosta��o anulowane.</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Private key for the entered address is not available.</source>
-        <translation>Klucz prywatny dla podanego adresu nie jest dostępny</translation>
+        <translation>Klucz prywatny dla podanego adresu nie jest dost��pny</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>Message signing failed.</source>
-        <translation>Podpisanie wiadomości nie powiodło się</translation>
+        <translation>Podpisanie wiadomo��ci nie powiod��o si��</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Message signed.</source>
-        <translation>Wiadomość podpisana.</translation>
+        <translation>Wiadomo���� podpisana.</translation>
     </message>
     <message>
         <location line="+59"/>
         <source>The signature could not be decoded.</source>
-        <translation>Podpis nie może zostać zdekodowany.</translation>
+        <translation>Podpis nie mo��e zosta�� zdekodowany.</translation>
     </message>
     <message>
         <location line="+0"/>
         <location line="+13"/>
         <source>Please check the signature and try again.</source>
-        <translation>Sprawdź podpis i spróbuj ponownie.</translation>
+        <translation>Sprawd�� podpis i spr��buj ponownie.</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1637,12 +1637,12 @@ Adres: %4
     <message>
         <location line="+7"/>
         <source>Message verification failed.</source>
-        <translation>Weryfikacja wiadomości nie powiodła się.</translation>
+        <translation>Weryfikacja wiadomo��ci nie powiod��a si��.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Message verified.</source>
-        <translation>Wiadomość zweryfikowana.</translation>
+        <translation>Wiadomo���� zweryfikowana.</translation>
     </message>
 </context>
 <context>
@@ -1663,7 +1663,7 @@ Adres: %4
     <message>
         <location filename="../transactiondesc.cpp" line="+20"/>
         <source>Open until %1</source>
-        <translation>Otwórz do %1</translation>
+        <translation>Otw��rz do %1</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -1678,7 +1678,7 @@ Adres: %4
     <message>
         <location line="+2"/>
         <source>%1 confirmations</source>
-        <translation>%1 potwierdzeń</translation>
+        <translation>%1 potwierdze��</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -1688,7 +1688,7 @@ Adres: %4
     <message numerus="yes">
         <location line="+7"/>
         <source>, broadcast through %n node(s)</source>
-        <translation><numerusform>, emitowany przez %n węzeł</numerusform><numerusform>, emitowany przez %n węzły</numerusform><numerusform>, emitowany przez %n węzłów</numerusform></translation>
+        <translation><numerusform>, emitowany przez %n w��ze��</numerusform><numerusform>, emitowany przez %n w��z��y</numerusform><numerusform>, emitowany przez %n w��z����w</numerusform></translation>
     </message>
     <message>
         <location line="+4"/>
@@ -1698,7 +1698,7 @@ Adres: %4
     <message>
         <location line="+7"/>
         <source>Source</source>
-        <translation>Źródło</translation>
+        <translation>��r��d��o</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1722,7 +1722,7 @@ Adres: %4
         <location line="-77"/>
         <location line="+2"/>
         <source>own address</source>
-        <translation>własny adres</translation>
+        <translation>w��asny adres</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1769,7 +1769,7 @@ Adres: %4
     <message>
         <location line="+6"/>
         <source>Message</source>
-        <translation>Wiadomość</translation>
+        <translation>Wiadomo����</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1784,7 +1784,7 @@ Adres: %4
     <message>
         <location line="+3"/>
         <source>Generated coins must mature 120 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Wygenerowane monety muszą zaczekać 120 bloków zanim będzie można je wydać. Kiedy wygenerowałeś ten blok, został on wyemitowany do sieci, aby dodać go do łańcucha bloków. Jeśli to się nie powiedzie nie zostanie on zaakceptowany i wygenerowanych monet nie będzie można wysyłać. Może się to czasami zdarzyć jeśli inny węzeł wygeneruje blok tuż przed tobą.</translation>
+        <translation>Wygenerowane monety musz�� zaczeka�� 120 blok��w zanim b��dzie mo��na je wyda��. Kiedy wygenerowa��e�� ten blok, zosta�� on wyemitowany do sieci, aby doda�� go do ��a��cucha blok��w. Je��li to si�� nie powiedzie nie zostanie on zaakceptowany i wygenerowanych monet nie b��dzie mo��na wysy��a��. Mo��e si�� to czasami zdarzy�� je��li inny w��ze�� wygeneruje blok tu�� przed tob��.</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1799,7 +1799,7 @@ Adres: %4
     <message>
         <location line="+3"/>
         <source>Inputs</source>
-        <translation>Wejścia</translation>
+        <translation>Wej��cia</translation>
     </message>
     <message>
         <location line="+23"/>
@@ -1814,17 +1814,17 @@ Adres: %4
     <message>
         <location line="+0"/>
         <source>false</source>
-        <translation>fałsz</translation>
+        <translation>fa��sz</translation>
     </message>
     <message>
         <location line="-209"/>
         <source>, has not been successfully broadcast yet</source>
-        <translation>, nie został jeszcze pomyślnie wyemitowany</translation>
+        <translation>, nie zosta�� jeszcze pomy��lnie wyemitowany</translation>
     </message>
     <message numerus="yes">
         <location line="-35"/>
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>Otwórz dla %n bloku</numerusform><numerusform>Otwórz dla %n następnych bloków</numerusform><numerusform>Otwórz dla %n następnych bloków</numerusform></translation>
+        <translation><numerusform>Otw��rz dla %n bloku</numerusform><numerusform>Otw��rz dla %n nast��pnych blok��w</numerusform><numerusform>Otw��rz dla %n nast��pnych blok��w</numerusform></translation>
     </message>
     <message>
         <location line="+70"/>
@@ -1837,12 +1837,12 @@ Adres: %4
     <message>
         <location filename="../forms/transactiondescdialog.ui" line="+14"/>
         <source>Transaction details</source>
-        <translation>Szczegóły transakcji</translation>
+        <translation>Szczeg����y transakcji</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation>Ten panel pokazuje szczegółowy opis transakcji</translation>
+        <translation>Ten panel pokazuje szczeg����owy opis transakcji</translation>
     </message>
 </context>
 <context>
@@ -1870,37 +1870,37 @@ Adres: %4
     <message numerus="yes">
         <location line="+57"/>
         <source>Open for %n more block(s)</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform>Otwórz dla %n następnych bloków</numerusform></translation>
+        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform>Otw��rz dla %n nast��pnych blok��w</numerusform></translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Open until %1</source>
-        <translation>Otwórz do %1</translation>
+        <translation>Otw��rz do %1</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Offline (%1 confirmations)</source>
-        <translation>Offline (%1 potwierdzeń)</translation>
+        <translation>Offline (%1 potwierdze��)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Unconfirmed (%1 of %2 confirmations)</source>
-        <translation>Niezatwierdzony (%1 z %2 potwierdzeń)</translation>
+        <translation>Niezatwierdzony (%1 z %2 potwierdze��)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Confirmed (%1 confirmations)</source>
-        <translation>Zatwierdzony (%1 potwierdzeń)</translation>
+        <translation>Zatwierdzony (%1 potwierdze��)</translation>
     </message>
     <message numerus="yes">
         <location line="+8"/>
         <source>Mined balance will be available when it matures in %n more block(s)</source>
-        <translation><numerusform>Balans wydobycia będzie dostępny zaraz po tym, jak dojrzeje. Pozostał %n blok</numerusform><numerusform>Balans wydobycia będzie dostępny zaraz po tym, jak dojrzeje. Pozostało %n bloków</numerusform><numerusform>Balans wydobycia będzie dostępny zaraz po tym, jak dojrzeje. Pozostało %n bloków</numerusform></translation>
+        <translation><numerusform>Balans wydobycia b��dzie dost��pny zaraz po tym, jak dojrzeje. Pozosta�� %n blok</numerusform><numerusform>Balans wydobycia b��dzie dost��pny zaraz po tym, jak dojrzeje. Pozosta��o %n blok��w</numerusform><numerusform>Balans wydobycia b��dzie dost��pny zaraz po tym, jak dojrzeje. Pozosta��o %n blok��w</numerusform></translation>
     </message>
     <message>
         <location line="+5"/>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation>Ten blok nie został odebrany przez jakikolwiek inny węzeł i prawdopodobnie nie zostanie zaakceptowany!</translation>
+        <translation>Ten blok nie zosta�� odebrany przez jakikolwiek inny w��ze�� i prawdopodobnie nie zostanie zaakceptowany!</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1920,12 +1920,12 @@ Adres: %4
     <message>
         <location line="+3"/>
         <source>Sent to</source>
-        <translation>Wysłano do</translation>
+        <translation>Wys��ano do</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Payment to yourself</source>
-        <translation>Płatność do siebie</translation>
+        <translation>P��atno���� do siebie</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1940,7 +1940,7 @@ Adres: %4
     <message>
         <location line="+199"/>
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
-        <translation>Status transakcji. Najedź na pole, aby zobaczyć liczbę potwierdzeń.</translation>
+        <translation>Status transakcji. Najed�� na pole, aby zobaczy�� liczb�� potwierdze��.</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1960,7 +1960,7 @@ Adres: %4
     <message>
         <location line="+2"/>
         <source>Amount removed from or added to balance.</source>
-        <translation>Kwota usunięta z lub dodana do konta.</translation>
+        <translation>Kwota usuni��ta z lub dodana do konta.</translation>
     </message>
 </context>
 <context>
@@ -1984,12 +1984,12 @@ Adres: %4
     <message>
         <location line="+1"/>
         <source>This month</source>
-        <translation>W tym miesiącu</translation>
+        <translation>W tym miesi��cu</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Last month</source>
-        <translation>W zeszłym miesiącu</translation>
+        <translation>W zesz��ym miesi��cu</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2009,7 +2009,7 @@ Adres: %4
     <message>
         <location line="+2"/>
         <source>Sent to</source>
-        <translation>Wysłano do</translation>
+        <translation>Wys��ano do</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2029,7 +2029,7 @@ Adres: %4
     <message>
         <location line="+7"/>
         <source>Enter address or label to search</source>
-        <translation>Wprowadź adres albo etykietę żeby wyszukać</translation>
+        <translation>Wprowad�� adres albo etykiet�� ��eby wyszuka��</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -2044,12 +2044,12 @@ Adres: %4
     <message>
         <location line="+1"/>
         <source>Copy label</source>
-        <translation>Kopiuj etykietę</translation>
+        <translation>Kopiuj etykiet��</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy amount</source>
-        <translation>Kopiuj kwotę</translation>
+        <translation>Kopiuj kwot��</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2059,12 +2059,12 @@ Adres: %4
     <message>
         <location line="+1"/>
         <source>Edit label</source>
-        <translation>Edytuj etykietę</translation>
+        <translation>Edytuj etykiet��</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show transaction details</source>
-        <translation>Pokaż szczegóły transakcji</translation>
+        <translation>Poka�� szczeg����y transakcji</translation>
     </message>
     <message>
         <location line="+139"/>
@@ -2114,12 +2114,12 @@ Adres: %4
     <message>
         <location line="+4"/>
         <source>Error exporting</source>
-        <translation>Błąd podczas eksportowania</translation>
+        <translation>B����d podczas eksportowania</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Could not write to file %1.</source>
-        <translation>Błąd zapisu do pliku %1.</translation>
+        <translation>B����d zapisu do pliku %1.</translation>
     </message>
     <message>
         <location line="+100"/>
@@ -2137,7 +2137,7 @@ Adres: %4
     <message>
         <location filename="../walletmodel.cpp" line="+193"/>
         <source>Send Coins</source>
-        <translation>Wyślij płatność</translation>
+        <translation>Wy��lij p��atno����</translation>
     </message>
 </context>
 <context>
@@ -2165,22 +2165,22 @@ Adres: %4
     <message>
         <location line="+3"/>
         <source>Backup Failed</source>
-        <translation>Nie udało się wykonać kopii zapasowej</translation>
+        <translation>Nie uda��o si�� wykona�� kopii zapasowej</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>There was an error trying to save the wallet data to the new location.</source>
-        <translation>Wystąpił błąd przy zapisywaniu portfela do nowej lokalizacji.</translation>
+        <translation>Wyst��pi�� b����d przy zapisywaniu portfela do nowej lokalizacji.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Backup Successful</source>
-        <translation>Wykonano Kopię Zapasową</translation>
+        <translation>Wykonano Kopi�� Zapasow��</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>The wallet data was successfully saved to the new location.</source>
-        <translation>Dane portfela zostały poprawnie zapisane w nowym miejscu.</translation>
+        <translation>Dane portfela zosta��y poprawnie zapisane w nowym miejscu.</translation>
     </message>
 </context>
 <context>
@@ -2193,17 +2193,17 @@ Adres: %4
     <message>
         <location line="+102"/>
         <source>Usage:</source>
-        <translation>Użycie:</translation>
+        <translation>U��ycie:</translation>
     </message>
     <message>
         <location line="-29"/>
         <source>Send command to -server or bitcoind</source>
-        <translation>Wyślij polecenie do -server lub bitcoind</translation>
+        <translation>Wy��lij polecenie do -server lub bitcoind</translation>
     </message>
     <message>
         <location line="-23"/>
         <source>List commands</source>
-        <translation>Lista poleceń</translation>
+        <translation>Lista polece��</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -2218,67 +2218,67 @@ Adres: %4
     <message>
         <location line="+24"/>
         <source>Specify configuration file (default: bitcoin.conf)</source>
-        <translation>Wskaż plik konfiguracyjny (domyślnie: bitcoin.conf)</translation>
+        <translation>Wska�� plik konfiguracyjny (domy��lnie: bitcoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Specify pid file (default: bitcoind.pid)</source>
-        <translation>Wskaż plik pid (domyślnie: bitcoin.pid)</translation>
+        <translation>Wska�� plik pid (domy��lnie: bitcoin.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
         <source>Specify data directory</source>
-        <translation>Wskaż folder danych</translation>
+        <translation>Wska�� folder danych</translation>
     </message>
     <message>
         <location line="-9"/>
         <source>Set database cache size in megabytes (default: 25)</source>
-        <translation>Ustaw rozmiar w megabajtach cache-u bazy danych (domyślnie: 25)</translation>
+        <translation>Ustaw rozmiar w megabajtach cache-u bazy danych (domy��lnie: 25)</translation>
     </message>
     <message>
         <location line="-28"/>
         <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
-        <translation>Nasłuchuj połączeń na &lt;port&gt; (domyślnie: 8333 lub testnet: 18333)</translation>
+        <translation>Nas��uchuj po����cze�� na &lt;port&gt; (domy��lnie: 8333 lub testnet: 18333)</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
-        <translation>Utrzymuj maksymalnie &lt;n&gt; połączeń z peerami (domyślnie: 125)</translation>
+        <translation>Utrzymuj maksymalnie &lt;n&gt; po����cze�� z peerami (domy��lnie: 125)</translation>
     </message>
     <message>
         <location line="-48"/>
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>Podłącz się do węzła aby otrzymać adresy peerów i rozłącz</translation>
+        <translation>Pod����cz si�� do w��z��a aby otrzyma�� adresy peer��w i roz����cz</translation>
     </message>
     <message>
         <location line="+82"/>
         <source>Specify your own public address</source>
-        <translation>Podaj swój publiczny adres</translation>
+        <translation>Podaj sw��j publiczny adres</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
-        <translation>Próg po którym nastąpi rozłączenie nietrzymających się zasad peerów (domyślnie: 100)</translation>
+        <translation>Pr��g po kt��rym nast��pi roz����czenie nietrzymaj��cych si�� zasad peer��w (domy��lnie: 100)</translation>
     </message>
     <message>
         <location line="-134"/>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
-        <translation>Czas w sekundach, przez jaki nietrzymający się zasad peerzy nie będą mogli ponownie się podłączyć (domyślnie: 86400)</translation>
+        <translation>Czas w sekundach, przez jaki nietrzymaj��cy si�� zasad peerzy nie b��d�� mogli ponownie si�� pod����czy�� (domy��lnie: 86400)</translation>
     </message>
     <message>
         <location line="-29"/>
         <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
-        <translation>Wystąpił błąd podczas ustawiania portu RPC %u w tryb nasłuchu: %s</translation>
+        <translation>Wyst��pi�� b����d podczas ustawiania portu RPC %u w tryb nas��uchu: %s</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>Nasłuchuj połączeń JSON-RPC na &lt;port&gt; (domyślnie: 8332 or testnet: 18332)</translation>
+        <translation>Nas��uchuj po����cze�� JSON-RPC na &lt;port&gt; (domy��lnie: 8332 or testnet: 18332)</translation>
     </message>
     <message>
         <location line="+37"/>
         <source>Accept command line and JSON-RPC commands</source>
-        <translation>Akceptuj linię poleceń oraz polecenia JSON-RPC</translation>
+        <translation>Akceptuj lini�� polece�� oraz polecenia JSON-RPC</translation>
     </message>
     <message>
         <location line="+76"/>
@@ -2288,12 +2288,12 @@ Adres: %4
     <message>
         <location line="+37"/>
         <source>Use the test network</source>
-        <translation>Użyj sieci testowej</translation>
+        <translation>U��yj sieci testowej</translation>
     </message>
     <message>
         <location line="-112"/>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>Akceptuj połączenia z zewnątrz (domyślnie: 1 jeśli nie ustawiono -proxy lub -connect)</translation>
+        <translation>Akceptuj po����czenia z zewn��trz (domy��lnie: 1 je��li nie ustawiono -proxy lub -connect)</translation>
     </message>
     <message>
         <location line="-80"/>
@@ -2308,31 +2308,31 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
 </source>
-        <translation>%s, musisz ustawić rpcpassword w pliku konfiguracyjnym:⏎
-%s⏎
-Zalecane jest użycie losowego hasła:⏎
-rpcuser=bitcoinrpc⏎
-rpcpassword=%s⏎
-(nie musisz pamiętać tego hasła)⏎
-Użytkownik i hasło nie mogą być takie same.⏎
-Jeśli plik nie istnieje, utwórz go z uprawnieniami tylko-do-odczytu dla właściciela.⏎
-Zalecane jest ustawienie alertnotify aby poinformować o problemach:⏎
-na przykład: alertnotify=echo %%s | mail -s &quot;Alarm Bitcoin&quot; admin@foo.com⏎</translation>
+        <translation>%s, musisz ustawi�� rpcpassword w pliku konfiguracyjnym:���
+%s���
+Zalecane jest u��ycie losowego has��a:���
+rpcuser=bitcoinrpc���
+rpcpassword=%s���
+(nie musisz pami��ta�� tego has��a)���
+U��ytkownik i has��o nie mog�� by�� takie same.���
+Je��li plik nie istnieje, utw��rz go z uprawnieniami tylko-do-odczytu dla w��a��ciciela.���
+Zalecane jest ustawienie alertnotify aby poinformowa�� o problemach:���
+na przyk��ad: alertnotify=echo %%s | mail -s &quot;Alarm Bitcoin&quot; admin@foo.com���</translation>
     </message>
     <message>
         <location line="+17"/>
         <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
-        <translation>Wystąpił błąd podczas ustawiania portu RPC %u w tryb nasłuchu dla IPv6, korzystam z IPv4: %s</translation>
+        <translation>Wyst��pi�� b����d podczas ustawiania portu RPC %u w tryb nas��uchu dla IPv6, korzystam z IPv4: %s</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
-        <translation>Skojarz z podanym adresem. Użyj formatu [host]:port dla IPv6 </translation>
+        <translation>Skojarz z podanym adresem. U��yj formatu [host]:port dla IPv6 </translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Cannot obtain a lock on data directory %s. Bitcoin is probably already running.</source>
-        <translation>Nie można zablokować folderu danych %s.  Bitcoin prawdopodobnie już działa.</translation>
+        <translation>Nie mo��na zablokowa�� folderu danych %s.  Bitcoin prawdopodobnie ju�� dzia��a.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2352,12 +2352,12 @@ na przykład: alertnotify=echo %%s | mail -s &quot;Alarm Bitcoin&quot; admin@foo
     <message>
         <location line="+3"/>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>Wykonaj polecenie, kiedy transakcja portfela ulegnie zmianie (%s w poleceniu zostanie zastąpione przez TxID)</translation>
+        <translation>Wykonaj polecenie, kiedy transakcja portfela ulegnie zmianie (%s w poleceniu zostanie zast��pione przez TxID)</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: 27000)</source>
-        <translation>Ustaw maksymalny rozmiar transakcji o wysokim priorytecie/niskiej prowizji w bajtach (domyślnie: 27000)</translation>
+        <translation>Ustaw maksymalny rozmiar transakcji o wysokim priorytecie/niskiej prowizji w bajtach (domy��lnie: 27000)</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -2367,32 +2367,32 @@ na przykład: alertnotify=echo %%s | mail -s &quot;Alarm Bitcoin&quot; admin@foo
     <message>
         <location line="+5"/>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
-        <translation>Ostrzeżenie: -paytxfee jest bardzo duży. To jest prowizja za transakcje, którą płacisz, gdy wysyłasz monety.</translation>
+        <translation>Ostrze��enie: -paytxfee jest bardzo du��y. To jest prowizja za transakcje, kt��r�� p��acisz, gdy wysy��asz monety.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Warning: Displayed transactions may not be correct! You may need to upgrade, or other nodes may need to upgrade.</source>
-        <translation>Uwaga: Wyświetlone transakcje mogą nie być poprawne! Możliwe, że potrzebujesz aktualizacji bądź inne węzły jej potrzebują</translation>
+        <translation>Uwaga: Wy��wietlone transakcje mog�� nie by�� poprawne! Mo��liwe, ��e potrzebujesz aktualizacji b��d�� inne w��z��y jej potrzebuj��</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Bitcoin will not work properly.</source>
-        <translation>Uwaga: Sprawdź czy data i czas na Twoim komputerze są prawidłowe! Jeśli nie to Bitcoin nie będzie działał prawidłowo.</translation>
+        <translation>Uwaga: Sprawd�� czy data i czas na Twoim komputerze s�� prawid��owe! Je��li nie to Bitcoin nie b��dzie dzia��a�� prawid��owo.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
-        <translation>Ostrzeżenie: błąd odczytu wallet.dat! Wszystkie klucze zostały odczytane, ale może brakować pewnych danych transakcji lub wpisów w książce adresowej lub mogą one być nieprawidłowe.</translation>
+        <translation>Ostrze��enie: b����d odczytu wallet.dat! Wszystkie klucze zosta��y odczytane, ale mo��e brakowa�� pewnych danych transakcji lub wpis��w w ksi����ce adresowej lub mog�� one by�� nieprawid��owe.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
-        <translation>Ostrzeżenie: Odtworzono dane z uszkodzonego pliku wallet.dat! Oryginalny wallet.dat został zapisany jako wallet.{timestamp}.bak w %s; jeśli twoje saldo lub transakcje są niepoprawne powinieneś odtworzyć kopię zapasową.</translation>
+        <translation>Ostrze��enie: Odtworzono dane z uszkodzonego pliku wallet.dat! Oryginalny wallet.dat zosta�� zapisany jako wallet.{timestamp}.bak w %s; je��li twoje saldo lub transakcje s�� niepoprawne powiniene�� odtworzy�� kopi�� zapasow��.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Attempt to recover private keys from a corrupt wallet.dat</source>
-        <translation>Próbuj odzyskać klucze prywatne z uszkodzonego wallet.dat</translation>
+        <translation>Pr��buj odzyska�� klucze prywatne z uszkodzonego wallet.dat</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2402,92 +2402,92 @@ na przykład: alertnotify=echo %%s | mail -s &quot;Alarm Bitcoin&quot; admin@foo
     <message>
         <location line="+5"/>
         <source>Connect only to the specified node(s)</source>
-        <translation>Łącz tylko do wskazanego węzła</translation>
+        <translation>����cz tylko do wskazanego w��z��a</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Corrupted block database detected</source>
-        <translation>Wykryto uszkodzoną bazę bloków</translation>
+        <translation>Wykryto uszkodzon�� baz�� blok��w</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
-        <translation>Odkryj własny adres IP (domyślnie: 1 kiedy w trybie nasłuchu i brak -externalip )</translation>
+        <translation>Odkryj w��asny adres IP (domy��lnie: 1 kiedy w trybie nas��uchu i brak -externalip )</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Do you want to rebuild the block database now?</source>
-        <translation>Czy chcesz teraz przebudować bazę bloków?</translation>
+        <translation>Czy chcesz teraz przebudowa�� baz�� blok��w?</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Error initializing block database</source>
-        <translation>Błąd inicjowania bloku bazy danych</translation>
+        <translation>B����d inicjowania bloku bazy danych</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Error initializing wallet database environment %s!</source>
-        <translation>Błąd inicjowania środowiska bazy portfela %s!</translation>
+        <translation>B����d inicjowania ��rodowiska bazy portfela %s!</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Error loading block database</source>
-        <translation>Błąd ładowania bazy bloków</translation>
+        <translation>B����d ��adowania bazy blok��w</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Error opening block database</source>
-        <translation>Błąd ładowania bazy bloków</translation>
+        <translation>B����d ��adowania bazy blok��w</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Error: Disk space is low!</source>
-        <translation>Błąd: Mało miejsca na dysku!</translation>
+        <translation>B����d: Ma��o miejsca na dysku!</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Error: Wallet locked, unable to create transaction!</source>
-        <translation>Błąd: Zablokowany portfel, nie można utworzyć transakcji!</translation>
+        <translation>B����d: Zablokowany portfel, nie mo��na utworzy�� transakcji!</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Error: system error: </source>
-        <translation>Błąd: błąd systemu:</translation>
+        <translation>B����d: b����d systemu:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation>Próba otwarcia jakiegokolwiek portu nie powiodła się. Użyj -listen=0 jeśli tego chcesz.</translation>
+        <translation>Pr��ba otwarcia jakiegokolwiek portu nie powiod��a si��. U��yj -listen=0 je��li tego chcesz.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Failed to read block info</source>
-        <translation>Nie udało się odczytać informacji bloku</translation>
+        <translation>Nie uda��o si�� odczyta�� informacji bloku</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Failed to read block</source>
-        <translation>Nie udało się odczytać bloku.</translation>
+        <translation>Nie uda��o si�� odczyta�� bloku.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Failed to sync block index</source>
-        <translation>Nie udało się zsynchronizować indeksu bloków.</translation>
+        <translation>Nie uda��o si�� zsynchronizowa�� indeksu blok��w.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Failed to write block index</source>
-        <translation>Nie udało się zapisać indeksu bloków.</translation>
+        <translation>Nie uda��o si�� zapisa�� indeksu blok��w.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Failed to write block info</source>
-        <translation>Nie udało się zapisać informacji bloku</translation>
+        <translation>Nie uda��o si�� zapisa�� informacji bloku</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Failed to write block</source>
-        <translation>Nie udało się zapisać bloku</translation>
+        <translation>Nie uda��o si�� zapisa�� bloku</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2497,37 +2497,37 @@ na przykład: alertnotify=echo %%s | mail -s &quot;Alarm Bitcoin&quot; admin@foo
     <message>
         <location line="+1"/>
         <source>Failed to write to coin database</source>
-        <translation>Nie udało się zapisać do bazy monet</translation>
+        <translation>Nie uda��o si�� zapisa�� do bazy monet</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Failed to write transaction index</source>
-        <translation>Nie udało się zapisać indeksu transakcji</translation>
+        <translation>Nie uda��o si�� zapisa�� indeksu transakcji</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Failed to write undo data</source>
-        <translation>Nie udało się zapisać danych odtwarzających</translation>
+        <translation>Nie uda��o si�� zapisa�� danych odtwarzaj��cych</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Find peers using DNS lookup (default: 1 unless -connect)</source>
-        <translation>Wyszukaj połączenia wykorzystując zapytanie DNS (domyślnie 1 jeśli nie użyto -connect)</translation>
+        <translation>Wyszukaj po����czenia wykorzystuj��c zapytanie DNS (domy��lnie 1 je��li nie u��yto -connect)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Generate coins (default: 0)</source>
-        <translation>Generuj monety (domyślnie: 0)</translation>
+        <translation>Generuj monety (domy��lnie: 0)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>How many blocks to check at startup (default: 288, 0 = all)</source>
-        <translation>Ile bloków sprawdzić przy starcie (domyślnie: 288, 0 = wszystkie)</translation>
+        <translation>Ile blok��w sprawdzi�� przy starcie (domy��lnie: 288, 0 = wszystkie)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>How thorough the block verification is (0-4, default: 3)</source>
-        <translation>Jak dokładna jest weryfikacja bloku (0-4, domyślnie: 3)</translation>
+        <translation>Jak dok��adna jest weryfikacja bloku (0-4, domy��lnie: 3)</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -2537,17 +2537,17 @@ na przykład: alertnotify=echo %%s | mail -s &quot;Alarm Bitcoin&quot; admin@foo
     <message>
         <location line="+8"/>
         <source>Rebuild block chain index from current blk000??.dat files</source>
-        <translation>Odbuduj indeks łańcucha bloków z obecnych plików blk000??.dat</translation>
+        <translation>Odbuduj indeks ��a��cucha blok��w z obecnych plik��w blk000??.dat</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Set the number of threads to service RPC calls (default: 4)</source>
-        <translation>Ustaw liczbę wątków do odwołań RPC (domyślnie: 4)</translation>
+        <translation>Ustaw liczb�� w��tk��w do odwo��a�� RPC (domy��lnie: 4)</translation>
     </message>
     <message>
         <location line="+26"/>
         <source>Verifying blocks...</source>
-        <translation>Weryfikacja bloków...</translation>
+        <translation>Weryfikacja blok��w...</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2557,12 +2557,12 @@ na przykład: alertnotify=echo %%s | mail -s &quot;Alarm Bitcoin&quot; admin@foo
     <message>
         <location line="-69"/>
         <source>Imports blocks from external blk000??.dat file</source>
-        <translation>Importuj bloki z zewnętrznego pliku blk000??.dat</translation>
+        <translation>Importuj bloki z zewn��trznego pliku blk000??.dat</translation>
     </message>
     <message>
         <location line="-76"/>
         <source>Set the number of script verification threads (up to 16, 0 = auto, &lt;0 = leave that many cores free, default: 0)</source>
-        <translation>Ustaw liczbę wątków skryptu weryfikacji (do 16, 0 = auto, &lt;0 = zostawia taką ilość rdzenie wolnych, domyślnie: 0)</translation>
+        <translation>Ustaw liczb�� w��tk��w skryptu weryfikacji (do 16, 0 = auto, &lt;0 = zostawia tak�� ilo���� rdzenie wolnych, domy��lnie: 0)</translation>
     </message>
     <message>
         <location line="+77"/>
@@ -2572,7 +2572,7 @@ na przykład: alertnotify=echo %%s | mail -s &quot;Alarm Bitcoin&quot; admin@foo
     <message>
         <location line="+3"/>
         <source>Invalid -tor address: &apos;%s&apos;</source>
-        <translation>Nieprawidłowy adres -tor: &apos;%s&apos;</translation>
+        <translation>Nieprawid��owy adres -tor: &apos;%s&apos;</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2587,27 +2587,27 @@ na przykład: alertnotify=echo %%s | mail -s &quot;Alarm Bitcoin&quot; admin@foo
     <message>
         <location line="+8"/>
         <source>Maintain a full transaction index (default: 0)</source>
-        <translation>Utrzymuj pełen indeks transakcji (domyślnie: 0)</translation>
+        <translation>Utrzymuj pe��en indeks transakcji (domy��lnie: 0)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
-        <translation>Maksymalny bufor odbioru na połączenie, &lt;n&gt;*1000 bajtów (domyślnie: 5000)</translation>
+        <translation>Maksymalny bufor odbioru na po����czenie, &lt;n&gt;*1000 bajt��w (domy��lnie: 5000)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: 1000)</source>
-        <translation>Maksymalny bufor wysyłu na połączenie, &lt;n&gt;*1000 bajtów (domyślnie: 1000)</translation>
+        <translation>Maksymalny bufor wysy��u na po����czenie, &lt;n&gt;*1000 bajt��w (domy��lnie: 1000)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Only accept block chain matching built-in checkpoints (default: 1)</source>
-        <translation>Akceptuj tylko łańcuch bloków zgodny z wbudowanymi punktami kontrolnymi (domyślnie: 1)</translation>
+        <translation>Akceptuj tylko ��a��cuch blok��w zgodny z wbudowanymi punktami kontrolnymi (domy��lnie: 1)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Only connect to nodes in network &lt;net&gt; (IPv4, IPv6 or Tor)</source>
-        <translation>Łącz z węzłami tylko w sieci &lt;net&gt; (IPv4, IPv6 lub Tor)</translation>
+        <translation>����cz z w��z��ami tylko w sieci &lt;net&gt; (IPv4, IPv6 lub Tor)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2622,42 +2622,42 @@ na przykład: alertnotify=echo %%s | mail -s &quot;Alarm Bitcoin&quot; admin@foo
     <message>
         <location line="+2"/>
         <source>Prepend debug output with timestamp</source>
-        <translation>Poprzedź informacje debugowania znacznikiem czasowym</translation>
+        <translation>Poprzed�� informacje debugowania znacznikiem czasowym</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation>Opcje SSL: (odwiedź Bitcoin Wiki w celu uzyskania instrukcji)</translation>
+        <translation>Opcje SSL: (odwied�� Bitcoin Wiki w celu uzyskania instrukcji)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Select the version of socks proxy to use (4-5, default: 5)</source>
-        <translation>Wybierz używaną wersje socks serwera proxy (4-5, domyślnie:5)</translation>
+        <translation>Wybierz u��ywan�� wersje socks serwera proxy (4-5, domy��lnie:5)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation>Wyślij informację/raport do konsoli zamiast do pliku debug.log.</translation>
+        <translation>Wy��lij informacj��/raport do konsoli zamiast do pliku debug.log.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Send trace/debug info to debugger</source>
-        <translation>Wyślij informację/raport do debuggera.</translation>
+        <translation>Wy��lij informacj��/raport do debuggera.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Set maximum block size in bytes (default: 250000)</source>
-        <translation>Ustaw maksymalny rozmiar bloku w bajtach (domyślnie: 250000)</translation>
+        <translation>Ustaw maksymalny rozmiar bloku w bajtach (domy��lnie: 250000)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Set minimum block size in bytes (default: 0)</source>
-        <translation>Ustaw minimalny rozmiar bloku w bajtach (domyślnie: 0)</translation>
+        <translation>Ustaw minimalny rozmiar bloku w bajtach (domy��lnie: 0)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
-        <translation>Zmniejsz plik debug.log przy starcie programu (domyślnie: 1 jeśli nie użyto -debug)</translation>
+        <translation>Zmniejsz plik debug.log przy starcie programu (domy��lnie: 1 je��li nie u��yto -debug)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2667,12 +2667,12 @@ na przykład: alertnotify=echo %%s | mail -s &quot;Alarm Bitcoin&quot; admin@foo
     <message>
         <location line="+2"/>
         <source>Specify connection timeout in milliseconds (default: 5000)</source>
-        <translation>Wskaż czas oczekiwania bezczynności połączenia w milisekundach (domyślnie: 5000)</translation>
+        <translation>Wska�� czas oczekiwania bezczynno��ci po����czenia w milisekundach (domy��lnie: 5000)</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>System error: </source>
-        <translation>Błąd systemu:</translation>
+        <translation>B����d systemu:</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -2692,12 +2692,12 @@ na przykład: alertnotify=echo %%s | mail -s &quot;Alarm Bitcoin&quot; admin@foo
     <message>
         <location line="+7"/>
         <source>Use UPnP to map the listening port (default: 0)</source>
-        <translation>Używaj UPnP do mapowania portu nasłuchu (domyślnie: 0)</translation>
+        <translation>U��ywaj UPnP do mapowania portu nas��uchu (domy��lnie: 0)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Use UPnP to map the listening port (default: 1 when listening)</source>
-        <translation>Używaj UPnP do mapowania portu nasłuchu (domyślnie: 1 gdy nasłuchuje)</translation>
+        <translation>U��ywaj UPnP do mapowania portu nas��uchu (domy��lnie: 1 gdy nas��uchuje)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2707,47 +2707,47 @@ na przykład: alertnotify=echo %%s | mail -s &quot;Alarm Bitcoin&quot; admin@foo
     <message>
         <location line="+2"/>
         <source>Username for JSON-RPC connections</source>
-        <translation>Nazwa użytkownika dla połączeń JSON-RPC</translation>
+        <translation>Nazwa u��ytkownika dla po����cze�� JSON-RPC</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Warning</source>
-        <translation>Ostrzeżenie</translation>
+        <translation>Ostrze��enie</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Warning: This version is obsolete, upgrade required!</source>
-        <translation>Uwaga: Ta wersja jest przestarzała, aktualizacja wymagana!</translation>
+        <translation>Uwaga: Ta wersja jest przestarza��a, aktualizacja wymagana!</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>You need to rebuild the databases using -reindex to change -txindex</source>
-        <translation>Musisz przebudować bazę używając parametru -reindex aby zmienić -txindex</translation>
+        <translation>Musisz przebudowa�� baz�� u��ywaj��c parametru -reindex aby zmieni�� -txindex</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>wallet.dat corrupt, salvage failed</source>
-        <translation>wallet.dat uszkodzony, odtworzenie się nie powiodło</translation>
+        <translation>wallet.dat uszkodzony, odtworzenie si�� nie powiod��o</translation>
     </message>
     <message>
         <location line="-50"/>
         <source>Password for JSON-RPC connections</source>
-        <translation>Hasło do połączeń JSON-RPC</translation>
+        <translation>Has��o do po����cze�� JSON-RPC</translation>
     </message>
     <message>
         <location line="-67"/>
         <source>Allow JSON-RPC connections from specified IP address</source>
-        <translation>Przyjmuj połączenia JSON-RPC ze wskazanego adresu IP</translation>
+        <translation>Przyjmuj po����czenia JSON-RPC ze wskazanego adresu IP</translation>
     </message>
     <message>
         <location line="+76"/>
         <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
-        <translation>Wysyłaj polecenia do węzła działającego na &lt;ip&gt; (domyślnie: 127.0.0.1)</translation>
+        <translation>Wysy��aj polecenia do w��z��a dzia��aj��cego na &lt;ip&gt; (domy��lnie: 127.0.0.1)</translation>
     </message>
     <message>
         <location line="-120"/>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>Wykonaj polecenie kiedy najlepszy blok ulegnie zmianie (%s w komendzie zastanie zastąpione przez hash bloku)</translation>
+        <translation>Wykonaj polecenie kiedy najlepszy blok ulegnie zmianie (%s w komendzie zastanie zast��pione przez hash bloku)</translation>
     </message>
     <message>
         <location line="+147"/>
@@ -2757,87 +2757,87 @@ na przykład: alertnotify=echo %%s | mail -s &quot;Alarm Bitcoin&quot; admin@foo
     <message>
         <location line="-21"/>
         <source>Set key pool size to &lt;n&gt; (default: 100)</source>
-        <translation>Ustaw rozmiar puli kluczy na &lt;n&gt; (domyślnie: 100)</translation>
+        <translation>Ustaw rozmiar puli kluczy na &lt;n&gt; (domy��lnie: 100)</translation>
     </message>
     <message>
         <location line="-12"/>
         <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>Przeskanuj blok łańcuchów żeby znaleźć zaginione transakcje portfela</translation>
+        <translation>Przeskanuj blok ��a��cuch��w ��eby znale���� zaginione transakcje portfela</translation>
     </message>
     <message>
         <location line="+35"/>
         <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation>Użyj OpenSSL (https) do połączeń JSON-RPC</translation>
+        <translation>U��yj OpenSSL (https) do po����cze�� JSON-RPC</translation>
     </message>
     <message>
         <location line="-26"/>
         <source>Server certificate file (default: server.cert)</source>
-        <translation>Plik certyfikatu serwera (domyślnie: server.cert)</translation>
+        <translation>Plik certyfikatu serwera (domy��lnie: server.cert)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Server private key (default: server.pem)</source>
-        <translation>Klucz prywatny serwera (domyślnie: server.pem)</translation>
+        <translation>Klucz prywatny serwera (domy��lnie: server.pem)</translation>
     </message>
     <message>
         <location line="-151"/>
         <source>Acceptable ciphers (default: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</source>
-        <translation>Aceptowalne szyfry (domyślnie: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</translation>
+        <translation>Aceptowalne szyfry (domy��lnie: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</translation>
     </message>
     <message>
         <location line="+165"/>
         <source>This help message</source>
-        <translation>Ta wiadomość pomocy</translation>
+        <translation>Ta wiadomo���� pomocy</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
-        <translation>Nie można przywiązać %s na tym komputerze (bind returned error %d, %s)</translation>
+        <translation>Nie mo��na przywi��za�� %s na tym komputerze (bind returned error %d, %s)</translation>
     </message>
     <message>
         <location line="-91"/>
         <source>Connect through socks proxy</source>
-        <translation>Łączy przez proxy socks</translation>
+        <translation>����czy przez proxy socks</translation>
     </message>
     <message>
         <location line="-10"/>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>Zezwól -addnode, -seednode i -connect na łączenie się z serwerem DNS</translation>
+        <translation>Zezw��l -addnode, -seednode i -connect na ����czenie si�� z serwerem DNS</translation>
     </message>
     <message>
         <location line="+55"/>
         <source>Loading addresses...</source>
-        <translation>Wczytywanie adresów...</translation>
+        <translation>Wczytywanie adres��w...</translation>
     </message>
     <message>
         <location line="-35"/>
         <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation>Błąd ładowania wallet.dat: Uszkodzony portfel</translation>
+        <translation>B����d ��adowania wallet.dat: Uszkodzony portfel</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin</source>
-        <translation>Błąd ładowania wallet.dat: Portfel wymaga nowszej wersji Bitcoin</translation>
+        <translation>B����d ��adowania wallet.dat: Portfel wymaga nowszej wersji Bitcoin</translation>
     </message>
     <message>
         <location line="+93"/>
         <source>Wallet needed to be rewritten: restart Bitcoin to complete</source>
-        <translation>Portfel wymaga przepisania: zrestartuj Bitcoina żeby ukończyć</translation>
+        <translation>Portfel wymaga przepisania: zrestartuj Bitcoina ��eby uko��czy��</translation>
     </message>
     <message>
         <location line="-95"/>
         <source>Error loading wallet.dat</source>
-        <translation>Błąd ładowania wallet.dat</translation>
+        <translation>B����d ��adowania wallet.dat</translation>
     </message>
     <message>
         <location line="+28"/>
         <source>Invalid -proxy address: &apos;%s&apos;</source>
-        <translation>Nieprawidłowy adres -proxy: &apos;%s&apos;</translation>
+        <translation>Nieprawid��owy adres -proxy: &apos;%s&apos;</translation>
     </message>
     <message>
         <location line="+56"/>
         <source>Unknown network specified in -onlynet: &apos;%s&apos;</source>
-        <translation>Nieznana sieć w -onlynet: &apos;%s&apos;</translation>
+        <translation>Nieznana sie�� w -onlynet: &apos;%s&apos;</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2847,42 +2847,42 @@ na przykład: alertnotify=echo %%s | mail -s &quot;Alarm Bitcoin&quot; admin@foo
     <message>
         <location line="-96"/>
         <source>Cannot resolve -bind address: &apos;%s&apos;</source>
-        <translation>Nie można uzyskać adresu -bind: &apos;%s&apos;</translation>
+        <translation>Nie mo��na uzyska�� adresu -bind: &apos;%s&apos;</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Cannot resolve -externalip address: &apos;%s&apos;</source>
-        <translation>Nie można uzyskać adresu -externalip: &apos;%s&apos;</translation>
+        <translation>Nie mo��na uzyska�� adresu -externalip: &apos;%s&apos;</translation>
     </message>
     <message>
         <location line="+44"/>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation>Nieprawidłowa kwota dla -paytxfee=&lt;amount&gt;: &apos;%s&apos;</translation>
+        <translation>Nieprawid��owa kwota dla -paytxfee=&lt;amount&gt;: &apos;%s&apos;</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Invalid amount</source>
-        <translation>Nieprawidłowa kwota</translation>
+        <translation>Nieprawid��owa kwota</translation>
     </message>
     <message>
         <location line="-6"/>
         <source>Insufficient funds</source>
-        <translation>Niewystarczające środki</translation>
+        <translation>Niewystarczaj��ce ��rodki</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Loading block index...</source>
-        <translation>Ładowanie indeksu bloku...</translation>
+        <translation>��adowanie indeksu bloku...</translation>
     </message>
     <message>
         <location line="-57"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>Dodaj węzeł do łączenia się and attempt to keep the connection open</translation>
+        <translation>Dodaj w��ze�� do ����czenia si�� and attempt to keep the connection open</translation>
     </message>
     <message>
         <location line="-25"/>
         <source>Unable to bind to %s on this computer. Bitcoin is probably already running.</source>
-        <translation>Nie można przywiązać %s na tym komputerze. Bitcoin prawdopodobnie już działa.</translation>
+        <translation>Nie mo��na przywi��za�� %s na tym komputerze. Bitcoin prawdopodobnie ju�� dzia��a.</translation>
     </message>
     <message>
         <location line="+64"/>
@@ -2898,12 +2898,12 @@ na przykład: alertnotify=echo %%s | mail -s &quot;Alarm Bitcoin&quot; admin@foo
     <message>
         <location line="-52"/>
         <source>Cannot downgrade wallet</source>
-        <translation>Nie można dezaktualizować portfela</translation>
+        <translation>Nie mo��na dezaktualizowa�� portfela</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Cannot write default address</source>
-        <translation>Nie można zapisać domyślnego adresu</translation>
+        <translation>Nie mo��na zapisa�� domy��lnego adresu</translation>
     </message>
     <message>
         <location line="+64"/>
@@ -2913,26 +2913,26 @@ na przykład: alertnotify=echo %%s | mail -s &quot;Alarm Bitcoin&quot; admin@foo
     <message>
         <location line="-57"/>
         <source>Done loading</source>
-        <translation>Wczytywanie zakończone</translation>
+        <translation>Wczytywanie zako��czone</translation>
     </message>
     <message>
         <location line="+82"/>
         <source>To use the %s option</source>
-        <translation>Aby użyć opcji %s</translation>
+        <translation>Aby u��y�� opcji %s</translation>
     </message>
     <message>
         <location line="-74"/>
         <source>Error</source>
-        <translation>Błąd</translation>
+        <translation>B����d</translation>
     </message>
     <message>
         <location line="-31"/>
         <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
 %s
 If the file does not exist, create it with owner-readable-only file permissions.</source>
-        <translation>Musisz ustawić rpcpassword=&lt;hasło&gt; w pliku configuracyjnym:
+        <translation>Musisz ustawi�� rpcpassword=&lt;has��o&gt; w pliku configuracyjnym:
 %s
-Jeżeli plik nie istnieje, utwórz go z uprawnieniami właściciela-tylko-do-odczytu.</translation>
+Je��eli plik nie istnieje, utw��rz go z uprawnieniami w��a��ciciela-tylko-do-odczytu.</translation>
     </message>
 </context>
 </TS>

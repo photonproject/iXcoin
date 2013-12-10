@@ -153,7 +153,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <source>Could not write to file %1.</source>
-        <translation>Kon nie na die %1 lêer skryf nie</translation>
+        <translation>Kon nie na die %1 l��er skryf nie</translation>
     </message>
 </context>
 <context>
@@ -506,7 +506,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+28"/>
         <source>&amp;File</source>
-        <translation>&amp;Lêer</translation>
+        <translation>&amp;L��er</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1310,7 +1310,7 @@ Address: %4
     </message>
     <message>
         <location line="+10"/>
-        <source>123.456 BTC</source>
+        <source>123.456 IXC</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2110,7 +2110,7 @@ Address: %4
     <message>
         <location line="+0"/>
         <source>Could not write to file %1.</source>
-        <translation>Kon nie na die %1 lêer skryf nie</translation>
+        <translation>Kon nie na die %1 l��er skryf nie</translation>
     </message>
     <message>
         <location line="+100"/>

@@ -290,7 +290,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+7"/>
         <location line="+48"/>
         <source>The supplied passphrases do not match.</source>
-        <translation>Dydy&apos;r cyfrinymadroddion a ddarparwyd ddim yn cyd-fynd â&apos;u gilydd.</translation>
+        <translation>Dydy&apos;r cyfrinymadroddion a ddarparwyd ddim yn cyd-fynd ��&apos;u gilydd.</translation>
     </message>
     <message>
         <location line="-37"/>
@@ -325,7 +325,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+280"/>
         <source>Synchronizing with network...</source>
-        <translation>Cysoni â&apos;r rhwydwaith...</translation>
+        <translation>Cysoni ��&apos;r rhwydwaith...</translation>
     </message>
     <message>
         <location line="-349"/>
@@ -1310,8 +1310,8 @@ Address: %4
     </message>
     <message>
         <location line="+10"/>
-        <source>123.456 BTC</source>
-        <translation>123.456 BTC</translation>
+        <source>123.456 IXC</source>
+        <translation>123.456 IXC</translation>
     </message>
     <message>
         <location line="+31"/>

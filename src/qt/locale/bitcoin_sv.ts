@@ -21,12 +21,12 @@ Distributed under the MIT/X11 software license, see the accompanying file COPYIN
 
 This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
         <translation>
-Detta är experimentell mjukvara.
+Detta ��r experimentell mjukvara.
 
 
-Distribuerad under mjukvarulicensen MIT/X11, se den medföljande filen COPYING eller http://www.opensource.org/licenses/mit-license.php.
+Distribuerad under mjukvarulicensen MIT/X11, se den medf��ljande filen COPYING eller http://www.opensource.org/licenses/mit-license.php.
 
-Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användning i OpenSSL Toolkit (http://www.openssl.org/) och kryptografisk mjukvara utvecklad av Eric Young (eay@cryptsoft.com) samt UPnP-mjukvara skriven av Thomas Bernard.</translation>
+Denna produkten inneh��ller mjukvara utvecklad av OpenSSL Project f��r anv��ndning i OpenSSL Toolkit (http://www.openssl.org/) och kryptografisk mjukvara utvecklad av Eric Young (eay@cryptsoft.com) samt UPnP-mjukvara skriven av Thomas Bernard.</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="+14"/>
@@ -49,7 +49,7 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     <message>
         <location line="+19"/>
         <source>Double-click to edit address or label</source>
-        <translation>Dubbel-klicka för att ändra adressen eller etiketten</translation>
+        <translation>Dubbel-klicka f��r att ��ndra adressen eller etiketten</translation>
     </message>
     <message>
         <location line="+27"/>
@@ -69,7 +69,7 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
         <source>These are your Bitcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Detta är dina Bitcoin-adresser för att ta emot betalningar.  Du kan ge varje avsändare en egen adress så att du kan hålla reda på vem som betalar dig.</translation>
+        <translation>Detta ��r dina Bitcoin-adresser f��r att ta emot betalningar.  Du kan ge varje avs��ndare en egen adress s�� att du kan h��lla reda p�� vem som betalar dig.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -84,7 +84,7 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     <message>
         <location line="+11"/>
         <source>Sign a message to prove you own a Bitcoin address</source>
-        <translation>Signera ett meddelande för att bevisa att du äger denna adress</translation>
+        <translation>Signera ett meddelande f��r att bevisa att du ��ger denna adress</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -94,7 +94,7 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     <message>
         <location line="+25"/>
         <source>Delete the currently selected address from the list</source>
-        <translation>Ta bort den valda adressen från listan</translation>
+        <translation>Ta bort den valda adressen fr��n listan</translation>
     </message>
     <message>
         <location line="+27"/>
@@ -109,7 +109,7 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     <message>
         <location line="-44"/>
         <source>Verify a message to ensure it was signed with a specified Bitcoin address</source>
-        <translation>Verifiera meddelandet för att vara säker på att den var signerad med den specificerade Bitcoin-adressen</translation>
+        <translation>Verifiera meddelandet f��r att vara s��ker p�� att den var signerad med den specificerade Bitcoin-adressen</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -124,7 +124,7 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
         <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Detta är dina Bitcoin adresser för att skicka betalningar. Kolla alltid summan och den mottagande adressen innan du skickar Bitcoins.</translation>
+        <translation>Detta ��r dina Bitcoin adresser f��r att skicka betalningar. Kolla alltid summan och den mottagande adressen innan du skickar Bitcoins.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -185,99 +185,99 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     <message>
         <location filename="../forms/askpassphrasedialog.ui" line="+26"/>
         <source>Passphrase Dialog</source>
-        <translation>Lösenords Dialog</translation>
+        <translation>L��senords Dialog</translation>
     </message>
     <message>
         <location line="+21"/>
         <source>Enter passphrase</source>
-        <translation>Ange lösenord</translation>
+        <translation>Ange l��senord</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>New passphrase</source>
-        <translation>Nytt lösenord</translation>
+        <translation>Nytt l��senord</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Repeat new passphrase</source>
-        <translation>Upprepa nytt lösenord</translation>
+        <translation>Upprepa nytt l��senord</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="+33"/>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Ange plånbokens nya lösenord. &lt;br/&gt; Använd ett lösenord på &lt;b&gt;10 eller fler slumpmässiga tecken,&lt;/b&gt; eller &lt;b&gt;åtta eller fler ord.&lt;/b&gt;</translation>
+        <translation>Ange pl��nbokens nya l��senord. &lt;br/&gt; Anv��nd ett l��senord p�� &lt;b&gt;10 eller fler slumpm��ssiga tecken,&lt;/b&gt; eller &lt;b&gt;��tta eller fler ord.&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Encrypt wallet</source>
-        <translation>Kryptera plånbok</translation>
+        <translation>Kryptera pl��nbok</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Denna operation behöver din plånboks lösenord för att låsa upp plånboken.</translation>
+        <translation>Denna operation beh��ver din pl��nboks l��senord f��r att l��sa upp pl��nboken.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Unlock wallet</source>
-        <translation>Lås upp plånbok</translation>
+        <translation>L��s upp pl��nbok</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>Denna operation behöver din plånboks lösenord för att dekryptera plånboken.</translation>
+        <translation>Denna operation beh��ver din pl��nboks l��senord f��r att dekryptera pl��nboken.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Decrypt wallet</source>
-        <translation>Dekryptera plånbok</translation>
+        <translation>Dekryptera pl��nbok</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Change passphrase</source>
-        <translation>Ändra lösenord</translation>
+        <translation>��ndra l��senord</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Enter the old and new passphrase to the wallet.</source>
-        <translation>Ange plånbokens gamla och nya lösenord.</translation>
+        <translation>Ange pl��nbokens gamla och nya l��senord.</translation>
     </message>
     <message>
         <location line="+46"/>
         <source>Confirm wallet encryption</source>
-        <translation>Bekräfta kryptering av plånbok</translation>
+        <translation>Bekr��fta kryptering av pl��nbok</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>VARNING: Om du krypterar din plånbok och glömmer ditt lösenord, kommer du att &lt;b&gt;FÖRLORA ALLA DINA TILLGÅNGAR&lt;/b&gt;!</translation>
+        <translation>VARNING: Om du krypterar din pl��nbok och gl��mmer ditt l��senord, kommer du att &lt;b&gt;F��RLORA ALLA DINA TILLG��NGAR&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>Är du säker på att du vill kryptera din plånbok?</translation>
+        <translation>��r du s��ker p�� att du vill kryptera din pl��nbok?</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>VIKTIGT: Alla tidigare säkerhetskopior du har gjort av plånbokens fil ska ersättas med den nya genererade, krypterade plånboks filen. Av säkerhetsskäl kommer tidigare säkerhetskopior av den okrypterade plånboks filen blir oanvändbara när du börjar använda en ny, krypterad plånbok.</translation>
+        <translation>VIKTIGT: Alla tidigare s��kerhetskopior du har gjort av pl��nbokens fil ska ers��ttas med den nya genererade, krypterade pl��nboks filen. Av s��kerhetssk��l kommer tidigare s��kerhetskopior av den okrypterade pl��nboks filen blir oanv��ndbara n��r du b��rjar anv��nda en ny, krypterad pl��nbok.</translation>
     </message>
     <message>
         <location line="+100"/>
         <location line="+24"/>
         <source>Warning: The Caps Lock key is on!</source>
-        <translation>Varning: Caps Lock är påslaget!</translation>
+        <translation>Varning: Caps Lock ��r p��slaget!</translation>
     </message>
     <message>
         <location line="-130"/>
         <location line="+58"/>
         <source>Wallet encrypted</source>
-        <translation>Plånboken är krypterad</translation>
+        <translation>Pl��nboken ��r krypterad</translation>
     </message>
     <message>
         <location line="-56"/>
         <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Programmet kommer nu att stänga ner för att färdigställa krypteringen. Tänk på att en krypterad plånbok inte skyddar mot stöld om din dator är infekterad med en keylogger.</translation>
+        <translation>Programmet kommer nu att st��nga ner f��r att f��rdigst��lla krypteringen. T��nk p�� att en krypterad pl��nbok inte skyddar mot st��ld om din dator ��r infekterad med en keylogger.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -285,40 +285,40 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
         <location line="+42"/>
         <location line="+6"/>
         <source>Wallet encryption failed</source>
-        <translation>Kryptering av plånbok misslyckades</translation>
+        <translation>Kryptering av pl��nbok misslyckades</translation>
     </message>
     <message>
         <location line="-54"/>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>Kryptering av plånbok misslyckades på grund av ett internt fel. Din plånbok blev inte krypterad.</translation>
+        <translation>Kryptering av pl��nbok misslyckades p�� grund av ett internt fel. Din pl��nbok blev inte krypterad.</translation>
     </message>
     <message>
         <location line="+7"/>
         <location line="+48"/>
         <source>The supplied passphrases do not match.</source>
-        <translation>De angivna lösenorden överensstämmer inte.</translation>
+        <translation>De angivna l��senorden ��verensst��mmer inte.</translation>
     </message>
     <message>
         <location line="-37"/>
         <source>Wallet unlock failed</source>
-        <translation>Upplåsning av plånbok misslyckades</translation>
+        <translation>Uppl��sning av pl��nbok misslyckades</translation>
     </message>
     <message>
         <location line="+1"/>
         <location line="+11"/>
         <location line="+19"/>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>Lösenordet för dekryptering av plånbok var felaktig.</translation>
+        <translation>L��senordet f��r dekryptering av pl��nbok var felaktig.</translation>
     </message>
     <message>
         <location line="-20"/>
         <source>Wallet decryption failed</source>
-        <translation>Dekryptering av plånbok misslyckades</translation>
+        <translation>Dekryptering av pl��nbok misslyckades</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation>Plånbokens lösenord har ändrats.</translation>
+        <translation>Pl��nbokens l��senord har ��ndrats.</translation>
     </message>
 </context>
 <context>
@@ -331,17 +331,17 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     <message>
         <location line="+280"/>
         <source>Synchronizing with network...</source>
-        <translation>Synkroniserar med nätverk...</translation>
+        <translation>Synkroniserar med n��tverk...</translation>
     </message>
     <message>
         <location line="-349"/>
         <source>&amp;Overview</source>
-        <translation>&amp;Översikt</translation>
+        <translation>&amp;��versikt</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show general overview of wallet</source>
-        <translation>Visa översiktsvy av plånbok</translation>
+        <translation>Visa ��versiktsvy av pl��nbok</translation>
     </message>
     <message>
         <location line="+20"/>
@@ -351,7 +351,7 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     <message>
         <location line="+1"/>
         <source>Browse transaction history</source>
-        <translation>Bläddra i transaktionshistorik</translation>
+        <translation>Bl��ddra i transaktionshistorik</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -361,7 +361,7 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     <message>
         <location line="-14"/>
         <source>Show the list of addresses for receiving payments</source>
-        <translation>Visa listan med adresser för att ta emot betalningar</translation>
+        <translation>Visa listan med adresser f��r att ta emot betalningar</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -396,27 +396,27 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     <message>
         <location line="+6"/>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>&amp;Kryptera plånbok...</translation>
+        <translation>&amp;Kryptera pl��nbok...</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Backup Wallet...</source>
-        <translation>&amp;Säkerhetskopiera plånbok...</translation>
+        <translation>&amp;S��kerhetskopiera pl��nbok...</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>&amp;Change Passphrase...</source>
-        <translation>&amp;Byt Lösenord...</translation>
+        <translation>&amp;Byt L��senord...</translation>
     </message>
     <message>
         <location line="+285"/>
         <source>Importing blocks from disk...</source>
-        <translation>Importerar block från disk...</translation>
+        <translation>Importerar block fr��n disk...</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Reindexing blocks on disk...</source>
-        <translation>Återindexerar block på disken...</translation>
+        <translation>��terindexerar block p�� disken...</translation>
     </message>
     <message>
         <location line="-347"/>
@@ -426,27 +426,27 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     <message>
         <location line="+49"/>
         <source>Modify configuration options for Bitcoin</source>
-        <translation>Ändra konfigurationsalternativ för Bitcoin</translation>
+        <translation>��ndra konfigurationsalternativ f��r Bitcoin</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Backup wallet to another location</source>
-        <translation>Säkerhetskopiera plånboken till en annan plats</translation>
+        <translation>S��kerhetskopiera pl��nboken till en annan plats</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>Byt lösenord för kryptering av plånbok</translation>
+        <translation>Byt l��senord f��r kryptering av pl��nbok</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>&amp;Debug window</source>
-        <translation>&amp;Debug fönster</translation>
+        <translation>&amp;Debug f��nster</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Open debugging and diagnostic console</source>
-        <translation>Öppna debug- och diagnostikkonsolen</translation>
+        <translation>��ppna debug- och diagnostikkonsolen</translation>
     </message>
     <message>
         <location line="-4"/>
@@ -462,7 +462,7 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     <message>
         <location line="-530"/>
         <source>Wallet</source>
-        <translation>Plånbok</translation>
+        <translation>Pl��nbok</translation>
     </message>
     <message>
         <location line="+101"/>
@@ -487,27 +487,27 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     <message>
         <location line="+9"/>
         <source>&amp;Show / Hide</source>
-        <translation>&amp;Visa / Göm</translation>
+        <translation>&amp;Visa / G��m</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show or hide the main Window</source>
-        <translation>Visa eller göm huvudfönstret</translation>
+        <translation>Visa eller g��m huvudf��nstret</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>Kryptera de privata nycklar som tillhör din plånbok</translation>
+        <translation>Kryptera de privata nycklar som tillh��r din pl��nbok</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Signera meddelanden med din Bitcoinadress för att bevisa att du äger dem</translation>
+        <translation>Signera meddelanden med din Bitcoinadress f��r att bevisa att du ��ger dem</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Verifiera meddelanden för att vara säker på att de var signerade med den specificerade Bitcoin-adressen</translation>
+        <translation>Verifiera meddelanden f��r att vara s��ker p�� att de var signerade med den specificerade Bitcoin-adressen</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -517,17 +517,17 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     <message>
         <location line="+7"/>
         <source>&amp;Settings</source>
-        <translation>&amp;Inställningar</translation>
+        <translation>&amp;Inst��llningar</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>&amp;Help</source>
-        <translation>&amp;Hjälp</translation>
+        <translation>&amp;Hj��lp</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Tabs toolbar</source>
-        <translation>Verktygsfält för Tabbar</translation>
+        <translation>Verktygsf��lt f��r Tabbar</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -543,12 +543,12 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     <message numerus="yes">
         <location line="+141"/>
         <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n aktiv anslutning till Bitcoin-nätverket</numerusform><numerusform>%n aktiva anslutningar till Bitcoin-nätverket</numerusform></translation>
+        <translation><numerusform>%n aktiv anslutning till Bitcoin-n��tverket</numerusform><numerusform>%n aktiva anslutningar till Bitcoin-n��tverket</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
         <source>No block source available...</source>
-        <translation>Ingen block-källa tillgänglig...</translation>
+        <translation>Ingen block-k��lla tillg��nglig...</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -588,7 +588,7 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     <message>
         <location line="+2"/>
         <source>Transactions after this will not yet be visible.</source>
-        <translation>Transaktioner efter denna kommer inte ännu vara synliga.</translation>
+        <translation>Transaktioner efter denna kommer inte ��nnu vara synliga.</translation>
     </message>
     <message>
         <location line="+22"/>
@@ -608,7 +608,7 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     <message>
         <location line="+70"/>
         <source>This transaction is over the size limit. You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network. Do you want to pay the fee?</source>
-        <translation>Transaktionen överskrider storleksgränsen. Du kan dock fortfarande skicka den mot en kostnad av %1, som går till noderna som behandlar din transaktion och bidrar till nätverket. Vill du betala denna avgift?</translation>
+        <translation>Transaktionen ��verskrider storleksgr��nsen. Du kan dock fortfarande skicka den mot en kostnad av %1, som g��r till noderna som behandlar din transaktion och bidrar till n��tverket. Vill du betala denna avgift?</translation>
     </message>
     <message>
         <location line="-140"/>
@@ -618,12 +618,12 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     <message>
         <location line="+31"/>
         <source>Catching up...</source>
-        <translation>Hämtar senaste...</translation>
+        <translation>H��mtar senaste...</translation>
     </message>
     <message>
         <location line="+113"/>
         <source>Confirm transaction fee</source>
-        <translation>Bekräfta överföringsavgift</translation>
+        <translation>Bekr��fta ��verf��ringsavgift</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -658,22 +658,22 @@ Adress: %4
         <location line="-23"/>
         <location line="+23"/>
         <source>URI can not be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation>URI går inte att tolkas! Detta kan orsakas av en ogiltig Bitcoin-adress eller felaktiga URI parametrar.</translation>
+        <translation>URI g��r inte att tolkas! Detta kan orsakas av en ogiltig Bitcoin-adress eller felaktiga URI parametrar.</translation>
     </message>
     <message>
         <location line="+17"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>Denna plånbok är &lt;b&gt;krypterad&lt;/b&gt; och för närvarande &lt;b&gt;olåst&lt;/b&gt;</translation>
+        <translation>Denna pl��nbok ��r &lt;b&gt;krypterad&lt;/b&gt; och f��r n��rvarande &lt;b&gt;ol��st&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>Denna plånbok är &lt;b&gt;krypterad&lt;/b&gt; och för närvarande &lt;b&gt;låst&lt;/b&gt;</translation>
+        <translation>Denna pl��nbok ��r &lt;b&gt;krypterad&lt;/b&gt; och f��r n��rvarande &lt;b&gt;l��st&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
         <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
-        <translation>Ett allvarligt fel har uppstått. Bitcoin kan inte längre köras säkert och kommer att avslutas.</translation>
+        <translation>Ett allvarligt fel har uppst��tt. Bitcoin kan inte l��ngre k��ras s��kert och kommer att avslutas.</translation>
     </message>
 </context>
 <context>
@@ -681,7 +681,7 @@ Adress: %4
     <message>
         <location filename="../clientmodel.cpp" line="+104"/>
         <source>Network Alert</source>
-        <translation>Nätverkslarm</translation>
+        <translation>N��tverkslarm</translation>
     </message>
 </context>
 <context>
@@ -699,7 +699,7 @@ Adress: %4
     <message>
         <location line="+10"/>
         <source>The label associated with this address book entry</source>
-        <translation>Den etikett som är associerad med detta adressboksinlägg</translation>
+        <translation>Den etikett som ��r associerad med detta adressboksinl��gg</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -709,7 +709,7 @@ Adress: %4
     <message>
         <location line="+10"/>
         <source>The address associated with this address book entry. This can only be modified for sending addresses.</source>
-        <translation>Adressen som är associerad med detta adressboksinlägg. Detta kan enbart ändras för sändande adresser.</translation>
+        <translation>Adressen som ��r associerad med detta adressboksinl��gg. Detta kan enbart ��ndras f��r s��ndande adresser.</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="+21"/>
@@ -719,7 +719,7 @@ Adress: %4
     <message>
         <location line="+4"/>
         <source>New sending address</source>
-        <translation>Ny avsändaradress</translation>
+        <translation>Ny avs��ndaradress</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -729,7 +729,7 @@ Adress: %4
     <message>
         <location line="+4"/>
         <source>Edit sending address</source>
-        <translation>Redigera avsändaradress</translation>
+        <translation>Redigera avs��ndaradress</translation>
     </message>
     <message>
         <location line="+76"/>
@@ -739,12 +739,12 @@ Adress: %4
     <message>
         <location line="-5"/>
         <source>The entered address &quot;%1&quot; is not a valid Bitcoin address.</source>
-        <translation>Den angivna adressen &quot;%1&quot; är inte en giltig Bitcoin-adress.</translation>
+        <translation>Den angivna adressen &quot;%1&quot; ��r inte en giltig Bitcoin-adress.</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Could not unlock wallet.</source>
-        <translation>Plånboken kunde inte låsas upp.</translation>
+        <translation>Pl��nboken kunde inte l��sas upp.</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -768,7 +768,7 @@ Adress: %4
     <message>
         <location line="+2"/>
         <source>Usage:</source>
-        <translation>Användning:</translation>
+        <translation>Anv��ndning:</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -783,7 +783,7 @@ Adress: %4
     <message>
         <location line="+1"/>
         <source>Set language, for example &quot;de_DE&quot; (default: system locale)</source>
-        <translation>Ändra språk, till exempel &quot;de_DE&quot; (förvalt: systemets språk)</translation>
+        <translation>��ndra spr��k, till exempel &quot;de_DE&quot; (f��rvalt: systemets spr��k)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -793,7 +793,7 @@ Adress: %4
     <message>
         <location line="+1"/>
         <source>Show splash screen on startup (default: 1)</source>
-        <translation>Visa startbilden vid uppstart (förvalt: 1)</translation>
+        <translation>Visa startbilden vid uppstart (f��rvalt: 1)</translation>
     </message>
 </context>
 <context>
@@ -806,17 +806,17 @@ Adress: %4
     <message>
         <location line="+16"/>
         <source>&amp;Main</source>
-        <translation>&amp;Allmänt</translation>
+        <translation>&amp;Allm��nt</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
-        <translation>Valfri transaktionsavgift per kB som ser till att dina transaktioner behandlas snabbt. De flesta transaktioner är 1 kB.</translation>
+        <translation>Valfri transaktionsavgift per kB som ser till att dina transaktioner behandlas snabbt. De flesta transaktioner ��r 1 kB.</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>Pay transaction &amp;fee</source>
-        <translation>Betala överförings&amp;avgift</translation>
+        <translation>Betala ��verf��rings&amp;avgift</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -831,32 +831,32 @@ Adress: %4
     <message>
         <location line="+35"/>
         <source>Reset all client options to default.</source>
-        <translation>Återställ alla klient inställningar till förvalen.</translation>
+        <translation>��terst��ll alla klient inst��llningar till f��rvalen.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Reset Options</source>
-        <translation>&amp;Återställ Alternativ</translation>
+        <translation>&amp;��terst��ll Alternativ</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>&amp;Network</source>
-        <translation>&amp;Nätverk</translation>
+        <translation>&amp;N��tverk</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Öppna automatiskt Bitcoin-klientens port på routern. Detta fungerar endast om din router har UPnP aktiverat.</translation>
+        <translation>��ppna automatiskt Bitcoin-klientens port p�� routern. Detta fungerar endast om din router har UPnP aktiverat.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Map port using &amp;UPnP</source>
-        <translation>Tilldela port med hjälp av &amp;UPnP</translation>
+        <translation>Tilldela port med hj��lp av &amp;UPnP</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Connect to the Bitcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Anslut till Bitcoin-nätverket genom en SOCKS-proxy (t.ex. när du ansluter genom Tor).</translation>
+        <translation>Anslut till Bitcoin-n��tverket genom en SOCKS-proxy (t.ex. n��r du ansluter genom Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -896,27 +896,27 @@ Adress: %4
     <message>
         <location line="+36"/>
         <source>&amp;Window</source>
-        <translation>&amp;Fönster</translation>
+        <translation>&amp;F��nster</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Show only a tray icon after minimizing the window.</source>
-        <translation>Visa endast en systemfältsikon vid minimering.</translation>
+        <translation>Visa endast en systemf��ltsikon vid minimering.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation>&amp;Minimera till systemfältet istället för aktivitetsfältet</translation>
+        <translation>&amp;Minimera till systemf��ltet ist��llet f��r aktivitetsf��ltet</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
-        <translation>Minimera applikationen istället för att stänga ner den när fönstret stängs. Detta innebär att programmet fotrsätter att köras tills du väljer Avsluta i menyn.</translation>
+        <translation>Minimera applikationen ist��llet f��r att st��nga ner den n��r f��nstret st��ngs. Detta inneb��r att programmet fotrs��tter att k��ras tills du v��ljer Avsluta i menyn.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>M&amp;inimize on close</source>
-        <translation>M&amp;inimera vid stängning</translation>
+        <translation>M&amp;inimera vid st��ngning</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -926,22 +926,22 @@ Adress: %4
     <message>
         <location line="+8"/>
         <source>User Interface &amp;language:</source>
-        <translation>Användargränssnittets &amp;språk: </translation>
+        <translation>Anv��ndargr��nssnittets &amp;spr��k: </translation>
     </message>
     <message>
         <location line="+13"/>
         <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin.</source>
-        <translation>Användargränssnittets språk kan ställas in här. Denna inställning träder i kraft efter en omstart av Bitcoin.</translation>
+        <translation>Anv��ndargr��nssnittets spr��k kan st��llas in h��r. Denna inst��llning tr��der i kraft efter en omstart av Bitcoin.</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>&amp;Måttenhet att visa belopp i: </translation>
+        <translation>&amp;M��ttenhet att visa belopp i: </translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Välj en måttenhet att visa när du skickar mynt.</translation>
+        <translation>V��lj en m��ttenhet att visa n��r du skickar mynt.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -966,7 +966,7 @@ Adress: %4
     <message>
         <location line="+10"/>
         <source>&amp;Apply</source>
-        <translation>&amp;Verkställ</translation>
+        <translation>&amp;Verkst��ll</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="+53"/>
@@ -976,17 +976,17 @@ Adress: %4
     <message>
         <location line="+130"/>
         <source>Confirm options reset</source>
-        <translation>Bekräfta att alternativen ska återställs</translation>
+        <translation>Bekr��fta att alternativen ska ��terst��lls</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Some settings may require a client restart to take effect.</source>
-        <translation>Vissa inställningar kan behöva en omstart av klienten för att börja gälla.</translation>
+        <translation>Vissa inst��llningar kan beh��va en omstart av klienten f��r att b��rja g��lla.</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Do you want to proceed?</source>
-        <translation>Vill du fortsätta?</translation>
+        <translation>Vill du forts��tta?</translation>
     </message>
     <message>
         <location line="+42"/>
@@ -998,12 +998,12 @@ Adress: %4
         <location line="-9"/>
         <location line="+9"/>
         <source>This setting will take effect after restarting Bitcoin.</source>
-        <translation>Denna inställning träder i kraft efter en omstart av Bitcoin.</translation>
+        <translation>Denna inst��llning tr��der i kraft efter en omstart av Bitcoin.</translation>
     </message>
     <message>
         <location line="+29"/>
         <source>The supplied proxy address is invalid.</source>
-        <translation>Den medföljande proxy adressen är ogiltig.</translation>
+        <translation>Den medf��ljande proxy adressen ��r ogiltig.</translation>
     </message>
 </context>
 <context>
@@ -1011,13 +1011,13 @@ Adress: %4
     <message>
         <location filename="../forms/overviewpage.ui" line="+14"/>
         <source>Form</source>
-        <translation>Formulär</translation>
+        <translation>Formul��r</translation>
     </message>
     <message>
         <location line="+50"/>
         <location line="+166"/>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Den visade informationen kan vara inaktuell. Plånboken synkroniseras automatiskt med Bitcoin-nätverket efter att anslutningen är upprättad, men denna process har inte slutförts ännu.</translation>
+        <translation>Den visade informationen kan vara inaktuell. Pl��nboken synkroniseras automatiskt med Bitcoin-n��tverket efter att anslutningen ��r uppr��ttad, men denna process har inte slutf��rts ��nnu.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1027,12 +1027,12 @@ Adress: %4
     <message>
         <location line="+29"/>
         <source>Unconfirmed:</source>
-        <translation>Obekräftade:</translation>
+        <translation>Obekr��ftade:</translation>
     </message>
     <message>
         <location line="-78"/>
         <source>Wallet</source>
-        <translation>Plånbok</translation>
+        <translation>Pl��nbok</translation>
     </message>
     <message>
         <location line="+107"/>
@@ -1042,12 +1042,12 @@ Adress: %4
     <message>
         <location line="+13"/>
         <source>Mined balance that has not yet matured</source>
-        <translation>Den genererade balansen som ännu inte har mognat</translation>
+        <translation>Den genererade balansen som ��nnu inte har mognat</translation>
     </message>
     <message>
         <location line="+46"/>
         <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Nyligen genomförda transaktioner&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;Nyligen genomf��rda transaktioner&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="-101"/>
@@ -1057,7 +1057,7 @@ Adress: %4
     <message>
         <location line="+29"/>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
-        <translation>Totalt antal transaktioner som ännu inte bekräftats, och som ännu inte räknas med i aktuellt saldo</translation>
+        <translation>Totalt antal transaktioner som ��nnu inte bekr��ftats, och som ��nnu inte r��knas med i aktuellt saldo</translation>
     </message>
     <message>
         <location filename="../overviewpage.cpp" line="+116"/>
@@ -1084,7 +1084,7 @@ Adress: %4
     <message>
         <location line="+59"/>
         <source>Request Payment</source>
-        <translation>Begär Betalning</translation>
+        <translation>Beg��r Betalning</translation>
     </message>
     <message>
         <location line="+56"/>
@@ -1109,17 +1109,17 @@ Adress: %4
     <message>
         <location filename="../qrcodedialog.cpp" line="+62"/>
         <source>Error encoding URI into QR Code.</source>
-        <translation>Fel vid skapande av QR-kod från URI.</translation>
+        <translation>Fel vid skapande av QR-kod fr��n URI.</translation>
     </message>
     <message>
         <location line="+40"/>
         <source>The entered amount is invalid, please check.</source>
-        <translation>Det angivna beloppet är ogiltigt, vänligen kontrollera.</translation>
+        <translation>Det angivna beloppet ��r ogiltigt, v��nligen kontrollera.</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Resulting URI too long, try to reduce the text for label / message.</source>
-        <translation>URI:n är för lång, försöka minska texten för etikett / meddelande.</translation>
+        <translation>URI:n ��r f��r l��ng, f��rs��ka minska texten f��r etikett / meddelande.</translation>
     </message>
     <message>
         <location line="+25"/>
@@ -1151,7 +1151,7 @@ Adress: %4
         <location line="+23"/>
         <location filename="../rpcconsole.cpp" line="+339"/>
         <source>N/A</source>
-        <translation>ej tillgänglig</translation>
+        <translation>ej tillg��nglig</translation>
     </message>
     <message>
         <location line="-217"/>
@@ -1166,7 +1166,7 @@ Adress: %4
     <message>
         <location line="+68"/>
         <source>Using OpenSSL version</source>
-        <translation>Använder OpenSSL version</translation>
+        <translation>Anv��nder OpenSSL version</translation>
     </message>
     <message>
         <location line="+49"/>
@@ -1176,7 +1176,7 @@ Adress: %4
     <message>
         <location line="+29"/>
         <source>Network</source>
-        <translation>Nätverk</translation>
+        <translation>N��tverk</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1186,7 +1186,7 @@ Adress: %4
     <message>
         <location line="+23"/>
         <source>On testnet</source>
-        <translation>På testnet</translation>
+        <translation>P�� testnet</translation>
     </message>
     <message>
         <location line="+23"/>
@@ -1201,7 +1201,7 @@ Adress: %4
     <message>
         <location line="+23"/>
         <source>Estimated total blocks</source>
-        <translation>Beräknade totala block</translation>
+        <translation>Ber��knade totala block</translation>
     </message>
     <message>
         <location line="+23"/>
@@ -1211,7 +1211,7 @@ Adress: %4
     <message>
         <location line="+52"/>
         <source>&amp;Open</source>
-        <translation>&amp;Öppna</translation>
+        <translation>&amp;��ppna</translation>
     </message>
     <message>
         <location line="+16"/>
@@ -1221,7 +1221,7 @@ Adress: %4
     <message>
         <location line="+7"/>
         <source>Show the Bitcoin-Qt help message to get a list with possible Bitcoin command-line options.</source>
-        <translation>Visa Bitcoin-Qt hjälpmeddelande för att få en lista med möjliga Bitcoin kommandoradsalternativ.</translation>
+        <translation>Visa Bitcoin-Qt hj��lpmeddelande f��r att f�� en lista med m��jliga Bitcoin kommandoradsalternativ.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1241,12 +1241,12 @@ Adress: %4
     <message>
         <location line="-104"/>
         <source>Bitcoin - Debug window</source>
-        <translation>Bitcoin - Debug fönster</translation>
+        <translation>Bitcoin - Debug f��nster</translation>
     </message>
     <message>
         <location line="+25"/>
         <source>Bitcoin Core</source>
-        <translation>Bitcoin Kärna</translation>
+        <translation>Bitcoin K��rna</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1256,7 +1256,7 @@ Adress: %4
     <message>
         <location line="+7"/>
         <source>Open the Bitcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Öppna Bitcoin debug-loggfilen som finns i datakatalogen. Detta kan ta några sekunder för stora loggfiler.</translation>
+        <translation>��ppna Bitcoin debug-loggfilen som finns i datakatalogen. Detta kan ta n��gra sekunder f��r stora loggfiler.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1266,17 +1266,17 @@ Adress: %4
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
         <source>Welcome to the Bitcoin RPC console.</source>
-        <translation>Välkommen till Bitcoin RPC-konsollen.</translation>
+        <translation>V��lkommen till Bitcoin RPC-konsollen.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
-        <translation>Använd upp- och ner-pilarna för att navigera i historiken, och &lt;b&gt;Ctrl-L&lt;/b&gt; för att rensa skärmen.</translation>
+        <translation>Anv��nd upp- och ner-pilarna f��r att navigera i historiken, och &lt;b&gt;Ctrl-L&lt;/b&gt; f��r att rensa sk��rmen.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>Skriv &lt;b&gt;help&lt;/b&gt; för en översikt av alla kommandon.</translation>
+        <translation>Skriv &lt;b&gt;help&lt;/b&gt; f��r en ��versikt av alla kommandon.</translation>
     </message>
 </context>
 <context>
@@ -1301,12 +1301,12 @@ Adress: %4
     <message>
         <location line="+3"/>
         <source>Add &amp;Recipient</source>
-        <translation>Lägg till &amp;mottagare</translation>
+        <translation>L��gg till &amp;mottagare</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>Remove all transaction fields</source>
-        <translation>Ta bort alla transaktions-fält</translation>
+        <translation>Ta bort alla transaktions-f��lt</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1320,13 +1320,13 @@ Adress: %4
     </message>
     <message>
         <location line="+10"/>
-        <source>123.456 BTC</source>
-        <translation>123,456 BTC</translation>
+        <source>123.456 IXC</source>
+        <translation>123,456 IXC</translation>
     </message>
     <message>
         <location line="+31"/>
         <source>Confirm the send action</source>
-        <translation>Bekräfta sändordern</translation>
+        <translation>Bekr��fta s��ndordern</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1341,12 +1341,12 @@ Adress: %4
     <message>
         <location line="+5"/>
         <source>Confirm send coins</source>
-        <translation>Bekräfta skickade mynt</translation>
+        <translation>Bekr��fta skickade mynt</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Are you sure you want to send %1?</source>
-        <translation>Är du säker på att du vill skicka %1?</translation>
+        <translation>��r du s��ker p�� att du vill skicka %1?</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1356,27 +1356,27 @@ Adress: %4
     <message>
         <location line="+23"/>
         <source>The recipient address is not valid, please recheck.</source>
-        <translation>Mottagarens adress är inte giltig, vänligen kontrollera igen.</translation>
+        <translation>Mottagarens adress ��r inte giltig, v��nligen kontrollera igen.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>The amount to pay must be larger than 0.</source>
-        <translation>Det betalade beloppet måste vara större än 0.</translation>
+        <translation>Det betalade beloppet m��ste vara st��rre ��n 0.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>The amount exceeds your balance.</source>
-        <translation>Värdet överstiger ditt saldo.</translation>
+        <translation>V��rdet ��verstiger ditt saldo.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation>Totalvärdet överstiger ditt saldo när transaktionsavgiften %1 är pålagd.</translation>
+        <translation>Totalv��rdet ��verstiger ditt saldo n��r transaktionsavgiften %1 ��r p��lagd.</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Duplicate address found, can only send to each address once per send operation.</source>
-        <translation>Dubblett av adress funnen, kan bara skicka till varje adress en gång per sändning.</translation>
+        <translation>Dubblett av adress funnen, kan bara skicka till varje adress en g��ng per s��ndning.</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -1386,7 +1386,7 @@ Adress: %4
     <message>
         <location line="+5"/>
         <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Fel: Transaktionen avslogs. Detta kan hända om några av mynten i plånboken redan spenderats, t.ex om du använt en kopia av wallet.dat och mynt spenderades i kopian men inte markerats som spenderas här.</translation>
+        <translation>Fel: Transaktionen avslogs. Detta kan h��nda om n��gra av mynten i pl��nboken redan spenderats, t.ex om du anv��nt en kopia av wallet.dat och mynt spenderades i kopian men inte markerats som spenderas h��r.</translation>
     </message>
 </context>
 <context>
@@ -1394,7 +1394,7 @@ Adress: %4
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="+14"/>
         <source>Form</source>
-        <translation>Formulär</translation>
+        <translation>Formul��r</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1415,7 +1415,7 @@ Adress: %4
         <location line="+60"/>
         <location filename="../sendcoinsentry.cpp" line="+26"/>
         <source>Enter a label for this address to add it to your address book</source>
-        <translation>Ange ett namn för den här adressen och lägg till den i din adressbok</translation>
+        <translation>Ange ett namn f��r den h��r adressen och l��gg till den i din adressbok</translation>
     </message>
     <message>
         <location line="-78"/>
@@ -1425,7 +1425,7 @@ Adress: %4
     <message>
         <location line="+28"/>
         <source>Choose address from address book</source>
-        <translation>Välj adress från adresslistan</translation>
+        <translation>V��lj adress fr��n adresslistan</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1435,7 +1435,7 @@ Adress: %4
     <message>
         <location line="+7"/>
         <source>Paste address from clipboard</source>
-        <translation>Klistra in adress från Urklipp</translation>
+        <translation>Klistra in adress fr��n Urklipp</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1468,7 +1468,7 @@ Adress: %4
     <message>
         <location line="+6"/>
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Du kan signera meddelanden med dina adresser för att bevisa att du äger dem. Var försiktig med vad du signerar eftersom phising-attacker kan försöka få dig att skriva över din identitet till någon annan. Signera bara väldetaljerade påståenden du kan gå i god för.</translation>
+        <translation>Du kan signera meddelanden med dina adresser f��r att bevisa att du ��ger dem. Var f��rsiktig med vad du signerar eftersom phising-attacker kan f��rs��ka f�� dig att skriva ��ver din identitet till n��gon annan. Signera bara v��ldetaljerade p��st��enden du kan g�� i god f��r.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -1479,7 +1479,7 @@ Adress: %4
         <location line="+10"/>
         <location line="+213"/>
         <source>Choose an address from the address book</source>
-        <translation>Välj en adress från adressboken</translation>
+        <translation>V��lj en adress fr��n adressboken</translation>
     </message>
     <message>
         <location line="-203"/>
@@ -1490,7 +1490,7 @@ Adress: %4
     <message>
         <location line="-203"/>
         <source>Paste address from clipboard</source>
-        <translation>Klistra in adress från Urklipp</translation>
+        <translation>Klistra in adress fr��n Urklipp</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1500,7 +1500,7 @@ Adress: %4
     <message>
         <location line="+12"/>
         <source>Enter the message you want to sign here</source>
-        <translation>Skriv in meddelandet du vill signera här</translation>
+        <translation>Skriv in meddelandet du vill signera h��r</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1515,7 +1515,7 @@ Adress: %4
     <message>
         <location line="+21"/>
         <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna adress</translation>
+        <translation>Signera meddelandet f��r att bevisa att du ��ger denna adress</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1525,7 +1525,7 @@ Adress: %4
     <message>
         <location line="+14"/>
         <source>Reset all sign message fields</source>
-        <translation>Rensa alla fält</translation>
+        <translation>Rensa alla f��lt</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1541,7 +1541,7 @@ Adress: %4
     <message>
         <location line="+6"/>
         <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
-        <translation>Skriv in din adress, meddelande (se till att du kopierar radbrytningar, mellanslag, tabbar, osv. exakt) och signatur nedan för att verifiera meddelandet. Var noga med att inte läsa in mer i signaturen än vad som finns i det signerade meddelandet, för att undvika att luras av en man-in-the-middle attack.</translation>
+        <translation>Skriv in din adress, meddelande (se till att du kopierar radbrytningar, mellanslag, tabbar, osv. exakt) och signatur nedan f��r att verifiera meddelandet. Var noga med att inte l��sa in mer i signaturen ��n vad som finns i det signerade meddelandet, f��r att undvika att luras av en man-in-the-middle attack.</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1551,7 +1551,7 @@ Adress: %4
     <message>
         <location line="+40"/>
         <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Verifiera meddelandet för att vara säker på att den var signerad med den angivna Bitcoin-adressen</translation>
+        <translation>Verifiera meddelandet f��r att vara s��ker p�� att den var signerad med den angivna Bitcoin-adressen</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1561,7 +1561,7 @@ Adress: %4
     <message>
         <location line="+14"/>
         <source>Reset all verify message fields</source>
-        <translation>Rensa alla fält</translation>
+        <translation>Rensa alla f��lt</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
@@ -1572,7 +1572,7 @@ Adress: %4
     <message>
         <location line="-2"/>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
-        <translation>Klicka &quot;Signera Meddelande&quot; för att få en signatur</translation>
+        <translation>Klicka &quot;Signera Meddelande&quot; f��r att f�� en signatur</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1583,7 +1583,7 @@ Adress: %4
         <location line="+82"/>
         <location line="+81"/>
         <source>The entered address is invalid.</source>
-        <translation>Den angivna adressen är ogiltig.</translation>
+        <translation>Den angivna adressen ��r ogiltig.</translation>
     </message>
     <message>
         <location line="-81"/>
@@ -1591,7 +1591,7 @@ Adress: %4
         <location line="+73"/>
         <location line="+8"/>
         <source>Please check the address and try again.</source>
-        <translation>Vad god kontrollera adressen och försök igen.</translation>
+        <translation>Vad god kontrollera adressen och f��rs��k igen.</translation>
     </message>
     <message>
         <location line="-81"/>
@@ -1602,12 +1602,12 @@ Adress: %4
     <message>
         <location line="-73"/>
         <source>Wallet unlock was cancelled.</source>
-        <translation>Upplåsningen av plånboken avbröts.</translation>
+        <translation>Uppl��sningen av pl��nboken avbr��ts.</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Private key for the entered address is not available.</source>
-        <translation>Privata nyckel för den angivna adressen är inte tillgänglig.</translation>
+        <translation>Privata nyckel f��r den angivna adressen ��r inte tillg��nglig.</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -1617,7 +1617,7 @@ Adress: %4
     <message>
         <location line="+5"/>
         <source>Message signed.</source>
-        <translation>Meddelandet är signerat.</translation>
+        <translation>Meddelandet ��r signerat.</translation>
     </message>
     <message>
         <location line="+59"/>
@@ -1628,7 +1628,7 @@ Adress: %4
         <location line="+0"/>
         <location line="+13"/>
         <source>Please check the signature and try again.</source>
-        <translation>Kontrollera signaturen och försök igen.</translation>
+        <translation>Kontrollera signaturen och f��rs��k igen.</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1643,7 +1643,7 @@ Adress: %4
     <message>
         <location line="+5"/>
         <source>Message verified.</source>
-        <translation>Meddelandet är verifierad.</translation>
+        <translation>Meddelandet ��r verifierad.</translation>
     </message>
 </context>
 <context>
@@ -1664,7 +1664,7 @@ Adress: %4
     <message>
         <location filename="../transactiondesc.cpp" line="+20"/>
         <source>Open until %1</source>
-        <translation>Öppet till %1</translation>
+        <translation>��ppet till %1</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -1674,12 +1674,12 @@ Adress: %4
     <message>
         <location line="+2"/>
         <source>%1/unconfirmed</source>
-        <translation>%1/obekräftade</translation>
+        <translation>%1/obekr��ftade</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>%1 confirmations</source>
-        <translation>%1 bekräftelser</translation>
+        <translation>%1 bekr��ftelser</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -1689,7 +1689,7 @@ Adress: %4
     <message numerus="yes">
         <location line="+7"/>
         <source>, broadcast through %n node(s)</source>
-        <translation><numerusform>, sänd genom %n nod</numerusform><numerusform>, sänd genom %n noder</numerusform></translation>
+        <translation><numerusform>, s��nd genom %n nod</numerusform><numerusform>, s��nd genom %n noder</numerusform></translation>
     </message>
     <message>
         <location line="+4"/>
@@ -1699,7 +1699,7 @@ Adress: %4
     <message>
         <location line="+7"/>
         <source>Source</source>
-        <translation>Källa</translation>
+        <translation>K��lla</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1710,7 +1710,7 @@ Adress: %4
         <location line="+5"/>
         <location line="+17"/>
         <source>From</source>
-        <translation>Från</translation>
+        <translation>Fr��n</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1785,7 +1785,7 @@ Adress: %4
     <message>
         <location line="+3"/>
         <source>Generated coins must mature 120 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Genererade mynt måste vänta 120 block innan de kan användas. När du skapade detta block sändes det till nätverket för att läggas till i blockkedjan. Om blocket inte kommer in i kedjan kommer det att ändras till &quot;accepteras inte&quot; och kommer ej att gå att spendera. Detta kan ibland hända om en annan nod genererar ett block nästan samtidigt som dig.</translation>
+        <translation>Genererade mynt m��ste v��nta 120 block innan de kan anv��ndas. N��r du skapade detta block s��ndes det till n��tverket f��r att l��ggas till i blockkedjan. Om blocket inte kommer in i kedjan kommer det att ��ndras till &quot;accepteras inte&quot; och kommer ej att g�� att spendera. Detta kan ibland h��nda om en annan nod genererar ett block n��stan samtidigt som dig.</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1805,7 +1805,7 @@ Adress: %4
     <message>
         <location line="+23"/>
         <source>Amount</source>
-        <translation>Mängd</translation>
+        <translation>M��ngd</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1820,17 +1820,17 @@ Adress: %4
     <message>
         <location line="-209"/>
         <source>, has not been successfully broadcast yet</source>
-        <translation>, har inte lyckats skickas ännu</translation>
+        <translation>, har inte lyckats skickas ��nnu</translation>
     </message>
     <message numerus="yes">
         <location line="-35"/>
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>Öppet för %n mer block</numerusform><numerusform>Öppet för %n mer block</numerusform></translation>
+        <translation><numerusform>��ppet f��r %n mer block</numerusform><numerusform>��ppet f��r %n mer block</numerusform></translation>
     </message>
     <message>
         <location line="+70"/>
         <source>unknown</source>
-        <translation>okänd</translation>
+        <translation>ok��nd</translation>
     </message>
 </context>
 <context>
@@ -1843,7 +1843,7 @@ Adress: %4
     <message>
         <location line="+6"/>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation>Den här panelen visar en detaljerad beskrivning av transaktionen</translation>
+        <translation>Den h��r panelen visar en detaljerad beskrivning av transaktionen</translation>
     </message>
 </context>
 <context>
@@ -1866,42 +1866,42 @@ Adress: %4
     <message>
         <location line="+0"/>
         <source>Amount</source>
-        <translation>Mängd</translation>
+        <translation>M��ngd</translation>
     </message>
     <message numerus="yes">
         <location line="+57"/>
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>Öppet för %n mer block</numerusform><numerusform>Öppet för %n mer block</numerusform></translation>
+        <translation><numerusform>��ppet f��r %n mer block</numerusform><numerusform>��ppet f��r %n mer block</numerusform></translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Open until %1</source>
-        <translation>Öppet till %1</translation>
+        <translation>��ppet till %1</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Offline (%1 confirmations)</source>
-        <translation>Offline (%1 bekräftelser)</translation>
+        <translation>Offline (%1 bekr��ftelser)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Unconfirmed (%1 of %2 confirmations)</source>
-        <translation>Obekräftad (%1 av %2 bekräftelser)</translation>
+        <translation>Obekr��ftad (%1 av %2 bekr��ftelser)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Confirmed (%1 confirmations)</source>
-        <translation>Bekräftad (%1 bekräftelser)</translation>
+        <translation>Bekr��ftad (%1 bekr��ftelser)</translation>
     </message>
     <message numerus="yes">
         <location line="+8"/>
         <source>Mined balance will be available when it matures in %n more block(s)</source>
-        <translation><numerusform>Genererade balansen kommer att finnas tillgänglig när den mognar om %n mer block</numerusform><numerusform>Genererade balansen kommer att finnas tillgänglig när den mognar om %n fler block</numerusform></translation>
+        <translation><numerusform>Genererade balansen kommer att finnas tillg��nglig n��r den mognar om %n mer block</numerusform><numerusform>Genererade balansen kommer att finnas tillg��nglig n��r den mognar om %n fler block</numerusform></translation>
     </message>
     <message>
         <location line="+5"/>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation>Det här blocket togs inte emot av några andra noder och kommer antagligen inte att bli godkänt.</translation>
+        <translation>Det h��r blocket togs inte emot av n��gra andra noder och kommer antagligen inte att bli godk��nt.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1916,7 +1916,7 @@ Adress: %4
     <message>
         <location line="+2"/>
         <source>Received from</source>
-        <translation>Mottaget från</translation>
+        <translation>Mottaget fr��n</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1926,7 +1926,7 @@ Adress: %4
     <message>
         <location line="+2"/>
         <source>Payment to yourself</source>
-        <translation>Betalning till dig själv</translation>
+        <translation>Betalning till dig sj��lv</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1941,12 +1941,12 @@ Adress: %4
     <message>
         <location line="+199"/>
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
-        <translation>Transaktionsstatus. Håll muspekaren över för att se antal bekräftelser.</translation>
+        <translation>Transaktionsstatus. H��ll muspekaren ��ver f��r att se antal bekr��ftelser.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Date and time that the transaction was received.</source>
-        <translation>Tidpunkt då transaktionen mottogs.</translation>
+        <translation>Tidpunkt d�� transaktionen mottogs.</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1985,17 +1985,17 @@ Adress: %4
     <message>
         <location line="+1"/>
         <source>This month</source>
-        <translation>Denna månad</translation>
+        <translation>Denna m��nad</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Last month</source>
-        <translation>Föregående månad</translation>
+        <translation>F��reg��ende m��nad</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>This year</source>
-        <translation>Det här året</translation>
+        <translation>Det h��r ��ret</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2015,7 +2015,7 @@ Adress: %4
     <message>
         <location line="+2"/>
         <source>To yourself</source>
-        <translation>Till dig själv</translation>
+        <translation>Till dig sj��lv</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2025,17 +2025,17 @@ Adress: %4
     <message>
         <location line="+1"/>
         <source>Other</source>
-        <translation>Övriga</translation>
+        <translation>��vriga</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Enter address or label to search</source>
-        <translation>Sök efter adress eller etikett </translation>
+        <translation>S��k efter adress eller etikett </translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Min amount</source>
-        <translation>Minsta mängd</translation>
+        <translation>Minsta m��ngd</translation>
     </message>
     <message>
         <location line="+34"/>
@@ -2060,7 +2060,7 @@ Adress: %4
     <message>
         <location line="+1"/>
         <source>Edit label</source>
-        <translation>Ändra etikett</translation>
+        <translation>��ndra etikett</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2080,7 +2080,7 @@ Adress: %4
     <message>
         <location line="+8"/>
         <source>Confirmed</source>
-        <translation>Bekräftad</translation>
+        <translation>Bekr��ftad</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2105,7 +2105,7 @@ Adress: %4
     <message>
         <location line="+1"/>
         <source>Amount</source>
-        <translation>Mängd</translation>
+        <translation>M��ngd</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2156,32 +2156,32 @@ Adress: %4
     <message>
         <location line="+193"/>
         <source>Backup Wallet</source>
-        <translation>Säkerhetskopiera Plånbok</translation>
+        <translation>S��kerhetskopiera Pl��nbok</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Wallet Data (*.dat)</source>
-        <translation>Plånboks-data (*.dat)</translation>
+        <translation>Pl��nboks-data (*.dat)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Backup Failed</source>
-        <translation>Säkerhetskopiering misslyckades</translation>
+        <translation>S��kerhetskopiering misslyckades</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>There was an error trying to save the wallet data to the new location.</source>
-        <translation>Det inträffade ett fel när plånboken skulle sparas till den nya platsen.</translation>
+        <translation>Det intr��ffade ett fel n��r pl��nboken skulle sparas till den nya platsen.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Backup Successful</source>
-        <translation>Säkerhetskopiering lyckades</translation>
+        <translation>S��kerhetskopiering lyckades</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>The wallet data was successfully saved to the new location.</source>
-        <translation>Plånbokens data har sparats till den nya platsen.</translation>
+        <translation>Pl��nbokens data har sparats till den nya platsen.</translation>
     </message>
 </context>
 <context>
@@ -2194,7 +2194,7 @@ Adress: %4
     <message>
         <location line="+102"/>
         <source>Usage:</source>
-        <translation>Användning:</translation>
+        <translation>Anv��ndning:</translation>
     </message>
     <message>
         <location line="-29"/>
@@ -2209,47 +2209,47 @@ Adress: %4
     <message>
         <location line="-12"/>
         <source>Get help for a command</source>
-        <translation>Få hjälp med ett kommando</translation>
+        <translation>F�� hj��lp med ett kommando</translation>
     </message>
     <message>
         <location line="+24"/>
         <source>Options:</source>
-        <translation>Inställningar:</translation>
+        <translation>Inst��llningar:</translation>
     </message>
     <message>
         <location line="+24"/>
         <source>Specify configuration file (default: bitcoin.conf)</source>
-        <translation>Ange konfigurationsfil (förvalt: bitcoin.conf)</translation>
+        <translation>Ange konfigurationsfil (f��rvalt: bitcoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Specify pid file (default: bitcoind.pid)</source>
-        <translation>Ange pid fil (förvalt: bitcoind.pid)</translation>
+        <translation>Ange pid fil (f��rvalt: bitcoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
         <source>Specify data directory</source>
-        <translation>Ange katalog för data</translation>
+        <translation>Ange katalog f��r data</translation>
     </message>
     <message>
         <location line="-9"/>
         <source>Set database cache size in megabytes (default: 25)</source>
-        <translation>Sätt databas cache storleken i megabyte (förvalt: 25)</translation>
+        <translation>S��tt databas cache storleken i megabyte (f��rvalt: 25)</translation>
     </message>
     <message>
         <location line="-28"/>
         <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
-        <translation>Lyssna efter anslutningar på &lt;port&gt; (förvalt: 8333 eller testnet: 18333)</translation>
+        <translation>Lyssna efter anslutningar p�� &lt;port&gt; (f��rvalt: 8333 eller testnet: 18333)</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
-        <translation>Ha som mest &lt;n&gt; anslutningar till andra klienter (förvalt: 125)</translation>
+        <translation>Ha som mest &lt;n&gt; anslutningar till andra klienter (f��rvalt: 125)</translation>
     </message>
     <message>
         <location line="-48"/>
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>Anslut till en nod för att hämta klientadresser, och koppla från</translation>
+        <translation>Anslut till en nod f��r att h��mta klientadresser, och koppla fr��n</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2259,42 +2259,42 @@ Adress: %4
     <message>
         <location line="+3"/>
         <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
-        <translation>Tröskelvärde för att koppla ifrån klienter som missköter sig (förvalt: 100)</translation>
+        <translation>Tr��skelv��rde f��r att koppla ifr��n klienter som missk��ter sig (f��rvalt: 100)</translation>
     </message>
     <message>
         <location line="-134"/>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
-        <translation>Antal sekunder att hindra klienter som missköter sig från att ansluta (förvalt: 86400)</translation>
+        <translation>Antal sekunder att hindra klienter som missk��ter sig fr��n att ansluta (f��rvalt: 86400)</translation>
     </message>
     <message>
         <location line="-29"/>
         <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
-        <translation>Ett fel uppstod vid upprättandet av RPC port %u för att lyssna på IPv4: %s</translation>
+        <translation>Ett fel uppstod vid uppr��ttandet av RPC port %u f��r att lyssna p�� IPv4: %s</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>Lyssna på JSON-RPC-anslutningar på &lt;port&gt; (förvalt: 8332 eller testnet: 18332)</translation>
+        <translation>Lyssna p�� JSON-RPC-anslutningar p�� &lt;port&gt; (f��rvalt: 8332 eller testnet: 18332)</translation>
     </message>
     <message>
         <location line="+37"/>
         <source>Accept command line and JSON-RPC commands</source>
-        <translation>Tillåt kommandon från kommandotolken och JSON-RPC-kommandon</translation>
+        <translation>Till��t kommandon fr��n kommandotolken och JSON-RPC-kommandon</translation>
     </message>
     <message>
         <location line="+76"/>
         <source>Run in the background as a daemon and accept commands</source>
-        <translation>Kör i bakgrunden som tjänst och acceptera kommandon</translation>
+        <translation>K��r i bakgrunden som tj��nst och acceptera kommandon</translation>
     </message>
     <message>
         <location line="+37"/>
         <source>Use the test network</source>
-        <translation>Använd testnätverket</translation>
+        <translation>Anv��nd testn��tverket</translation>
     </message>
     <message>
         <location line="-112"/>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>Acceptera anslutningar utifrån (förvalt: 1 om ingen -proxy eller -connect)</translation>
+        <translation>Acceptera anslutningar utifr��n (f��rvalt: 1 om ingen -proxy eller -connect)</translation>
     </message>
     <message>
         <location line="-80"/>
@@ -2309,97 +2309,97 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
 </source>
-        <translation>%s, du behöver sätta ett rpclösensord i konfigurationsfilen:
+        <translation>%s, du beh��ver s��tta ett rpcl��sensord i konfigurationsfilen:
 %s
-Det är rekommenderat att använda följande slumpade lösenord:
+Det ��r rekommenderat att anv��nda f��ljande slumpade l��senord:
 rpcuser=bitcoinrpc
 rpcpassword=%s
-(du behöver inte komma ihåg lösenordet)
-Användarnamnet och lösenordet FÅR INTE bara detsamma.
-Om filen inte existerar, skapa den med enbart ägarläsbara filrättigheter.
-Det är också rekommenderat att sätta alertnotify så du meddelas om problem;
+(du beh��ver inte komma ih��g l��senordet)
+Anv��ndarnamnet och l��senordet F��R INTE bara detsamma.
+Om filen inte existerar, skapa den med enbart ��garl��sbara filr��ttigheter.
+Det ��r ocks�� rekommenderat att s��tta alertnotify s�� du meddelas om problem;
 till exempel: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
         <location line="+17"/>
         <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
-        <translation>Ett fel uppstod vid upprättandet av RPC port %u för att lyssna på IPv6, faller tillbaka till IPV4: %s</translation>
+        <translation>Ett fel uppstod vid uppr��ttandet av RPC port %u f��r att lyssna p�� IPv6, faller tillbaka till IPV4: %s</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
-        <translation>Bind till given adress och lyssna alltid på den. Använd [värd]:port notation för IPv6</translation>
+        <translation>Bind till given adress och lyssna alltid p�� den. Anv��nd [v��rd]:port notation f��r IPv6</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Cannot obtain a lock on data directory %s. Bitcoin is probably already running.</source>
-        <translation>Kan inte låsa data-mappen %s. Bitcoin körs förmodligen redan.</translation>
+        <translation>Kan inte l��sa data-mappen %s. Bitcoin k��rs f��rmodligen redan.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Fel: Transaktionen avslogs! Detta kan hända om några av mynten i plånboken redan spenderats, t.ex om du använt en kopia av wallet.dat och mynt spenderades i kopian men inte markerats som spenderas här.</translation>
+        <translation>Fel: Transaktionen avslogs! Detta kan h��nda om n��gra av mynten i pl��nboken redan spenderats, t.ex om du anv��nt en kopia av wallet.dat och mynt spenderades i kopian men inte markerats som spenderas h��r.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
-        <translation>Fel: Denna transaktion kräver en transaktionsavgift på minst %s på grund av dess storlek, komplexitet, eller användning av senast mottagna bitcoins!</translation>
+        <translation>Fel: Denna transaktion kr��ver en transaktionsavgift p�� minst %s p�� grund av dess storlek, komplexitet, eller anv��ndning av senast mottagna bitcoins!</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Execute command when a relevant alert is received (%s in cmd is replaced by message)</source>
-        <translation>Exekvera kommando när ett relevant meddelande är mottagen (%s i cmd är utbytt med ett meddelande)</translation>
+        <translation>Exekvera kommando n��r ett relevant meddelande ��r mottagen (%s i cmd ��r utbytt med ett meddelande)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>Exekvera kommando när en plånbokstransaktion ändras (%s i cmd är ersatt av TxID)</translation>
+        <translation>Exekvera kommando n��r en pl��nbokstransaktion ��ndras (%s i cmd ��r ersatt av TxID)</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: 27000)</source>
-        <translation>Sätt den maximala storleken av hög-prioriterade/låg-avgifts transaktioner i byte (förvalt: 27000)</translation>
+        <translation>S��tt den maximala storleken av h��g-prioriterade/l��g-avgifts transaktioner i byte (f��rvalt: 27000)</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation>Detta är ett förhands testbygge - använd på egen risk - använd inte för mining eller handels applikationer</translation>
+        <translation>Detta ��r ett f��rhands testbygge - anv��nd p�� egen risk - anv��nd inte f��r mining eller handels applikationer</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
-        <translation>Varning: -paytxfee är satt väldigt hög! Detta är avgiften du kommer betala för varje transaktion.</translation>
+        <translation>Varning: -paytxfee ��r satt v��ldigt h��g! Detta ��r avgiften du kommer betala f��r varje transaktion.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Warning: Displayed transactions may not be correct! You may need to upgrade, or other nodes may need to upgrade.</source>
-        <translation>Varning: Visade transaktioner kanske inte är korrekt! Du kan behöva uppgradera, eller andra noder kan behöva uppgradera.</translation>
+        <translation>Varning: Visade transaktioner kanske inte ��r korrekt! Du kan beh��va uppgradera, eller andra noder kan beh��va uppgradera.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Bitcoin will not work properly.</source>
-        <translation>Varning: Vänligen kolla så att din dators datum och tid är korrekt! Om din klocka går fel kommer Bitcoin inte fungera korrekt.</translation>
+        <translation>Varning: V��nligen kolla s�� att din dators datum och tid ��r korrekt! Om din klocka g��r fel kommer Bitcoin inte fungera korrekt.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
-        <translation>Varning: fel vid läsning av wallet.dat! Alla nycklar lästes korrekt, men transaktionsdatan eller adressbokens poster kanske saknas eller är felaktiga.</translation>
+        <translation>Varning: fel vid l��sning av wallet.dat! Alla nycklar l��stes korrekt, men transaktionsdatan eller adressbokens poster kanske saknas eller ��r felaktiga.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
-        <translation>Varning: wallet.dat korrupt, datan har räddats! Den ursprungliga wallet.dat har sparas som wallet.{timestamp}.bak i %s; om ditt saldo eller transaktioner är felaktiga ska du återställa från en säkerhetskopia.</translation>
+        <translation>Varning: wallet.dat korrupt, datan har r��ddats! Den ursprungliga wallet.dat har sparas som wallet.{timestamp}.bak i %s; om ditt saldo eller transaktioner ��r felaktiga ska du ��terst��lla fr��n en s��kerhetskopia.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Attempt to recover private keys from a corrupt wallet.dat</source>
-        <translation>Försök att rädda de privata nycklarna från en korrupt wallet.dat</translation>
+        <translation>F��rs��k att r��dda de privata nycklarna fr��n en korrupt wallet.dat</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Block creation options:</source>
-        <translation>Block skapande inställningar:</translation>
+        <translation>Block skapande inst��llningar:</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -2409,12 +2409,12 @@ till exempel: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo
     <message>
         <location line="+3"/>
         <source>Corrupted block database detected</source>
-        <translation>Korrupt blockdatabas har upptäckts</translation>
+        <translation>Korrupt blockdatabas har uppt��ckts</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
-        <translation>Hitta egen IP-adress (förvalt: 1 under lyssning och utan -externalip)</translation>
+        <translation>Hitta egen IP-adress (f��rvalt: 1 under lyssning och utan -externalip)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2429,27 +2429,27 @@ till exempel: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo
     <message>
         <location line="+1"/>
         <source>Error initializing wallet database environment %s!</source>
-        <translation>Fel vid initiering av plånbokens databasmiljö %s!</translation>
+        <translation>Fel vid initiering av pl��nbokens databasmilj�� %s!</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Error loading block database</source>
-        <translation>Fel vid inläsning av blockdatabasen</translation>
+        <translation>Fel vid inl��sning av blockdatabasen</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Error opening block database</source>
-        <translation>Fel vid öppning av blockdatabasen</translation>
+        <translation>Fel vid ��ppning av blockdatabasen</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Error: Disk space is low!</source>
-        <translation>Fel: Hårddiskutrymme är lågt!</translation>
+        <translation>Fel: H��rddiskutrymme ��r l��gt!</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Error: Wallet locked, unable to create transaction!</source>
-        <translation>Fel: Plånboken är låst, det går ej att skapa en transaktion!</translation>
+        <translation>Fel: Pl��nboken ��r l��st, det g��r ej att skapa en transaktion!</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2459,17 +2459,17 @@ till exempel: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo
     <message>
         <location line="+1"/>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation>Misslyckades att lyssna på någon port. Använd -listen=0 om du vill detta.</translation>
+        <translation>Misslyckades att lyssna p�� n��gon port. Anv��nd -listen=0 om du vill detta.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Failed to read block info</source>
-        <translation>Misslyckades att läsa blockinformation</translation>
+        <translation>Misslyckades att l��sa blockinformation</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Failed to read block</source>
-        <translation>Misslyckades att läsa blocket</translation>
+        <translation>Misslyckades att l��sa blocket</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2509,42 +2509,42 @@ till exempel: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo
     <message>
         <location line="+1"/>
         <source>Failed to write undo data</source>
-        <translation>Misslyckades att skriva ångradata</translation>
+        <translation>Misslyckades att skriva ��ngradata</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Find peers using DNS lookup (default: 1 unless -connect)</source>
-        <translation>Sök efter klienter med DNS sökningen (förvalt: 1 om inte -connect)</translation>
+        <translation>S��k efter klienter med DNS s��kningen (f��rvalt: 1 om inte -connect)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Generate coins (default: 0)</source>
-        <translation>Generera mynt (förvalt: 0)</translation>
+        <translation>Generera mynt (f��rvalt: 0)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>How many blocks to check at startup (default: 288, 0 = all)</source>
-        <translation>Hur många block att kontrollera vid uppstart (standardvärde: 288, 0 = alla)</translation>
+        <translation>Hur m��nga block att kontrollera vid uppstart (standardv��rde: 288, 0 = alla)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>How thorough the block verification is (0-4, default: 3)</source>
-        <translation>Hur grundlig blockverifikationen är (0-4, förvalt: 3)</translation>
+        <translation>Hur grundlig blockverifikationen ��r (0-4, f��rvalt: 3)</translation>
     </message>
     <message>
         <location line="+19"/>
         <source>Not enough file descriptors available.</source>
-        <translation>Inte tillräckligt med filbeskrivningar tillgängliga.</translation>
+        <translation>Inte tillr��ckligt med filbeskrivningar tillg��ngliga.</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Rebuild block chain index from current blk000??.dat files</source>
-        <translation>Återskapa blockkedjans index från nuvarande blk000??.dat filer</translation>
+        <translation>��terskapa blockkedjans index fr��n nuvarande blk000??.dat filer</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Set the number of threads to service RPC calls (default: 4)</source>
-        <translation>Ange antalet trådar för att hantera RPC anrop (standard: 4)</translation>
+        <translation>Ange antalet tr��dar f��r att hantera RPC anrop (standard: 4)</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -2554,17 +2554,17 @@ till exempel: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo
     <message>
         <location line="+1"/>
         <source>Verifying wallet...</source>
-        <translation>Verifierar plånboken...</translation>
+        <translation>Verifierar pl��nboken...</translation>
     </message>
     <message>
         <location line="-69"/>
         <source>Imports blocks from external blk000??.dat file</source>
-        <translation>Importerar block från extern blk000??.dat fil</translation>
+        <translation>Importerar block fr��n extern blk000??.dat fil</translation>
     </message>
     <message>
         <location line="-76"/>
         <source>Set the number of script verification threads (up to 16, 0 = auto, &lt;0 = leave that many cores free, default: 0)</source>
-        <translation>Ange antalet skriptkontrolltrådar (upp till 16, 0 = auto, &lt;0 = lämna så många kärnor lediga, förval: 0)</translation>
+        <translation>Ange antalet skriptkontrolltr��dar (upp till 16, 0 = auto, &lt;0 = l��mna s�� m��nga k��rnor lediga, f��rval: 0)</translation>
     </message>
     <message>
         <location line="+77"/>
@@ -2579,67 +2579,67 @@ till exempel: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo
     <message>
         <location line="+1"/>
         <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation>Ogiltigt belopp för -minrelaytxfee=&lt;belopp&gt;: &apos;%s&apos;</translation>
+        <translation>Ogiltigt belopp f��r -minrelaytxfee=&lt;belopp&gt;: &apos;%s&apos;</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Invalid amount for -mintxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation>Ogiltigt belopp för -mintxfee=&lt;belopp&gt;: &apos;%s&apos;</translation>
+        <translation>Ogiltigt belopp f��r -mintxfee=&lt;belopp&gt;: &apos;%s&apos;</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Maintain a full transaction index (default: 0)</source>
-        <translation>Upprätthåll ett fullständigt transaktionsindex (förval: 0)</translation>
+        <translation>Uppr��tth��ll ett fullst��ndigt transaktionsindex (f��rval: 0)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
-        <translation>Maximal buffert för mottagning per anslutning, &lt;n&gt;*1000 byte (förvalt: 5000)</translation>
+        <translation>Maximal buffert f��r mottagning per anslutning, &lt;n&gt;*1000 byte (f��rvalt: 5000)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: 1000)</source>
-        <translation>Maximal buffert för sändning per anslutning, &lt;n&gt;*1000 byte (förvalt: 5000)</translation>
+        <translation>Maximal buffert f��r s��ndning per anslutning, &lt;n&gt;*1000 byte (f��rvalt: 5000)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Only accept block chain matching built-in checkpoints (default: 1)</source>
-        <translation>Acceptera bara blockkedjans matchande inbyggda kontrollpunkter (förvalt: 1)</translation>
+        <translation>Acceptera bara blockkedjans matchande inbyggda kontrollpunkter (f��rvalt: 1)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Only connect to nodes in network &lt;net&gt; (IPv4, IPv6 or Tor)</source>
-        <translation>Anslut enbart till noder i nätverket &lt;net&gt; (IPv4, IPv6 eller Tor)</translation>
+        <translation>Anslut enbart till noder i n��tverket &lt;net&gt; (IPv4, IPv6 eller Tor)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Output extra debugging information. Implies all other -debug* options</source>
-        <translation>Skriv ut extra felsökningsinformation. Gäller alla andra -debug* alternativ</translation>
+        <translation>Skriv ut extra fels��kningsinformation. G��ller alla andra -debug* alternativ</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Output extra network debugging information</source>
-        <translation>Skriv ut extra felsökningsinformation om nätverk</translation>
+        <translation>Skriv ut extra fels��kningsinformation om n��tverk</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Prepend debug output with timestamp</source>
-        <translation>Skriv ut tid i felsökningsinformationen</translation>
+        <translation>Skriv ut tid i fels��kningsinformationen</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation>SSL-inställningar: (se Bitcoin-wikin för SSL-setup instruktioner)</translation>
+        <translation>SSL-inst��llningar: (se Bitcoin-wikin f��r SSL-setup instruktioner)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Select the version of socks proxy to use (4-5, default: 5)</source>
-        <translation>Välj socks-proxy version att använda (4-5, förvalt: 5)</translation>
+        <translation>V��lj socks-proxy version att anv��nda (4-5, f��rvalt: 5)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation>Skicka trace-/debuginformation till terminalen istället för till debug.log</translation>
+        <translation>Skicka trace-/debuginformation till terminalen ist��llet f��r till debug.log</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2649,17 +2649,17 @@ till exempel: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo
     <message>
         <location line="+5"/>
         <source>Set maximum block size in bytes (default: 250000)</source>
-        <translation>Sätt maximal blockstorlek i byte (förvalt: 250000)</translation>
+        <translation>S��tt maximal blockstorlek i byte (f��rvalt: 250000)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Set minimum block size in bytes (default: 0)</source>
-        <translation>Sätt minsta blockstorlek i byte (förvalt: 0)</translation>
+        <translation>S��tt minsta blockstorlek i byte (f��rvalt: 0)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
-        <translation>Krymp debug.log filen vid klient start (förvalt: 1 vid ingen -debug)</translation>
+        <translation>Krymp debug.log filen vid klient start (f��rvalt: 1 vid ingen -debug)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2669,7 +2669,7 @@ till exempel: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo
     <message>
         <location line="+2"/>
         <source>Specify connection timeout in milliseconds (default: 5000)</source>
-        <translation>Ange timeout för uppkoppling i millisekunder (förvalt: 5000)</translation>
+        <translation>Ange timeout f��r uppkoppling i millisekunder (f��rvalt: 5000)</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -2679,37 +2679,37 @@ till exempel: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo
     <message>
         <location line="+4"/>
         <source>Transaction amount too small</source>
-        <translation>Transaktions belopp för liten</translation>
+        <translation>Transaktions belopp f��r liten</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Transaction amounts must be positive</source>
-        <translation>Transaktionens belopp måste vara positiva</translation>
+        <translation>Transaktionens belopp m��ste vara positiva</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Transaction too large</source>
-        <translation>Transaktionen är för stor</translation>
+        <translation>Transaktionen ��r f��r stor</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Use UPnP to map the listening port (default: 0)</source>
-        <translation>Använd UPnP för att mappa den lyssnande porten (förvalt: 0)</translation>
+        <translation>Anv��nd UPnP f��r att mappa den lyssnande porten (f��rvalt: 0)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Use UPnP to map the listening port (default: 1 when listening)</source>
-        <translation>Använd UPnP för att mappa den lyssnande porten (förvalt: 1 under lyssning)</translation>
+        <translation>Anv��nd UPnP f��r att mappa den lyssnande porten (f��rvalt: 1 under lyssning)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Use proxy to reach tor hidden services (default: same as -proxy)</source>
-        <translation>Använd en proxy för att nå tor (förvalt: samma som -proxy)</translation>
+        <translation>Anv��nd en proxy f��r att n�� tor (f��rvalt: samma som -proxy)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Username for JSON-RPC connections</source>
-        <translation>Användarnamn för JSON-RPC-anslutningar</translation>
+        <translation>Anv��ndarnamn f��r JSON-RPC-anslutningar</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -2719,82 +2719,82 @@ till exempel: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo
     <message>
         <location line="+1"/>
         <source>Warning: This version is obsolete, upgrade required!</source>
-        <translation>Varning: denna version är föråldrad, uppgradering krävs!</translation>
+        <translation>Varning: denna version ��r f��r��ldrad, uppgradering kr��vs!</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>You need to rebuild the databases using -reindex to change -txindex</source>
-        <translation>Du måste återskapa databaserna med -reindex för att ändra -txindex</translation>
+        <translation>Du m��ste ��terskapa databaserna med -reindex f��r att ��ndra -txindex</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>wallet.dat corrupt, salvage failed</source>
-        <translation>wallet.dat korrupt, räddning misslyckades</translation>
+        <translation>wallet.dat korrupt, r��ddning misslyckades</translation>
     </message>
     <message>
         <location line="-50"/>
         <source>Password for JSON-RPC connections</source>
-        <translation>Lösenord för JSON-RPC-anslutningar</translation>
+        <translation>L��senord f��r JSON-RPC-anslutningar</translation>
     </message>
     <message>
         <location line="-67"/>
         <source>Allow JSON-RPC connections from specified IP address</source>
-        <translation>Tillåt JSON-RPC-anslutningar från specifika IP-adresser</translation>
+        <translation>Till��t JSON-RPC-anslutningar fr��n specifika IP-adresser</translation>
     </message>
     <message>
         <location line="+76"/>
         <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
-        <translation>Skicka kommandon till klient på &lt;ip&gt; (förvalt: 127.0.0.1)</translation>
+        <translation>Skicka kommandon till klient p�� &lt;ip&gt; (f��rvalt: 127.0.0.1)</translation>
     </message>
     <message>
         <location line="-120"/>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>Exekvera kommando när det bästa blocket ändras (%s i cmd är utbytt av blockhash)</translation>
+        <translation>Exekvera kommando n��r det b��sta blocket ��ndras (%s i cmd ��r utbytt av blockhash)</translation>
     </message>
     <message>
         <location line="+147"/>
         <source>Upgrade wallet to latest format</source>
-        <translation>Uppgradera plånboken till senaste formatet</translation>
+        <translation>Uppgradera pl��nboken till senaste formatet</translation>
     </message>
     <message>
         <location line="-21"/>
         <source>Set key pool size to &lt;n&gt; (default: 100)</source>
-        <translation>Sätt storleken på nyckelpoolen till &lt;n&gt; (förvalt: 100)</translation>
+        <translation>S��tt storleken p�� nyckelpoolen till &lt;n&gt; (f��rvalt: 100)</translation>
     </message>
     <message>
         <location line="-12"/>
         <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>Sök i blockkedjan efter saknade plånboks transaktioner</translation>
+        <translation>S��k i blockkedjan efter saknade pl��nboks transaktioner</translation>
     </message>
     <message>
         <location line="+35"/>
         <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation>Använd OpenSSL (https) för JSON-RPC-anslutningar</translation>
+        <translation>Anv��nd OpenSSL (https) f��r JSON-RPC-anslutningar</translation>
     </message>
     <message>
         <location line="-26"/>
         <source>Server certificate file (default: server.cert)</source>
-        <translation>Serverns certifikatfil (förvalt: server.cert)</translation>
+        <translation>Serverns certifikatfil (f��rvalt: server.cert)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Server private key (default: server.pem)</source>
-        <translation>Serverns privata nyckel (förvalt: server.pem)</translation>
+        <translation>Serverns privata nyckel (f��rvalt: server.pem)</translation>
     </message>
     <message>
         <location line="-151"/>
         <source>Acceptable ciphers (default: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</source>
-        <translation>Accepterade krypteringsalgoritmer (förvalt: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</translation>
+        <translation>Accepterade krypteringsalgoritmer (f��rvalt: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</translation>
     </message>
     <message>
         <location line="+165"/>
         <source>This help message</source>
-        <translation>Det här hjälp medelandet</translation>
+        <translation>Det h��r hj��lp medelandet</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
-        <translation>Det går inte att binda till %s på den här datorn (bind returnerade felmeddelande %d, %s)</translation>
+        <translation>Det g��r inte att binda till %s p�� den h��r datorn (bind returnerade felmeddelande %d, %s)</translation>
     </message>
     <message>
         <location line="-91"/>
@@ -2804,7 +2804,7 @@ till exempel: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo
     <message>
         <location line="-10"/>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>Tillåt DNS-sökningar för -addnode, -seednode och -connect</translation>
+        <translation>Till��t DNS-s��kningar f��r -addnode, -seednode och -connect</translation>
     </message>
     <message>
         <location line="+55"/>
@@ -2814,22 +2814,22 @@ till exempel: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo
     <message>
         <location line="-35"/>
         <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation>Fel vid inläsningen av wallet.dat: Plånboken är skadad</translation>
+        <translation>Fel vid inl��sningen av wallet.dat: Pl��nboken ��r skadad</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin</source>
-        <translation>Fel vid inläsningen av wallet.dat: Plånboken kräver en senare version av Bitcoin</translation>
+        <translation>Fel vid inl��sningen av wallet.dat: Pl��nboken kr��ver en senare version av Bitcoin</translation>
     </message>
     <message>
         <location line="+93"/>
         <source>Wallet needed to be rewritten: restart Bitcoin to complete</source>
-        <translation>Plånboken behöver skrivas om: Starta om Bitcoin för att färdigställa</translation>
+        <translation>Pl��nboken beh��ver skrivas om: Starta om Bitcoin f��r att f��rdigst��lla</translation>
     </message>
     <message>
         <location line="-95"/>
         <source>Error loading wallet.dat</source>
-        <translation>Fel vid inläsning av plånboksfilen wallet.dat</translation>
+        <translation>Fel vid inl��sning av pl��nboksfilen wallet.dat</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -2839,12 +2839,12 @@ till exempel: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo
     <message>
         <location line="+56"/>
         <source>Unknown network specified in -onlynet: &apos;%s&apos;</source>
-        <translation>Okänt nätverk som anges i -onlynet: &apos;%s&apos;</translation>
+        <translation>Ok��nt n��tverk som anges i -onlynet: &apos;%s&apos;</translation>
     </message>
     <message>
         <location line="-1"/>
         <source>Unknown -socks proxy version requested: %i</source>
-        <translation>Okänd -socks proxy version begärd: %i</translation>
+        <translation>Ok��nd -socks proxy version beg��rd: %i</translation>
     </message>
     <message>
         <location line="-96"/>
@@ -2859,17 +2859,17 @@ till exempel: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo
     <message>
         <location line="+44"/>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation>Ogiltigt belopp för -paytxfee=&lt;belopp&gt;:&apos;%s&apos;</translation>
+        <translation>Ogiltigt belopp f��r -paytxfee=&lt;belopp&gt;:&apos;%s&apos;</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Invalid amount</source>
-        <translation>Ogiltig mängd</translation>
+        <translation>Ogiltig m��ngd</translation>
     </message>
     <message>
         <location line="-6"/>
         <source>Insufficient funds</source>
-        <translation>Otillräckligt med bitcoins</translation>
+        <translation>Otillr��ckligt med bitcoins</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -2879,27 +2879,27 @@ till exempel: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo
     <message>
         <location line="-57"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>Lägg till en nod att koppla upp mot och försök att hålla anslutningen öppen</translation>
+        <translation>L��gg till en nod att koppla upp mot och f��rs��k att h��lla anslutningen ��ppen</translation>
     </message>
     <message>
         <location line="-25"/>
         <source>Unable to bind to %s on this computer. Bitcoin is probably already running.</source>
-        <translation>Det går inte att binda till %s på den här datorn. Bitcoin är förmodligen redan igång.</translation>
+        <translation>Det g��r inte att binda till %s p�� den h��r datorn. Bitcoin ��r f��rmodligen redan ig��ng.</translation>
     </message>
     <message>
         <location line="+64"/>
         <source>Fee per KB to add to transactions you send</source>
-        <translation>Avgift per KB att lägga till på transaktioner du skickar</translation>
+        <translation>Avgift per KB att l��gga till p�� transaktioner du skickar</translation>
     </message>
     <message>
         <location line="+19"/>
         <source>Loading wallet...</source>
-        <translation>Laddar plånbok...</translation>
+        <translation>Laddar pl��nbok...</translation>
     </message>
     <message>
         <location line="-52"/>
         <source>Cannot downgrade wallet</source>
-        <translation>Kan inte nedgradera plånboken</translation>
+        <translation>Kan inte nedgradera pl��nboken</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2909,7 +2909,7 @@ till exempel: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo
     <message>
         <location line="+64"/>
         <source>Rescanning...</source>
-        <translation>Söker igen...</translation>
+        <translation>S��ker igen...</translation>
     </message>
     <message>
         <location line="-57"/>
@@ -2919,7 +2919,7 @@ till exempel: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo
     <message>
         <location line="+82"/>
         <source>To use the %s option</source>
-        <translation>Att använda %s alternativet</translation>
+        <translation>Att anv��nda %s alternativet</translation>
     </message>
     <message>
         <location line="-74"/>
@@ -2931,9 +2931,9 @@ till exempel: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo
         <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
 %s
 If the file does not exist, create it with owner-readable-only file permissions.</source>
-        <translation>Du behöver välja ett rpclösensord i konfigurationsfilen:
+        <translation>Du beh��ver v��lja ett rpcl��sensord i konfigurationsfilen:
 %s
-Om filen inte existerar, skapa den med filrättigheten endast läsbar för ägaren.</translation>
+Om filen inte existerar, skapa den med filr��ttigheten endast l��sbar f��r ��garen.</translation>
     </message>
 </context>
 </TS>

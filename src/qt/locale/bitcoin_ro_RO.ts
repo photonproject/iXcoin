@@ -38,7 +38,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
         <source>Address Book</source>
-        <translation>Listă de adrese</translation>
+        <translation>List�� de adrese</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -48,27 +48,27 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+27"/>
         <source>Create a new address</source>
-        <translation>Creaţi o adresă nouă</translation>
+        <translation>Crea��i o adres�� nou��</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Copiați adresa selectată în clipboard</translation>
+        <translation>Copia��i adresa selectat�� ��n clipboard</translation>
     </message>
     <message>
         <location line="-11"/>
         <source>&amp;New Address</source>
-        <translation>&amp;Adresă nouă</translation>
+        <translation>&amp;Adres�� nou��</translation>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
         <source>These are your Bitcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Acestea sunt adresele dumneavoastră Bitcoin pentru a primi plăţi. Dacă doriţi, puteți da o adresa diferită fiecărui expeditor, pentru a putea ţine evidenţa plăţilor.</translation>
+        <translation>Acestea sunt adresele dumneavoastr�� Bitcoin pentru a primi pl����i. Dac�� dori��i, pute��i da o adresa diferit�� fiec��rui expeditor, pentru a putea ��ine eviden��a pl����ilor.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
         <source>&amp;Copy Address</source>
-        <translation>&amp;Copiază adresa</translation>
+        <translation>&amp;Copiaz�� adresa</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -113,7 +113,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+14"/>
         <source>&amp;Delete</source>
-        <translation>&amp;Șterge</translation>
+        <translation>&amp;��terge</translation>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
@@ -123,12 +123,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+13"/>
         <source>Copy &amp;Label</source>
-        <translation>Copiază &amp;eticheta</translation>
+        <translation>Copiaz�� &amp;eticheta</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>&amp;Edit</source>
-        <translation>&amp;Editează</translation>
+        <translation>&amp;Editeaz��</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -138,12 +138,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+260"/>
         <source>Export Address Book Data</source>
-        <translation>Exportă Lista de adrese</translation>
+        <translation>Export�� Lista de adrese</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Comma separated file (*.csv)</source>
-        <translation>Fisier csv: valori separate prin virgulă (*.csv)</translation>
+        <translation>Fisier csv: valori separate prin virgul�� (*.csv)</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -153,7 +153,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <source>Could not write to file %1.</source>
-        <translation>Eroare la scrierea în fişerul %1.</translation>
+        <translation>Eroare la scrierea ��n fi��erul %1.</translation>
     </message>
 </context>
 <context>
@@ -161,17 +161,17 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location filename="../addresstablemodel.cpp" line="+144"/>
         <source>Label</source>
-        <translation>Etichetă</translation>
+        <translation>Etichet��</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Address</source>
-        <translation>Adresă</translation>
+        <translation>Adres��</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>(no label)</source>
-        <translation>(fără etichetă)</translation>
+        <translation>(f��r�� etichet��)</translation>
     </message>
 </context>
 <context>
@@ -184,72 +184,72 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+21"/>
         <source>Enter passphrase</source>
-        <translation>Introduceți fraza de acces.</translation>
+        <translation>Introduce��i fraza de acces.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>New passphrase</source>
-        <translation>Frază de acces nouă </translation>
+        <translation>Fraz�� de acces nou�� </translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Repeat new passphrase</source>
-        <translation>Repetaţi noua frază de acces</translation>
+        <translation>Repeta��i noua fraz�� de acces</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="+33"/>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Introduceţi noua parolă a portofelului electronic.&lt;br/&gt;Vă rugăm să folosiţi &lt;b&gt;minimum 10 caractere aleatoare&lt;/b&gt;, sau &lt;b&gt;minimum 8 cuvinte&lt;/b&gt;.</translation>
+        <translation>Introduce��i noua parol�� a portofelului electronic.&lt;br/&gt;V�� rug��m s�� folosi��i &lt;b&gt;minimum 10 caractere aleatoare&lt;/b&gt;, sau &lt;b&gt;minimum 8 cuvinte&lt;/b&gt;.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Encrypt wallet</source>
-        <translation>Criptează portofelul</translation>
+        <translation>Cripteaz�� portofelul</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Aceasta operație are nevoie de un portofel deblocat.</translation>
+        <translation>Aceasta opera��ie are nevoie de un portofel deblocat.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Unlock wallet</source>
-        <translation>Deblochează portofelul</translation>
+        <translation>Deblocheaz�� portofelul</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>Această operaţiune necesită parola pentru decriptarea portofelului electronic.</translation>
+        <translation>Aceast�� opera��iune necesit�� parola pentru decriptarea portofelului electronic.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Decrypt wallet</source>
-        <translation>Decriptează portofelul.</translation>
+        <translation>Decripteaz�� portofelul.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Change passphrase</source>
-        <translation>Schimbă fraza de acces</translation>
+        <translation>Schimb�� fraza de acces</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Enter the old and new passphrase to the wallet.</source>
-        <translation>Introduceţi vechea parola a portofelului eletronic şi apoi pe cea nouă.</translation>
+        <translation>Introduce��i vechea parola a portofelului eletronic ��i apoi pe cea nou��.</translation>
     </message>
     <message>
         <location line="+46"/>
         <source>Confirm wallet encryption</source>
-        <translation>Confirmă criptarea portofelului.</translation>
+        <translation>Confirm�� criptarea portofelului.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Atenție: Dacă pierdeţi parola portofelului electronic dupa criptare, &lt;b&gt;VEŢI PIERDE ÎNTREAGA SUMĂ DE BITCOIN ACUMULATĂ&lt;/b&gt;!</translation>
+        <translation>Aten��ie: Dac�� pierde��i parola portofelului electronic dupa criptare, &lt;b&gt;VE��I PIERDE ��NTREAGA SUM�� DE BITCOIN ACUMULAT��&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>Sunteţi sigur că doriţi să criptaţi portofelul electronic?</translation>
+        <translation>Sunte��i sigur c�� dori��i s�� cripta��i portofelul electronic?</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -271,7 +271,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-56"/>
         <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Bitcoin se va închide acum pentru a termina procesul de criptare. Amintiți-vă că criptarea portofelului dumneavoastră nu poate proteja în totalitate bitcoins dvs. de a fi furate de intentii rele.</translation>
+        <translation>Bitcoin se va ��nchide acum pentru a termina procesul de criptare. Aminti��i-v�� c�� criptarea portofelului dumneavoastr�� nu poate proteja ��n totalitate bitcoins dvs. de a fi furate de intentii rele.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -279,40 +279,40 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+42"/>
         <location line="+6"/>
         <source>Wallet encryption failed</source>
-        <translation>Criptarea portofelului a eșuat.</translation>
+        <translation>Criptarea portofelului a e��uat.</translation>
     </message>
     <message>
         <location line="-54"/>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>Criptarea portofelului a eșuat din cauza unei erori interne. Portofelul tău nu a fost criptat.</translation>
+        <translation>Criptarea portofelului a e��uat din cauza unei erori interne. Portofelul t��u nu a fost criptat.</translation>
     </message>
     <message>
         <location line="+7"/>
         <location line="+48"/>
         <source>The supplied passphrases do not match.</source>
-        <translation>Fraza de acces introdusă nu se potrivește.</translation>
+        <translation>Fraza de acces introdus�� nu se potrive��te.</translation>
     </message>
     <message>
         <location line="-37"/>
         <source>Wallet unlock failed</source>
-        <translation>Deblocarea portofelului electronic a eşuat.</translation>
+        <translation>Deblocarea portofelului electronic a e��uat.</translation>
     </message>
     <message>
         <location line="+1"/>
         <location line="+11"/>
         <location line="+19"/>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>Parola introdusă pentru decriptarea portofelului electronic a fost incorectă.</translation>
+        <translation>Parola introdus�� pentru decriptarea portofelului electronic a fost incorect��.</translation>
     </message>
     <message>
         <location line="-20"/>
         <source>Wallet decryption failed</source>
-        <translation>Decriptarea portofelului electronic a eşuat.</translation>
+        <translation>Decriptarea portofelului electronic a e��uat.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation>Parola portofelului electronic a fost schimbată.</translation>
+        <translation>Parola portofelului electronic a fost schimbat��.</translation>
     </message>
 </context>
 <context>
@@ -325,7 +325,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+280"/>
         <source>Synchronizing with network...</source>
-        <translation>Se sincronizează cu reţeaua...</translation>
+        <translation>Se sincronizeaz�� cu re��eaua...</translation>
     </message>
     <message>
         <location line="-349"/>
@@ -335,42 +335,42 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+1"/>
         <source>Show general overview of wallet</source>
-        <translation>Afişează detalii despre portofelul electronic</translation>
+        <translation>Afi��eaz�� detalii despre portofelul electronic</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>&amp;Transactions</source>
-        <translation>&amp;Tranzacţii</translation>
+        <translation>&amp;Tranzac��ii</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Browse transaction history</source>
-        <translation>Istoricul tranzacţiilor</translation>
+        <translation>Istoricul tranzac��iilor</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Edit the list of stored addresses and labels</source>
-        <translation>Editaţi lista de adrese şi etichete.</translation>
+        <translation>Edita��i lista de adrese ��i etichete.</translation>
     </message>
     <message>
         <location line="-14"/>
         <source>Show the list of addresses for receiving payments</source>
-        <translation>Lista de adrese pentru recepţionarea plăţilor</translation>
+        <translation>Lista de adrese pentru recep��ionarea pl����ilor</translation>
     </message>
     <message>
         <location line="+31"/>
         <source>E&amp;xit</source>
-        <translation>Ieșire</translation>
+        <translation>Ie��ire</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Quit application</source>
-        <translation>Părăsiţi aplicaţia</translation>
+        <translation>P��r��si��i aplica��ia</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Show information about Bitcoin</source>
-        <translation>Informaţii despre Bitcoin</translation>
+        <translation>Informa��ii despre Bitcoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -380,17 +380,17 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+1"/>
         <source>Show information about Qt</source>
-        <translation>Informaţii despre Qt</translation>
+        <translation>Informa��ii despre Qt</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>&amp;Options...</source>
-        <translation>&amp;Setări...</translation>
+        <translation>&amp;Set��ri...</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>Criptează portofelul electronic...</translation>
+        <translation>Cripteaz�� portofelul electronic...</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -400,7 +400,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+2"/>
         <source>&amp;Change Passphrase...</source>
-        <translation>&amp;Schimbă parola...</translation>
+        <translation>&amp;Schimb�� parola...</translation>
     </message>
     <message>
         <location line="+285"/>
@@ -415,12 +415,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-347"/>
         <source>Send coins to a Bitcoin address</source>
-        <translation>&amp;Trimiteţi Bitcoin către o anumită adresă</translation>
+        <translation>&amp;Trimite��i Bitcoin c��tre o anumit�� adres��</translation>
     </message>
     <message>
         <location line="+49"/>
         <source>Modify configuration options for Bitcoin</source>
-        <translation>Modifică setările pentru Bitcoin</translation>
+        <translation>Modific�� set��rile pentru Bitcoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -430,7 +430,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+2"/>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>&amp;Schimbă parola folosită pentru criptarea portofelului electronic</translation>
+        <translation>&amp;Schimb�� parola folosit�� pentru criptarea portofelului electronic</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -506,12 +506,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+28"/>
         <source>&amp;File</source>
-        <translation>&amp;Fişier</translation>
+        <translation>&amp;Fi��ier</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>&amp;Settings</source>
-        <translation>&amp;Setări</translation>
+        <translation>&amp;Set��ri</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -612,7 +612,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+31"/>
         <source>Catching up...</source>
-        <translation>Se actualizează...</translation>
+        <translation>Se actualizeaz��...</translation>
     </message>
     <message>
         <location line="+113"/>
@@ -622,12 +622,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+8"/>
         <source>Sent transaction</source>
-        <translation>Tranzacţie expediată</translation>
+        <translation>Tranzac��ie expediat��</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Incoming transaction</source>
-        <translation>Tranzacţie recepţionată</translation>
+        <translation>Tranzac��ie recep��ionat��</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -636,7 +636,7 @@ Amount: %2
 Type: %3
 Address: %4
 </source>
-        <translation>Data: %1⏎ Suma: %2⏎ Tipul: %3⏎ Addresa: %4⏎</translation>
+        <translation>Data: %1��� Suma: %2��� Tipul: %3��� Addresa: %4���</translation>
     </message>
     <message>
         <location line="+33"/>
@@ -653,12 +653,12 @@ Address: %4
     <message>
         <location line="+17"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>Portofelul electronic este &lt;b&gt;criptat&lt;/b&gt; iar in momentul de faţă este &lt;b&gt;deblocat&lt;/b&gt;</translation>
+        <translation>Portofelul electronic este &lt;b&gt;criptat&lt;/b&gt; iar in momentul de fa���� este &lt;b&gt;deblocat&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>Portofelul electronic este &lt;b&gt;criptat&lt;/b&gt; iar in momentul de faţă este &lt;b&gt;blocat&lt;/b&gt;</translation>
+        <translation>Portofelul electronic este &lt;b&gt;criptat&lt;/b&gt; iar in momentul de fa���� este &lt;b&gt;blocat&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
@@ -679,7 +679,7 @@ Address: %4
     <message>
         <location filename="../forms/editaddressdialog.ui" line="+14"/>
         <source>Edit Address</source>
-        <translation>Editează adresa</translation>
+        <translation>Editeaz�� adresa</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -689,47 +689,47 @@ Address: %4
     <message>
         <location line="+10"/>
         <source>The label associated with this address book entry</source>
-        <translation>Eticheta asociată cu această înregistrare în Lista de adrese</translation>
+        <translation>Eticheta asociat�� cu aceast�� ��nregistrare ��n Lista de adrese</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>&amp;Address</source>
-        <translation>&amp;Adresă</translation>
+        <translation>&amp;Adres��</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>The address associated with this address book entry. This can only be modified for sending addresses.</source>
-        <translation>Adresa asociată cu această înregistrare în Lista de adrese. Aceasta poate fi modificată doar pentru expediere.</translation>
+        <translation>Adresa asociat�� cu aceast�� ��nregistrare ��n Lista de adrese. Aceasta poate fi modificat�� doar pentru expediere.</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="+21"/>
         <source>New receiving address</source>
-        <translation>Noua adresă de primire</translation>
+        <translation>Noua adres�� de primire</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>New sending address</source>
-        <translation>Noua adresă de trimitere</translation>
+        <translation>Noua adres�� de trimitere</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Edit receiving address</source>
-        <translation>Editează adresa de primire</translation>
+        <translation>Editeaz�� adresa de primire</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Edit sending address</source>
-        <translation>Editează adresa de trimitere</translation>
+        <translation>Editeaz�� adresa de trimitere</translation>
     </message>
     <message>
         <location line="+76"/>
         <source>The entered address &quot;%1&quot; is already in the address book.</source>
-        <translation>Adresa introdusă &quot;%1&quot; se află deja în Lista de adrese.</translation>
+        <translation>Adresa introdus�� &quot;%1&quot; se afl�� deja ��n Lista de adrese.</translation>
     </message>
     <message>
         <location line="-5"/>
         <source>The entered address &quot;%1&quot; is not a valid Bitcoin address.</source>
-        <translation>Adresa introdusă &quot;%1&quot; nu este o adresă bitcoin valabilă.</translation>
+        <translation>Adresa introdus�� &quot;%1&quot; nu este o adres�� bitcoin valabil��.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -763,12 +763,12 @@ Address: %4
     <message>
         <location line="+1"/>
         <source>command-line options</source>
-        <translation>command-line setări</translation>
+        <translation>command-line set��ri</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>UI options</source>
-        <translation>UI setări</translation>
+        <translation>UI set��ri</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -783,7 +783,7 @@ Address: %4
     <message>
         <location line="+1"/>
         <source>Show splash screen on startup (default: 1)</source>
-        <translation>Afișează pe ecran splash la pornire (implicit: 1)</translation>
+        <translation>Afi��eaz�� pe ecran splash la pornire (implicit: 1)</translation>
     </message>
 </context>
 <context>
@@ -791,7 +791,7 @@ Address: %4
     <message>
         <location filename="../forms/optionsdialog.ui" line="+14"/>
         <source>Options</source>
-        <translation>Setări</translation>
+        <translation>Set��ri</translation>
     </message>
     <message>
         <location line="+16"/>
@@ -806,17 +806,17 @@ Address: %4
     <message>
         <location line="+15"/>
         <source>Pay transaction &amp;fee</source>
-        <translation>Plăteşte comision pentru tranzacţie &amp;f</translation>
+        <translation>Pl��te��te comision pentru tranzac��ie &amp;f</translation>
     </message>
     <message>
         <location line="+31"/>
         <source>Automatically start Bitcoin after logging in to the system.</source>
-        <translation>Porneşte automat programul Bitcoin la pornirea computerului.</translation>
+        <translation>Porne��te automat programul Bitcoin la pornirea computerului.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Start Bitcoin on system login</source>
-        <translation>&amp;S Porneşte Bitcoin la pornirea sistemului</translation>
+        <translation>&amp;S Porne��te Bitcoin la pornirea sistemului</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -836,7 +836,7 @@ Address: %4
     <message>
         <location line="+6"/>
         <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Deschide automat în router portul aferent clientului Bitcoin. Funcţionează doar în cazul în care routerul e compatibil UPnP şi opţiunea e activată.</translation>
+        <translation>Deschide automat ��n router portul aferent clientului Bitcoin. Func��ioneaz�� doar ��n cazul ��n care routerul e compatibil UPnP ��i op��iunea e activat��.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -846,12 +846,12 @@ Address: %4
     <message>
         <location line="+7"/>
         <source>Connect to the Bitcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Conectare la reţeaua Bitcoin folosind un proxy SOCKS (de exemplu, când conexiunea se stabileşte prin reţeaua Tor)</translation>
+        <translation>Conectare la re��eaua Bitcoin folosind un proxy SOCKS (de exemplu, c��nd conexiunea se stabile��te prin re��eaua Tor)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Connect through SOCKS proxy:</source>
-        <translation>&amp;Conectează prin proxy SOCKS:</translation>
+        <translation>&amp;Conecteaz�� prin proxy SOCKS:</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -871,7 +871,7 @@ Address: %4
     <message>
         <location line="+19"/>
         <source>Port of the proxy (e.g. 9050)</source>
-        <translation>Portul pe care se concetează proxy serverul (de exemplu: 9050)</translation>
+        <translation>Portul pe care se conceteaz�� proxy serverul (de exemplu: 9050)</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -891,27 +891,27 @@ Address: %4
     <message>
         <location line="+6"/>
         <source>Show only a tray icon after minimizing the window.</source>
-        <translation>Afişează doar un icon in tray la ascunderea ferestrei</translation>
+        <translation>Afi��eaz�� doar un icon in tray la ascunderea ferestrei</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation>&amp;M Ascunde în tray în loc de taskbar</translation>
+        <translation>&amp;M Ascunde ��n tray ��n loc de taskbar</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
-        <translation>Ascunde fereastra în locul părăsirii programului în momentul închiderii ferestrei. Când acestă opţiune e activă, aplicaţia se va opri doar în momentul selectării comenzii Quit din menu.</translation>
+        <translation>Ascunde fereastra ��n locul p��r��sirii programului ��n momentul ��nchiderii ferestrei. C��nd acest�� op��iune e activ��, aplica��ia se va opri doar ��n momentul select��rii comenzii Quit din menu.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>M&amp;inimize on close</source>
-        <translation>&amp;i Ascunde fereastra în locul închiderii programului</translation>
+        <translation>&amp;i Ascunde fereastra ��n locul ��nchiderii programului</translation>
     </message>
     <message>
         <location line="+21"/>
         <source>&amp;Display</source>
-        <translation>&amp;Afişare</translation>
+        <translation>&amp;Afi��are</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -921,27 +921,27 @@ Address: %4
     <message>
         <location line="+13"/>
         <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin.</source>
-        <translation>Limba interfeței utilizatorului poate fi setat aici. Această setare va avea efect după repornirea Bitcoin.</translation>
+        <translation>Limba interfe��ei utilizatorului poate fi setat aici. Aceast�� setare va avea efect dup�� repornirea Bitcoin.</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>&amp;Unitatea de măsură pentru afişarea sumelor:</translation>
+        <translation>&amp;Unitatea de m��sur�� pentru afi��area sumelor:</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Alege subdiviziunea folosită la afişarea interfeţei şi la trimiterea de bitcoin.</translation>
+        <translation>Alege subdiviziunea folosit�� la afi��area interfe��ei ��i la trimiterea de bitcoin.</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Whether to show Bitcoin addresses in the transaction list or not.</source>
-        <translation>Vezi dacă adresele Bitcoin sunt în lista de tranzacție sau nu</translation>
+        <translation>Vezi dac�� adresele Bitcoin sunt ��n lista de tranzac��ie sau nu</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Display addresses in transaction list</source>
-        <translation>&amp;Afişează adresele în lista de tranzacţii</translation>
+        <translation>&amp;Afi��eaz�� adresele ��n lista de tranzac��ii</translation>
     </message>
     <message>
         <location line="+71"/>
@@ -1007,12 +1007,12 @@ Address: %4
         <location line="+50"/>
         <location line="+166"/>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Informațiile afișate pot fi expirate. Portofelul tău se sincronizează automat cu rețeaua Bitcoin după ce o conexiune este stabilita, dar acest proces nu a fost finalizat încă.</translation>
+        <translation>Informa��iile afi��ate pot fi expirate. Portofelul t��u se sincronizeaz�� automat cu re��eaua Bitcoin dup�� ce o conexiune este stabilita, dar acest proces nu a fost finalizat ��nc��.</translation>
     </message>
     <message>
         <location line="-124"/>
         <source>Balance:</source>
-        <translation>Balanţă:</translation>
+        <translation>Balan����:</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1037,7 +1037,7 @@ Address: %4
     <message>
         <location line="+46"/>
         <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Ultimele tranzacţii&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;Ultimele tranzac��ii&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="-101"/>
@@ -1047,7 +1047,7 @@ Address: %4
     <message>
         <location line="+29"/>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
-        <translation>Totalul tranzacţiilor care aşteaptă să fie confirmate şi care nu sunt încă luate în calcul la afişarea soldului contului.</translation>
+        <translation>Totalul tranzac��iilor care a��teapt�� s�� fie confirmate ��i care nu sunt ��nc�� luate ��n calcul la afi��area soldului contului.</translation>
     </message>
     <message>
         <location filename="../overviewpage.cpp" line="+116"/>
@@ -1079,12 +1079,12 @@ Address: %4
     <message>
         <location line="+56"/>
         <source>Amount:</source>
-        <translation>Sumă:</translation>
+        <translation>Sum��:</translation>
     </message>
     <message>
         <location line="-44"/>
         <source>Label:</source>
-        <translation>Etichetă:</translation>
+        <translation>Etichet��:</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -1206,7 +1206,7 @@ Address: %4
     <message>
         <location line="+16"/>
         <source>Command-line options</source>
-        <translation>Command-line setări</translation>
+        <translation>Command-line set��ri</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1286,12 +1286,12 @@ Address: %4
     <message>
         <location line="+50"/>
         <source>Send to multiple recipients at once</source>
-        <translation>Trimite simultan către mai mulţi destinatari</translation>
+        <translation>Trimite simultan c��tre mai mul��i destinatari</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Add &amp;Recipient</source>
-        <translation>&amp;Adaugă destinatar</translation>
+        <translation>&amp;Adaug�� destinatar</translation>
     </message>
     <message>
         <location line="+20"/>
@@ -1301,22 +1301,22 @@ Address: %4
     <message>
         <location line="+3"/>
         <source>Clear &amp;All</source>
-        <translation>Şterge &amp;tot</translation>
+        <translation>��terge &amp;tot</translation>
     </message>
     <message>
         <location line="+22"/>
         <source>Balance:</source>
-        <translation>Balanţă:</translation>
+        <translation>Balan����:</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>123.456 BTC</source>
-        <translation>123.456 BTC</translation>
+        <source>123.456 IXC</source>
+        <translation>123.456 IXC</translation>
     </message>
     <message>
         <location line="+31"/>
         <source>Confirm the send action</source>
-        <translation>Confirmă operaţiunea de trimitere</translation>
+        <translation>Confirm�� opera��iunea de trimitere</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1331,42 +1331,42 @@ Address: %4
     <message>
         <location line="+5"/>
         <source>Confirm send coins</source>
-        <translation>Confirmaţi trimiterea de bitcoin</translation>
+        <translation>Confirma��i trimiterea de bitcoin</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Are you sure you want to send %1?</source>
-        <translation>Sunteţi sigur că doriţi să trimiteţi %1?</translation>
+        <translation>Sunte��i sigur c�� dori��i s�� trimite��i %1?</translation>
     </message>
     <message>
         <location line="+0"/>
         <source> and </source>
-        <translation> şi </translation>
+        <translation> ��i </translation>
     </message>
     <message>
         <location line="+23"/>
         <source>The recipient address is not valid, please recheck.</source>
-        <translation>Adresa destinatarului nu este validă, vă rugăm să o verificaţi.</translation>
+        <translation>Adresa destinatarului nu este valid��, v�� rug��m s�� o verifica��i.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>The amount to pay must be larger than 0.</source>
-        <translation>Suma de plată trebuie să fie mai mare decât 0.</translation>
+        <translation>Suma de plat�� trebuie s�� fie mai mare dec��t 0.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>The amount exceeds your balance.</source>
-        <translation>Suma depăşeşte soldul contului.</translation>
+        <translation>Suma dep����e��te soldul contului.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation>Total depăşeşte soldul contului in cazul plăţii comisionului de %1.</translation>
+        <translation>Total dep����e��te soldul contului in cazul pl����ii comisionului de %1.</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Duplicate address found, can only send to each address once per send operation.</source>
-        <translation>S-a descoperit o adresă care figurează de două ori. Expedierea se poate realiza către fiecare adresă doar o singură dată pe operaţiune.</translation>
+        <translation>S-a descoperit o adres�� care figureaz�� de dou�� ori. Expedierea se poate realiza c��tre fiecare adres�� doar o singur�� dat�� pe opera��iune.</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -1376,7 +1376,7 @@ Address: %4
     <message>
         <location line="+5"/>
         <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Eroare: Tranyacţia a fost respinsă.  Acesta poate fi rezultatul cheltuirii prealabile a unei sume de bitcoin din portofelul electronic, ca în cazul folosirii unei copii a fisierului wallet.dat, în care s-au efectuat tranzacţii neînregistrate în fisierul curent.</translation>
+        <translation>Eroare: Tranyac��ia a fost respins��.  Acesta poate fi rezultatul cheltuirii prealabile a unei sume de bitcoin din portofelul electronic, ca ��n cazul folosirii unei copii a fisierului wallet.dat, ��n care s-au efectuat tranzac��ii ne��nregistrate ��n fisierul curent.</translation>
     </message>
 </context>
 <context>
@@ -1389,12 +1389,12 @@ Address: %4
     <message>
         <location line="+15"/>
         <source>A&amp;mount:</source>
-        <translation>Su&amp;mă :</translation>
+        <translation>Su&amp;m�� :</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Pay &amp;To:</source>
-        <translation>Plăteşte Că&amp;tre:</translation>
+        <translation>Pl��te��te C��&amp;tre:</translation>
     </message>
     <message>
         <location line="+34"/>
@@ -1405,17 +1405,17 @@ Address: %4
         <location line="+60"/>
         <location filename="../sendcoinsentry.cpp" line="+26"/>
         <source>Enter a label for this address to add it to your address book</source>
-        <translation>Adaugă o etichetă acestei adrese pentru a o trece în Lista de adrese</translation>
+        <translation>Adaug�� o etichet�� acestei adrese pentru a o trece ��n Lista de adrese</translation>
     </message>
     <message>
         <location line="-78"/>
         <source>&amp;Label:</source>
-        <translation>&amp;L Etichetă:</translation>
+        <translation>&amp;L Etichet��:</translation>
     </message>
     <message>
         <location line="+28"/>
         <source>Choose address from address book</source>
-        <translation>Alegeţi adresa din Listă</translation>
+        <translation>Alege��i adresa din List��</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1425,7 +1425,7 @@ Address: %4
     <message>
         <location line="+7"/>
         <source>Paste address from clipboard</source>
-        <translation>Lipiţi adresa copiată in clipboard.</translation>
+        <translation>Lipi��i adresa copiat�� in clipboard.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1435,12 +1435,12 @@ Address: %4
     <message>
         <location line="+7"/>
         <source>Remove this recipient</source>
-        <translation>Şterge destinatarul</translation>
+        <translation>��terge destinatarul</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
         <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Introduceţi o adresă Bitcoin (de exemplu: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <translation>Introduce��i o adres�� Bitcoin (de exemplu: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
 <context>
@@ -1463,13 +1463,13 @@ Address: %4
     <message>
         <location line="+18"/>
         <source>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Introduceţi o adresă Bitcoin (de exemplu: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <translation>Introduce��i o adres�� Bitcoin (de exemplu: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="+10"/>
         <location line="+213"/>
         <source>Choose an address from the address book</source>
-        <translation>Alegeţi adresa din Listă</translation>
+        <translation>Alege��i adresa din List��</translation>
     </message>
     <message>
         <location line="-203"/>
@@ -1480,7 +1480,7 @@ Address: %4
     <message>
         <location line="-203"/>
         <source>Paste address from clipboard</source>
-        <translation>Lipiţi adresa copiată in clipboard.</translation>
+        <translation>Lipi��i adresa copiat�� in clipboard.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1521,7 +1521,7 @@ Address: %4
         <location line="+3"/>
         <location line="+146"/>
         <source>Clear &amp;All</source>
-        <translation>Şterge &amp;tot</translation>
+        <translation>��terge &amp;tot</translation>
     </message>
     <message>
         <location line="-87"/>
@@ -1536,7 +1536,7 @@ Address: %4
     <message>
         <location line="+21"/>
         <source>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Introduceţi o adresă Bitcoin (de exemplu: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <translation>Introduce��i o adres�� Bitcoin (de exemplu: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="+40"/>
@@ -1557,7 +1557,7 @@ Address: %4
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
         <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Introduceţi o adresă Bitcoin (de exemplu: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <translation>Introduce��i o adres�� Bitcoin (de exemplu: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1654,7 +1654,7 @@ Address: %4
     <message>
         <location filename="../transactiondesc.cpp" line="+20"/>
         <source>Open until %1</source>
-        <translation>Deschis până la %1</translation>
+        <translation>Deschis p��n�� la %1</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -1669,7 +1669,7 @@ Address: %4
     <message>
         <location line="+2"/>
         <source>%1 confirmations</source>
-        <translation>%1 confirmări</translation>
+        <translation>%1 confirm��ri</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -1707,7 +1707,7 @@ Address: %4
         <location line="+22"/>
         <location line="+58"/>
         <source>To</source>
-        <translation>Către</translation>
+        <translation>C��tre</translation>
     </message>
     <message>
         <location line="-77"/>
@@ -1718,7 +1718,7 @@ Address: %4
     <message>
         <location line="-2"/>
         <source>label</source>
-        <translation>etichetă</translation>
+        <translation>etichet��</translation>
     </message>
     <message>
         <location line="+37"/>
@@ -1750,12 +1750,12 @@ Address: %4
     <message>
         <location line="-39"/>
         <source>Transaction fee</source>
-        <translation>Comisionul tranzacţiei</translation>
+        <translation>Comisionul tranzac��iei</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Net amount</source>
-        <translation>Suma netă</translation>
+        <translation>Suma net��</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -1775,7 +1775,7 @@ Address: %4
     <message>
         <location line="+3"/>
         <source>Generated coins must mature 120 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Monedele bitcoin generate se pot cheltui dupa parcurgerea a 120 de blocuri.  După ce a fost generat, s-a propagat în reţea, urmând să fie adăugat lanţului de blocuri.  Dacă nu poate fi inclus in lanţ, starea sa va deveni &quot;neacceptat&quot; si nu va putea fi folosit la tranzacţii.  Acest fenomen se întâmplă atunci cand un alt nod a generat un bloc la o diferenţa de câteva secunde.</translation>
+        <translation>Monedele bitcoin generate se pot cheltui dupa parcurgerea a 120 de blocuri.  Dup�� ce a fost generat, s-a propagat ��n re��ea, urm��nd s�� fie ad��ugat lan��ului de blocuri.  Dac�� nu poate fi inclus in lan��, starea sa va deveni &quot;neacceptat&quot; si nu va putea fi folosit la tranzac��ii.  Acest fenomen se ��nt��mpl�� atunci cand un alt nod a generat un bloc la o diferen��a de c��teva secunde.</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1785,7 +1785,7 @@ Address: %4
     <message>
         <location line="+8"/>
         <source>Transaction</source>
-        <translation>Tranzacţie</translation>
+        <translation>Tranzac��ie</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1795,7 +1795,7 @@ Address: %4
     <message>
         <location line="+23"/>
         <source>Amount</source>
-        <translation>Sumă</translation>
+        <translation>Sum��</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1810,7 +1810,7 @@ Address: %4
     <message>
         <location line="-209"/>
         <source>, has not been successfully broadcast yet</source>
-        <translation>, nu s-a propagat încă</translation>
+        <translation>, nu s-a propagat ��nc��</translation>
     </message>
     <message numerus="yes">
         <location line="-35"/>
@@ -1828,12 +1828,12 @@ Address: %4
     <message>
         <location filename="../forms/transactiondescdialog.ui" line="+14"/>
         <source>Transaction details</source>
-        <translation>Detaliile tranzacţiei</translation>
+        <translation>Detaliile tranzac��iei</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation>Afişează detalii despre tranzacţie</translation>
+        <translation>Afi��eaz�� detalii despre tranzac��ie</translation>
     </message>
 </context>
 <context>
@@ -1866,22 +1866,22 @@ Address: %4
     <message>
         <location line="+3"/>
         <source>Open until %1</source>
-        <translation>Deschis până la %1</translation>
+        <translation>Deschis p��n�� la %1</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Offline (%1 confirmations)</source>
-        <translation>Neconectat (%1 confirmări)</translation>
+        <translation>Neconectat (%1 confirm��ri)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Unconfirmed (%1 of %2 confirmations)</source>
-        <translation>Neconfirmat (%1 din %2 confirmări)</translation>
+        <translation>Neconfirmat (%1 din %2 confirm��ri)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Confirmed (%1 confirmations)</source>
-        <translation>Confirmat (%1 confirmări)</translation>
+        <translation>Confirmat (%1 confirm��ri)</translation>
     </message>
     <message numerus="yes">
         <location line="+8"/>
@@ -1891,7 +1891,7 @@ Address: %4
     <message>
         <location line="+5"/>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation>Blocul nu a fost recepţionat de niciun alt nod şi e probabil că nu va fi acceptat.</translation>
+        <translation>Blocul nu a fost recep��ionat de niciun alt nod ��i e probabil c�� nu va fi acceptat.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1901,7 +1901,7 @@ Address: %4
     <message>
         <location line="+43"/>
         <source>Received with</source>
-        <translation>Recepţionat cu</translation>
+        <translation>Recep��ionat cu</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1911,12 +1911,12 @@ Address: %4
     <message>
         <location line="+3"/>
         <source>Sent to</source>
-        <translation>Trimis către</translation>
+        <translation>Trimis c��tre</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Payment to yourself</source>
-        <translation>Plată către un cont propriu</translation>
+        <translation>Plat�� c��tre un cont propriu</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1931,27 +1931,27 @@ Address: %4
     <message>
         <location line="+199"/>
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
-        <translation>Starea tranzacţiei. Treceţi cu mouse-ul peste acest câmp pentru afişarea numărului de confirmări.</translation>
+        <translation>Starea tranzac��iei. Trece��i cu mouse-ul peste acest c��mp pentru afi��area num��rului de confirm��ri.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Date and time that the transaction was received.</source>
-        <translation>Data şi ora la care a fost recepţionată tranzacţia.</translation>
+        <translation>Data ��i ora la care a fost recep��ionat�� tranzac��ia.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Type of transaction.</source>
-        <translation>Tipul tranzacţiei.</translation>
+        <translation>Tipul tranzac��iei.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Destination address of transaction.</source>
-        <translation>Adresa de destinaţie a tranzacţiei.</translation>
+        <translation>Adresa de destina��ie a tranzac��iei.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Amount removed from or added to balance.</source>
-        <translation>Suma extrasă sau adăugată la sold.</translation>
+        <translation>Suma extras�� sau ad��ugat�� la sold.</translation>
     </message>
 </context>
 <context>
@@ -1965,12 +1965,12 @@ Address: %4
     <message>
         <location line="-15"/>
         <source>Today</source>
-        <translation>Astăzi</translation>
+        <translation>Ast��zi</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>This week</source>
-        <translation>Săptămâna aceasta</translation>
+        <translation>S��pt��m��na aceasta</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1980,7 +1980,7 @@ Address: %4
     <message>
         <location line="+1"/>
         <source>Last month</source>
-        <translation>Luna trecută</translation>
+        <translation>Luna trecut��</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1990,22 +1990,22 @@ Address: %4
     <message>
         <location line="+1"/>
         <source>Range...</source>
-        <translation>Între...</translation>
+        <translation>��ntre...</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>Received with</source>
-        <translation>Recepţionat cu...</translation>
+        <translation>Recep��ionat cu...</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Sent to</source>
-        <translation>Trimis către</translation>
+        <translation>Trimis c��tre</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>To yourself</source>
-        <translation>Către propriul cont</translation>
+        <translation>C��tre propriul cont</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2020,27 +2020,27 @@ Address: %4
     <message>
         <location line="+7"/>
         <source>Enter address or label to search</source>
-        <translation>Introduceţi adresa sau eticheta pentru căutare</translation>
+        <translation>Introduce��i adresa sau eticheta pentru c��utare</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Min amount</source>
-        <translation>Cantitatea produsă</translation>
+        <translation>Cantitatea produs��</translation>
     </message>
     <message>
         <location line="+34"/>
         <source>Copy address</source>
-        <translation>Copiază adresa</translation>
+        <translation>Copiaz�� adresa</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy label</source>
-        <translation>Copiază eticheta</translation>
+        <translation>Copiaz�� eticheta</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy amount</source>
-        <translation>Copiază sumă</translation>
+        <translation>Copiaz�� sum��</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2050,7 +2050,7 @@ Address: %4
     <message>
         <location line="+1"/>
         <source>Edit label</source>
-        <translation>Editează eticheta</translation>
+        <translation>Editeaz�� eticheta</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2060,12 +2060,12 @@ Address: %4
     <message>
         <location line="+139"/>
         <source>Export Transaction Data</source>
-        <translation>Exportă tranzacţiile</translation>
+        <translation>Export�� tranzac��iile</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Comma separated file (*.csv)</source>
-        <translation>Fişier text cu valori separate prin virgulă (*.csv)</translation>
+        <translation>Fi��ier text cu valori separate prin virgul�� (*.csv)</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -2085,17 +2085,17 @@ Address: %4
     <message>
         <location line="+1"/>
         <source>Label</source>
-        <translation>Etichetă</translation>
+        <translation>Etichet��</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Address</source>
-        <translation>Adresă</translation>
+        <translation>Adres��</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Amount</source>
-        <translation>Sumă</translation>
+        <translation>Sum��</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2105,7 +2105,7 @@ Address: %4
     <message>
         <location line="+4"/>
         <source>Error exporting</source>
-        <translation>Eroare în timpul exportului</translation>
+        <translation>Eroare ��n timpul exportului</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -2120,7 +2120,7 @@ Address: %4
     <message>
         <location line="+8"/>
         <source>to</source>
-        <translation>către</translation>
+        <translation>c��tre</translation>
     </message>
 </context>
 <context>
@@ -2161,7 +2161,7 @@ Address: %4
     <message>
         <location line="+0"/>
         <source>There was an error trying to save the wallet data to the new location.</source>
-        <translation>A apărut o eroare la încercarea de a salva datele din portofel intr-o noua locație.</translation>
+        <translation>A ap��rut o eroare la ��ncercarea de a salva datele din portofel intr-o noua loca��ie.</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -2194,22 +2194,22 @@ Address: %4
     <message>
         <location line="-23"/>
         <source>List commands</source>
-        <translation>Listă de comenzi</translation>
+        <translation>List�� de comenzi</translation>
     </message>
     <message>
         <location line="-12"/>
         <source>Get help for a command</source>
-        <translation>Ajutor pentru o comandă</translation>
+        <translation>Ajutor pentru o comand��</translation>
     </message>
     <message>
         <location line="+24"/>
         <source>Options:</source>
-        <translation>Setări:</translation>
+        <translation>Set��ri:</translation>
     </message>
     <message>
         <location line="+24"/>
         <source>Specify configuration file (default: bitcoin.conf)</source>
-        <translation>Specifica-ți configurația fisierului (in mod normal: bitcoin.conf)</translation>
+        <translation>Specifica-��i configura��ia fisierului (in mod normal: bitcoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2234,7 +2234,7 @@ Address: %4
     <message>
         <location line="+5"/>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
-        <translation>Se menține la cele mai multe conexiuni &lt;n&gt; cu colegii (implicit: 125)</translation>
+        <translation>Se men��ine la cele mai multe conexiuni &lt;n&gt; cu colegii (implicit: 125)</translation>
     </message>
     <message>
         <location line="-48"/>
@@ -2249,12 +2249,12 @@ Address: %4
     <message>
         <location line="+3"/>
         <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
-        <translation>Prag pentru deconectarea colegii funcționează corect (implicit: 100)</translation>
+        <translation>Prag pentru deconectarea colegii func��ioneaz�� corect (implicit: 100)</translation>
     </message>
     <message>
         <location line="-134"/>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
-        <translation>Numărul de secunde pentru a păstra colegii funcționează corect la reconectare (implicit: 86400)</translation>
+        <translation>Num��rul de secunde pentru a p��stra colegii func��ioneaz�� corect la reconectare (implicit: 86400)</translation>
     </message>
     <message>
         <location line="-29"/>
@@ -2274,7 +2274,7 @@ Address: %4
     <message>
         <location line="+76"/>
         <source>Run in the background as a daemon and accept commands</source>
-        <translation>Ruleaza în background ca un demon și accepta comenzi.</translation>
+        <translation>Ruleaza ��n background ca un demon ��i accepta comenzi.</translation>
     </message>
     <message>
         <location line="+37"/>
@@ -2605,7 +2605,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="+2"/>
         <source>Prepend debug output with timestamp</source>
-        <translation>Copie de ieșire de depanare cu timestamp</translation>
+        <translation>Copie de ie��ire de depanare cu timestamp</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -2620,12 +2620,12 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="+3"/>
         <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation>Trimite urmări / debug info la consola loc de debug.log fișier</translation>
+        <translation>Trimite urm��ri / debug info la consola loc de debug.log fi��ier</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Send trace/debug info to debugger</source>
-        <translation>Trimite urmări / debug info la depanatorul</translation>
+        <translation>Trimite urm��ri / debug info la depanatorul</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -2745,7 +2745,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="-12"/>
         <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>Rescanare lanțul de bloc pentru tranzacțiile portofel lipsă</translation>
+        <translation>Rescanare lan��ul de bloc pentru tranzac��iile portofel lips��</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -2782,7 +2782,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="-91"/>
         <source>Connect through socks proxy</source>
-        <translation>Conectează prin proxy SOCKS</translation>
+        <translation>Conecteaz�� prin proxy SOCKS</translation>
     </message>
     <message>
         <location line="-10"/>
@@ -2792,7 +2792,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="+55"/>
         <source>Loading addresses...</source>
-        <translation>Încarc adrese...</translation>
+        <translation>��ncarc adrese...</translation>
     </message>
     <message>
         <location line="-35"/>
@@ -2857,7 +2857,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="+10"/>
         <source>Loading block index...</source>
-        <translation>Încarc indice bloc...</translation>
+        <translation>��ncarc indice bloc...</translation>
     </message>
     <message>
         <location line="-57"/>
@@ -2869,7 +2869,7 @@ details suggestions history
     <message>
         <location line="-25"/>
         <source>Unable to bind to %s on this computer. Bitcoin is probably already running.</source>
-        <translation>Imposibilitatea de a lega la% s pe acest computer. Bitcoin este, probabil, deja în execuție.</translation>
+        <translation>Imposibilitatea de a lega la% s pe acest computer. Bitcoin este, probabil, deja ��n execu��ie.</translation>
     </message>
     <message>
         <location line="+64"/>
@@ -2879,7 +2879,7 @@ details suggestions history
     <message>
         <location line="+19"/>
         <source>Loading wallet...</source>
-        <translation>Încarc portofel...</translation>
+        <translation>��ncarc portofel...</translation>
     </message>
     <message>
         <location line="-52"/>
@@ -2899,7 +2899,7 @@ details suggestions history
     <message>
         <location line="-57"/>
         <source>Done loading</source>
-        <translation>Încărcare terminată</translation>
+        <translation>��nc��rcare terminat��</translation>
     </message>
     <message>
         <location line="+82"/>
