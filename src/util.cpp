@@ -981,7 +981,7 @@ static std::string FormatException(std::exception* pex, const char* pszThread)
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "i0coin";
+    const char* pszModule = "ixcoin";
 #endif
     if (pex)
         return strprintf(
@@ -1017,13 +1017,13 @@ void PrintExceptionContinue(std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\I0coin
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\I0coin
-    // Mac: ~/Library/Application Support/I0coin
-    // Unix: ~/.i0coin
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\Ixcoin
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\Ixcoin
+    // Mac: ~/Library/Application Support/Ixcoin
+    // Unix: ~/.ixcoin
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "I0coin";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "Ixcoin";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -1035,10 +1035,10 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     fs::create_directory(pathRet);
-    return pathRet / "I0coin";
+    return pathRet / "Ixcoin";
 #else
     // Unix
-    return pathRet / ".i0coin";
+    return pathRet / ".ixcoin";
 #endif
 #endif
 }
@@ -1079,7 +1079,7 @@ const boost::filesystem::path &GetDataDir(bool fNetSpecific)
 
 boost::filesystem::path GetConfigFile()
 {
-    boost::filesystem::path pathConfigFile(GetArg("-conf", "i0coin.conf"));
+    boost::filesystem::path pathConfigFile(GetArg("-conf", "ixcoin.conf"));
     if (!pathConfigFile.is_complete()) pathConfigFile = GetDataDir(false) / pathConfigFile;
     return pathConfigFile;
 }
@@ -1099,7 +1099,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 
     for (boost::program_options::detail::config_file_iterator it(streamConfig, setOptions), end; it != end; ++it)
     {
-        // Don't overwrite existing settings so command line settings override i0coin.conf
+        // Don't overwrite existing settings so command line settings override ixcoin.conf
         string strKey = string("-") + it->string_key;
         if (mapSettingsRet.count(strKey) == 0)
         {
@@ -1113,7 +1113,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 
 boost::filesystem::path GetPidFile()
 {
-    boost::filesystem::path pathPidFile(GetArg("-pid", "i0coind.pid"));
+    boost::filesystem::path pathPidFile(GetArg("-pid", "ixcoind.pid"));
     if (!pathPidFile.is_complete()) pathPidFile = GetDataDir() / pathPidFile;
     return pathPidFile;
 }
@@ -1338,7 +1338,7 @@ void AddTimeData(const CNetAddr& ip, int64 nTime)
                 if (!fMatch)
                 {
                     fDone = true;
-                    string strMessage = _("Warning: Please check that your computer's date and time are correct! If your clock is wrong I0coin will not work properly.");
+                    string strMessage = _("Warning: Please check that your computer's date and time are correct! If your clock is wrong Ixcoin will not work properly.");
                     strMiscWarning = strMessage;
                     printf("*** %s\n", strMessage.c_str());
                     uiInterface.ThreadSafeMessageBox(strMessage, "", CClientUIInterface::MSG_WARNING);

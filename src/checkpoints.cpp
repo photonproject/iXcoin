@@ -35,22 +35,16 @@ namespace Checkpoints
     // + Contains no strange transactions
     static MapCheckpoints mapCheckpoints =
         boost::assign::map_list_of
-	// before block 14640, the retarget period in I0coin was 1 week
+	// before block 14640, the retarget period in Ixcoin was 1 week
 	// the function ComputeMinWork uses the current retarget period
 	// of 3 hours, this is no problem UNLESS someone adds a checkpoint before
 	// block 14640, should be no problem....
-	(  36180, uint256("0x0000000000635e5e1a8027383f028f4c666f9e20f4f90968ba8bf7ba8431c71f"))
-	( 127360, uint256("0x000000000330be69aa359cb69896554c0dfcd9d76b5415d526708ed737bfe0b6"))
-	( 131130, uint256("0x0000000000853272e70ba9aafe9f685c186a7ba3aa57d2ddba7c44c6a25efe09"))
-	( 136800, uint256("0x0000000000c8c592fce349ed8cf7eba3113f3c243c9e1cbe27fb6166cc4ffa00"))
-	( 142900, uint256("0x00000000005eb49db6f29a6aae382b7a8e9a109aba42e536e6d74b95aba4dffd"))
-	( 155000, uint256("0x0000000000041a6bc4cd419ed90a6bb1dbf8df8a587d162504dba9ae84a4418c"))
-	( 161000, uint256("0x601581f84984f86f5c4d080b2e32bd1c4da4061730fd9bc6b4ce08c65b30c4bd"))
-	( 367000, uint256("0xb619876887c0baac0aca8cef5eea23869bce693b8629fb6b62d8b529cd216586"))
-	( 837000, uint256("0x421c7a8246ed2759191beff61c46897c0787779cfd174ba53b01f6e5b5ab6ff1"))
+	// seems to be missing one digit!
+	
+	(  4500,  uint256("0x00000000de37be98ca45cf0613fa2a321eba28e237543f9fee9b6a7605d03a94"))
 	;
 
-    /* i0coin had not testnet checkblocks, if they even start to exist, they can be added here */
+    /* ixcoin had not testnet checkblocks, if they even start to exist, they can be added here */
     static MapCheckpoints mapCheckpointsTestnet; // = 
         //boost::assign::map_list_of
 	// ( insert testnet checkpoints here, just like above )
@@ -58,10 +52,10 @@ namespace Checkpoints
         ;
     static const CCheckpointData data = {
         &mapCheckpoints,
-        1363044259, // * UNIX timestamp of last checkpoint block
-        14264869,   // * total number of transactions between genesis and last checkpoint
+        1375749122, // * UNIX timestamp of last checkpoint block
+        936858,     // * total number of transactions between genesis and last checkpoint
                     //   (the tx=... number in the SetBestChain debug.log lines)
-        60000.0     // * estimated number of transactions per day after checkpoint
+        1000.0      // * estimated number of transactions per day after checkpoint
     };
 
     static const CCheckpointData dataTestnet = {

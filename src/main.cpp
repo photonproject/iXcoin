@@ -32,7 +32,7 @@ CTxMemPool mempool;
 unsigned int nTransactionsUpdated = 0;
 
 map<uint256, CBlockIndex*> mapBlockIndex;
-uint256 hashGenesisBlock("0x00000000de13b7f748fb214e3f9c284fe6a57e1559fee545bfe473f72599c0d1");
+uint256 hashGenesisBlock("0x0000000001534ef8893b025b9c1da67250285e35c9f76cae36a4904fdf72c591");// ixcoin
 static CBigNum bnProofOfWorkLimit(~uint256(0) >> 32);
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
@@ -59,13 +59,13 @@ CMedianFilter<int> cPeerBlockCounts(8, 0); // Amount of blocks that other nodes 
 map<uint256, CBlock*> mapOrphanBlocks;
 multimap<uint256, CBlock*> mapOrphanBlocksByPrev;
 
-map<uint256, CDataStream*> mapOrphanTransactions;
-map<uint256, map<uint256, CDataStream*> > mapOrphanTransactionsByPrev;
+map<uint256, CTransaction> mapOrphanTransactions;
+map<uint256, set<uint256> > mapOrphanTransactionsByPrev;
 
 // Constant stuff for coinbase transactions we create:
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "I0coin Signed Message:\n";
+const string strMessageMagic = "Ixcoin Signed Message:\n";
 
 double dHashesPerSec = 0.0;
 int64 nHPSTimerStart = 0;
@@ -284,15 +284,11 @@ CBlockTreeDB *pblocktree = NULL;
 // mapOrphanTransactions
 //
 
-bool AddOrphanTx(const CDataStream& vMsg)
+bool AddOrphanTx(const CTransaction& tx)
 {
-    CTransaction tx;
-    CDataStream(vMsg) >> tx;
     uint256 hash = tx.GetHash();
     if (mapOrphanTransactions.count(hash))
         return false;
-
-    CDataStream* pvMsg = new CDataStream(vMsg);
 
     // Ignore big transactions, to avoid a
     // send-big-orphans memory exhaustion attack. If a peer has a legitimate
@@ -301,16 +297,16 @@ bool AddOrphanTx(const CDataStream& vMsg)
     // have been mined or received.
     // 10,000 orphans, each of which is at most 5,000 bytes big is
     // at most 500 megabytes of orphans:
-    if (pvMsg->size() > 5000)
+    unsigned int sz = tx.GetSerializeSize(SER_NETWORK, CTransaction::CURRENT_VERSION);
+    if (sz > 5000)
     {
-        printf("ignoring large orphan tx (size: %"PRIszu", hash: %s)\n", pvMsg->size(), hash.ToString().c_str());
-        delete pvMsg;
+        printf("ignoring large orphan tx (size: %u, hash: %s)\n", sz, hash.ToString().c_str());
         return false;
     }
 
-    mapOrphanTransactions[hash] = pvMsg;
+    mapOrphanTransactions[hash] = tx;
     BOOST_FOREACH(const CTxIn& txin, tx.vin)
-        mapOrphanTransactionsByPrev[txin.prevout.hash].insert(make_pair(hash, pvMsg));
+        mapOrphanTransactionsByPrev[txin.prevout.hash].insert(hash);
 
     printf("stored orphan tx %s (mapsz %"PRIszu")\n", hash.ToString().c_str(),
         mapOrphanTransactions.size());
@@ -321,16 +317,13 @@ void static EraseOrphanTx(uint256 hash)
 {
     if (!mapOrphanTransactions.count(hash))
         return;
-    const CDataStream* pvMsg = mapOrphanTransactions[hash];
-    CTransaction tx;
-    CDataStream(*pvMsg) >> tx;
+    const CTransaction& tx = mapOrphanTransactions[hash];
     BOOST_FOREACH(const CTxIn& txin, tx.vin)
     {
         mapOrphanTransactionsByPrev[txin.prevout.hash].erase(hash);
         if (mapOrphanTransactionsByPrev[txin.prevout.hash].empty())
             mapOrphanTransactionsByPrev.erase(txin.prevout.hash);
     }
-    delete pvMsg;
     mapOrphanTransactions.erase(hash);
 }
 
@@ -341,7 +334,7 @@ unsigned int LimitOrphanTxSize(unsigned int nMaxOrphans)
     {
         // Evict a random orphan:
         uint256 randomhash = GetRandHash();
-        map<uint256, CDataStream*>::iterator it = mapOrphanTransactions.lower_bound(randomhash);
+        map<uint256, CTransaction>::iterator it = mapOrphanTransactions.lower_bound(randomhash);
         if (it == mapOrphanTransactions.end())
             it = mapOrphanTransactions.begin();
         EraseOrphanTx(it->first);
@@ -376,7 +369,7 @@ bool CTxOut::IsDust() const
 
 bool CTransaction::IsStandard() const
 {
-    if (nVersion > CTransaction::CURRENT_VERSION)
+    if (nVersion > CTransaction::CURRENT_VERSION || nVersion < 1)
         return false;
 
     if (!IsFinal())
@@ -825,7 +818,7 @@ bool CTransaction::AcceptToMemoryPool(CValidationState &state, bool fCheckInputs
     }
 }
 
-bool CTxMemPool::addUnchecked(const uint256& hash, CTransaction &tx)
+bool CTxMemPool::addUnchecked(const uint256& hash, const CTransaction &tx)
 {
     // Add to memory pool without checking anything.  Don't call this directly,
     // call CTxMemPool::accept to properly check the transaction first.
@@ -845,15 +838,15 @@ bool CTxMemPool::remove(const CTransaction &tx, bool fRecursive)
     {
         LOCK(cs);
         uint256 hash = tx.GetHash();
+        if (fRecursive) {
+            for (unsigned int i = 0; i < tx.vout.size(); i++) {
+                std::map<COutPoint, CInPoint>::iterator it = mapNextTx.find(COutPoint(hash, i));
+                if (it != mapNextTx.end())
+                    remove(*it->second.ptx, true);
+            }
+        }
         if (mapTx.count(hash))
         {
-            if (fRecursive) {
-                for (unsigned int i = 0; i < tx.vout.size(); i++) {
-                    std::map<COutPoint, CInPoint>::iterator it = mapNextTx.find(COutPoint(hash, i));
-                    if (it != mapNextTx.end())
-                        remove(*it->second.ptx, true);
-                }
-            }
             BOOST_FOREACH(const CTxIn& txin, tx.vin)
                 mapNextTx.erase(txin.prevout);
             mapTx.erase(hash);
@@ -1080,17 +1073,21 @@ uint256 static GetOrphanRoot(const CBlockHeader* pblock)
 
 int64 static GetBlockValue(int nHeight, int64 nFees)
 {
-    int64 nSubsidy = 48 * COIN;
+    int64 nSubsidy = 96 * COIN;
 
     // Subsidy is cut in half every 218750 blocks, which will occur approximately every 4 years
-    nSubsidy >>= (nHeight / 218750);
+    nSubsidy >>= (nHeight / 210000);
+
+    //Hard limit to 21M Ixcoins
+    if (nHeight >= 227499)
+    		nSubsidy = 0;
 
     return nSubsidy + nFees;
 }
 
-static const int64 nTargetTimespan = 3 * 60 * 60; // 3 hours
-static const int64 nTargetSpacing = 90;    //1.5 minute blocks
-static const int64 nInterval = nTargetTimespan / nTargetSpacing;  //120 block retarget
+static const int64 nTargetTimespan = 14 * 24 * 60 * 60; // two weeks
+static const int64 nTargetSpacing = 10 * 60;
+static const int64 nInterval = nTargetTimespan / nTargetSpacing;
 
 //
 // minimum amount of work that could possibly be required nTime after
@@ -1100,6 +1097,11 @@ static const int64 nInterval = nTargetTimespan / nTargetSpacing;  //120 block re
 // will not yield correct answers
 unsigned int ComputeMinWork(unsigned int nBase, int64 nTime)
 {
+    // Testnet has min-difficulty blocks
+    // after nTargetSpacing*2 time between blocks:
+    if (fTestNet && nTime > nTargetSpacing*2)
+        return bnProofOfWorkLimit.GetCompact();
+
     CBigNum bnResult;
     bnResult.SetCompact(nBase);
     while (nTime > 0 && bnResult < bnProofOfWorkLimit)
@@ -1178,6 +1180,90 @@ unsigned int static GetNextWorkRequired_OLD(const CBlockIndex* pindexLast)
     return bnNew.GetCompact();
 }
 
+
+unsigned int static GetNextWorkRequired_IXC(const CBlockIndex* pindexLast)
+{
+    int64 nTargetTimespan = 14 * 24 * 60 * 60; // two weeks
+	bool revisedIxcoin = pindexLast->nHeight+1 > 20055; //next normal target: 20160
+	if (revisedIxcoin) nTargetTimespan = 24 * 60 * 60; //24 hours i.e. 144 blocks
+
+	const int64 nTargetSpacing = 10 * 60;
+    const int64 nInterval = nTargetTimespan / nTargetSpacing;
+
+    // Genesis block
+    if (pindexLast == NULL)
+        return bnProofOfWorkLimit.GetCompact();
+
+    const int height = pindexLast->nHeight + 1;
+
+    // Only change once per interval
+    if (height % nInterval != 0)
+        return pindexLast->nBits;
+
+    // This fixes an issue where a 51% attack can change difficulty at will.
+    // Go back the full period unless it's the first retarget after genesis. Code courtesy of Art Forz
+    // Patch modified from Litecoin.
+    int blockstogoback = nInterval-1;
+    if (height >= 43000 && height != nInterval)
+        blockstogoback = nInterval;
+
+    // Go back by what we want to be 14 days worth of blocks
+    const CBlockIndex* pindexFirst = pindexLast;
+    for (int i = 0; pindexFirst && i < blockstogoback; i++)
+       pindexFirst = pindexFirst->pprev;
+    assert(pindexFirst);
+
+    // Limit adjustment step
+    int64 nActualTimespan = pindexLast->GetBlockTime() - pindexFirst->GetBlockTime();
+    //printf("  nActualTimespan = %"PRI64d"  before bounds\n", nActualTimespan);
+    if (!revisedIxcoin) {
+		if (nActualTimespan < nTargetTimespan/4)
+	        nActualTimespan = nTargetTimespan/4;
+	    if (nActualTimespan > nTargetTimespan*4)
+	        nActualTimespan = nTargetTimespan*4;
+	}
+	else {
+	    //Altered version of SolidCoin.info retargetting code
+		int64 nTwoPercent = nTargetTimespan/50;
+	    //printf("  nActualTimespan = %"PRI64d"  before bounds\n", nActualTimespan);
+
+	    if (nActualTimespan < nTargetTimespan)  //is time taken for a block less than 10minutes?
+	    {
+	         //limit increase to a much lower amount than dictates to get past the pump-n-dump mining phase
+	        //due to retargets being done more often it also needs to be lowered significantly from the 4x increase
+	        if(nActualTimespan<(nTwoPercent*16)) //less than ~3.2 minute?
+	            nActualTimespan=(nTwoPercent*45); //pretend it was only 10% faster than desired
+	        else if(nActualTimespan<(nTwoPercent*32)) //less than ~6.4 minutes?
+	            nActualTimespan=(nTwoPercent*47); //pretend it was only 6% faster than desired
+	        else
+	            nActualTimespan=(nTwoPercent*49); //pretend it was only 2% faster than desired
+
+	        //int64 nTime=nTargetTimespan-nActualTimespan;
+	        //nActualTimespan = nTargetTimespan/2;
+	    }
+	    else if (nActualTimespan > nTargetTimespan*4)   nActualTimespan = nTargetTimespan*4;
+	}
+
+    // Retarget
+    CBigNum bnNew;
+    bnNew.SetCompact(pindexLast->nBits);
+    bnNew *= nActualTimespan;
+    bnNew /= nTargetTimespan;
+
+    if (bnNew > bnProofOfWorkLimit)
+        bnNew = bnProofOfWorkLimit;
+
+    /// debug print
+    printf("GetNextWorkRequired RETARGET\n");
+    printf("nTargetTimespan = %"PRI64d"    nActualTimespan = %"PRI64d"\n", nTargetTimespan, nActualTimespan);
+    printf("Before: %08x  %s\n", pindexLast->nBits, CBigNum().SetCompact(pindexLast->nBits).getuint256().ToString().c_str());
+    printf("After:  %08x  %s\n", bnNew.GetCompact(), bnNew.getuint256().ToString().c_str());
+
+    return bnNew.GetCompact();
+}
+
+
+
 //blatantly stolen from SolidCoin
 unsigned int static GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHeader *pblock)
 {
@@ -1191,9 +1277,9 @@ unsigned int static GetNextWorkRequired(const CBlockIndex* pindexLast, const CBl
     const int height = pindexLast->nHeight + 1;
 
 //okay, maybe not this line
-    if (height < 14640)
-       return GetNextWorkRequired_OLD(pindexLast);
-   //hardcoded switch to 256.0 difficulty at block 14639
+    if (height > 0 ) // perform the IXC version always
+       return GetNextWorkRequired_IXC(pindexLast);
+   //hardcoded switch to 256.0 difficulty at block 14639 @TODO - when to change
    if (height == 14640)
        return 0x1C00FFFF;
 
@@ -1236,24 +1322,52 @@ unsigned int static GetNextWorkRequired(const CBlockIndex* pindexLast, const CBl
 
     // Limit adjustment step
     int64 nActualTimespan = pindexLast->GetBlockTime() - pindexFirst->GetBlockTime();
-    int64 nTwoPercent = nTargetTimespan/50;
     //printf("  nActualTimespan = %"PRI64d"  before bounds\n", nActualTimespan);
 
-    if (nActualTimespan < nTargetTimespan)  //is time taken for a block less than 3minutes?
-    {
-         //limit increase to a much lower amount than dictates to get past the pump-n-dump mining phase
-        //due to retargets being done more often it also needs to be lowered significantly from the 4x increase
-        if(nActualTimespan<(nTwoPercent*16)) //less than a minute?
-            nActualTimespan=(nTwoPercent*45); //pretend it was only 10% faster than desired
-        else if(nActualTimespan<(nTwoPercent*32)) //less than 2 minutes?
-            nActualTimespan=(nTwoPercent*47); //pretend it was only 6% faster than desired
-        else
-            nActualTimespan=(nTwoPercent*49); //pretend it was only 2% faster than desired
+    // assymmetric retarget (slow difficulty rise / fast difficulty drop) can be
+    // abused to make a 51% attack more profitable than it should be,
+    // therefore we adopt (starting at block 895000) a symmetric algorithm based
+    // on bitcoin's algorithm.
+    //
+    // we retarget at most by a factor of 4^(120/2016) = 1.086
 
-        //int64 nTime=nTargetTimespan-nActualTimespan;
-        //nActualTimespan = nTargetTimespan/2;
+    if (height < 895000) {  // use the old retarget algorithm
+    	int64 nTwoPercent = nTargetTimespan/50;
+    	if (nActualTimespan < nTargetTimespan)  //is time taken for a block less than 3minutes?
+    	{
+            //limit increase to a much lower amount than dictates to get past the pump-n-dump mining phase
+            //due to retargets being done more often it also needs to be lowered significantly from the 4x increase
+            if(nActualTimespan<(nTwoPercent*16)) //less than a minute?
+               nActualTimespan=(nTwoPercent*45); //pretend it was only 10% faster than desired
+            else if(nActualTimespan<(nTwoPercent*32)) //less than 2 minutes?
+                nActualTimespan=(nTwoPercent*47); //pretend it was only 6% faster than desired
+            else
+                nActualTimespan=(nTwoPercent*49); //pretend it was only 2% faster than desired
+
+            //int64 nTime=nTargetTimespan-nActualTimespan;
+            //nActualTimespan = nTargetTimespan/2;
+        }
+        else if (nActualTimespan > nTargetTimespan*4)   nActualTimespan = nTargetTimespan*4;
+    } else { // new algorithm
+        // use integer aritmmetic to make sure that
+        // all architectures return the exact same answers,
+        // so instead of:
+        //
+        //  foo < bar/1.086     we do   foo < (1000*bar)/1086
+        //  foo = bar/1.086     we do   foo = (1000*bar)/1086 
+        //  foo > bar*1.086     we do   foo > (1086*bar)/1000
+        //  foo = bar*1.086     we do   foo = (1086*bar)/1000 
+        //
+        // (parentheses to stress desired operator precedence)
+        //
+        // risk of overflow? no way; bar is quite small and
+        // we have it under control, it is defined as 3*60*60
+
+        if (nActualTimespan < (1000*nTargetTimespan)/1086)
+            nActualTimespan = (1000*nTargetTimespan)/1086;
+        else if (nActualTimespan > (1086*nTargetTimespan)/1000)
+            nActualTimespan = (1086*nTargetTimespan)/1000;
     }
-    else if (nActualTimespan > nTargetTimespan*4)   nActualTimespan = nTargetTimespan*4;
 
     // Retarget
     CBigNum bnNew;
@@ -1274,6 +1388,8 @@ unsigned int static GetNextWorkRequired(const CBlockIndex* pindexLast, const CBl
     return bnNew.GetCompact();
 }
 
+
+
 bool CheckProofOfWork(uint256 hash, unsigned int nBits)
 {
     CBigNum bnTarget;
@@ -1290,6 +1406,7 @@ bool CheckProofOfWork(uint256 hash, unsigned int nBits)
     return true;
 }
 
+// Return maximum amount of blocks that other nodes claim to have
 int GetNumBlocksOfPeers()
 {
     return std::max(cPeerBlockCounts.median(), Checkpoints::GetTotalBlocksEstimate());
@@ -1609,6 +1726,11 @@ bool CBlock::DisconnectBlock(CValidationState &state, CBlockIndex *pindex, CCoin
         CCoins &outs = view.GetCoins(hash);
 
         CCoins outsBlock = CCoins(tx, pindex->nHeight);
+        // The CCoins serialization does not serialize negative numbers.
+        // No network rules currently depend on the version here, so an inconsistency is harmless
+        // but it must be corrected before txout nversion ever influences a network rule.
+        if (outsBlock.nVersion < 0)
+            outs.nVersion = outsBlock.nVersion;
         if (outs != outsBlock)
             fClean = fClean && error("DisconnectBlock() : added transaction mismatch? database corrupted");
 
@@ -1721,8 +1843,9 @@ bool CBlock::ConnectBlock(CValidationState &state, CBlockIndex* pindex, CCoinsVi
     //
     // This rule applies to all Bitcoin blocks whose timestamp is after March 15, 2012, 0:00 UTC.
     //
-    // When should this happen in i0coin? Not yet...
-    int64 nBIP30SwitchTime = 0x7fffffffffffffffLL;
+    // BIP30 for Ixcoin will go into effect on 2013-09-01 0:00 UTC
+    // date -d "2013-09-01 0:00 UTC" +"%s"
+    int64 nBIP30SwitchTime = 1377993600;
     bool fEnforceBIP30 = (pindex->nTime > nBIP30SwitchTime);
 
     // after BIP30 is enabled for some time, we could make the same change
@@ -1742,8 +1865,9 @@ bool CBlock::ConnectBlock(CValidationState &state, CBlockIndex* pindex, CCoinsVi
         }
     }
 
-    // when will BIP16 be active in I0C? I have no clue. Set it to INT64_MAX for now.
-    int64 nBIP16SwitchTime = 0x7fffffffffffffffLL; //from Bitcoin: 1333238400;
+    // BIP16 will be enabled for Ixcoin on 2013-09-01 0:00 UTC
+    // date -d "2013-09-01 0:00 UTC" +"%s"
+    int64 nBIP16SwitchTime = 1377993600;
     bool fStrictPayToScriptHash = (pindex->nTime >= nBIP16SwitchTime);
 
     unsigned int flags = SCRIPT_VERIFY_NOCACHE |
@@ -1889,7 +2013,7 @@ bool SetBestChain(CValidationState &state, CBlockIndex* pindexNew)
     }
 
     // Disconnect shorter branch
-    vector<CTransaction> vResurrect;
+    list<CTransaction> vResurrect;
     BOOST_FOREACH(CBlockIndex* pindex, vDisconnect) {
         CBlock block;
         if (!block.ReadFromDisk(pindex))
@@ -1903,9 +2027,9 @@ bool SetBestChain(CValidationState &state, CBlockIndex* pindexNew)
         // Queue memory transactions to resurrect.
         // We only do this for blocks after the last checkpoint (reorganisation before that
         // point should only happen with -reindex/-loadblock, or a misbehaving peer.
-        BOOST_FOREACH(const CTransaction& tx, block.vtx)
+        BOOST_REVERSE_FOREACH(const CTransaction& tx, block.vtx)
             if (!tx.IsCoinBase() && pindex->nHeight > Checkpoints::GetTotalBlocksEstimate())
-                vResurrect.push_back(tx);
+                vResurrect.push_front(tx);
     }
 
     // Connect longer branch
@@ -1971,7 +2095,8 @@ bool SetBestChain(CValidationState &state, CBlockIndex* pindexNew)
     BOOST_FOREACH(CTransaction& tx, vResurrect) {
         // ignore validation errors in resurrected transactions
         CValidationState stateDummy;
-        tx.AcceptToMemoryPool(stateDummy, true, false);
+        if (!tx.AcceptToMemoryPool(stateDummy, true, false))
+            mempool.remove(tx, true);
     }
 
     // Delete redundant memory transactions that are in the connected branch
@@ -2093,12 +2218,12 @@ int GetAuxPowStartBlock()
     if (fTestNet)
         return 0; // Always on testnet
     else
-        return 160000; // Never on prodnet
+        return 45000; // Never on prodnet
 }
 
 int GetOurChainID()
 {
-    return 0x0002;
+    return 0x0003; //ixcoin
 }
  
 bool CBlockHeader::CheckProofOfWork(int nHeight) const
@@ -2247,9 +2372,9 @@ bool CBlock::CheckBlock(CValidationState &state, int nHeight, bool fCheckPOW, bo
     // Bitcoin had a chain split because of incompatible changes in 0.8.x
     // old releases had some difficulty with large blocks with many transactions
     //
-    // for now, in I0coin, we enforce BDB limits to keep the chain from splitting
-    // Special short-term limits to avoid 10,000 BDB lock limit:
-    if (true)
+    // on 2013-09-01 0:00 UTC we will stop enforcing BDB limits
+    // date -d "2013-09-01 0:00 UTC" +"%s"
+    if (GetBlockTime() < 1377993600)
     {
         // Rule is: #unique txids referenced <= 4,500
         // ... to prevent 10,000 BDB lock exhaustion on old clients
@@ -2271,7 +2396,7 @@ bool CBlock::CheckBlock(CValidationState &state, int nHeight, bool fCheckPOW, bo
         return state.DoS(50, error("CheckBlock() : proof of work failed"));
 
     // Check timestamp
-    if (GetBlockTime() > GetAdjustedTime() + 5 * 60) // 5 min
+    if (GetBlockTime() > GetAdjustedTime() + 2 * 60 * 60)
         return state.Invalid(error("CheckBlock() : block timestamp too far in the future"));
 
     // First transaction must be coinbase, the rest must not be
@@ -2349,6 +2474,9 @@ bool CBlock::AcceptBlock(CValidationState &state, CDiskBlockPos *dbp)
         if (!Checkpoints::CheckBlock(nHeight, hash))
             return state.DoS(100, error("AcceptBlock() : rejected by checkpoint lock-in at %d", nHeight));
 
+	// Ixcoin currently doesn't enforce 2 blocks, since merged mining
+	// produces v1 blocks and normal mining should produce v2 blocks.
+#if 0
         // Reject block.nVersion=1 blocks when 95% (75% on testnet) of the network has upgraded:
         if ((nVersion&0xff) < 2)
         {
@@ -2366,10 +2494,12 @@ bool CBlock::AcceptBlock(CValidationState &state, CDiskBlockPos *dbp)
                 (fTestNet && CBlockIndex::IsSuperMajority(2, pindexPrev, 51, 100)))
             {
                 CScript expect = CScript() << nHeight;
-                if (!std::equal(expect.begin(), expect.end(), vtx[0].vin[0].scriptSig.begin()))
+                if (vtx[0].vin[0].scriptSig.size() < expect.size() ||
+                    !std::equal(expect.begin(), expect.end(), vtx[0].vin[0].scriptSig.begin()))
                     return state.DoS(100, error("AcceptBlock() : block height mismatch in coinbase"));
             }
         }
+#endif
     }
 
     // Write block to history file
@@ -2882,15 +3012,25 @@ void UnloadBlockIndex()
 
 bool LoadBlockIndex()
 {
-    if (fTestNet)
-    {
-        bnProofOfWorkLimit = CBigNum(~uint256(0) >> 28); // introduce POWlimit from Bitcoin, good?
-        pchMessageStart[0] = 0x0b;
-        pchMessageStart[1] = 0x11;
-        pchMessageStart[2] = 0x09;
-        pchMessageStart[3] = 0x07;
-        hashGenesisBlock = uint256("000000000933ea01ad0ee984209779baaec3ced90fa3f408719526f8d77f4943");
-    }
+
+	 //Keep using bitcoin messageStart until switch-over date
+	if (GetAdjustedTime() < 1314835971) { //09/01/11 00:12:51
+			pchMessageStart[0] = 0xf9;
+			pchMessageStart[1] = 0xbe;
+			pchMessageStart[2] = 0xb4;
+			pchMessageStart[3] = 0xd9;
+	  }
+
+	if (fTestNet)
+	    {
+	        hashGenesisBlock = uint256("0x00000007199508e34a9ff81e6ec0c477a4cccff2a4767a8eee39c11db367b008");
+	        bnProofOfWorkLimit = CBigNum(~uint256(0) >> 28);
+	        pchMessageStart[0] = 0xfa;
+	        pchMessageStart[1] = 0xbf;
+	        pchMessageStart[2] = 0xb6;
+	        pchMessageStart[3] = 0xdb;
+	    }
+
 
     //
     // Load block index from databases
@@ -2922,35 +3062,35 @@ bool InitBlockIndex() {
 	//  vMerkleTree: 764fc5f8e5
 
         // Genesis block
-        const char* pszTimestamp = "15/Ago/2011 - Diario El Dia - Obama cae al 39% en la aprobaci\xf3n ciudadana";
-
+        const char* pszTimestamp = "To see the farm is to leave it";
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
         txNew.vin[0].scriptSig = CScript() << 486604799 << CBigNum(4) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
-        txNew.vout[0].nValue = 48 * COIN;
-        txNew.vout[0].scriptPubKey = CScript() << ParseHex("04678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb649f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6bf11d5f") << OP_CHECKSIG;
+        txNew.vout[0].nValue = 50 * COIN;
+        txNew.vout[0].scriptPubKey = CScript() << ParseHex("04678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb649f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6bf11984") << OP_CHECKSIG;
         CBlock block;
         block.vtx.push_back(txNew);
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1313457620;  
+        block.nTime    = 1304113447;  
         block.nBits    = 0x1d00ffff;
-        block.nNonce   = 2831549010;
+        block.nNonce   = 2245271137; 
 
         if (fTestNet)
         {
-            block.nTime    = 1313519902;
-            block.nNonce   = 350784103;
+            block.nTime    = 1296688602; //ixcoin should have different from bitcoin
+            block.nNonce   = 414098458;
         }
+
 
         //// debug print
         uint256 hash = block.GetHash();
         printf("%s\n", hash.ToString().c_str());
         printf("%s\n", hashGenesisBlock.ToString().c_str());
         printf("%s\n", block.hashMerkleRoot.ToString().c_str());
-        assert(block.hashMerkleRoot == uint256("0x764fc5f8e5c2ef66fd00f815348d965b80a852800379e20e9336ecaa68864034"));
+        assert(block.hashMerkleRoot == uint256("0xcb3ae7b867c97ceb834c5d131355cd4bc176a44360fede9ed6d47b897397ba3f")); 
         block.print();
         assert(hash == hashGenesisBlock);
 
@@ -3223,7 +3363,7 @@ bool static AlreadyHave(const CInv& inv)
 // The message start string is designed to be unlikely to occur in normal data.
 // The characters are rarely used upper ASCII, not valid as UTF-8, and produce
 // a large 4-byte int at any alignment.
-unsigned char pchMessageStart[4] = { 0xf1, 0xb2, 0xb3, 0xd4 };
+unsigned char pchMessageStart[4] = { 0xf1, 0xba, 0xb6, 0xdb }; //new ixcoin
 
 
 void static ProcessGetData(CNode* pfrom)
@@ -3684,21 +3824,11 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv)
         CInv inv(MSG_TX, tx.GetHash());
         pfrom->AddInventoryKnown(inv);
 
-        // Truncate messages to the size of the tx in them
-        unsigned int nSize = ::GetSerializeSize(tx, SER_NETWORK, PROTOCOL_VERSION);
-        unsigned int oldSize = vMsg.size();
-        if (nSize < oldSize) {
-            vMsg.resize(nSize);
-            printf("truncating oversized TX %s (%u -> %u)\n",
-                   tx.GetHash().ToString().c_str(),
-                   oldSize, nSize);
-        }
-
         bool fMissingInputs = false;
         CValidationState state;
         if (tx.AcceptToMemoryPool(state, true, true, &fMissingInputs))
         {
-            RelayTransaction(tx, inv.hash, vMsg);
+            RelayTransaction(tx, inv.hash);
             mapAlreadyAskedFor.erase(inv);
             vWorkQueue.push_back(inv.hash);
             vEraseQueue.push_back(inv.hash);
@@ -3707,31 +3837,31 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv)
             for (unsigned int i = 0; i < vWorkQueue.size(); i++)
             {
                 uint256 hashPrev = vWorkQueue[i];
-                for (map<uint256, CDataStream*>::iterator mi = mapOrphanTransactionsByPrev[hashPrev].begin();
+                for (set<uint256>::iterator mi = mapOrphanTransactionsByPrev[hashPrev].begin();
                      mi != mapOrphanTransactionsByPrev[hashPrev].end();
                      ++mi)
                 {
-                    const CDataStream& vMsg = *((*mi).second);
-                    CTransaction tx;
-                    CDataStream(vMsg) >> tx;
-                    CInv inv(MSG_TX, tx.GetHash());
+                    const uint256& orphanHash = *mi;
+                    const CTransaction& orphanTx = mapOrphanTransactions[orphanHash];
                     bool fMissingInputs2 = false;
-                    // Use a dummy CValidationState so someone can't setup nodes to counter-DoS based on orphan resolution (that is, feeding people an invalid transaction based on LegitTxX in order to get anyone relaying LegitTxX banned)
+                    // Use a dummy CValidationState so someone can't setup nodes to counter-DoS based on orphan
+                    // resolution (that is, feeding people an invalid transaction based on LegitTxX in order to get
+                    // anyone relaying LegitTxX banned)
                     CValidationState stateDummy;
 
                     if (tx.AcceptToMemoryPool(stateDummy, true, true, &fMissingInputs2))
                     {
-                        printf("   accepted orphan tx %s\n", inv.hash.ToString().c_str());
-                        RelayTransaction(tx, inv.hash, vMsg);
-                        mapAlreadyAskedFor.erase(inv);
-                        vWorkQueue.push_back(inv.hash);
-                        vEraseQueue.push_back(inv.hash);
+                        printf("   accepted orphan tx %s\n", orphanHash.ToString().c_str());
+                        RelayTransaction(orphanTx, orphanHash);
+                        mapAlreadyAskedFor.erase(CInv(MSG_TX, orphanHash));
+                        vWorkQueue.push_back(orphanHash);
+                        vEraseQueue.push_back(orphanHash);
                     }
                     else if (!fMissingInputs2)
                     {
                         // invalid or too-little-fee orphan
-                        vEraseQueue.push_back(inv.hash);
-                        printf("   removed orphan tx %s\n", inv.hash.ToString().c_str());
+                        vEraseQueue.push_back(orphanHash);
+                        printf("   removed orphan tx %s\n", orphanHash.ToString().c_str());
                     }
                 }
             }
@@ -3741,7 +3871,7 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv)
         }
         else if (fMissingInputs)
         {
-            AddOrphanTx(vMsg);
+            AddOrphanTx(tx);
 
             // DoS prevention: do not allow mapOrphanTransactions to grow unbounded
             unsigned int nEvicted = LimitOrphanTxSize(MAX_ORPHAN_TRANSACTIONS);
@@ -3868,6 +3998,7 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv)
             LOCK(pfrom->cs_filter);
             delete pfrom->pfilter;
             pfrom->pfilter = new CBloomFilter(filter);
+            pfrom->pfilter->UpdateEmptyFull();
         }
         pfrom->fRelayTxes = true;
     }
@@ -3897,7 +4028,7 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv)
     {
         LOCK(pfrom->cs_filter);
         delete pfrom->pfilter;
-        pfrom->pfilter = NULL;
+        pfrom->pfilter = new CBloomFilter();
         pfrom->fRelayTxes = true;
     }
 
@@ -4376,9 +4507,9 @@ CBlockTemplate* CreateNewBlock(CReserveKey& reservekey)
     // Bitcoin had a chain split because of incompatible changes in 0.8.x
     // old releases had some difficulty with large blocks with many transactions
     //
-    // for now, in I0coin, we enforce BDB limits to keep the chain from splitting
-    // Special short-term limits to avoid 10,000 BDB lock limit:
-    if (true)
+    // on 2013-09-01 0:00 UTC we will stop enforcing BDB limits
+    // date -d "2013-09-01 0:00 UTC" +"%s"
+    if (GetAdjustedTime() < 1377993600)
         nBlockMaxSize = std::min(nBlockMaxSize, (unsigned int)(MAX_BLOCK_SIZE_GEN));
 
     // How much of the block should be dedicated to high-priority transactions,
@@ -4676,7 +4807,7 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
             return error("AUX POW parent hash %s is not under target %s", auxpow->GetParentBlockHash().GetHex().c_str(), hashTarget.GetHex().c_str());
 
         //// debug print
-        printf("I0coinMiner:\n");
+        printf("IxcoinMiner:\n");
         printf("AUX proof-of-work found  \n     our hash: %s   \n  parent hash: %s  \n       target: %s\n",
                 hash.GetHex().c_str(),
                 auxpow->GetParentBlockHash().GetHex().c_str(),
@@ -4688,7 +4819,7 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
             return false;
 
         //// debug print
-        printf("I0coinMiner:\n");
+        printf("IxcoinMiner:\n");
         printf("proof-of-work found  \n  hash: %s  \ntarget: %s\n", hash.GetHex().c_str(), hashTarget.GetHex().c_str());
     }
  
@@ -4700,7 +4831,7 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
     {
         LOCK(cs_main);
         if (pblock->hashPrevBlock != hashBestChain)
-            return error("I0coinMiner : generated block is stale");
+            return error("IxcoinMiner : generated block is stale");
 
         // Remove key from key pool
         reservekey.KeepKey();
@@ -4722,7 +4853,7 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
 
 void static BitcoinMiner(CWallet *pwallet)
 {
-    printf("I0coinMiner started\n");
+    printf("IxcoinMiner started\n");
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
     RenameThread("bitcoin-miner");
 
@@ -4746,7 +4877,7 @@ void static BitcoinMiner(CWallet *pwallet)
         CBlock *pblock = &pblocktemplate->block;
         IncrementExtraNonce(pblock, pindexPrev, nExtraNonce);
 
-        printf("Running I0coinMiner with %"PRIszu" transactions in block (%u bytes)\n", pblock->vtx.size(),
+        printf("Running IxcoinMiner with %"PRIszu" transactions in block (%u bytes)\n", pblock->vtx.size(),
                ::GetSerializeSize(*pblock, SER_NETWORK, PROTOCOL_VERSION));
 
         //
@@ -5002,9 +5133,6 @@ public:
         mapOrphanBlocks.clear();
 
         // orphan transactions
-        std::map<uint256, CDataStream*>::iterator it3 = mapOrphanTransactions.begin();
-        for (; it3 != mapOrphanTransactions.end(); it3++)
-            delete (*it3).second;
         mapOrphanTransactions.clear();
     }
 } instance_of_cmaincleanup;

@@ -73,7 +73,7 @@ inline std::string EncodeBase58(const std::vector<unsigned char>& vch)
 }
 
 // Decode a base58-encoded string psz into byte vector vchRet
-// returns true if decoding is succesful
+// returns true if decoding is successful
 inline bool DecodeBase58(const char* psz, std::vector<unsigned char>& vchRet)
 {
     CAutoBN_CTX pctx;
@@ -121,7 +121,7 @@ inline bool DecodeBase58(const char* psz, std::vector<unsigned char>& vchRet)
 }
 
 // Decode a base58-encoded string str into byte vector vchRet
-// returns true if decoding is succesful
+// returns true if decoding is successful
 inline bool DecodeBase58(const std::string& str, std::vector<unsigned char>& vchRet)
 {
     return DecodeBase58(str.c_str(), vchRet);
@@ -141,7 +141,7 @@ inline std::string EncodeBase58Check(const std::vector<unsigned char>& vchIn)
 }
 
 // Decode a base58-encoded string psz that includes a checksum, into byte vector vchRet
-// returns true if decoding is succesful
+// returns true if decoding is successful
 inline bool DecodeBase58Check(const char* psz, std::vector<unsigned char>& vchRet)
 {
     if (!DecodeBase58(psz, vchRet))
@@ -162,7 +162,7 @@ inline bool DecodeBase58Check(const char* psz, std::vector<unsigned char>& vchRe
 }
 
 // Decode a base58-encoded string str that includes a checksum, into byte vector vchRet
-// returns true if decoding is succesful
+// returns true if decoding is successful
 inline bool DecodeBase58Check(const std::string& str, std::vector<unsigned char>& vchRet)
 {
     return DecodeBase58Check(str.c_str(), vchRet);
@@ -249,10 +249,10 @@ public:
     bool operator> (const CBase58Data& b58) const { return CompareTo(b58) >  0; }
 };
 
-/** base58-encoded I0coin addresses.
- * Public-key-hash-addresses have version 105 (or 112 testnet).
+/** base58-encoded Ixcoin addresses.
+ * Public-key-hash-addresses have version 138 (or 111 testnet).
  * The data vector contains RIPEMD160(SHA256(pubkey)), where pubkey is the serialized public key.
- * Script-hash-addresses have version 5 (or 196 testnet). // what to do, should we use this numbers unchanged? 
+ * Script-hash-addresses have version 5 (or 196 testnet). 
  * The data vector contains RIPEMD160(SHA256(cscript)), where cscript is the serialized redemption script.
  */
 class CBitcoinAddress;
@@ -272,10 +272,10 @@ class CBitcoinAddress : public CBase58Data
 public:
     enum
     {
-        PUBKEY_ADDRESS = 105,
-        SCRIPT_ADDRESS = 5, // use this for I0C?
-        PUBKEY_ADDRESS_TEST = 112,
-        SCRIPT_ADDRESS_TEST = 196, // use this for I0C?
+        PUBKEY_ADDRESS = 138,
+        SCRIPT_ADDRESS = 5, 
+        PUBKEY_ADDRESS_TEST = 111,
+        SCRIPT_ADDRESS_TEST = 196, 
     };
 
     bool Set(const CKeyID &id) {
@@ -395,7 +395,6 @@ bool inline CBitcoinAddressVisitor::operator()(const CScriptID &id) const      {
 bool inline CBitcoinAddressVisitor::operator()(const CNoDestination &id) const { return false; }
 
 /** A base58-encoded secret key */
-// just use the same prefix as Bitcoin
 class CBitcoinSecret : public CBase58Data
 {
 public:

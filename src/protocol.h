@@ -18,7 +18,7 @@
 extern bool fTestNet;
 static inline unsigned short GetDefaultPort(const bool testnet = fTestNet)
 {
-    return testnet ? 17333 : 7333;
+    return testnet ?  18337 : 8337;  // ixcoin 
 }
 
 

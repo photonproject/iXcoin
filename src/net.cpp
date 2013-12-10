@@ -1111,7 +1111,7 @@ void ThreadMapPort()
             }
         }
 
-        string strDesc = "I0coin " + FormatFullVersion();
+        string strDesc = "Ixcoin " + FormatFullVersion();
 
         try {
             loop {
@@ -1243,12 +1243,9 @@ void ThreadDNSAddressSeed()
 
 
 
-// IP address encoded in unsigned int, port is default port (7333)
 unsigned int pnSeed[] =
 {
-    0xC69A3C3D, // 198.154.60.61
-    0x5511F8D3, // 85.17.248.211
-    0xBCA5D83B, // 188.165.216.59
+  0xb10f5442, 0x99e16042, 0xaac76a26, 0xb20f5442, 0x74B347CE
 };
 
 void DumpAddresses()
@@ -1648,7 +1645,11 @@ bool BindListenPort(const CService &addrBind, string& strError)
     // and enable it by default or not. Try to enable it, if possible.
     if (addrBind.IsIPv6()) {
 #ifdef IPV6_V6ONLY
+#ifdef WIN32
+        setsockopt(hListenSocket, IPPROTO_IPV6, IPV6_V6ONLY, (const char*)&nOne, sizeof(int));
+#else
         setsockopt(hListenSocket, IPPROTO_IPV6, IPV6_V6ONLY, (void*)&nOne, sizeof(int));
+#endif
 #endif
 #ifdef WIN32
         int nProtLevel = 10 /* PROTECTION_LEVEL_UNRESTRICTED */;
@@ -1663,7 +1664,7 @@ bool BindListenPort(const CService &addrBind, string& strError)
     {
         int nErr = WSAGetLastError();
         if (nErr == WSAEADDRINUSE)
-            strError = strprintf(_("Unable to bind to %s on this computer. I0coin is probably already running."), addrBind.ToString().c_str());
+            strError = strprintf(_("Unable to bind to %s on this computer. Ixcoin is probably already running."), addrBind.ToString().c_str());
         else
             strError = strprintf(_("Unable to bind to %s on this computer (bind returned error %d, %s)"), addrBind.ToString().c_str(), nErr, strerror(nErr));
         printf("%s\n", strError.c_str());

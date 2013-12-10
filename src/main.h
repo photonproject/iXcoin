@@ -1548,7 +1548,7 @@ public:
     // Add this block to the block index, and if necessary, switch the active block chain to this
     bool AddToBlockIndex(CValidationState &state, const CDiskBlockPos &pos);
 
-    // Context-independent validity checks, however in I0coin
+    // Context-independent validity checks, however in Ixcoin
     //  nHeight is needed to see if merged mining is allowed.
     //  Merged mining is introduced in block 160000.
     bool CheckBlock(CValidationState &state, int nHeight, bool fCheckPOW=true, bool fCheckMerkleRoot=true) const;
@@ -2116,7 +2116,7 @@ public:
     std::map<COutPoint, CInPoint> mapNextTx;
 
     bool accept(CValidationState &state, CTransaction &tx, bool fCheckInputs, bool fLimitFree, bool* pfMissingInputs);
-    bool addUnchecked(const uint256& hash, CTransaction &tx);
+    bool addUnchecked(const uint256& hash, const CTransaction &tx);
     bool remove(const CTransaction &tx, bool fRecursive = false);
     bool removeConflicts(const CTransaction &tx);
     void clear();
