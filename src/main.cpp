@@ -1850,9 +1850,9 @@ bool CBlock::ConnectBlock(CValidationState &state, CBlockIndex* pindex, CCoinsVi
     //
     // This rule applies to all Bitcoin blocks whose timestamp is after March 15, 2012, 0:00 UTC.
     //
-    // BIP30 for Ixcoin will go into effect on 2013-09-01 0:00 UTC
-    // date -d "2013-09-01 0:00 UTC" +"%s"
-    int64 nBIP30SwitchTime = 1377993600;
+    // BIP30 for Ixcoin will go into effect on 2014-01-01 0:00 UTC
+    // date -j -f "%b %d %Y" "Jan 01 2014" "+%s"
+    int64 nBIP30SwitchTime = 1388624831;
     bool fEnforceBIP30 = (pindex->nTime > nBIP30SwitchTime);
 
     // after BIP30 is enabled for some time, we could make the same change
@@ -1872,9 +1872,9 @@ bool CBlock::ConnectBlock(CValidationState &state, CBlockIndex* pindex, CCoinsVi
         }
     }
 
-    // BIP16 will be enabled for Ixcoin on 2013-09-01 0:00 UTC
-    // date -d "2013-09-01 0:00 UTC" +"%s"
-    int64 nBIP16SwitchTime = 1377993600;
+    // BIP16 will be enabled for Ixcoin will go into effect on 2014-01-01 0:00 UTC
+    // date -j -f "%b %d %Y" "Jan 01 2014" "+%s"
+    int64 nBIP16SwitchTime = 1388624831;
     bool fStrictPayToScriptHash = (pindex->nTime >= nBIP16SwitchTime);
 
     unsigned int flags = SCRIPT_VERIFY_NOCACHE |
