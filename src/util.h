@@ -17,19 +17,17 @@
 typedef int pid_t; /* define for Windows compatibility */
 #endif
 #include <map>
-#include <list>
-#include <utility>
 #include <vector>
 #include <string>
 
-#include <boost/version.hpp>
 #include <boost/thread.hpp>
 #include <boost/filesystem.hpp>
 #include <boost/filesystem/path.hpp>
 #include <boost/date_time/gregorian/gregorian_types.hpp>
 #include <boost/date_time/posix_time/posix_time_types.hpp>
-#include <boost/date_time/posix_time/posix_time.hpp>
-#include <boost/asio.hpp>
+
+#include <openssl/sha.h>
+#include <openssl/ripemd.h>
 
 #include "netbase.h" // for AddTimeData
 

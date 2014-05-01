@@ -42,6 +42,8 @@ namespace Checkpoints
 	// seems to be missing one digit!
 	
 	(  4500,  uint256("0x00000000de37be98ca45cf0613fa2a321eba28e237543f9fee9b6a7605d03a94"))
+	(  198007,  uint256("0x00fdfc9130416482887e4d56f89f4568c2f4d7764d14cc66833503f31a6ac73d"))
+
 	;
 
     /* ixcoin had not testnet checkblocks, if they even start to exist, they can be added here */
