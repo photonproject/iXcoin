@@ -12,6 +12,19 @@
 using namespace json_spirit;
 using namespace std;
 
+static CReserveKey* pMiningKey = NULL;
+
+void InitRPCMining()
+{
+
+ pMiningKey = new CReserveKey(pwalletMain);
+}
+
+void ShutdownRPCMining()
+{
+ delete pMiningKey; pMiningKey = NULL;
+}
+
 Value getgenerate(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() != 0)

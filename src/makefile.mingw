@@ -21,15 +21,24 @@ USE_UPNP:=-
 USE_IPV6:=1
 
 DEPSDIR?=/usr/local
-BOOST_SUFFIX?=-mgw46-mt-sd-1_52
+BOOST_SUFFIX?=-mgw46-mt-sd-1_53
 
 INCLUDEPATHS= \
  -I"$(CURDIR)" \
- -I"$(DEPSDIR)/include"
+ -I"/c/deps" \
+ -I"c:/deps/boost_1_55_0" \
+ -I"c:/deps/db-4.8.30.NC/build_unix" \
+ -I"c:/deps/miniupnpc" \
+ -I"C:/deps/qrencode-3.4.3"\                                    
+ -I"c:/deps/openssl-1.0.1h/include"
 
 LIBPATHS= \
  -L"$(CURDIR)/leveldb" \
- -L"$(DEPSDIR)/lib"
+ -L"c:/deps/boost_1_55_0/stage/lib" \
+ -L"c:/deps/db-4.8.30.NC/build_unix" \
+ -L"c:/deps/miniupnpc" \
+ -L"C:/deps/qrencode-3.4.3/.libs" \
+ -L"c:/deps/openssl-1.0.1h"
 
 LIBS= \
  -l leveldb \
